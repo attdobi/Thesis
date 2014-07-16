@@ -1,0 +1,27 @@
+\contentsline {section}{\numberline {1}The Standard Candle}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{4}{subsection.1.1}
+\contentsline {section}{\numberline {2}Calibrating the Combined Energy Scale}{4}{section.2}
+\contentsline {section}{\numberline {3}Modeling Intrinsic Detector Resolution}{5}{section.3}
+\contentsline {section}{\numberline {4}Measuring Recombination Fluctuations}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Measuring Recombination Fluctuations with Mono-Energetic Sources}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Measuring Recombination Fluctuations in Desecrate Energy Bins}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Measuring the Fano Factor in Bins of Energy}{12}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Application to $\rm ^{83}Kr$}{12}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Intrinsic Detector Resolution for The Tritium Beta Spectrum}{14}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Application to Tritium Data (Will go after Section 4 where the Smearing Model is discussed)}{14}{subsection.4.6}
+\contentsline {section}{\numberline {5}Correcting the Tritium Spectral Shape for Finite Resolution (Out of Date)}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Calculating the Observed Energy}{17}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Smearing a Toy Spectrum}{20}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Correcting the Tritium S1 Mean}{21}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Correcting the Tritium S2 Mean}{22}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Correcting the Tritium Energy Spectrum}{23}{subsection.5.5}
+\contentsline {section}{\numberline {6}Scintillation Yield and Ionization Yield from Tritium Beta Decay}{25}{section.6}
+\contentsline {subsection}{\numberline {6.1}Cuts used in this analysis}{25}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Results at 180 [V/cm], Corrected for Spectral Shape}{25}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Results at 100 [V/cm], Corrected for Spectral Shape}{27}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Compared With recent Compton Scattering Measurement}{27}{subsection.6.4}
+\contentsline {section}{\numberline {7}Fixing the Low Energy Tritium `Pile Up' }{28}{section.7}
+\contentsline {section}{\numberline {8}Discrimination vs E and S1}{30}{section.8}
+\contentsline {subsection}{\numberline {8.1}Discrimination vs. S1}{30}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Discrimination vs. Combined Energy}{30}{subsection.8.2}
+\contentsline {section}{\numberline {9}Old LY,QY Results at 180 [V/cm], Uncorrected for Spectral Shape}{31}{section.9}

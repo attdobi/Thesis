@@ -1,0 +1,54 @@
+\BOOKMARK [1][-]{section.1}{Dark Matter Overview}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Evidence}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{WIMPs}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Experiments}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{LUX}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{About LUX... goals}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Xenon dual phase TPC}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{S1/S2 Pulse areas, timing, XY reconstruction, Energy reconstruction, threshold}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Run03 WIMP limit}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Sampling}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{ Introduction }{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{ Purity Requirements }{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{ Methodology }{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{ Purity Figure of Merit and Calibration}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.1}{ RGA Partial Pressure Measurement}{subsection.3.4}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.2}{ Correcting for RGA Gain Drift }{subsection.3.4}% 16
+\BOOKMARK [3][-]{subsubsection.3.4.3}{ Correcting for Flow Rate}{subsection.3.4}% 17
+\BOOKMARK [3][-]{subsubsection.3.4.4}{ Gain and Flow Corrected Figure of Merit}{subsection.3.4}% 18
+\BOOKMARK [3][-]{subsubsection.3.4.5}{ O2 and H2 Figure of merit}{subsection.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.5}{ Applications/Results of Gas Purity Analysis \(in LUX\)}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.5.1}{ Xenon Inventory Screening}{subsection.3.5}% 21
+\BOOKMARK [3][-]{subsubsection.3.5.2}{ Solubility of Impurities in LXe}{subsection.3.5}% 22
+\BOOKMARK [3][-]{subsubsection.3.5.3}{ 85Kr Monitoring, Ar Monitoring}{subsection.3.5}% 23
+\BOOKMARK [3][-]{subsubsection.3.5.4}{ N2,O2 and getter health monitoring}{subsection.3.5}% 24
+\BOOKMARK [3][-]{subsubsection.3.5.5}{ Gas Run results, Outgassing from Det. components}{subsection.3.5}% 25
+\BOOKMARK [1][-]{section.4}{XYZ Corrections, Kr83 calibrations}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{Kr83 source, uniformity, drift velocity and electron attachment vs. field ?}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.2}{timing separation vs. 9.4 and 32.1 keV LY and QY}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.3}{calculating S1 XYZ and S2 XYZ corrections and applying them}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.4}{improvement in resolution with XYZ corrections}{section.4}% 30
+\BOOKMARK [2][-]{subsection.4.5}{trend plots, detector stability}{section.4}% 31
+\BOOKMARK [1][-]{section.5}{Energy calibrations \(MonoE sources\) and Recombination}{}% 32
+\BOOKMARK [2][-]{subsection.5.1}{Recombination theory, counting quanta, intrinsic detector resolution, Fano}{section.5}% 33
+\BOOKMARK [2][-]{subsection.5.2}{Doke plot, finding g1g2 with Xe-activation, Cs, Xray, Kr}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.3}{Recombination, S1\137stat,S2\137stat and sigmaR vs. Energy for mono-E sources.}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.4}{Fluctuations in number of exitons for Kr83 and Cs, Xe-act?}{section.5}% 36
+\BOOKMARK [1][-]{section.6}{Tritium calibration. S2/S1 ER band, LY,QY, Recombination, NEST}{}% 37
+\BOOKMARK [2][-]{subsection.6.1}{Tritium Source, injection and removal, compare with natural methane}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.2}{natural methane injection with kr83 data showing no change in LY, QY, lifetime}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.3}{Uniformity, using tritium to calculate Run03 fiducial volume, vs Kr83}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.4}{Run03 threshold using tritium}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.5}{ER band calibration, ER/NR discrimination with DD data. Bin by bin. Band Gaussianity}{section.6}% 42
+\BOOKMARK [1][-]{section.7}{...maybe a new section. Dealing with a continuous energy source \(extension of Ch 5\)}{}% 43
+\BOOKMARK [2][-]{subsection.7.1}{Extending methodology of Section 5 to a continuous source}{section.7}% 44
+\BOOKMARK [2][-]{subsection.7.2}{How to un-smear the tritium spectrum. Start with NEST}{section.7}% 45
+\BOOKMARK [2][-]{subsection.7.3}{Extract Recombination, Fluctuations knowing g1,g2,S1\137stat, S2\137stat}{section.7}% 46
+\BOOKMARK [2][-]{subsection.7.4}{Fano Factor from high stats tritium}{section.7}% 47
+\BOOKMARK [2][-]{subsection.7.5}{The standard candle, Kr83 32.1 keV at Zero field}{section.7}% 48
+\BOOKMARK [2][-]{subsection.7.6}{Tritium LY, QY, Re vs Compton scatter measurements}{section.7}% 49
+\BOOKMARK [2][-]{subsection.7.7}{Apply same method to Cs137 data 150-662 keV}{section.7}% 50
+\BOOKMARK [1][-]{section.8}{Conclusion, ER band overview}{}% 51
+\BOOKMARK [2][-]{subsection.8.1}{Patch Tritium + Cs + Dahl's data for ER band, recombination, fluctuations, LY, LQ}{section.8}% 52
+\BOOKMARK [2][-]{subsection.8.2}{180 vs 100 V/cm Tritium ER band and its fluctuation}{section.8}% 53
+\BOOKMARK [2][-]{subsection.8.3}{Discussion on band mean, width and discrimination predictions at low energy}{section.8}% 54

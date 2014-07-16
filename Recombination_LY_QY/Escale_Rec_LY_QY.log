@@ -1,0 +1,1540 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 JUL 2014 10:44
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Escale_Rec_LY_QY.tex
+(./Escale_Rec_LY_QY.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen114
+\extrarowheight=\dimen115
+\NC@list=\toks20
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen116
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen117
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count102
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+\c@Hy@tempcnt=\count103
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count104
+\Field@Width=\dimen118
+\Fld@charsize=\dimen119
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing OFF on input line 5716.
+Package hyperref Info: Link coloring OFF on input line 5721.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
+)
+\c@ContinuedFloat=\count110
+Package caption Info: hyperref package is loaded.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2011/02/12 v1.10 mathematical typesetting tools
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen126
+\calc@Bdimen=\dimen127
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count113
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+\g_MT_multlinerow_int=\count114
+\l_MT_multwidth_dim=\dimen128
+\origjot=\skip52
+\l_MT_shortvdotswithinadjustabove_dim=\dimen129
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen130
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2003/07/04 ver 3.1
+)
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 40.
+
+Package hyperref Info: Option `unicode' set `false' on input line 40.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 40.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 40.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 40.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 40.
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
+(./Escale_Rec_LY_QY.aux
+
+LaTeX Warning: Label `eq:Gain' multiply defined.
+
+
+LaTeX Warning: Label `fig:R_T' multiply defined.
+
+
+LaTeX Warning: Label `fig:R_T' multiply defined.
+
+
+LaTeX Warning: Label `fig:R_T' multiply defined.
+
+
+LaTeX Warning: Label `fig:Dis_S1' multiply defined.
+
+)
+\openout1 = `Escale_Rec_LY_QY.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+ (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen131
+\scratchbox=\box28
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen132
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks24
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring ON on input line 43.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count121
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+
+(./Escale_Rec_LY_QY.out) (./Escale_Rec_LY_QY.out)
+\@outlinefile=\write3
+\openout3 = `Escale_Rec_LY_QY.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./Escale_Rec_LY_QY.toc
+LaTeX Font Info:    Try loading font information for U+lasy on input line 2.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 2.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+))
+\tf@toc=\write4
+\openout4 = `Escale_Rec_LY_QY.toc'.
+
+ [1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Package epstopdf Info: Source file: <Figures/S1_Z_no_field_lux10_20131009T1358_
+cp06914.eps>
+(epstopdf)                    date: 2014-02-01 22:54:53
+(epstopdf)                    size: 14090 bytes
+(epstopdf)             Output file: <Figures/S1_Z_no_field_lux10_20131009T1358_
+cp06914-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-01 23:00:42
+(epstopdf)                    size: 10468 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1_Z_no_field_lux10
+_20131009T1358_cp06914-eps-converted-to.pdf Figures/S1_Z_no_field_lux10_2013100
+9T1358_cp06914.eps>
+(epstopdf)             \includegraphics on input line 75.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=158
+, 514.92375pt x 430.60875pt>
+File: Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf Gr
+aphic file (type pdf)
+
+<use Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-
+converted-to.pdf used on input line 75.
+(pdftex.def)             Requested size: 227.62204pt x 190.34888pt.
+Package epstopdf Info: Source file: <Figures/dT_no_field_2lux10_20131009T1358_c
+p06914.eps>
+(epstopdf)                    date: 2014-02-01 22:57:30
+(epstopdf)                    size: 15512 bytes
+(epstopdf)             Output file: <Figures/dT_no_field_2lux10_20131009T1358_c
+p06914-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-01 23:00:42
+(epstopdf)                    size: 13273 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/dT_no_field_2lux10_
+20131009T1358_cp06914-eps-converted-to.pdf Figures/dT_no_field_2lux10_20131009T
+1358_cp06914.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=159,
+ 524.96124pt x 406.51875pt>
+File: Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-c
+onverted-to.pdf used on input line 76.
+(pdftex.def)             Requested size: 227.62204pt x 176.26355pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 81.
+
+[3 <./Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf> <
+./Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf>]
+[4] [5] [6] [7] [8] <Figures/EX_Stat_Fano.png, id=267, 578.16pt x 434.1018pt>
+File: Figures/EX_Stat_Fano.png Graphic file (type png)
+
+<use Figures/EX_Stat_Fano.png>
+Package pdftex.def Info: Figures/EX_Stat_Fano.png used on input line 296.
+(pdftex.def)             Requested size: 426.79134pt x 320.4487pt.
+
+<Figures/EX_R_Fano.png, id=268, 544.73512pt x 437.2335pt>
+File: Figures/EX_R_Fano.png Graphic file (type png)
+
+<use Figures/EX_R_Fano.png>
+Package pdftex.def Info: Figures/EX_R_Fano.png used on input line 297.
+(pdftex.def)             Requested size: 227.62204pt x 182.70277pt.
+
+<Figures/EX_Kr_Fano.png, id=270, 544.73512pt x 437.2335pt>
+File: Figures/EX_Kr_Fano.png Graphic file (type png)
+
+<use Figures/EX_Kr_Fano.png>
+Package pdftex.def Info: Figures/EX_Kr_Fano.png used on input line 298.
+(pdftex.def)             Requested size: 227.62204pt x 182.70277pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9]
+
+LaTeX Warning: Text page 10 contains only floats.
+
+
+Overfull \vbox (2.15147pt too high) has occurred while \output is active []
+
+
+[10 <./Figures/EX_Stat_Fano.png (PNG copy)> <./Figures/EX_R_Fano.png> <./Figure
+s/EX_Kr_Fano.png>] [11]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 404.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 404.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 404.
+
+[12]
+Overfull \hbox (9.46098pt too wide) in paragraph at lines 445--455
+ [] 
+ []
+
+[13] <Figures/EX_T_Fano.png, id=348, 540.5796pt x 411.939pt>
+File: Figures/EX_T_Fano.png Graphic file (type png)
+
+<use Figures/EX_T_Fano.png>
+Package pdftex.def Info: Figures/EX_T_Fano.png used on input line 471.
+(pdftex.def)             Requested size: 426.79134pt x 325.23337pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/SIM_stat_T_10Fano.eps>
+(epstopdf)                    date: 2014-03-30 21:01:27
+(epstopdf)                    size: 26053 bytes
+(epstopdf)             Output file: <Figures/SIM_stat_T_10Fano-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-03-30 21:02:42
+(epstopdf)                    size: 13518 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_10Fano-e
+ps-converted-to.pdf Figures/SIM_stat_T_10Fano.eps>
+(epstopdf)             \includegraphics on input line 478.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/SIM_stat_T_10Fano-eps-converted-to.pdf, id=351, 523.9575pt x 406.51875
+pt>
+File: Figures/SIM_stat_T_10Fano-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/SIM_stat_T_10Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/SIM_stat_T_10Fano-eps-converted-to.pdf used on
+ input line 478.
+(pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
+Package epstopdf Info: Source file: <Figures/SIM_stat_T_25Fano.eps>
+(epstopdf)                    date: 2014-03-30 21:01:38
+(epstopdf)                    size: 17307 bytes
+(epstopdf)             Output file: <Figures/SIM_stat_T_25Fano-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-03-30 21:02:42
+(epstopdf)                    size: 10971 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_25Fano-e
+ps-converted-to.pdf Figures/SIM_stat_T_25Fano.eps>
+(epstopdf)             \includegraphics on input line 479.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/SIM_stat_T_25Fano-eps-converted-to.pdf, id=352, 523.9575pt x 406.51875
+pt>
+File: Figures/SIM_stat_T_25Fano-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/SIM_stat_T_25Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/SIM_stat_T_25Fano-eps-converted-to.pdf used on
+ input line 479.
+(pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
+Package epstopdf Info: Source file: <Figures/SIM_stat_T_50Fano.eps>
+(epstopdf)                    date: 2014-03-30 21:01:46
+(epstopdf)                    size: 14473 bytes
+(epstopdf)             Output file: <Figures/SIM_stat_T_50Fano-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-03-30 21:02:42
+(epstopdf)                    size: 9914 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_50Fano-e
+ps-converted-to.pdf Figures/SIM_stat_T_50Fano.eps>
+(epstopdf)             \includegraphics on input line 480.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/SIM_stat_T_50Fano-eps-converted-to.pdf, id=353, 523.9575pt x 406.51875
+pt>
+File: Figures/SIM_stat_T_50Fano-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/SIM_stat_T_50Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/SIM_stat_T_50Fano-eps-converted-to.pdf used on
+ input line 480.
+(pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
+Package epstopdf Info: Source file: <Figures/SIM_stat_T_100Fano.eps>
+(epstopdf)                    date: 2014-03-30 21:01:54
+(epstopdf)                    size: 12980 bytes
+(epstopdf)             Output file: <Figures/SIM_stat_T_100Fano-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-03-30 21:02:43
+(epstopdf)                    size: 9252 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_100Fano-
+eps-converted-to.pdf Figures/SIM_stat_T_100Fano.eps>
+(epstopdf)             \includegraphics on input line 481.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/SIM_stat_T_100Fano-eps-converted-to.pdf, id=354, 523.9575pt x 406.5187
+5pt>
+File: Figures/SIM_stat_T_100Fano-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/SIM_stat_T_100Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/SIM_stat_T_100Fano-eps-converted-to.pdf used o
+n input line 481.
+(pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/R_.eps>
+(epstopdf)                    date: 2014-03-31 09:08:09
+(epstopdf)                    size: 27017 bytes
+(epstopdf)             Output file: <Figures/R_-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-03-31 10:36:46
+(epstopdf)                    size: 19926 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/R_-eps-converted-to
+.pdf Figures/R_.eps>
+(epstopdf)             \includegraphics on input line 565.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/R_-eps-converted-to.pdf, id=358, 506.89375pt x 409.53pt>
+File: Figures/R_-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/R_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/R_-eps-converted-to.pdf used on input line 565
+.
+(pdftex.def)             Requested size: 284.52756pt x 229.87889pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/quanta_Fano.png, id=359, 526.1256pt x 436.5108pt>
+File: Figures/quanta_Fano.png Graphic file (type png)
+
+<use Figures/quanta_Fano.png>
+Package pdftex.def Info: Figures/quanta_Fano.png used on input line 572.
+(pdftex.def)             Requested size: 227.62204pt x 188.85492pt.
+
+<Figures/R_Fano.png, id=360, 520.344pt x 435.0654pt>
+File: Figures/R_Fano.png Graphic file (type png)
+ <use Figures/R_Fano.png>
+Package pdftex.def Info: Figures/R_Fano.png used on input line 573.
+(pdftex.def)             Requested size: 227.62204pt x 190.32071pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/Dahl_fig_Fano.eps>
+(epstopdf)                    date: 2014-03-31 09:46:32
+(epstopdf)                    size: 16341 bytes
+(epstopdf)             Output file: <Figures/Dahl_fig_Fano-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2014-03-31 10:49:06
+(epstopdf)                    size: 11488 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Dahl_fig_Fano-eps-c
+onverted-to.pdf Figures/Dahl_fig_Fano.eps>
+(epstopdf)             \includegraphics on input line 580.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Dahl_fig_Fano-eps-converted-to.pdf, id=361, 523.9575pt x 432.61626pt>
+File: Figures/Dahl_fig_Fano-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/Dahl_fig_Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Dahl_fig_Fano-eps-converted-to.pdf used on inp
+ut line 580.
+(pdftex.def)             Requested size: 341.43306pt x 281.91676pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/Fano_T_Fano.eps>
+(epstopdf)                    date: 2014-03-31 10:27:02
+(epstopdf)                    size: 9820 bytes
+(epstopdf)             Output file: <Figures/Fano_T_Fano-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-03-31 10:49:06
+(epstopdf)                    size: 7790 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Fano_T_Fano-eps-con
+verted-to.pdf Figures/Fano_T_Fano.eps>
+(epstopdf)             \includegraphics on input line 586.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/Fano_T_Fano-eps-converted-to.pdf, id=362, 529.98pt x 409.53pt>
+File: Figures/Fano_T_Fano-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/Fano_T_Fano-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Fano_T_Fano-eps-converted-to.pdf used on input
+ line 586.
+(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
+
+ []
+
+[15 <./Figures/EX_T_Fano.png>]
+<Figures/example_integral.png, id=387, 578.16pt x 434.1018pt>
+File: Figures/example_integral.png Graphic file (type png)
+
+<use Figures/example_integral.png>
+Package pdftex.def Info: Figures/example_integral.png used on input line 608.
+(pdftex.def)             Requested size: 369.88582pt x 277.71823pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Figures/SIM_stat_T_10Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T_25
+Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T_50Fano-eps-converted-to.pdf> <
+./Figures/SIM_stat_T_100Fano-eps-converted-to.pdf>]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 619.
+
+[17 <./Figures/R_-eps-converted-to.pdf> <./Figures/quanta_Fano.png> <./Figures/
+R_Fano.png>]
+
+LaTeX Warning: Text page 18 contains only floats.
+
+[18 <./Figures/Dahl_fig_Fano-eps-converted-to.pdf> <./Figures/Fano_T_Fano-eps-c
+onverted-to.pdf>]
+LaTeX Font Info:    Calculating math sizes for size <> on input line 622.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 622.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 629.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
+(Font)              size <5> substituted on input line 634.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 634.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 634.
+
+[19 <./Figures/example_integral.png (PNG copy)>]
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 656.
+
+[20]
+Package epstopdf Info: Source file: <Figures/Toy_Model_lin_const.eps>
+(epstopdf)                    date: 2014-02-09 14:44:15
+(epstopdf)                    size: 34367 bytes
+(epstopdf)             Output file: <Figures/Toy_Model_lin_const-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2014-02-09 15:35:37
+(epstopdf)                    size: 29933 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_lin_const
+-eps-converted-to.pdf Figures/Toy_Model_lin_const.eps>
+(epstopdf)             \includegraphics on input line 667.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Toy_Model_lin_const-eps-converted-to.pdf, id=498, 518.93875pt x 405.51
+5pt>
+File: Figures/Toy_Model_lin_const-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/Toy_Model_lin_const-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Toy_Model_lin_const-eps-converted-to.pdf used 
+on input line 667.
+(pdftex.def)             Requested size: 199.16928pt x 155.63802pt.
+Package epstopdf Info: Source file: <Figures/Toy_Model_lin_dep.eps>
+(epstopdf)                    date: 2014-02-09 14:46:11
+(epstopdf)                    size: 45792 bytes
+(epstopdf)             Output file: <Figures/Toy_Model_lin_dep-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2014-02-09 15:36:41
+(epstopdf)                    size: 43212 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_lin_dep-e
+ps-converted-to.pdf Figures/Toy_Model_lin_dep.eps>
+(epstopdf)             \includegraphics on input line 668.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Toy_Model_lin_dep-eps-converted-to.pdf, id=499, 518.93875pt x 405.515p
+t>
+File: Figures/Toy_Model_lin_dep-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/Toy_Model_lin_dep-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Toy_Model_lin_dep-eps-converted-to.pdf used on
+ input line 668.
+(pdftex.def)             Requested size: 199.16928pt x 155.63802pt.
+Package epstopdf Info: Source file: <Figures/Toy_Model_mean_shift.eps>
+(epstopdf)                    date: 2014-02-09 14:56:42
+(epstopdf)                    size: 11028 bytes
+(epstopdf)             Output file: <Figures/Toy_Model_mean_shift-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2014-02-09 15:29:22
+(epstopdf)                    size: 9208 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_mean_shif
+t-eps-converted-to.pdf Figures/Toy_Model_mean_shift.eps>
+(epstopdf)             \includegraphics on input line 669.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Toy_Model_mean_shift-eps-converted-to.pdf, id=500, 506.89375pt x 405.5
+15pt>
+File: Figures/Toy_Model_mean_shift-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Figures/Toy_Model_mean_shift-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Toy_Model_mean_shift-eps-converted-to.pdf used
+ on input line 669.
+(pdftex.def)             Requested size: 199.16928pt x 159.33205pt.
+
+
+LaTeX Warning: Reference `table:Var' on page 21 undefined on input line 678.
+
+[21 <./Figures/Toy_Model_lin_const-eps-converted-to.pdf> <./Figures/Toy_Model_l
+in_dep-eps-converted-to.pdf> <./Figures/Toy_Model_mean_shift-eps-converted-to.p
+df>]
+Package epstopdf Info: Source file: <Figures/S1_comp_smear_LUX_SIM_Tritium.eps>
+
+(epstopdf)                    date: 2014-02-23 10:11:27
+(epstopdf)                    size: 25637 bytes
+(epstopdf)             Output file: <Figures/S1_comp_smear_LUX_SIM_Tritium-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:57
+(epstopdf)                    size: 20795 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1_comp_smear_LUX_S
+IM_Tritium-eps-converted-to.pdf Figures/S1_comp_smear_LUX_SIM_Tritium.eps>
+(epstopdf)             \includegraphics on input line 689.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=539, 523.9575pt
+ x 411.5375pt>
+File: Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to
+.pdf used on input line 689.
+(pdftex.def)             Requested size: 227.62204pt x 178.77875pt.
+Package epstopdf Info: Source file: <Figures/S1_corr_.eps>
+(epstopdf)                    date: 2014-02-23 00:01:21
+(epstopdf)                    size: 23056 bytes
+(epstopdf)             Output file: <Figures/S1_corr_-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:57
+(epstopdf)                    size: 19689 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1_corr_-eps-conver
+ted-to.pdf Figures/S1_corr_.eps>
+(epstopdf)             \includegraphics on input line 691.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S1_corr_-eps-converted-to.pdf, id=540, 511.9125pt x 411.5375pt>
+File: Figures/S1_corr_-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/S1_corr_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1_corr_-eps-converted-to.pdf used on input li
+ne 691.
+(pdftex.def)             Requested size: 227.62204pt x 182.98604pt.
+ [22 <./Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/
+S1_corr_-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/S2_comp_smear_LUX_SIM_Tritium.eps>
+
+(epstopdf)                    date: 2014-02-23 10:02:33
+(epstopdf)                    size: 25250 bytes
+(epstopdf)             Output file: <Figures/S2_comp_smear_LUX_SIM_Tritium-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:58
+(epstopdf)                    size: 23832 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S2_comp_smear_LUX_S
+IM_Tritium-eps-converted-to.pdf Figures/S2_comp_smear_LUX_SIM_Tritium.eps>
+(epstopdf)             \includegraphics on input line 711.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=570, 524.96124p
+t x 409.53pt>
+File: Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (
+type pdf)
+ <use Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to
+.pdf used on input line 711.
+(pdftex.def)             Requested size: 227.62204pt x 177.5692pt.
+Package epstopdf Info: Source file: <Figures/S2_corr.eps>
+(epstopdf)                    date: 2014-02-23 10:04:15
+(epstopdf)                    size: 17505 bytes
+(epstopdf)             Output file: <Figures/S2_corr-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:58
+(epstopdf)                    size: 13512 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S2_corr-eps-convert
+ed-to.pdf Figures/S2_corr.eps>
+(epstopdf)             \includegraphics on input line 712.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S2_corr-eps-converted-to.pdf, id=571, 518.93875pt x 409.53pt>
+File: Figures/S2_corr-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/S2_corr-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S2_corr-eps-converted-to.pdf used on input lin
+e 712.
+(pdftex.def)             Requested size: 227.62204pt x 179.63135pt.
+ [23 <./Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/
+S2_corr-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `table:Var' on page 24 undefined on input line 722.
+
+Package epstopdf Info: Source file: <Figures/E_comp_smear_LUX_SIM_Tritium.eps>
+(epstopdf)                    date: 2014-02-23 11:21:24
+(epstopdf)                    size: 12167 bytes
+(epstopdf)             Output file: <Figures/E_comp_smear_LUX_SIM_Tritium-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:58
+(epstopdf)                    size: 8906 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_comp_smear_LUX_SI
+M_Tritium-eps-converted-to.pdf Figures/E_comp_smear_LUX_SIM_Tritium.eps>
+(epstopdf)             \includegraphics on input line 737.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=604, 524.96124pt
+ x 409.53pt>
+File: Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.
+pdf used on input line 737.
+(pdftex.def)             Requested size: 227.62204pt x 177.5692pt.
+Package epstopdf Info: Source file: <Figures/E_hist_LUX_SIM_Tritium.eps>
+(epstopdf)                    date: 2014-02-23 11:03:52
+(epstopdf)                    size: 10748 bytes
+(epstopdf)             Output file: <Figures/E_hist_LUX_SIM_Tritium-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:59
+(epstopdf)                    size: 7766 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_hist_LUX_SIM_Trit
+ium-eps-converted-to.pdf Figures/E_hist_LUX_SIM_Tritium.eps>
+(epstopdf)             \includegraphics on input line 738.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf, id=605, 519.9425pt x 409.
+53pt>
+File: Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (type pd
+f)
+ <use Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf us
+ed on input line 738.
+(pdftex.def)             Requested size: 227.62204pt x 179.2814pt.
+Package epstopdf Info: Source file: <Figures/E_density_LUX_SIM_Tritium.eps>
+(epstopdf)                    date: 2014-02-11 16:34:15
+(epstopdf)                    size: 272481 bytes
+(epstopdf)             Output file: <Figures/E_density_LUX_SIM_Tritium-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2014-02-11 16:38:12
+(epstopdf)                    size: 66820 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_density_LUX_SIM_T
+ritium-eps-converted-to.pdf Figures/E_density_LUX_SIM_Tritium.eps>
+(epstopdf)             \includegraphics on input line 745.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf, id=606, 505.89pt x 409
+.53pt>
+File: Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf
+ used on input line 745.
+(pdftex.def)             Requested size: 227.62204pt x 184.26804pt.
+Package epstopdf Info: Source file: <Figures/E_corr.eps>
+(epstopdf)                    date: 2014-02-23 11:26:00
+(epstopdf)                    size: 13452 bytes
+(epstopdf)             Output file: <Figures/E_corr-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 22:16:59
+(epstopdf)                    size: 9607 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_corr-eps-converte
+d-to.pdf Figures/E_corr.eps>
+(epstopdf)             \includegraphics on input line 746.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/E_corr-eps-converted-to.pdf, id=607, 520.94624pt x 408.52625pt>
+File: Figures/E_corr-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/E_corr-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_corr-eps-converted-to.pdf used on input line
+ 746.
+(pdftex.def)             Requested size: 227.62204pt x 178.49915pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/E_
+hist_LUX_SIM_Tritium-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 758.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 758.
+
+<Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=631, 578.16pt 
+x 434.1018pt>
+File: Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic file 
+(type png)
+
+<use Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_cor
+r.png used on input line 775.
+(pdftex.def)             Requested size: 341.43306pt x 256.35631pt.
+
+<Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=632, 57
+8.16pt x 434.1018pt>
+File: Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphi
+c file (type png)
+
+<use Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_
+180_corr.png used on input line 776.
+(pdftex.def)             Requested size: 341.43306pt x 256.35631pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=633, 553.76
+888pt x 435.42674pt>
+File: Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic fi
+le (type png)
+
+<use Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_
+corr.png used on input line 783.
+(pdftex.def)             Requested size: 233.31259pt x 183.44937pt.
+
+<Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=634, 554.67226pt
+ x 435.42674pt>
+File: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic file (t
+ype png)
+
+<use Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.
+png used on input line 784.
+(pdftex.def)             Requested size: 233.31259pt x 183.15703pt.
+
+<Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=635, 55
+4.67226pt x 436.33012pt>
+File: Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphi
+c file (type png)
+
+<use Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_
+180_corr.png used on input line 785.
+(pdftex.def)             Requested size: 236.15787pt x 185.77406pt.
+
+<Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=636, 509.503
+5pt x 436.33012pt>
+File: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic fil
+e (type png)
+
+<use Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png>
+Package pdftex.def Info: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_c
+orr.png used on input line 786.
+(pdftex.def)             Requested size: 216.24094pt x 185.18152pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png, id=638, 553.76888pt x 435.
+42674pt>
+File: Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type png
+)
+ <use Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png>
+Package pdftex.def Info: Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png use
+d on input line 798.
+(pdftex.def)             Requested size: 233.31259pt x 183.44937pt.
+
+<Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png, id=639, 545.6385pt x 437.2
+335pt>
+File: Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type png
+)
+ <use Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png>
+Package pdftex.def Info: Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png use
+d on input line 799.
+(pdftex.def)             Requested size: 230.46732pt x 184.67758pt.
+
+<Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png, id=640, 554.67226
+pt x 436.33012pt>
+File: Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png Graphic file 
+(type png)
+
+<use Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png>
+Package pdftex.def Info: Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_cor
+r.png used on input line 800.
+(pdftex.def)             Requested size: 236.15787pt x 185.77406pt.
+
+<Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png, id=641, 512.21362pt x 
+437.2335pt>
+File: Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type
+ png)
+ <use Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png>
+Package pdftex.def Info: Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png
+ used on input line 801.
+(pdftex.def)             Requested size: 216.24094pt x 184.58418pt.
+
+[25 <./Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/E_cor
+r-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 26 contains only floats.
+
+[26 <./Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png (PNG copy)> 
+<./Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png (PNG copy
+)>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/Re_all_log_T_paper_corr_threshold.
+eps>
+(epstopdf)                    date: 2014-03-10 07:25:34
+(epstopdf)                    size: 329769 bytes
+(epstopdf)             Output file: <Figures/Re_all_log_T_paper_corr_threshold-
+eps-converted-to.pdf>
+(epstopdf)                    date: 2014-03-31 07:54:39
+(epstopdf)                    size: 23854 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Re_all_log_T_paper_
+corr_threshold-eps-converted-to.pdf Figures/Re_all_log_T_paper_corr_threshold.e
+ps>
+(epstopdf)             \includegraphics on input line 813.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf, id=664, 506.89
+375pt x 431.6125pt>
+File: Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf Graphic fi
+le (type pdf)
+
+<use Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Re_all_log_T_paper_corr_threshold-eps-converte
+d-to.pdf used on input line 813.
+(pdftex.def)             Requested size: 284.52756pt x 242.2743pt.
+Package epstopdf Info: Source file: <Figures/LY_all_T_paper.eps>
+(epstopdf)                    date: 2014-03-10 07:50:02
+(epstopdf)                    size: 337546 bytes
+(epstopdf)             Output file: <Figures/LY_all_T_paper-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-03-31 07:54:39
+(epstopdf)                    size: 39568 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/LY_all_T_paper-eps-
+converted-to.pdf Figures/LY_all_T_paper.eps>
+(epstopdf)             \includegraphics on input line 814.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/LY_all_T_paper-eps-converted-to.pdf, id=665, 479.7925pt x 407.5225pt>
+File: Figures/LY_all_T_paper-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/LY_all_T_paper-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/LY_all_T_paper-eps-converted-to.pdf used on in
+put line 814.
+(pdftex.def)             Requested size: 227.62204pt x 193.3389pt.
+Package epstopdf Info: Source file: <Figures/Charge_Y_all_Tritium_Dec_2013_Char
+ge_Yield_180_corr.eps>
+(epstopdf)                    date: 2014-02-23 21:26:33
+(epstopdf)                    size: 330060 bytes
+(epstopdf)             Output file: <Figures/Charge_Y_all_Tritium_Dec_2013_Char
+ge_Yield_180_corr-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-23 23:25:08
+(epstopdf)                    size: 39674 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Charge_Y_all_Tritiu
+m_Dec_2013_Charge_Yield_180_corr-eps-converted-to.pdf Figures/Charge_Y_all_Trit
+ium_Dec_2013_Charge_Yield_180_corr.eps>
+(epstopdf)             \includegraphics on input line 815.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted-to.p
+df, id=666, 468.75125pt x 407.5225pt>
+File: Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted
+-to.pdf Graphic file (type pdf)
+
+<use Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted-
+to.pdf>
+Package pdftex.def Info: Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180
+_corr-eps-converted-to.pdf used on input line 815.
+(pdftex.def)             Requested size: 227.62204pt x 197.88446pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27 <./Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png> <./Figur
+es/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png> <./Figures/LY_180_band_lo
+g_Tritium_Dec_2013_Charge_Yield_180_corr.png> <./Figures/QY_180_log_Tritium_Dec
+_2013_Charge_Yield_180_corr.png>]
+<Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png, id=677, 536.60475pt x 
+437.2335pt>
+File: Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png Graphic file (type
+ png)
+ <use Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png>
+Package pdftex.def Info: Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png
+ used on input line 826.
+(pdftex.def)             Requested size: 227.62204pt x 185.47151pt.
+
+<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png, id=678, 536.6047
+5pt x 435.42674pt>
+File: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png Graphic file
+ (type png)
+
+<use Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png>
+Package pdftex.def Info: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_co
+rr.png used on input line 827.
+(pdftex.def)             Requested size: 227.62204pt x 184.7051pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png, id=679, 578.16pt x 4
+34.1018pt>
+File: Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png Graphic file (ty
+pe png)
+ <use Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png>
+Package pdftex.def Info: Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.p
+ng used on input line 834.
+(pdftex.def)             Requested size: 239.00314pt x 179.44676pt.
+
+<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png, id=680, 536.60
+475pt x 435.42674pt>
+File: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png Graphic fi
+le (type png)
+
+<use Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png>
+Package pdftex.def Info: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield
+_180.png used on input line 835.
+(pdftex.def)             Requested size: 213.39566pt x 173.1577pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/CH3T_E_spec_218_Tritium_Dec_2013_C
+harge_Yield_180.eps>
+(epstopdf)                    date: 2014-02-02 22:38:47
+(epstopdf)                    size: 27252 bytes
+(epstopdf)             Output file: <Figures/CH3T_E_spec_218_Tritium_Dec_2013_C
+harge_Yield_180-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-03 10:35:51
+(epstopdf)                    size: 20909 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_E_spec_218_Tri
+tium_Dec_2013_Charge_Yield_180-eps-converted-to.pdf Figures/CH3T_E_spec_218_Tri
+tium_Dec_2013_Charge_Yield_180.eps>
+(epstopdf)             \includegraphics on input line 843.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-to.pdf
+, id=681, 506.89375pt x 421.575pt>
+File: Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-to
+.pdf>
+Package pdftex.def Info: Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_
+180-eps-converted-to.pdf used on input line 843.
+(pdftex.def)             Requested size: 284.52756pt x 236.64003pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28 <./Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png> <./Figures/QY_100_Tr
+itium_Dec_2013_Yield_100_corr.png> <./Figures/LY_180_band_log_Tritium_Dec_2013_
+Yield_100_corr.png> <./Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png>]
+
+<Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png, id=691, 561.7788pt x 4
+08.0846pt>
+File: Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png Graphic file (type
+ png)
+ <use Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png>
+Package pdftex.def Info: Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png
+ used on input line 855.
+(pdftex.def)             Requested size: 227.62204pt x 165.34807pt.
+Package epstopdf Info: Source file: <Figures/CH3T_Leakage_fid_50_Tritium_Dec_20
+13_S2_100Phe_cut.eps>
+(epstopdf)                    date: 2014-02-02 22:58:06
+(epstopdf)                    size: 23134 bytes
+(epstopdf)             Output file: <Figures/CH3T_Leakage_fid_50_Tritium_Dec_20
+13_S2_100Phe_cut-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-03 00:47:16
+(epstopdf)                    size: 24975 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_Leakage_fid_50
+_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf Figures/CH3T_Leakage_fid_5
+0_Tritium_Dec_2013_S2_100Phe_cut.eps>
+(epstopdf)             \includegraphics on input line 856.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pd
+f, id=692, 562.1pt x 405.515pt>
+File: Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-
+to.pdf Graphic file (type pdf)
+
+<use Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-t
+o.pdf>
+Package pdftex.def Info: Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe
+_cut-eps-converted-to.pdf used on input line 856.
+(pdftex.def)             Requested size: 227.62204pt x 164.2141pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png, id=693, 560.8152pt x 42
+1.575pt>
+File: Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png Graphic file (type 
+png)
+ <use Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png>
+Package pdftex.def Info: Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png 
+used on input line 864.
+(pdftex.def)             Requested size: 227.62204pt x 171.10359pt.
+Package epstopdf Info: Source file: <Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_
+2013_S2_100Phe_cut.eps>
+(epstopdf)                    date: 2014-02-02 23:41:53
+(epstopdf)                    size: 23177 bytes
+(epstopdf)             Output file: <Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_
+2013_S2_100Phe_cut-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-02-03 00:17:09
+(epstopdf)                    size: 23908 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_Leakage_E_fid_
+50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf Figures/CH3T_Leakage_E_f
+id_50_Tritium_Dec_2013_S2_100Phe_cut.eps>
+(epstopdf)             \includegraphics on input line 865.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.
+pdf, id=694, 560.0925pt x 414.54875pt>
+File: Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converte
+d-to.pdf Graphic file (type pdf)
+
+<use Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted
+-to.pdf>
+Package pdftex.def Info: Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100P
+he_cut-eps-converted-to.pdf used on input line 865.
+(pdftex.def)             Requested size: 227.62204pt x 168.47327pt.
+ [29 <./Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf> <./Figu
+res/LY_all_T_paper-eps-converted-to.pdf> <./Figures/Charge_Y_all_Tritium_Dec_20
+13_Charge_Yield_180_corr-eps-converted-to.pdf>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \vbox (0.63493pt too high) has occurred while \output is active []
+
+
+[30 <./Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png> <./Figures/CH3T_
+S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png> <./Figures/CH3T_E_dis_Tritium_
+Dec_2013_Charge_Yield_180.png (PNG copy)> <./Figures/CH3T_S1_dis_zoom_Tritium_D
+ec_2013_Charge_Yield_180.png>]
+<Figures/Tritium_LY_180_1.png, id=761, 561.09625pt x 420.57124pt>
+File: Figures/Tritium_LY_180_1.png Graphic file (type png)
+
+<use Figures/Tritium_LY_180_1.png>
+Package pdftex.def Info: Figures/Tritium_LY_180_1.png used on input line 878.
+(pdftex.def)             Requested size: 341.43306pt x 255.91917pt.
+
+<Figures/CH3T_fid_E_S2_Tritium_Dec_2013_Charge_Yield_180.png, id=762, 561.09625
+pt x 420.57124pt>
+File: Figures/CH3T_fid_E_S2_Tritium_Dec_2013_Charge_Yield_180.png Graphic file 
+(type png)
+
+<use Figures/CH3T_fid_E_S2_Tritium_Dec_2013_Charge_Yield_180.png>
+Package pdftex.def Info: Figures/CH3T_fid_E_S2_Tritium_Dec_2013_Charge_Yield_18
+0.png used on input line 879.
+(pdftex.def)             Requested size: 341.43306pt x 255.91917pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Figures/LY_180_Tritium_Dec_2013_Light_Yield.png, id=763, 509.5035pt x 433.62pt
+>
+File: Figures/LY_180_Tritium_Dec_2013_Light_Yield.png Graphic file (type png)
+ <use Figures/LY_180_Tritium_Dec_2013_Light_Yield.png>
+Package pdftex.def Info: Figures/LY_180_Tritium_Dec_2013_Light_Yield.png used o
+n input line 887.
+(pdftex.def)             Requested size: 219.08621pt x 186.45296pt.
+
+<Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180.png, id=764, 542.025pt x 435.
+42674pt>
+File: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180.png Graphic file (type p
+ng)
+ <use Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180.png>
+Package pdftex.def Info: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180.png u
+sed on input line 888.
+(pdftex.def)             Requested size: 230.46732pt x 185.1436pt.
+
+<Figures/LY_180_log_Tritium_Dec_2013_Light_Yield.png, id=765, 560.0925pt x 420.
+97275pt>
+File: Figures/LY_180_log_Tritium_Dec_2013_Light_Yield.png Graphic file (type pn
+g)
+ <use Figures/LY_180_log_Tritium_Dec_2013_Light_Yield.png>
+Package pdftex.def Info: Figures/LY_180_log_Tritium_Dec_2013_Light_Yield.png us
+ed on input line 889.
+(pdftex.def)             Requested size: 247.53897pt x 186.0572pt.
+
+<Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180.png, id=766, 512.21362pt 
+x 435.42674pt>
+File: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180.png Graphic file (ty
+pe png)
+ <use Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180.png>
+Package pdftex.def Info: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180.p
+ng used on input line 890.
+(pdftex.def)             Requested size: 219.08621pt x 186.23988pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./Escale_Rec_LY_QY.bbl [31 <./Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_
+Yield_180-eps-converted-to.pdf> <./Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100P
+he_cut.png> <./Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-c
+onverted-to.pdf>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 902.
+ [32 <./Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png> <./Figures/CH3T_
+Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf>]
+
+LaTeX Warning: Text page 33 contains only floats.
+
+[33 <./Figures/Tritium_LY_180_1.png (PNG copy)> <./Figures/CH3T_fid_E_S2_Tritiu
+m_Dec_2013_Charge_Yield_180.png (PNG copy)>] [34 <./Figures/LY_180_Tritium_Dec_
+2013_Light_Yield.png> <./Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180.png> 
+<./Figures/LY_180_log_Tritium_Dec_2013_Light_Yield.png> <./Figures/QY_180_log_T
+ritium_Dec_2013_Charge_Yield_180.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 902.
+ (./Escale_Rec_LY_QY.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 902.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 902.
+Package rerunfilecheck Info: File `Escale_Rec_LY_QY.out' has not changed.
+(rerunfilecheck)             Checksum: 1403CC7C48FFC68EC38704A4456A651D;2403.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 4.5pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 902.
+ ) 
+Here is how much of TeX's memory you used:
+ 7872 strings out of 493633
+ 127821 string characters out of 3143378
+ 226159 words of memory out of 3000000
+ 10871 multiletter control sequences out of 15000+200000
+ 16675 words of font info for 66 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 36i,18n,39p,1801b,444s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
+1/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2011/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2011/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2011/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2011/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Escale_Rec_LY_QY.pdf (34 pages, 3439994 bytes).
+PDF statistics:
+ 904 PDF objects out of 1000 (max. 8388607)
+ 720 compressed objects within 8 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
+

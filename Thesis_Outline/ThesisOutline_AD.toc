@@ -1,0 +1,45 @@
+\contentsline {section}{\numberline {1}Dark Matter Overview}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Evidence}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}WIMPs}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Experiments}{4}{subsection.1.3}
+\contentsline {section}{\numberline {2}LUX}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}About LUX... goals}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Xenon dual phase TPC}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}S1/S2 Pulse areas, timing, XY reconstruction, Energy reconstruction, threshold}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Run03 WIMP limit}{4}{subsection.2.4}
+\contentsline {section}{\numberline {3}Sampling}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1} Introduction }{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2} Purity Requirements }{4}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3} Methodology }{4}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4} Purity Figure of Merit and Calibration}{4}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5} RGAPartialPressureMeasurement}{4}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6} CorrectingforRGAGainDrift }{4}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7} CorrectingforFlowRate}{4}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8} GainandFlowCorrectedFigureofMerit}{4}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9} O2andH2Figureofmerit}{4}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10} Applications of Gas Purity Analysis}{4}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11} XenonInventoryScreening}{4}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12} 85KrMonitoring}{4}{subsection.3.12}
+\contentsline {section}{\numberline {4}XYZ Corrections, Kr83 calibrations}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}Kr83 source, uniformity, drift velocity vs. field ?}{4}{subsection.4.1}
+\contentsline {section}{\numberline {5}calculating S1 XYZ and S2 XYZ corrections and applying them}{4}{section.5}
+\contentsline {section}{\numberline {6}improvement in resolution with XYZ corrections}{4}{section.6}
+\contentsline {section}{\numberline {7}trend plots, detector stability}{4}{section.7}
+\contentsline {section}{\numberline {8}Energy calibrations (MonoE sources) and Recombination}{4}{section.8}
+\contentsline {subsection}{\numberline {8.1}Doke plot, finding g1g2 with Xe-activation, Cs, Xray, Kr}{4}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Recombination, S1\_stat,S2\_stat and sigmaR vs. Energy for mono-E sources.}{4}{subsection.8.2}
+\contentsline {section}{\numberline {9}Tritium calibration. S2/S1 ER band, LY,QY, Recombination, NEST}{4}{section.9}
+\contentsline {subsection}{\numberline {9.1}Tritium Source, injection and removal, compare with natural methane}{4}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Uniformity, using tritium to calculate Run03 fiducial volume, vs Kr83}{4}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Run03 threshold using tritium}{4}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}ER band calibration, ER/NR discrimination with DD data. Bin by bin. Band Gaussianity}{4}{subsection.9.4}
+\contentsline {section}{\numberline {10}...maybe a new section. Dealing with a continuous energy source (extension of Ch 5)}{4}{section.10}
+\contentsline {subsection}{\numberline {10.1}Extending methodology of Section 4 to a continuous source}{4}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Extract Recombination, Fluctuations knowing g1,g2,S1\_stat, S2\_stat}{4}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}How to un-smear the tritium spectrum. Start with NEST}{4}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Tritium LY, QY, vs Compton scatter measurements}{4}{subsection.10.4}
+\contentsline {subsection}{\numberline {10.5}Apply same method to Cs137 data 150-662 keV}{4}{subsection.10.5}
+\contentsline {section}{\numberline {11}Conclusion, ER band overview}{4}{section.11}
+\contentsline {subsection}{\numberline {11.1}Patch Tritium + Cs + Dahl's data for ER band, recombination, fluctuations, LY, LQ}{4}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}180 vs 100 V/cm Tritium ER band, it's fluctuation}{4}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Discussion on bands, bandwidth and discrimination predictions at low energy}{4}{subsection.11.3}
