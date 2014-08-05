@@ -16,7 +16,10 @@
 \addtolength{\textwidth}{1.75in}
 %\addtolength{\voffset}{-70pt}
 %\addtolength{\textheight} {120pt}
-
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{showframe,subcaption,graphicx}
 
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
@@ -117,7 +120,7 @@ Field [V/cm]	&S1[Phe]	& Photons[$n_{\gamma}$]	& Yield [$n_{\gamma}$/keV	]	&NEST	
 
 \section{Calibrating the Combined Energy Scale}
 
-The first step in .... is converting the measured scintillation signals, primary (S1) and secondary (S2), and combining them for a energy measurement. For a given energy deposit in liquid xenon an amount of quanta is released proportional to a work function W, for nuclear recoils we must also consider heat loss. The quanta created are the results of electron-ion pairs and exitons. Exitons quickly de-excite and contribute to the primary scintillation signal (S1). Ions that recombine with their electron pairs produce scintillation light (S1), while freed electrons that do not recombine are collected several $\rm \mu s$ later in the extraction region as the larger secondary scintillation signal S2, \ref{eq:E_Q}. Measuring both light and charge allows for a vastly improved resolution compared with only using a single S1 or S2 only space, the reason being that recombination fluctuations cancel out.
+This section outlines the energy calibration of the dual phaseLUX detector. The ideal behind the method is to take calibration data with several sources and electric fields and combine the measured scintillation signals, primary (S1) and secondary (S2) into a combined energy. For a given energy deposit in liquid xenon an amount of quanta is released proportional to a work function W, for nuclear recoils we must also consider heat loss. The quanta created are the results of electron-ion pairs and exitons. Exitons quickly de-excite and contribute to the primary scintillation signal (S1). Ions that recombine with their electron pairs produce scintillation light (S1), while freed electrons that do not recombine are collected several $\rm \mu s$ later in the extraction region as the larger secondary scintillation signal S2, equation \ref{eq:E_Q}. We have two knobs to turn to probe combined energy space over a variety of S1 and S2, by either changing the energy of the source or the drift field. The larger the spread in S1 and S2 the more constrained the combined energy scale will be. Measuring both light and charge allows for a vastly improved resolution compared with only using a single S1 or S2 only space, the reason being that recombination fluctuations cancel out.
 
 \begin{equation}
 \begin{split}
@@ -130,7 +133,7 @@ The first step in .... is converting the measured scintillation signals, primary
 
 % insert Tom Shutt's diagram.
 
-With this simple model in place and assuming that the heat loss mechanism is negligible for electronic recoils (ER) above 1 keV we can reconstruct energy by knowing the work function and the conversion from measured S1, S2 signals to the number of quanta ($\rm n_\gamma + n_e$) liberated by the interaction. We define gain 1 (g1) and gain 2 (g2) as the conversion from initial number of photons and electrons propagated from the interaction site to the observed signal by the PMT arrays as a photo electron (Phe), given in equation \ref{eq:Gain}.
+Using equation \ref{eq:E_Q} and assuming that the heat loss is negligible for electronic recoils (ER) above 1 keV we can reconstruct energy by knowing the work function and the conversion from measured S1(light) and S2(charge) signals to the number of quanta ($\rm n_\gamma + n_e$) liberated by the interaction. We define gain 1 (g1) and gain 2 (g2) as the conversion from initial number of photons and electrons propagated from the interaction site to the observed signal by the PMT arrays as a photo electron (PE), given in equation \ref{eq:Gain}. By using multiple mono energetic sources with know energies we can extract a best fit for the value of the gains (g1,g2). The mono energetic lines used for the purposes of the calibration are listed in table \ref{table:Cal_lines}. By plotting S1/E vs. S2/E and fitting a line the x and y intercepts (Equation \ref{eq:LinFit}) gives the value of g1/W and g2/W respectively. We take the value of W in liquid xenon to be 0.0137 $\rm \pm$ 0.002 as measured by [ref]. The values of g1,g2 are degenerate and highly correlated so that the value of g1/g2 is always a constant, such that a reduction in g1 can be compensated by an increase in g2 and still yield the same number of initial quanta and visa versa. Breaking the degeneracy requires data over a wide range of recombination values. Due to the strong correlation the line is fit by minimizing the likelihood and the errors in intercept and slope are determined using MCMC (Markov Chain Monte Carlo). 
 
 \begin{equation}
 \begin{split}
@@ -140,14 +143,209 @@ With this simple model in place and assuming that the heat loss mechanism is neg
 \end{split}
 \end{equation}
 
+\begin{equation}
+\begin{split}
+\rm  S1/E= \frac{n_\gamma}{(n_\gamma+n_e)}\times\frac{g1}{W} \\
+\rm  S2/E= \frac{n_e}{(n_\gamma+n_e)}\times\frac{g2}{W}
+\label{eq:Doke}
+\end{split}
+\end{equation}
 
-By using multiple mono energetic sources with know energies we can extract a best fit for the value of the gains (g1,g2). For each line source we first look in a psudo energy space using the observables S1 vs. S1 where the anti correlation between light and change become apparents.
+\begin{equation}
+\begin{split}
+\rm  1= \left(\frac{S1}{E}\right)\left(\frac{W}{g1}\right) + \left(\frac{S2}{E}\right)\left(\frac{W}{g2}\right) \\[0.5ex]
+\rm  \frac{S1}{E}=\frac{g1}{W} - \frac{S2}{E}\frac{g1}{g2} \\
+\rm y=\frac{S1}{E}, x=\frac{S2}{E}, y= m\cdot x + b \\
+\rm g1=b\cdot W \\
+\rm g2=\frac{g1}{m}=\frac{b\cdot W}{m}
+\label{eq:LinFit}
+\end{split}
+\end{equation}
 
+\begin{table}[h!]
+%\caption{Nonlinear Model Results}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Source & Energy [keV] &Decay Type  \\ [0.5ex] % inserts table %heading
+\hline
+Xe K shell  & 29.7, 34 	 		& X-ray							\\ \hline
+ $\rm ^{83m}Kr$ 	& 41.55**		& Internal Conversion			\\ \hline
+ $\rm ^{131}Xe$ 	& 163.9		& Internal Conversion			\\ \hline
+$\rm ^{127}Xe$ 	& 203 or 375	& $\rm^{127}$I daughter $\rm \gamma$-emission	\\ \hline
+				      & 33.8			& Kb shell X-ray 						\\ \hline
+				      & 5.3			& L shell X-ray 					\\ \hline
+$\rm ^{129m}Xe$	& 236.1		& Internal Conversion 			\\ \hline
+$\rm ^{214}Bi	$	& 609 			& Inverse Beta Decay				 \\ \hline
+ $\rm ^{137}Cs$	& 661.6		& Photo-absorption 					\\ [0.5ex] 
+\hline
+\end{tabular}
+\caption{Mono energetic peaks used for g1 g2 calibration. ** Kr83 data was taken at 50 and 105 [V/cm] along with the standard field of 180 [V/cm].}
+\label{table:Cal_lines}
+\end{table}
+
+
+
+\subsection{Anti-Correlation Space}
+The first step in calibrating the energy reconstruction is to plot the observables S1 vs. S2, by doing this the anti correlation between light and change at a given energy become apparent, figure \ref{fig:S1S2_space}. For the data presented here a fiducial cut was placed at a radius of less than 18 [cm] and drift distance between 6 and 46 [cm] which greatly reduces the background event rate. To extract g1 g2 we first determine the average values of S1 and S2 at each known energy. Initially a loose diagonal cut on the populations are placed by eye, figure \ref{fig:S1S2_space}. Next, using a un-binned maximum likelihood fit the mean and sigma are estimated and then refit using $\rm \pm 2\sigma$ of the initial distribution to remove tails from backgrounds. With the initial estimate for the mean S1 and S2 response to a given energy the gains g1,g2 are determined. The resulting value of g1 and g2 is found to be 0.096 $\pm$ 0.009 and 5.94 $\pm$ 1.68 respectively, the fit is shown in figure \ref{fig:Doke1}. The values of g1 and g2 represent a best fit tot he underling recombination theory where for each additional photon there is a corresponding reduction of one electron and visa versa. The method for extracting the uncertainties using MCMC will be discussed later in section \ref{sec:MCMC}.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=80mm]{Figures/S1S2_density_Kr_Cs_fit.png}
+\includegraphics[width=80mm]{Figures/S1S2_density_XeA_fit.png}
+\caption{LUX data in anti correlation space (S1 vs. S2), the black lines indicate the initial cuts by eye used to isolate populations of constant energy. In both figures diagonals represent lines of constant energy with a slope depending on the local recombination probability. The centroids found by an unbind maximum likelihood analysis are shows as a black X, for sources show in table \ref{table:Cal_lines}. }
+\label{fig:S1S2_space}
+\end{figure}
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Figures/S1S2_Doke_1.eps}
+\caption{}
+\label{fig:Doke1}
+\end{figure}
+
+\newpage
+
+\subsection{Refitting in Combined Energy Space}
+From the first attempt to find g1,g2 we see from figure \ref{fig:Doke1} that there are discrepancies between the data and the fit, however this first result is only a crude estimate derived from anti correlation space. Once we have an initial estimate of gains g1,g2 a combined energy scale can be constructed with significantly improved resolution over the initial guess, due to the fact that recombination fluctuations are canceled along diagonals in this space. With the improved resolution the data are fit around the combined energy peaks using an unbinned maximum likelihood fit to a normal distribution, and then the data refitted around 1.5 $\sigma$ of the initial fit. The fits used to extract the means and sigmas  of the S1 and S2 signals at a given energy are show in figures \ref{fig:Doke_Fits_S1} and\ref{fig:Doke_Fits_S2}. We iterate this technique twice as the convergence is rapid, in this case the initial value of g1 and g2 derived from anti-correlation space are already a close approximation to the true value. The resulting value of g1 and g2 is found to be 0.097$\pm$0.008 and 5.75$\pm$1.4 respectively, the fit is shown in figure \ref{fig:Doke2}. After refitting there is a significant improvement over figure \ref{fig:Doke1}, especially the xenon activation lines in the center, which is due to better peak finding in combined energy space over anti-correlation space.
+
+
+\begin{equation}
+\begin{split}
+\rm  g1 = 0.097\pm0.008 \\
+\rm  g2= 5.75\pm1.4
+\label{eq:g1g2Fit}
+\end{split}
+\end{equation}
+
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Figures/S1S2_Doke_3.eps}
+\caption{Doke plot showing the best fit for the energy calibration parameters g1 and g2. The first three blue points, from the left, are from $\rm^{83}Kr$ calibrations at 50, 105 and 180 V/cm respectively. The open circle was from the K-shell xenon X-ray and was not used for the fit as it's absolute energy and origin from the skin of the detector is uncertain.}
+\label{fig:Doke2}
+\end{figure}
+
+ \begin{figure}[h!]\centering
+ 
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_163.eps}}
+\hfill
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_207.eps}}
+\hfill
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_236.eps}}
+
+\bigskip
+
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_410.eps}}
+\hfill
+\subcaptionbox{\label{fig:1e}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Bi214.eps}}
+\hfill
+\subcaptionbox{\label{fig:1f}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Cs137.eps}}
+
+\bigskip
+
+\subcaptionbox{\label{fig:1g}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr_50.eps}}
+\hfill
+\subcaptionbox{\label{fig:1h}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr_100.eps}}
+\hfill
+\subcaptionbox{\label{fig:1i}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr.eps}}
+
+\caption{S1 fits to sources at nominal field of 180 [V/cm] unless otherwise noted. Source and energy in keV from top left to bottom right: a) $\rm ^{131}Xe$: 163, b) $\rm ^{127}Xe$:  207, c) $\rm ^{127}Xe$ \&  $\rm ^{129m}Xe$: 236.8, d)  $\rm ^{127}Xe$: 410, e) $\rm ^{214}Bi$: 609, f) $\rm ^{137}Cs$: 661.6, g) $\rm ^{83m}Kr$: 41.5 - at 50 [V/cm], h) $\rm ^{83m}Kr$ 41.5 - at 105 [V/cm], i) $\rm ^{83m}Kr$ 41.5 .}
+\label{fig:Doke_Fits_S1}
+\end{figure}
+
+
+ \begin{figure}[h!]\centering
+ 
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_163.eps}}
+\hfill
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_207.eps}}
+\hfill
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_236.eps}}
+
+\bigskip
+
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_410.eps}}
+\hfill
+\subcaptionbox{\label{fig:1e}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Bi214.eps}}
+\hfill
+\subcaptionbox{\label{fig:1f}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Cs137.eps}}
+
+\bigskip
+
+\subcaptionbox{\label{fig:1g}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr_50.eps}}
+\hfill
+\subcaptionbox{\label{fig:1h}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr_100.eps}}
+\hfill
+\subcaptionbox{\label{fig:1i}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr.eps}}
+
+\caption{S2 fits to sources at nominal field of 180 [V/cm] unless otherwise noted. Source and energy in keV from top left to bottom right: a) $\rm ^{131}Xe$: 163, b) $\rm ^{127}Xe$:  207, c) $\rm ^{127}Xe$ \&  $\rm ^{129m}Xe$: 236.8, d)  $\rm ^{127}Xe$: 410, e) $\rm ^{214}Bi$: 609, f) $\rm ^{137}Cs$: 661.6, g) $\rm ^{83m}Kr$: 41.5 - at 50 [V/cm], h) $\rm ^{83m}Kr$ 41.5 - at 105 [V/cm], i) $\rm ^{83m}Kr$ 41.5 .}
+\label{fig:Doke_Fits_S2}
+\end{figure}
+
+
+
+Figure \ref{fig:Doke_E} is the final Doke plot for multiple peaks the theory describes the data well using the optimal fit for g1 and g2, for each increase in number of photons there is a corresponding decrease in the number of electrons and visa versa. The reason for the relatively large error on g2 is due to the distance of the data points from the x-intercept. As stated before the values of g1 and g2 can be locally degenerate as long as their ratio remains a constant. Thus for future studies it will be important to probe more of the parameter space in order to place a tighter constraint on gains g1 and g2.
+
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Figures/S1S2_Doke2_3_arrow.png}
+\caption{Doke plot of the data.  Light yield vs. charge yield.}
+\label{fig:Doke_E}
+\end{figure}
+
+\newpage
+
+\subsection{Finding Errors with MCMC}
+\label{sec:MCMC}
+The error bars reported in this section on g1 and g2 are the result of MCMC which is used to extract the error in the slope and intercept of the linear fit in the Doke plot. For calculating the error in slope and intercept  three random walkers were used at each data point and allowed to take 500 steps.The MCMC takes into account the covariance of the two parameters, shown in figure \ref{fig:MCMC}. There is a strong negative correlation between the slope m and intercept b which is the result of the degeneracy between gains g1 and g2 used to reconstruct energy by combining the light and charge signal. Thus, the error on g1 and g2 is such that for the positive maxima deviation in g1 we reach the negative maxima of the error on g2, and visa versa. Using standard reduced $\chi^2$ fitting the uncertainty in slope and intercept would be underestimated by a factor of three as it does not account for the degeneracy of the anti-correlated gains. 
+
+
+
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Figures/MCMC/triangle.png} % also line-time.png
+\caption{MCMC for the linear fit to the Doke plot. There is a strong negative correlation between the slope m and intercept b which results from the degeneracy between gains g1 and g2. }
+\label{fig:MCMC} 
+\end{figure}
+
+\newpage
+
+\subsection{Combined Energy Space}
+
+With the values of g1 and g2 known the combined energy of events can be reconstructed with a significant improvement over using only the light or charge channel. The reason for improvement in energy resolution is that recombination fluctuations (will be discussed later) are removed by the anti correlation of light and charge production. Figure \ref{fig:CE_hist} shows the energy histograms of the data used for the fits to gains g1 and g2 including the xenon activation lines and the $\rm^{137}Cs$ calibration, along with a zoom in of the xenon K shell Xray at 34 keV and a 81 keV gamma from $\rm ^{133}Xe$, not used for finding g1,g2. With this method for reconstructing the energy of the event and converting the S1 and S2 signals to fundamental quanta using g1,g2 we can probe instrumental and recombination fluctuations and measure light and charge yields.
+
+
+\begin{figure}[h!]\centering
+ 
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=80mm]{Figures/Combined_E/Xe_act_E.eps}}
+\hfill
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=80mm]{Figures/Combined_E/Cs_E.eps}}
+
+
+\bigskip
+
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=75mm]{Figures/Combined_E/Xe_act_133_E.eps}}
+\hfill
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=80mm]{Figures/Combined_E/X-ray_Xe_E.eps}}
+
+
+\caption{Combined energy scale. a) The xenon activation lines from early in the run. b) $\rm^{137}Cs$ calibration data. c) Xenon X-ray from the teflon skin (radium cut increased to the detector edge). d) Xenon X-ray and $\rm^{133}Xe$ at 81 keV, due to low stats was not used for fitting.}
+\label{fig:CE_hist}
+\end{figure}
+
+
+
+
+\section{Light Collection and Electron extraction}
+
+The value of g1 represents the mean efficiency for collecting photons at the center of the LUX detector, since the response to S1 light is flat fielded and normalized to the detector center (section Kr calibrations). The value of g2 represents on average the number of photo electrons (Phe) collected for each electron that escaped recombination and was drifted by the electric field towards liquid-gas interface. Note, S2 signals are corrected for depth as impurities exponentially attenuate electrons drifting through the xenon (section Kr cal). The S2 signal is large enough, due to electo-lumanesance, that a single extracted electron creates several photons that are collected by both PMT arrays. Since we can cut on single electrons (small S2 pulses without an associated S1) the extraction efficiency can be determined. The extraction efficiency is defined as the probability that an election will be extracted from the liquid into the gas in a region of 3.5 kV between the anode and the gate. For a given event the extraction of electrons is a binomial processes with a rate approaching unity for fields above 5 kV (reference). Figure ref-SingleE, shows the single electron size as measured by the bottom PMT array (used for S2 pulses in the LUX detector to avoid saturation). The population is modeled by a skew Gaussian due to the Poission nature of measuring only a handful of Phe. The mean of the distribution is found to be 9.6 Phe/$\rm e^-$ with a width of $\sigma SE$= 3.6 Phe/$\rm e^-$. Thus, the extraction efficiency is g2 over the single electron size 68\%, which given the extraction field is in good agreement measurements in other xenon detectors -[2 refs extraction].
+
+%\begin{figure}[h!]\centering
+%\includegraphics[width=120mm]{Figures/S1S2_Doke2_arrow.png}
+%\caption{}
+%\label{fig:SingleE}
+%\end{figure}
 
 \section{Modeling Intrinsic Detector Resolution}
 
-
-Intrinsic statistical fluctuations in light and charge (S1, S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and Fano-like factors we must first decouple the detector component of resolution. We use the model described in [Dahl's thesis] in which the measured scintillation and ionization signals S1, S2 (measured in Phe) are related to the number of photons and electrons by gains g1 and g2, \ref{eq:Gain}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1,S2 signals at a given drift field. The gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT convolved with the quantum efficiency of the PMTs. Gain g2 represents the average S2 signal of a single electron normalized by the average single electron size. Where S2 uses only the bottom PMT array and is corrected for lifetime.
+Intrinsic statistical fluctuations in light and charge (S1, S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and the Fano factor we must first decouple the detector component of resolution. We use the model described in [Dahl's thesis] in which the measured scintillation and ionization signals S1, S2 (measured in Phe) are related to the number of photons and electrons by gains g1 and g2, \ref{eq:Gain}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1,S2 signals at a given drift field. The gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT convolved with the quantum efficiency of the PMTs. Gain g2 represents the average S2 signal of a single electron normalized by the average single electron size. Where S2 uses only the bottom PMT array and is corrected for lifetime.
 
 
 \begin{equation}
@@ -196,7 +394,7 @@ For this analysis we use the following detector gains, given measured by compari
 \rm g_1 = 0.091 \pm 0.004 \,[Phe/n_\gamma]\\
 \rm g_2=SE_{b} \times Ext = 6.38 \pm 0.27 \,[Phe/n_e]\\
 \rm SE_{b} = 9.70 \pm 0.01  \,[Phe/n_e] \\\ 
-\rm \sigma SE_b = 3.65\, [Phe/n_e]\\
+\rm \sigma SE_b = 3.64\, [Phe/n_e]\\
 \rm Ext = 0.658\pm 0.025 \\
 \rm \sigma_{PE} = 0.51\, [Phe/n_\gamma]\\\
 \label{eq:g1g2}
@@ -269,20 +467,57 @@ Where r represents the electron-ion recombination probability. A key measurable 
 \end{equation}
 
 
-For convenience we will work with $\rm n_i = (\rm n_\gamma + n_e)/(1+\alpha)$, this convention is chosen because both the Fano factor and recombination fluctuations act on number of ions and also because the number of ions are linearly related to the initial energy deposit. Using a mono energetic source and combined energy(equation \ref{eq:Energy}) we can measure $\rm \sigma_{n_\gamma}^2$ and $\rm \sigma_{e}^2$ and $\rm \sigma_{E}^2$. Dropping the contribution form the Fano factor and the the number of exitons it can be shown that the value recombination fluctuations $\rm \sigma R$ can be solved for using equation \ref{eq:Dahl}. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
+For convenience we will work with $\rm n_i = (\rm n_\gamma + n_e)/(1+\alpha)$, this convention is chosen because both the Fano factor and recombination fluctuations act on number of ions and also because the number of ions are linearly related to the initial energy deposit. Using a mono energetic source and combined energy(equation \ref{eq:Energy}) we can measure $\rm \sigma_{n_\gamma}^2$ and $\rm \sigma_{e}^2$ and $\rm \sigma_{E}^2$. Dropping the contribution form the Fano factor and the the number of exitons it can be shown that the value recombination fluctuations $\rm \sigma R$ can be solved for using equation \ref{eq:SigR}. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
 
 \begin{equation}
-\rm \sigma_{R}^2  = \frac{1}{2}(\sigma_{n_\gamma}^2 + \sigma_{n_e}^2 - \sigma_E^2W^2)\\
+\rm \sigma_{R}^2  = \frac{1}{2}\left(\sigma_{n_\gamma}^2 + \sigma_{n_e}^2 - \frac{\sigma_E^2}{W^2}\right)\\
 \label{eq:Dahl}
 \end{equation}
 
-
-It is important to note that $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$ and $\rm \sigma_{E}^2 $ are observable quantities when using a mono energetic source. The variance in combined energy does not contain variance from recombination fluctuations as those fluctuation occur along lines of constant energy. This concept is illustrated in \ref{eq:Dahl_2}, the result of combining equations \ref{eq:SigR} and \ref{eq:Dahl}. 
+We do not directly observe the fluctuation in number of photons and electrons, instead the fluctuations in the corresponding S1 and S2 signal divided by the gain are used to convert the average signal from photo electrons to units of quanta and is given in equation \ref{eq:Sig_Det}.
 
 \begin{equation}
-\rm \sigma_{R}^2  = \frac{1}{2}( \sigma_{R}^2 + \sigma_{n_{\gamma_{stat}}}^2 + \sigma_{R}^2 + \sigma_{n_{e_{stat}}}^2 - (\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{e_{stat}}}^2))
+\begin{split}
+\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
+\rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
+\label{eq:Sig_Det}
+\end{split}
+\end{equation}
+
+Combining equations \ref{eq:Dahl} and \ref{eq:Sig_Det} leads to the results in equation \ref{eq:Dahl_2} , \ref{eq:SigQ} and gives us a way to measure recombination fluctuations along with fluctuations in $\rm n_\gamma$ and $\rm n_e$ due to intrinsic detector resolution, (will be discussed in the next section). It is important to note that $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$ and $\rm \sigma_{E}^2 $ are observable quantities when using a mono energetic source. The variance in combined energy does not contain variance from recombination fluctuations as those fluctuation occur along lines of constant energy. Note, we have dropped the contribution from the Fano factor and the spread is exitons as they are much smaller than recombination fluctuations or the variances from measuring light and charge intrinsic to the detector. The observed variance in the light and charge channels (S1, S2) is the result of two compounded random processes. After the initial charge deposit the number of charge and light quanta undergo recombination fluctuations. Subsequently, as the light or charge is collected in the detector an additional variance from detector resolution occurs. The result is the sum of two random processes thus the variance are added.
+
+\begin{equation}
+\rm \sigma_{R}^2  = \frac{1}{2}\left( \frac{\sigma_{S1_{stat}}^2}{g_1^2} + \frac{\sigma_{S2_{stat}}^2}{g_2^2} - \frac{\sigma_E^2}{W^2}\right)\\
 \label{eq:Dahl_2}
 \end{equation}
+
+%\begin{equation}
+%\rm \sigma_{R}^2  = \frac{1}{2}( \sigma_{R}^2 + \sigma_{n_{\gamma_{stat}}}^2 + \sigma_{R}^2 + \sigma_{n_{e_{stat}}}^2 - (\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{e_{stat}}}^2))
+%\label{eq:Dahl_2}
+%\end{equation}
+
+\begin{equation}
+\begin{split}
+\rm  \sigma_{n_{\gamma}}^2 = \frac{\sigma_{S1}^2}{g_1^2} - \sigma{R^2}\\
+\rm \sigma_{n_{e}}^2 = \frac{\sigma_{S2}^2}{g_2^2} - \sigma{R^2}
+\label{eq:SigQ}
+\end{split}
+\end{equation}
+
+Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ} along with the measurements of g1 g2, we can move to combined energy space and deconvolve the recombination fluctuations from variances in the light and charge channel of the detector. The result is shown in figure \ref{fig:E_dis}, the black white and red lines represent $\rm \sigma R, \, \sigma n_\gamma, \,\sigma n_e$, respectively.
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Figures/All_disc.eps}
+\caption{}
+\label{fig:E_dis}
+\end{figure}
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=80mm]{Figures/fluc_E.eps}
+\includegraphics[width=80mm]{Figures/fluc_Q.eps}
+\caption{}
+\label{fig:Flucs}
+\end{figure}
 
 
 \subsection{Measuring Recombination Fluctuations in Desecrate Energy Bins}
