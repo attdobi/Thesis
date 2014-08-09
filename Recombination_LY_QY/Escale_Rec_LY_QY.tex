@@ -23,9 +23,9 @@
 
 \hypersetup{
     bookmarks=true,         % show bookmarks bar?
-    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
-    pdftoolbar=true,        % show Acrobat’s toolbar?
-    pdfmenubar=true,        % show Acrobat’s menu?
+    unicode=false,          % non-Latin characters in AcrobatÕs bookmarks
+    pdftoolbar=true,        % show AcrobatÕs toolbar?
+    pdfmenubar=true,        % show AcrobatÕs menu?
     pdffitwindow=false,     % window fit to page when opened
     pdfstartview={FitH},    % fits the width of the page to the window
     pdftitle={My title},    % title
@@ -106,7 +106,7 @@ Using equation \ref{eq:E_Q} and assuming that the heat loss is negligible for el
 \begin{equation}
 \begin{split}
 \rm  1= \left(\frac{S1}{E}\right)\left(\frac{W}{g1}\right) + \left(\frac{S2}{E}\right)\left(\frac{W}{g2}\right) \\[0.5ex]
-\rm  \frac{S1}{E}=\frac{g1}{W} - \frac{S2}{E}\frac{g1}{g2} \\
+\rm  \left(\frac{S1}{E}\right)=\left(\frac{g1}{W}\right) - \left(\frac{S2}{E}\right)\left(\frac{g1}{g2}\right) \\
 \rm y=\frac{S1}{E}, x=\frac{S2}{E}, y= m\cdot x + b \\
 \rm g1=b\cdot W \\
 \rm g2=\frac{g1}{m}=\frac{b\cdot W}{m}
@@ -373,6 +373,7 @@ Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector
 \section{Measuring Recombination Fluctuations}
 
 \subsection{Measuring Recombination Fluctuations with Mono-Energetic Sources}
+\label{sec:flucs_mono}
 
 To model recombination we start with a basic assumption that for a given energy deposit in liquid xenon the number of quanta produced is equal to the number of exitons and the number of ions. The number of ions cerated contains a spread given by a Fano factor F. The value of F for liquid xenon is small, has a theoretical value of 0.05 \cite{FanoTheoretical}.
 
@@ -469,7 +470,7 @@ Equations \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} gives us a method to measure re
 
 \subsection{Results with Mono Energetic Calibration Sources}
 
-Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1s2} along with the measurements of g1 g2, we construct a combined energy and deconvolve the recombination fluctuations from variances in the light and charge channel of the detector. The result is shown in figure \ref{fig:E_dis}, the black white and red lines represent $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}}$, respectively for sources listed in Table \ref{table:Cal_lines}. A variance with a linear and root term is fit to the data and used to extract instrumental fluctuations and constrain the statistical fluctuations. The linear term corresponds to instrumental fluctuations and the root term corresponds to statistical fluctuations. Instrumental fluctuations go like the signal size and may potentially be due to ripples in the liquid surface caused by xenon bubbles or other systematics that are unaccounted for. The root term should result purely from counting photo electrons, described earlier. We find:
+Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} along with the measurements of g1 g2, we construct a combined energy and deconvolve the recombination fluctuations from variances in the light and charge channel of the detector. The result is shown in figure \ref{fig:E_dis}, the black white and red lines represent $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}}$, respectively for sources listed in Table \ref{table:Cal_lines}. A variance with a linear and root term is fit to the data and used to extract instrumental fluctuations and constrain the statistical fluctuations. The linear term corresponds to instrumental fluctuations and the root term corresponds to statistical fluctuations. Instrumental fluctuations go like the signal size and may potentially be due to ripples in the liquid surface caused by xenon bubbles or other systematics that are unaccounted for. The root term should result purely from counting photo electrons, described earlier. We find:
 
 \begin{equation}
 \begin{split}
@@ -494,7 +495,8 @@ Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1s2} along with the measurement
 
 
 \subsection{Measuring Recombination Fluctuations in Desecrate Energy Bins}
-\label{Recomb_Mono}
+\label{sec:flucs_mono_bins}
+
 The pervious subsection demonstrated the power of using a mono energetic source measure recombination fluctuations, equation  \ref{eq:Dahl}. In this section we present a method to decouple statistical variance from recombination fluctuations when confined to an energy bin of width $\rm \Delta_E$. The consideration of desecrate binning is crucial when dealing with a continual energy spectrum. Take the tritium beta spectrum as an example, we lose the ability to independently measure $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$, $\rm \sigma_{E}^2 $ and are only left with a smear of $\rm n_\gamma$, $\rm n_e$, $\rm E $. However, there are two key pieces of information still left at our disposal. First, the combined energy can be reconstructed from global fits to g1 and g2, and even corrected for spectral shape and detector resolution (discussed later in section [link]). Second, we can calculate values of statistical variance for the light and charge channels as a function of energy, described in \ref{eq:SigStat},  \ref{eq:SigInst}. It will be shown in this section that having a priori knowledge of g1,g2 and the functional for of the statistical variance from detector resolution will be sufficient to measure recombination fluctuations for a continual energy spectrum binned in energy with width $\rm \Delta_E$.
 
 
@@ -611,19 +613,21 @@ Equation \ref{eq:SigmaEx} is also valid in the case that $\rm \sigma_{n_{ex}}^2$
 
 \subsection{Application to $\rm^{83}Kr$}
 
+Using the high stats Kr83 calibration data we can validate the method for working in a bin of energy since the exact solution for recombination and detector fluctuations can be measured, as outlined in section \ref{sec:flucs_mono} and \ref{sec:flucs_mono_bins}. Once the fluctuations from detector resolution are measured in the light and charge channel (S1 and S2 signals), the asymmetry between the two channels can be used to calculate the Fano factor (equation \ref{eq:Sig_total_CE} ). The asymmetry in fluctuations in the light and charge channel arrises from the Fano factor acting on ion production which is later amplified through the recombination fraction, as long as the recombination fraction does not equal 0.5. For the case of the $\rm ^{83m}Kr$ calibration the recombination fraction was 0.772 resulting in recombination fluctuations of 3 to 4 more quanta in the light channel as compared to the charge channel, see table \ref{table:R_Kr}. Though the additional recombination fluctuation is small having ample statistics the Fano factor can be constrained. 
+The errors in the measurement were derived from simulated Kr data sets of 400,000 events with the Fano factor turned off, using 100 trials. First, recombination fluctuations were turned off and only fluctuations from detector resolution as calculated in section \ref{sec:flucs_mono} were used, see Table \ref{table:Simulated_Sigmas_R_0}. It was found that the error of the difference in recombination fluctuation from the light and charge channel ($\rm sigma_{R_{\gamma}}^2$ and $\sigma_{R_{e}}^2 $) along with the error in ion production and recombination fraction were enough to constrain the Fano factor to 0.001-0.003. Next, the value of recombination was set slightly higher than the actual value of 82 to 100 quanta and the trials were repeated, see table \ref{table:Simulated_Sigmas_R_100}. With the addition of recombination fluctuations to detector resolution fluctuations the error on measuring the Fano factor grew to 0.002-0.009, with smaller bin sizes ($\rm\Delta E$ around the center leading to the smallest error as seen from equation \ref{eq:SigCE_2}.
 
-...Knowing the statistical uncertainties from a simulated Kr data set of 400,000 events with 100 trials. Using equation \ref{eq:SigR_CE_lim} we find good agreement between the method described in equation \ref{eq:Dahl} and the recombination fluctuation calculated from the charge channel ($\rm \sigma_{R_e}$). There is a clear systematic offset outside the bounds of the respective uncertainties between the light and charge channels, this indicates that the additional contribution from $\rm \sigma_{n_{ex}}$ is on the order of 34 quanta. This value is consistent with the enhanced time dependent light yield from the second 9.4 keV decay of $\rm ^{83m}Kr$, for which the mean shifts by up to 10 Phe in S1 (or 70 Photons) with a timing separation cut of 1000 ns. [ Add Light Yield vs. dT plot here]. 
 
 \begin{table}[h!]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-$\rm \Delta_E$ [keV] & Count & $\rm \sigma(\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{stat}}}^2)$ & $\rm \sigma(\chi_{n_{e}}^2-\chi_{n_{e_{stat}}}^2)$  & $\rm \sigma(\chi_{n_\gamma}^2 - \chi_{n_e}^2 - \delta_{stat})$\\ \hline
-0.05 	& 3309 	& 114.1  	&	114.3	& 2.5	 \\ \hline
-0.1 	& 6612  	& 84.5 	& 	84.5	& 3.4	 \\ \hline
-0.2 	& 13230  	& 55.8 	& 	55.7	& 4.2	 \\ \hline
-0.25 	& 16533 	& 53.4		&	53.5  	& 5.0	 \\ \hline
-0.5		& 33011 	& 32.9  	&	32.6	& 7.6	 \\ \hline
+$\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
+0.025 	& 1528 		&77.8		& 77.9	  	& 1.3	&	0.0008 \\ \hline
+0.05 	& 3063 		&54.4		& 54.6	  	& 1.8	&	0.0012 \\ \hline
+0.1 		& 6128  	&36.4		& 36.6		& 2.6	&	0.0016  \\ \hline
+0.2 		& 12242  	&23.7		& 23.8	 	& 3.7	&	0.0023 \\ \hline
+0.25 	& 15290 	&22.9		& 22.9		& 4.0 	&	0.0026 \\ \hline
+0.5		& 30528 	&17.5		& 17.5 		& 5.2	& 	0.0033	 \\ \hline
 \end{tabular}
 \caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a simulated $\rm^{83m}Kr$ decay with recombination set to zero.  Note, since the two methods for determining $\rm \sigma_R^2$  are correlated the standard deviation of the measured difference is small leading to an improved error when calculating the Fano factor or $\rm \sigma_{n_{ex}}^2$.}
 \label{table:Simulated_Sigmas_R_0}
@@ -634,12 +638,13 @@ $\rm \Delta_E$ [keV] & Count & $\rm \sigma(\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-$\rm \Delta_E$ [keV] & Count & $\rm \sigma(\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{stat}}}^2)$ & $\rm \sigma(\chi_{n_{e}}^2-\chi_{n_{e_{stat}}}^2)$  & $\rm \sigma(\chi_{n_\gamma}^2 - \chi_{n_e}^2 - \delta_{stat})$\\ \hline
-0.05 	& 3316 	& 327.0  	&	326.3	& 4.7	 \\ \hline
-0.1 	& 6623  	& 257.3 	& 	257.2	& 5.9	 \\ \hline
-0.2 	& 13237  	& 196.2 	& 	196.8	& 9.0	 \\ \hline
-0.25 	& 16539 	& 180.3	&	180.7  	& 11.1	 \\ \hline
-0.5		& 33019 	& 114.1  	&	117.0	& 16.2	 \\ \hline
+$\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
+0.025 	& 1523		&498		& 498	  	& 3.2	&	 0.0020\\ \hline
+0.05 	& 3056 		&347		& 347	  	& 4.1	&	 0.0026\\ \hline
+0.1 		& 6118  	&237		& 237		& 5.3	&	 0.0033\\ \hline
+0.2 		& 12225  	&171		& 171	 	& 8.6	&	 0.0054\\ \hline
+0.25 	& 15285 	&149		& 148		& 9.5 	&	 0.0060\\ \hline
+0.5		& 30514 	&101		& 99.4  		&14.3	&	 0.0090 \\ \hline
 \end{tabular}
 \caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a simulated $\rm^{83m}Kr$ decay with recombination set to 100 quanta.  Note, since the two methods for determining $\rm \sigma_R^2$  are correlated the standard deviation of the measured difference is small leading to an improved error when calculating the Fano factor or $\rm \sigma_{n_{ex}}^2$.}
 \label{table:Simulated_Sigmas_R_100}
@@ -647,33 +652,35 @@ $\rm \Delta_E$ [keV] & Count & $\rm \sigma(\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{
 \end{table}
 
 
+The results of the high stats calibration data are shown in table \ref{table:R_Kr}, containing 400k events in the fiducial volume of the detector. Using equation \ref{eq:SigR_CE_lim} we find good agreement between the method described in equation \ref{eq:Dahl} and the recombination fluctuation calculated from the charge channel ($\rm \sigma_{R_\gamma}$ and $\rm \sigma_{R_e}$).  The accuracy helps us build confidence that the statistical components of the detector are modeled well enough to measure recombination fluctuation to within 3\%. Further, the ability to see the asymmetry in recombination fluctuations between the light and charge channel demonstrates the power of using binned combined energy (section \ref{sec:flucs_mono_bins}). Any observed difference between the two channels  can only be from either the Fano factor or spread in exiton production, but we assume the fluctuations in exiton production are much less than fluctuations in ion production. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, the recombination fraction was found to be r= 0.772 and the average number of ions produced per decay was $\rm n_i=2900$. 
+Having demonstrated the method for a mono energetic calibration source the next step will be to apply the method on the continuous beta spectrum of the tritium data.
+
+
 
 \begin{table}[h!]
 \begin{center}
-\begin{tabular}{|c||c|c|c|c|c|}
+\begin{tabular}{|c||c|c|c|c|c|c|}
 \hline
-$\rm \sigma_R$ Dahl \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{stat}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{stat}}}^2}$  & $\rm \sigma_{n_{ex}}=\sqrt{\chi_{n_\gamma}^2 - \chi_{n_e}^2 - \delta_{stat}}$\\ 
-(Quanta) & (keV) & & (Quanta) & (Quanta) & (Quanta) \\ \hline
-94.3 $\pm$ 0.1	& 0.05 		& 3383 	& 97.7 $\pm$ 1.5	 	&	92.0 $\pm$ 1.6	& 33.1 $\pm$ 0.1	 \\ \hline
-					& 0.1 		& 6876  	& 97.2 $\pm$ 1.2		& 	91.4 $\pm$ 1.3	& 33.0 $\pm$ 0.1	 \\ \hline
-					& 0.2 		&13583  	& 97.1 $\pm$ 0.9  		& 	91.4 $\pm$ 1.0	& 32.9 $\pm$ 0.1	 \\ \hline
-					& 0.25 		&16955 	& 97.3 $\pm$ 0.9		&	91.8 $\pm$ 0.9  	& 32.4 $\pm$ 0.2	 \\ \hline
-					& 0.5		& 33721 	& 97.6  $\pm$ 0.5		&	91.1 $\pm$ 0.6	& 32.9	$\pm$ 0.2 \\ \hline
+$\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{stat}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{stat}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
+(Quanta) & (keV) & & (Quanta) & (Quanta) & (Quanta) & (Quanta)\\ \hline
+82.4 $\pm$ 4.0		& 0.025		& 1518 		& 87.2 $\pm$ 2.9	 	&	87.1 $\pm$ 2.9	& 0.010 $\pm$ 0.002     & 5.8 $\pm$ 0.5 \\ \hline
+					& 0.05 		& 3124 		& 85.0 $\pm$ 2.0	 	&	84.9 $\pm$ 2.0	& 0.005 $\pm$ 0.003	& 3.8 $\pm$ 1.1 \\ \hline
+					& 0.1 		& 6269  	& 87.8 $\pm$ 1.3		& 	87.6 $\pm$ 1.3	& 0.023 $\pm$ 0.003	& 8.1 $\pm$ 0.5	 \\ \hline
+					& 0.2 		&12508  	& 90.0 $\pm$ 1.0  		& 	89.7 $\pm$ 1.0	& 0.021 $\pm$ 0.005	& 7.8 $\pm$ 0.9	 \\ \hline
+					& 0.25 		&15557 	& 88.5 $\pm$ 0.8		&	88.3 $\pm$ 0.8  & 0.013 $\pm$ 0.006	& 6.1 $\pm$ 1.3	 \\ \hline
+					& 0.5		& 30826 	& 87.0  $\pm$ 0.6		&	86.7 $\pm$ 0.6	& 0.027	$\pm$  0.009 	& 8.8 $\pm$ 2.2	\\ \hline
 \end{tabular}
-\caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a $\rm^{83m}Kr$ data set. }% add note about exitons
+\caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a $\rm^{83m}Kr$ data set with 400k events in the fiducial volume. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, with a recombination fraction of 0.772 and $\rm n_i = 2900$. }% add note about exitons
 \label{table:R_Kr}
 \end{center}
 \end{table}
-
-
-Table \ref{table:R_Kr} shows the comparison of recombination fluctuations when calculated in binned energy space vs. the conventional method for a $\rm ^{83m}Kr$ data set. $\rm \sigma_{R_{e}}$ is immune to time dependence of exiton production and predicts the correct value of recombination to within 3\%. The accuracy helps us build confidence that the statistical components of the detector are modeled well enough to measure recombination fluctuation to within 3\%. The ability to actually measure $\rm \sigma_{n_{ex}}$ from the additional contribution in $\rm \sigma_{R_{\gamma}}$ demonstrates the power of using binned combined energy. Any observed difference between the two channels  can only be from either the Fano factor or spread in exiton production, see Table \ref{table:Simulated_Sigmas_R_100} and \ref{table:Simulated_Sigmas_R_0} and equation \ref{eq:Sig_total_CE}.The next step will be to apply the method on the Tritium data.
 
 
 \subsection{Application to Tritium Data (Will go after Section 4 where the Smearing Model is discussed)}
 
 After applying the Smearing Model of Section 4 we apply the method described in this section to extract recombination fluctuations form the tritium data.
 
-In this subsection we test method outlined in section \ref{Recomb_Mono} for dealing in bins of combined energy when applied to the tritium beta spectrum. To first order the treatment of the continuous spectrum is identical to that outlined for the mono energetic source. Figure \ref{fig:T_Stat} shows a tritium spectrum smeared with only intrinsic detector resolution, the figure is analogous to Figure \ref{fig:Recomb}. As the bin size around a value of combined energy is squeezed to zero the statistical variance in the number of photons and electrons converge, the value is given by equation \ref{eq:SigCE_2}. Whereas, regardless of bin size recombination fluctuations remain since they move along lines of constant energy. 
+In this subsection we test method outlined in section \ref{flucs_mono_bins} for dealing in bins of combined energy when applied to the tritium beta spectrum. To first order the treatment of the continuous spectrum is identical to that outlined for the mono energetic source. Figure \ref{fig:T_Stat} shows a tritium spectrum smeared with only intrinsic detector resolution, the figure is analogous to Figure \ref{fig:Recomb}. As the bin size around a value of combined energy is squeezed to zero the statistical variance in the number of photons and electrons converge, the value is given by equation \ref{eq:SigCE_2}. Whereas, regardless of bin size recombination fluctuations remain since they move along lines of constant energy. 
 The tritium spectral shape may cause a perturbation to the analytic solution for observed variance $\rm \chi^2$, equation \ref{eq:SigCE_2}. To observe any discrepancy we test the analytic solution against the observed variance of a simulated tritium spectrum. Figure \ref{fig:T_Var} shows the result of the analytic solution vs. the observed variance in several bin widths. The analytic solution is sufficient to first order, we ignore second order corrections in this analysis. [add table showing the tiny difference in variance]. 
 
 \begin{figure}[h!]\centering

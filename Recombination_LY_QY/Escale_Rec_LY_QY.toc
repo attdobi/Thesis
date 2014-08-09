@@ -12,20 +12,20 @@
 \contentsline {subsection}{\numberline {3.4}Measuring the Fano Factor in Bins of Energy}{22}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Application to $\rm ^{83}Kr$}{22}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Application to Tritium Data (Will go after Section 4 where the Smearing Model is discussed)}{24}{subsection.3.6}
-\contentsline {section}{\numberline {4}Correcting the Tritium Spectral Shape for Finite Resolution (Out of Date)}{25}{section.4}
-\contentsline {subsection}{\numberline {4.1}Calculating the Observed Energy}{27}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Smearing a Toy Spectrum}{30}{subsection.4.2}
+\contentsline {section}{\numberline {4}Correcting the Tritium Spectral Shape for Finite Resolution (Out of Date)}{27}{section.4}
+\contentsline {subsection}{\numberline {4.1}Calculating the Observed Energy}{30}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Smearing a Toy Spectrum}{31}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Correcting the Tritium S1 Mean}{31}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Correcting the Tritium S2 Mean}{32}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Correcting the Tritium S2 Mean}{33}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Correcting the Tritium Energy Spectrum}{33}{subsection.4.5}
-\contentsline {section}{\numberline {5}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{35}{section.5}
-\contentsline {subsection}{\numberline {5.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{36}{subsection.5.1}
-\contentsline {section}{\numberline {6}Scintillation Yield and Ionization Yield from Tritium Beta Decay}{37}{section.6}
-\contentsline {subsection}{\numberline {6.1}Cuts used in this analysis}{37}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Results at 180 [V/cm], Corrected for Spectral Shape}{37}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Results at 100 [V/cm], Corrected for Spectral Shape}{37}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Compared With recent Compton Scattering Measurement}{37}{subsection.6.4}
-\contentsline {section}{\numberline {7}Fixing the Low Energy Tritium `Pile Up' }{39}{section.7}
-\contentsline {section}{\numberline {8}Discrimination vs E and S1}{41}{section.8}
-\contentsline {subsection}{\numberline {8.1}Discrimination vs. S1}{41}{subsection.8.1}
-\contentsline {subsection}{\numberline {8.2}Discrimination vs. Combined Energy}{41}{subsection.8.2}
+\contentsline {section}{\numberline {5}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{36}{section.5}
+\contentsline {subsection}{\numberline {5.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{37}{subsection.5.1}
+\contentsline {section}{\numberline {6}Scintillation Yield and Ionization Yield from Tritium Beta Decay}{38}{section.6}
+\contentsline {subsection}{\numberline {6.1}Cuts used in this analysis}{38}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Results at 180 [V/cm], Corrected for Spectral Shape}{38}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Results at 100 [V/cm], Corrected for Spectral Shape}{38}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Compared With recent Compton Scattering Measurement}{38}{subsection.6.4}
+\contentsline {section}{\numberline {7}Fixing the Low Energy Tritium `Pile Up' }{40}{section.7}
+\contentsline {section}{\numberline {8}Discrimination vs E and S1}{42}{section.8}
+\contentsline {subsection}{\numberline {8.1}Discrimination vs. S1}{42}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Discrimination vs. Combined Energy}{42}{subsection.8.2}
