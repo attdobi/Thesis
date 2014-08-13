@@ -11,6 +11,7 @@
 \usepackage[font=normalsize]{caption}
 \usepackage{mathtools}
 \usepackage{relsize}
+\usepackage{cancel}
 \addtolength{\oddsidemargin}{-.875in}
 \addtolength{\evensidemargin}{-.875in}
 \addtolength{\textwidth}{1.75in}
@@ -57,7 +58,7 @@
 
 Attila Dobi
 
-Aug-05-2014
+Aug-13-2014
 \end{center}
 
 
@@ -279,7 +280,6 @@ With the values of g1 and g2 known the combined energy of events can be reconstr
 \caption{Combined energy scale. a) The xenon activation lines from early in the run. b) $\rm^{137}Cs$ calibration data. c) Xenon X-ray from the teflon skin (radium cut increased to the detector edge). d) Xenon X-ray and $\rm^{133}Xe$ at 81 keV, due to low stats was not used for fitting.}
 \label{fig:CE_hist}
 \end{figure}
-
 
 
 
@@ -514,31 +514,31 @@ We begin the treatment of binning with the the case of having a finite bin width
 
 \begin{equation}
 \begin{split}
-\rm M = tan(\theta_{n_{\gamma_{stat}}})=\frac{\sigma_{n_{\gamma_{stat}}}^2}{\sigma_{n_{\gamma_{stat}}}^2+ \sigma_{n_{\gamma_{stat}}}^2} \\
-\rm 1-M = tan(\theta_{n_{e_{stat}}})=\frac{\sigma_{n_{e_{stat}}}^2}{\sigma_{n_{\gamma_{stat}}}^2+ \sigma_{n_{\gamma_{stat}}}^2} 
+\rm M = tan(\theta_{n_{\gamma_{Det}}})=\frac{\sigma_{n_{\gamma_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{\gamma_{Det}}}^2} \\
+\rm 1-M = tan(\theta_{n_{e_{Det}}})=\frac{\sigma_{n_{e_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{\gamma_{Det}}}^2} 
 \label{eq:Angle}
 \end{split}
 \end{equation}
 
 
-With the slope between combined energy and $\rm \sigma_{n_{\gamma_{stat}}}$ and between energy and $\rm \sigma_{n_{e_{stat}}}$ defined in equation \ref{eq:Angle} the value of the shared statistical uncertainty in combined energy space can be determined. We first treat the case of $\rm \Delta E$ = 0 in equation \ref{eq:SigCE}.
+With the slope between combined energy and $\rm \sigma_{n_{\gamma_{Det}}}$ and between energy and $\rm \sigma_{n_{e_{Det}}}$ defined in equation \ref{eq:Angle} the value of the shared statistical uncertainty in combined energy space can be determined. We first treat the case of $\rm \Delta E$ = 0 in equation \ref{eq:SigCE} which is also valid when the centroid of light yield and change yield has been subtracted (discussed later).
 
 \begin{equation}
-\rm \chi_{stat}^2= M^2\sigma_{n_{e_{stat}}}^2 + (1-M)^2\sigma_{n_{\gamma_{stat}}}^2
+\rm \chi_{Det}^2= M^2\sigma_{n_{e_{Det}}}^2 + (1-M)^2\sigma_{n_{\gamma_{Det}}}^2
 \label{eq:SigCE}
 \end{equation}
 
 
-The variable $\rm \chi$ is used to represent the observed $\rm \sigma$ when dealing in bins of combined energy. Let's briefly consider the implication of equation \ref{eq:SigCE}. For the case of $\rm \sigma_{n_{e_{stat}}}^2 = \sigma_{n_{\gamma_{stat}}}^2$, M=0.5, resulting in $\rm \sigma_{n_{e_{stat}}}^2=\sigma_{n_{\gamma_{stat}}}^2= \chi_{stat}^2$. This case can be thought of as sweeping out equal variance from the statistical population which would for a circle as illustrated in Figure \ref{fig:Recomb}. For the case of $\rm \sigma_{n_{e_{stat}}}^2 \neq \sigma_{n_{\gamma_{stat}}}^2$ the observed statistical variance in a slice of combined energy will become less than the variance of the best channel. Specifically for the LUX detector the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will collapse to less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
+The variable $\rm \chi$ is used to represent the observed $\rm \sigma$ when dealing in bins of combined energy. Let's briefly consider the implication of equation \ref{eq:SigCE}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{\gamma_{Det}}}^2$, M=0.5, resulting in $\rm \sigma_{n_{e_{Det}}}^2=\sigma_{n_{\gamma_{Det}}}^2= \chi_{Det}^2$. This case can be thought of as sweeping out equal variance from the statistical population which would for a circle as illustrated in Figure \ref{fig:Recomb}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 \neq \sigma_{n_{\gamma_{Det}}}^2$ the observed statistical variance in a slice of combined energy will become less than the variance of the best channel. Specifically for the LUX detector the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will collapse to less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
 
 
-To complete the treatment of binned energy in this section we now add the final piece to the observed statistical variance, the contribution from the bin width $\rm \Delta_E$. The residual variance arrises from rotating the population of 2D gaussian about the bin center, the rotation having a slope of M or (1-M) as given in equation \ref{eq:Angle}. 
+To complete the treatment of binned energy in this section we now add the final piece to the observed statistical variance, the contribution from the bin width $\rm \Delta_E$. The residual variance arrises from rotating the population of 2D gaussian about the bin center, the rotation having a slope of M or (1-M) as given in equation \ref{eq:Angle}. Note, the residual term from the slope can also be removed by centroid subtraction of the photons and electrons vs. energy as discussed later in section \ref{sec:Centroid}, in that case we are only left with $\chi_{Det}^2$ shared between the two channels.
 
 
 \begin{equation}
 \begin{split}
-\rm \chi_{n_{\gamma_{stat}}}^2= \chi_{stat}^2 + \frac{(MW\Delta_E)^2}{12}\\
-\rm \chi_{n_{e_{stat}}}^2= \chi_{stat}^2 + \frac{((1-M)W\Delta_E)^2}{12}\\
+\rm \chi_{n_{\gamma_{Det}}}^2= \chi_{Det}^2 + \frac{(MW\Delta_E)^2}{12}\\
+\rm \chi_{n_{e_{Det}}}^2= \chi_{Det}^2 + \frac{((1-M)W\Delta_E)^2}{12}\\
 \label{eq:SigCE_2}
 \end{split}
 \end{equation}
@@ -551,53 +551,44 @@ Were $\chi^2$ is defined in \ref{eq:SigCE}, M is given in equation \ref{eq:Angle
  
 \begin{equation}
 \begin{split}
-\rm \chi_{n_\gamma}^2 = \sigma_{n_{ex}}^2 + n_iF(r)^2 + \sigma_{r}^2 n_i^2 + \chi_{n_{\gamma_{stat}}}^2 \\
-\rm \chi_{n_e}^2  = n_iF(1-r)^2 + \sigma_{r}^2 n_i^2 + \chi_{n_{e_{stat}}}^2
+\rm \chi_{n_\gamma}^2 = \sigma_{n_{ex}}^2 + n_iF(r)^2 + \sigma_{r}^2 n_i^2 + \chi_{n_{\gamma_{Det}}}^2 \\
+\rm \chi_{n_e}^2  = n_iF(1-r)^2 + \sigma_{r}^2 n_i^2 + \chi_{n_{e_{Det}}}^2
 \label{eq:Sig_total_CE}
 \end{split}
 \end{equation}
 
 
-In equation \ref{eq:Sig_total_CE} we have defined the observed spread in quanta $\rm \chi$ for $\rm n_\gamma, n_e$ when working with bins of combined energy. In the limit that F, $\rm \sigma_{n_{ex}}^2$ and $\rm \Delta_E$ go to zero the observed variance in number of photons and electrons ($\rm \chi_{n_\gamma}$ and $\rm \chi_{n_e}$) are related to the size of recombination fluctuations in a given combined energy bin, equation \ref{eq:SigR_CE_lim}. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
+In equation \ref{eq:Sig_total_CE} we have defined the observed standard deviation in units of quanta $\rm \chi$ for $\rm n_\gamma, n_e$ when working with bins of combined energy. In the limit that F, $\rm \sigma_{n_{ex}}^2$ and $\rm \Delta_E$ go to zero the observed variance in number of photons and electrons ($\rm \chi_{n_\gamma}$ and $\rm \chi_{n_e}$) are related to the size of recombination fluctuations in a given combined energy bin, equation \ref{eq:SigR_CE_lim}. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
 
 \begin{equation}
 \begin{split}
-\rm \sigma_{R_\gamma}^2 = \chi_{n_\gamma}^2 - \chi_{n_{\gamma_{stat}}}^2  \\
-\rm \sigma_{R_e}^2 = \chi_{n_e}^2 - \chi_{n_{e_{stat}}}^2
+\rm \sigma_{R_\gamma}^2 = \chi_{n_\gamma}^2 - \chi_{n_{\gamma_{Det}}}^2  \\
+\rm \sigma_{R_e}^2 = \chi_{n_e}^2 - \chi_{n_{e_{Det}}}^2
 \label{eq:SigR_CE_lim}
 \end{split}
 \end{equation}
 
-We have arrived at the conclusion of this section, armed with equation \ref{eq:SigR_CE_lim} we now have two methods for determining the size of recombination fluctuations, $\rm\sigma_{R}^2$ where the subscript $\rm \gamma$ or e is used to represent the channel of quanta used for the calculation. Either the observed variance in the light and charge channel can be used to measure the size of recombination fluctuation in a bin of energy. Any discrepancy between the two methods has implications which are discussed in the following subsection.
-
-\subsection{Centriod Subtraction}
-%ref Partrick
-%This will be demonstrated later (or maybe show it in the simulation)
-Adapting the equation of the previous section to continuous energy spectra requires that the centriod of a continue spectrum be subtracted off so that the variance from the light yield or charge yield vs. energy is removed.
-...
+We have arrived at the conclusion of this section, armed with equation \ref{eq:SigR_CE_lim} we now have two methods for determining the size of recombination fluctuations, $\rm\sigma_{R}^2$ where the subscript $\rm \gamma$ or e is used to represent the channel of quanta used for the calculation. Either the observed variance in the light and charge channel can be used to measure the size of recombination fluctuation in a bin of energy. Any asymmetry between the two methods has implications which are discussed in the following subsection.
 
 
 \subsection{Measuring the Fano Factor in Bins of Energy}
 
-
-There are three terms in equation \ref{eq:Sig_total_CE} that give rise to an asymmetry between the observed variance $\rm \chi_{n_\gamma}^2$ and $\rm \chi_{n_e}^2$. The small difference in the statistical component can be solved for exactly leaving just the Fano factor F and $\rm \sigma_{n_{ex}}^2$. By taking the difference of $\rm \chi_{n_\gamma}^2$ and $\rm \chi_{n_e}^2$ the variance from recombination drops out along with most of the statistical variance leaving only the Fano factor and the variance in number of exitons, given in equation \ref{eq:Sig_total_CE}.
+There are three terms in equation \ref{eq:Sig_total_CE} that give rise to an asymmetry between the observed variance $\rm \sigma_{R_\gamma}^2$  and  $\rm \sigma_{R_e}^2$. The small difference in variance from the slope can be solved for exactly leaving just the Fano factor F and $\rm \sigma_{n_{ex}}^2$. By taking the difference of variance in the two channels component of recombination variance drops out leaving only the Fano factor and the variance in number of exitons, given in equation \ref{eq:Sig_total_CE}.
 
 \begin{equation}
-\rm \chi_{n_\gamma}^2 - \chi_{n_e}^2 = \sigma_{n_{ex}}^2 + n_iF(2r-1) + \delta_{stat}
+\rm \sigma_{R_\gamma}^2 - \sigma_{R_e}^2 = \sigma_{n_{ex}}^2 + n_iF(2r-1) 
 \label{eq:Diff_X}
 \end{equation}
 
-F is the Fano factor, equation \ref{eq:Energy_2}, $\rm \sigma_{n_{ex}}^2$ is the variance of the number of exitons produced and r is the recombination fraction, equation \ref{eq:Quanta}. The value of $\delta_{stat}$ is the small residual depending on the bin width $\rm \Delta_E$, equation \ref{eq:Residual_Stat}.
+F is the Fano factor, equation \ref{eq:Energy_2}, $\rm \sigma_{n_{ex}}^2$ is the variance of the number of exitons produced and r is the recombination fraction, equation \ref{eq:Quanta}. %The value of $\delta_{Det}$ is the small residual depending on the bin width $\rm \Delta_E$, equation \ref{eq:Residual_Stat}.
+%\begin{equation}
+%\rm \delta_{Det}= \sigma_{R_\gamma}^2 - \sigma_{R_e}^2 = \frac{(1-2M)(W\Delta_E)^2}{12}\\
+%\label{eq:Residual_Stat}
+%\end{equation}
+Consider the case such that variance in the number of exitons $\rm \sigma_{n_{ex}}^2$ is much less than the contribution from the Fano factor. In such a regime we can solve for the Fano factor, potentially energy dependent, from equations \ref{eq:Diff_X}.
 
 \begin{equation}
-\rm \delta_{stat}= \chi_{n_{\gamma_{stat}}}^2 - \chi_{n_{e_{stat}}}^2 = \frac{(2M-1)(W\Delta_E)^2}{12}\\
-\label{eq:Residual_Stat}
-\end{equation}
-
-Consider the case such that variance in the number of exitons $\rm \sigma_{n_{ex}}^2$ is much less than the contribution from the Fano factor. In such a regime we can solve for the Fano factor, potentially energy dependent, from equations \ref{eq:Diff_X} and \ref{eq:Residual_Stat}.
-
-\begin{equation}
-\rm F(E)=\frac{\chi_{n_\gamma}^2 - \chi_{n_e}^2 - \delta_{stat}}{n_i(2r-1)}
+\rm F(E)=\frac{\sigma_{R_\gamma}^2 - \sigma_{R_e}^2}{n_i(2r-1)}
 \begin{cases} \rm r \neq \frac{1}{2}\\
 \end{cases}
 \label{eq:Fano}
@@ -609,7 +600,7 @@ There is an underlying subtlety to equation \ref{eq:Fano}. Remarkably, in the li
 When $ \rm r = \frac{1}{2}$ the coefficient in front of the Fano factor becomes zero in equation \ref{eq:Diff_X}. At this value an equal contribution from the Fano factor goes into the variance $\rm \chi^2$ of photons and electrons, allowing for the smaller value of $\rm \sigma_{ex}^2$ to be extracted. 
 
 \begin{equation}
-\rm \sigma_{n_{ex}}^2=\chi_{n_\gamma}^2 - \chi_{n_e}^2 - \delta_{stat}
+\rm \sigma_{n_{ex}}^2=\sigma_{R_\gamma}^2 - \sigma_{R_e}^2
 \begin{cases} \rm r= \frac{1}{2} || \sigma_{n_{ex}}^2 > > n_iF(2r-1)\\
 \end{cases}
 \label{eq:SigmaEx}
@@ -670,7 +661,7 @@ Having demonstrated the method for a mono energetic calibration source the next 
 \begin{center}
 \begin{tabular}{|c||c|c|c|c|c|c|}
 \hline
-$\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{stat}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{stat}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
+$\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{Det}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{Det}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
 (Quanta) & (keV) & & (Quanta) & (Quanta) & (Quanta) & (Quanta)\\ \hline
 82.4 $\pm$ 4.0		& 0.025		& 1518 		& 87.2 $\pm$ 2.9	 	&	87.1 $\pm$ 2.9	& 0.010 $\pm$ 0.002     & 5.8 $\pm$ 0.5 \\ \hline
 					& 0.05 		& 3124 		& 85.0 $\pm$ 2.0	 	&	84.9 $\pm$ 2.0	& 0.005 $\pm$ 0.003	& 3.8 $\pm$ 1.1 \\ \hline
@@ -685,74 +676,90 @@ $\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\
 \end{table}
 
 
-\subsection{Application to Tritium Data (Will go after Section 4 where the Smearing Model is discussed)}
+\subsection{Application to Tritium Data (any continus spectrum)}
+
+%ref Partrick
+%This will be demonstrated later (or maybe show it in the simulation)
+Adapting the equation of the previous section to continuous energy spectra requires that the centriod of a continue spectrum be subtracted off so that the variance from the light yield or charge yield vs. energy is removed.
+...
 
 After applying the Smearing Model of Section 4 we apply the method described in this section to extract recombination fluctuations form the tritium data.
 
-In this subsection we test method outlined in section \ref{flucs_mono_bins} for dealing in bins of combined energy when applied to the tritium beta spectrum. To first order the treatment of the continuous spectrum is identical to that outlined for the mono energetic source. Figure \ref{fig:T_Stat} shows a tritium spectrum smeared with only intrinsic detector resolution, the figure is analogous to Figure \ref{fig:Recomb}. As the bin size around a value of combined energy is squeezed to zero the statistical variance in the number of photons and electrons converge, the value is given by equation \ref{eq:SigCE_2}. Whereas, regardless of bin size recombination fluctuations remain since they move along lines of constant energy. 
-The tritium spectral shape may cause a perturbation to the analytic solution for observed variance $\rm \chi^2$, equation \ref{eq:SigCE_2}. To observe any discrepancy we test the analytic solution against the observed variance of a simulated tritium spectrum. Figure \ref{fig:T_Var} shows the result of the analytic solution vs. the observed variance in several bin widths. The analytic solution is sufficient to first order, we ignore second order corrections in this analysis. [add table showing the tiny difference in variance]. 
+In this subsection we test method outlined in section \ref{sec:flucs_mono_bins} for dealing in bins of combined energy specifically applied to the tritium beta spectrum, but the method outlined can be used for any continue spectrum. To first order the treatment of the continuous spectrum is identical to that outlined for the mono energetic source as outlined previously in subsection \ref{sec:flucs_mono_bins}. Figure \ref{fig:T_Stat} illustrates a tritium beta spectrum convolved with detector resolution similar to that measured for the LUX detector, the figure is analogous to Figure \ref{fig:Recomb}. As the bin size around a value of combined energy is squeezed to zero the statistical variance in the number of photons and electrons converge, the value is given by equation \ref{eq:SigCE_2}. Whereas, regardless of bin size recombination fluctuations remain since they move along lines of constant energy. In order to adapt the methodology developed for a mono energetic source to a continuous energy spectra requires that the centriod of the light and charge yield be subtracted off. The slope in the light and charge channels from the fundamental yield  induce a further variance on top of $\rm \chi_{Det}$ from the population in an energy bin being tilted as demonstrated in figure \ref{fig:SIM_LYQY}. For the purposes of this study, we find it sufficient to fit a quadratic form to the centroid of the entire population and subtract off the local slope from the measured variance. An analogous methods for centriod subtraction to extract recombination fluctuations are described in detail in [Patrick's Thesis].
+
+
 
 \begin{figure}[h!]\centering
-\includegraphics[width=150mm]{Figures/EX_T_Fano.png}
+\includegraphics[width=130mm]{Figures/EX_T_Fano.png}
 \caption{Illustration of statistical variance for the tritium beta spectrum, recombination fluctuations are set to 0. This plot is analogous to Figure \ref{fig:Recomb} which illustrates the case for the mono energetic $\rm ^{83m}Kr$ decay. Recombination fluctuation move along lines of constant energy, S1 statistical fluctuation move vertically and S2 statistical fluctuations move horizontally. }
 \label{fig:T_Stat}
 \end{figure}
 
+\begin{figure}[h!]\centering
+\includegraphics[width=80mm]{Figures/T_SIM/n_e_180_.png}
+\includegraphics[width=80mm]{Figures/T_SIM/n_photon_180_.png}
+\caption{Illustration of statistical variance for the tritium beta spectrum, recombination fluctuations are set to 0. This plot is analogous to Figure \ref{fig:Recomb} which illustrates the case for the mono energetic $\rm ^{83m}Kr$ decay. Recombination fluctuation move along lines of constant energy, S1 statistical fluctuation move vertically and S2 statistical fluctuations move horizontally. }
+\label{fig:SIM_LYQY}
+\end{figure}
+
 %Add centriod subtracted equation. Explain that even if S1, S2 Det are off we can do as good as the best channel (S2) due to X_Det. As long as SigR is greater, since they add in quadrature.
 
+
+
+\subsection{Centriod Subtraction}
+\label{sec:Centroid}
+For the case of a continuous source we expand upon the result from section \ref{sec:flucs_mono_bins} where the additional variance from detector resolution was calculated in an given energy bin as $\rm \chi_{n_{\gamma_{Det}}}^2$ and $\rm \chi_{n_{e_{Det}}}^2$. When dealing with a continuous source we must subtract off the centroid of the number of photons and electron vs. energy to remove additional variance induced by the slope. What results is a common variance from detector resolution shared by both the charge and light channel in each bin of energy, defined as $\rm \chi_{Det}^2$ = $\rm \chi_{n_{\gamma_{Det}}}^2$ = $\rm \chi_{n_{e_{Det}}}^2$ equation \ref{eq:SigR_Cent}. The value of $\rm \chi_{Det}$ is derived in \ref{eq:Centroid} for a small variation in $\rm n_e$ around combined energy, and is identical to that derived for the case of the mono energetic source in equation \ref{eq:SigCE}. This is analogous to saying that the centroid subtraction is removing the additional variance from the slope of light field and charge yield. The centroid subtraction can be calculated to first order for a mono energetic source with the slope of  $\rm n_e$ with respect to $\rm n_\gamma + n_e$ is (1-M), given in \ref{eq:Angle}. To demonstrate the method the measured detector resolution and a test recombination fluctuation input into a tritium simulation. The result is shown in figure \ref{fig:T_Var} for various energy bin widths. We see that as long as the recombination is greater than $\rm \chi_{Det}$, which is being added in quadrature, the value of recombination can be determined to good precision using the method. The small deviation observed around the first and last bins is due to the spectral shape, a correction for spectral shape will be discussed in the next section and will improve the measurement of $\rm \sigma_R$.
+
+\begin{equation}
+\begin{split}
+\rm \sigma_{R_\gamma}^2 = \chi_{n_\gamma}^2 - \chi_{Det}}^2  \\
+\rm \sigma_{R_e}^2 = \chi_{n_e}^2 - \chi_{Det}}^2
+\label{eq:SigR_Cent}
+\end{split}
+\end{equation}
+
+
+
+\begin{multline}\\
+\delta[\Delta n_e] = \delta[n_e] - \delta\left[\left<n_e\right>_{n_e+n_\gamma}\right]  \\
+= \cancelto{1}{\frac{dn_e}{dn_e}} \delta[n_e] + \cancelto{0}{\frac{dn_e}{dn_\gamma}} \delta[n_\gamma] - \delta \left[\left<n_e\right>_{n_e+n_\gamma}\right] \\
+= \delta[n_e] - \frac{d \left<n_e\right> }{d(n_e+n_\gamma)} \frac{d(n_e+n_\gamma)}{dn_e} \delta[n_e] - \frac{d\left<n_e\right>}{d(n_e+n_\gamma)} \frac{d(n_e+n_\gamma)}{dn_\gamma} \delta[n_\gamma] \\
+\delta[\Delta n_e] = \delta[n_e] - \left(\delta[n_\gamma] + \delta[n_e]\right) \frac{d\left<n_e+n_\gamma\right>}{d\left(n_e+n_\gamma\right)} \\
+\delta[\Delta n_e] = (M)\delta[n_e] - (1-M) \delta[n_\gamma] \\
+\chi_{Det}^2 = Var(\Delta n_e) = (M)^2\delta^2[n_e] + (1-M)^2\delta^2[n_\gamma]-2M(1-M) \cancelto{0}{\delta[n_e]\delta[n_\gamma]} \\
+\label{eq:Centroid}
+\end{multline}
+
+
+
+The tritium spectral shape may cause a perturbation to the analytic solution for observed variance $\rm \chi^2$, equation \ref{eq:SigCE_2}. To observe any discrepancy we test the analytic solution against the observed variance of a simulated tritium spectrum. Figure \ref{fig:T_Var} shows the result of the analytic solution vs. the observed variance in several bin widths. The analytic solution is sufficient to first order, we ignore second order corrections in this analysis. [add table showing the tiny difference in variance].  After correcting observables for the tritium beta spectral shape (discussed in Section 4) we will be ready to use the tools of this section to decouple detector resolution and measure recombination fluctuations from the tritium data
+
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/SIM_stat_T_10Fano.eps}
-\includegraphics[width=80mm]{Figures/SIM_stat_T_25Fano.eps}
-\includegraphics[width=80mm]{Figures/SIM_stat_T_50Fano.eps}
-\includegraphics[width=80mm]{Figures/SIM_stat_T_100Fano.eps}
-\caption{The analytic variance calculated from equation \ref{eq:SigCE_2} vs. the observed statistical variance for a simulated tritium spectrum at several bin widths ($\Delta_E$. }
+ 
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_10.eps}}
+\hfill
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_25.eps}}
+
+
+\bigskip
+
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_50.eps}}
+\hfill
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_100.eps}}
+
+
+\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_Det}$ and $\rm \sigma_{S2_Det}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in [KeV]: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
 \label{fig:T_Var}
-\end{figure}
-% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
-
-After correcting observables for the tritium beta spectral shape (discussed in Section 4) we will be ready to use the tools of this section to decouple detector resolution and measure recombination fluctuations from the tritium data.... Even set a limit on the Fano factor while we're at it.
+\end{figure}% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
 
 
-The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctuation) that needs to be input into the smearing model, the statistical part from detector resolution remains fixed. Figure \ref{fig:R_T} show the optimal value of $\rm \sigma_R$ being extracted from the tritium data, starting with an initial guess based on the recombination fluctuation measured from the $\rm^{83m}Kr$ data.
-
-\begin{comment}
-
-\begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/R_.eps}
-\caption{Extracting $\rm \sigma_R$ from the tritium data. }
-\label{fig:R_T}
-\end{figure}
-
-
-\begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/quanta_Fano.png}
-\includegraphics[width=80mm]{Figures/R_Fano.png}
-\caption{Recombination fraction and its corresponding one sigma. $\rm \sigma_r=\sigma_R/n_{ions}$ .}
-\label{fig:R_T}
-\end{figure}
-
-
-\begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/Dahl_fig_Fano.eps}
-\caption{Recombination fraction. }
-\label{fig:R_T}
-\end{figure}
-
-\begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/Fano_T_Fano.eps}
-\caption{Fano factor extracted from tritium data. Calculated from difference between $\rm \sigma_{R_\gamma}$ and $\rm \sigma_{R_e}$, see equation \ref{eq:Fano}. We find F = -0.01 $\pm$ 0.07, with the theoretical value in liquid xenon being F=0.05. \cite{FanoTheoretical}. }
-\label{fig:R_T}
-\end{figure}
-
-\end{comment}
-
-%% Show plot similar to F(E)
 \newpage
 \section{Correcting the Tritium Spectral Shape for Finite Resolution}
 \label{sec:Smear}
 
 The goal of the following two sections is to extract light yield, charge yield and recombination fluctuations from the tritium spectrum using the methods described in section \ref{sec:flucs_mono_bins}. The first step is to use the NEST model in an attempt to undue the effect of the tritium spectral shape and finite detector resolution, described in this section. We find that the light yield and charge yields extracted from the data deviate too much to apply the correction factor. Since the correction is found to be small we can proceed to extract new LY, QY and $\rm \sigma R$ from the tritium data without correction building a model that better reproduces the data than the NEST model (which has yet to be vetted at our electric field and energy). We then take that improved model and apply the correction.
  
+%The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctuation) that needs to be input into the smearing model, the statistical part from detector resolution remains fixed. Figure \ref{fig:R_T} show the optimal value of $\rm \sigma_R$ being extracted from the tritium data, starting with an initial guess based on the recombination fluctuation measured from the $\rm^{83m}Kr$ data.
 
 The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the functional form resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2},\ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
 \begin{multline}
