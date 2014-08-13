@@ -472,10 +472,12 @@ Equations \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} gives us a method to measure re
 
 Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} along with the measurements of g1 g2, we construct a combined energy and deconvolve the recombination fluctuations from variances in the light and charge channel of the detector. The result is shown in figure \ref{fig:E_dis}, the black white and red lines represent $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}}$, respectively for sources listed in Table \ref{table:Cal_lines}. A variance with a linear and root term is fit to the data and used to extract instrumental fluctuations and constrain the statistical fluctuations. The linear term corresponds to instrumental fluctuations and the root term corresponds to statistical fluctuations. Instrumental fluctuations go like the signal size and may potentially be due to ripples in the liquid surface caused by xenon bubbles or other systematics that are unaccounted for. The root term should result purely from counting photo electrons, described earlier. We find:
 
+
 \begin{equation}
 \begin{split}
 \rm  \sigma_{n_{\gamma_{Det}}}^2 = \sigma_{n_{\gamma_{Stat}}}^2 + \sigma_{n_{\gamma_{Inst}}}^2 =\left(0 \pm10\cdot \sqrt{n_\gamma}\right)^2 + \left((6.4\pm1.8)/100\cdot n_\gamma\right)^2 \\
-\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{e_{Stat}}}^2 + \sigma_{n_{e_{Inst}}}^2 = \left(1\pm4\cdot \sqrt{n_e}\right)^2 + \left((6.6\pm0.6)/100\cdot n_e\right)^2
+\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{e_{Stat}}}^2 + \sigma_{n_{e_{Inst}}}^2 = \left(1\pm4\cdot \sqrt{n_e}\right)^2 + \left((6.6\pm0.6)/100\cdot n_e\right)^2 \\
+\rm \sigma_R^2=   \left((5.5\pm0.5)/100\cdot n_q\right)^2
 \label{eq:Inst_Fit}
 \end{split}
 \end{equation}
@@ -689,6 +691,7 @@ The tritium spectral shape may cause a perturbation to the analytic solution for
 \label{fig:T_Stat}
 \end{figure}
 
+%Add centriod subtracted equation. Explain that even if S1, S2 Det are off we can do as good as the best channel (S2) due to X_Det. As long as SigR is greater, since they add in quadrature.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{Figures/SIM_stat_T_10Fano.eps}
@@ -698,11 +701,14 @@ The tritium spectral shape may cause a perturbation to the analytic solution for
 \caption{The analytic variance calculated from equation \ref{eq:SigCE_2} vs. the observed statistical variance for a simulated tritium spectrum at several bin widths ($\Delta_E$. }
 \label{fig:T_Var}
 \end{figure}
+% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
 
 After correcting observables for the tritium beta spectral shape (discussed in Section 4) we will be ready to use the tools of this section to decouple detector resolution and measure recombination fluctuations from the tritium data.... Even set a limit on the Fano factor while we're at it.
 
 
 The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctuation) that needs to be input into the smearing model, the statistical part from detector resolution remains fixed. Figure \ref{fig:R_T} show the optimal value of $\rm \sigma_R$ being extracted from the tritium data, starting with an initial guess based on the recombination fluctuation measured from the $\rm^{83m}Kr$ data.
+
+\begin{comment}
 
 \begin{figure}[h!]\centering
 \includegraphics[width=100mm]{Figures/R_.eps}
@@ -731,13 +737,17 @@ The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctu
 \label{fig:R_T}
 \end{figure}
 
-
+\end{comment}
 
 %% Show plot similar to F(E)
 \newpage
-\section{Correcting the Tritium Spectral Shape for Finite Resolution (Out of Date)}
+\section{Correcting the Tritium Spectral Shape for Finite Resolution}
+\label{sec:Smear}
 
-The distribution of tritium events convolved with finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the resolution. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2},\ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
+The goal of the following two sections is to extract light yield, charge yield and recombination fluctuations from the tritium spectrum using the methods described in section \ref{sec:flucs_mono_bins}. The first step is to use the NEST model in an attempt to undue the effect of the tritium spectral shape and finite detector resolution, described in this section. We find that the light yield and charge yields extracted from the data deviate too much to apply the correction factor. Since the correction is found to be small we can proceed to extract new LY, QY and $\rm \sigma R$ from the tritium data without correction building a model that better reproduces the data than the NEST model (which has yet to be vetted at our electric field and energy). We then take that improved model and apply the correction.
+ 
+
+The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the functional form resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2},\ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
 \begin{multline}
 \\ \rm c_i=\frac{N_i \times \Delta x}{\sigma_i\sqrt{2\pi}} \\
 \rm G_{i}(x) = c_i \times exp\left(\frac{-(x-\mu_i)^2}{2\sigma_i^2}\right)\\
@@ -815,70 +825,72 @@ Figure \ref{fig:Toy_Linear} shows the effect of the finite resolution on a linea
 \end{figure}
 
 
+\section{Measuring LQ, QY and Recombination, Uncorrected for Spectral shape}
 
-\subsection{Correcting the Tritium S1 Mean}
 
-The correction for the mean of the measured light yield, S1 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S1 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean. The resolution of S1 was determined empirically from X-ray and $\rm^{83}Kr$ gammas, see table \ref{table:Var}. The use of Gaussian error down to low S1 is an acceptable approximation since underlying distribution actually consists of the number of photons, $\rm n_\gamma = \frac{S1}{g1}$. With g1=0.138 there are still 15 photons near the S1 threshold of 2 [Phe], thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
-Using equation \ref{eq:Fano} and \ref{eq:Gain} we can solve for the the spread in S1 as a function of S1 and its corresponding energy \ref{eq:S1_res}. The spread in S1 is the result of the variation in the recombination fluctuations at a given energy, thus it requires an energy dependent coefficient F(E).
+\subsection{Tritium S1 Mean and NEST}
+
+The correction for the mean of the measured light yield, S1 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S1 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean. The resolution of S1 was determined from statistical and  instrumental fluctuations and is given in equation \ref{eq:SigStat} and \ref{eq:SigInst}. The use of Gaussian error down to low S1 is an acceptable approximation since underlying distribution actually consists of the number of photons, $\rm n_\gamma = \frac{S1}{g1}$. With g1=0.097 there are still 20 photons near the S1 threshold of 2 [Phe], thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
+The variance in S1 is the result of recombination fluctuations, statistical fluctuations and instrumental fluctuations at a given energy. The functional form of all three have been previously measured and can be extrapolated for use with the tritium spectrum. The first step is to use the expected light yields from NEST along with the measured smearing from recombination and detector resolution to extract a correction factor for the observed S1 signal. Having a priori knowledge of light yields will allow for the spectral shape to be corrected or can at least be used to approximate an error when we go to extract the light yield and recombination fluctuations from the tritium beta spectrum.
+
 \begin{equation}
- \rm \sigma_{S1}=F(E)\sqrt{S1\times g1}
+ \rm \sigma_{S1}^2=g_1^2(\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{\gamma_{inst}}}^2+\sigma_R^2)
 \label{eq:S1_res}
 \end{equation}
 
-Figure \ref{fig:S1_mapping} shows the application of smearing applied to the S1 tritium spectrum. The shift in the spectral shape, back and red, is hardly noticeable however, the shift in observed mean from the real mean is non negligible.
-
+Figure \ref{fig:S1_mapping} shows the application of smearing  from equation \ref{eq:S1_res} applied to the expected S1 tritium spectrum from NEST overlaid with the data. The mapping for converting the observed S1 to the real S1 is shown in figure \ref{fig:S1_mapping}. To calculate the correction we start with the NEST light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Having calculated the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:sig_Stat}) we can apply the smearing as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1_comp_smear_LUX_SIM_Tritium}
+\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_spec_compare_.eps}
 %\includegraphics[width=80mm]{Figures/S1_smear_comp}
-\includegraphics[width=80mm]{Figures/S1_corr_.eps}
+\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_corr_.eps}
 \caption{Top: In Black, a simulated tritium photon spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 2 Phe in S1. }
 \label{fig:S1_mapping}
 \end{figure}
 
 
-\subsection{Correcting the Tritium S2 Mean}
+\subsection{Tritium S2 Mean and NEST}
 
-The correction for the mean of the measured light yield, S1 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S2 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean.  The energy resolution of S1 was determined empirically to be $\rm \sigma_{S1} = 10.6 \sqrt{S2} $, from $\rm^{83}Kr$ the combined gammas at 41.6 [keV]. The use of Gaussian error down to low S2 is an acceptable approximation since the S2 spectrum ends at 300 [Phe], $\rm n_e = \frac{S2}{g2}$. With g2=6.54 there are still 20 electrons near end of the tritium spectrum, thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
-Using equation \ref{eq:Fano} and \ref{eq:Gain} we can solve for the the spread in S2 as a function of S2 and its corresponding energy \ref{eq:S2_res}. The spread in S2 is the result of the variation in the recombination fluctuations at a given energy, thus it requires an energy dependent coefficient F(E).
+The correction for the mean of the measured charge yield, S2 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S2 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean.  The resolution of S2 was determined from statistical and  instrumental fluctuations and is given in equation \ref{eq:SigStat} and \ref{eq:SigInst}. The use of Gaussian error down to low S2 is an acceptable approximation since the S2 spectrum ends at 300 [Phe], $\rm n_e = \frac{S2}{g2}$. With g2=5.75 there are still 50 electrons near end of the tritium spectrum, thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
+As in the case of the light yield, the variance in S2 is the result of recombination fluctuations, statistical fluctuations and instrumental fluctuations at a given energy. The functional form of all three have been previously measured and can be extrapolated for use with the tritium spectrum. We first use the expected charge yields from NEST along with the measured smearing from recombination and detector resolution to extract a correction factor for the observed S2 signal. Having a priori knowledge of light yields will allow for the spectral shape to be corrected or can at least be used to approximate an error when we go to extract the charge yield and recombination fluctuations  from the tritium beta spectrum.
 
 \begin{equation}
- \rm \sigma_{S2}=F(E)\sqrt{S2\times g2}
+ \rm \sigma_{S2}^2=g_2^2(\sigma_{n_{e_{stat}}}^2+\sigma_{n_{e_{inst}}}^2+\sigma_R^2)
 \label{eq:S2_res}
 \end{equation}
 
 
-Figure \ref{fig:S2_mapping} shows the application of smearing applied to the S2 tritium spectrum. 
+Figure \ref{fig:S2_mapping} shows the application of smearing from equation \ref{eq:S2_res} applied to the S2 tritium spectrum expected from NEST overlaid with the data. As with the S1 spectrum the correction is calculated using NEST for charge yield with the measured g2 applied, convolve it with a tritium beta spectrum and using our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S2 space. Having calculated the dependance of detector resolution vs. the number of photons of a given event (equation \ref{sig_Stat}) we can apply the smearing as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons. From the S2 spectrum, which is more peaked than the S1, we see the ~20\% discrepancy with the NEST charge yield model but it may also be an indication of the error in g1 and g2.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S2_comp_smear_LUX_SIM_Tritium}
-\includegraphics[width=80mm]{Figures/S2_corr.eps}
+\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_spec_.eps}
+\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_corr_.eps}
 \caption{Top: In Black, a simulated tritium electron spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium electron spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium electron spectrum. Note the S2 threshold is around 500 Phe, due to the S1 threshold at 2 Phe.}
 \label{fig:S2_mapping}
 \end{figure}
 
 
-\subsection{Correcting the Tritium Energy Spectrum}
+\subsection{Tritium Energy Spectrum}
 
-The mapping of the observed energy to real energy was determined using a full simulation of tritium beta decay. The accuracy of the smearing model described in equations \ref{eq:1}-\ref{eq:5} can be tested by comparingit against the energy observed after a full NEST simulation. The energy depends on both S1 and S2 thus, mapping observed energy to true energy my be non trivial. Again, we start with a simulated tritium energy spectrum with infinite resolution and apply the empirically determined resolution in equation \ref{eq:E_res}, measured with $\rm^{127}Xe$ X-rays and $\rm ^{83m}Kr$ calibrations. Figure \ref{fig:E_spec} shows the comparison of smearing model vs true energy along with the smearing after running full photon and electron propagation in LUXSIM vs the true energy. The smearing form the model described in equations \ref{eq:1}-\ref{eq:5} is almost identical to the output of LUXSIM. The energy spectrum flares out at low energy, is pulled in from 5-10 [keV] and again flares out slightly above 15 [keV]. It is important to note that the change in the spectral shape is hardly noticeable, as was the case with S1 and somewhat with S2. Figure \ref{fig:E_mapping} shows the results for mapping observed energy to real energy using both smearing methods. The two methods show good agreement down to the threshold of 1.5 [keV], the agreement with simulation is always within 1\%. Below 2 [keV] the model predicts the ratio of true energy to observed energy to rise as there are greater number of events at higher energy spilling over to lower energy, the simulation however does not show this behavior leading to a 5\% discrepancy in the 1 [keV] bin. We take the difference between the smearing model and LUXSIM as a systematic uncertainty. 
+The mapping of the observed energy to real energy was determined using a full simulation of tritium beta decay. The accuracy of the smearing model described in equations \ref{eq:1}-\ref{eq:5} can be tested by comparing it against the energy observed after a full NEST simulation. The energy depends on both S1 and S2 thus, mapping observed energy to true energy my be non trivial. Again, we start with a simulated tritium energy spectrum with infinite resolution and apply the empirically determined resolution in equation \ref{eq:E_res}, measured with $\rm^{127}Xe$ X-rays and $\rm ^{83m}Kr$ calibrations. Figure \ref{fig:E_spec} shows the comparison of smearing model vs true energy along with the smearing after running full photon and electron propagation in LUXSIM vs the true energy. The smearing form the model described in equations \ref{eq:1}-\ref{eq:5} is almost identical to the output of LUXSIM. The energy spectrum flares out at low energy, is pulled in from 5-10 [keV] and again flares out slightly above 15 [keV]. It is important to note that the change in the spectral shape is hardly noticeable, as was the case with S1 and somewhat with S2. Figure \ref{fig:E_mapping} shows the results for mapping observed energy to real energy using both smearing methods. The two methods show good agreement down to the threshold of 1.5 [keV], the agreement with simulation is always within 1\%. Below 2 [keV] the model predicts the ratio of true energy to observed energy to rise as there are greater number of events at higher energy spilling over to lower energy, the simulation however does not show this behavior leading to a 5\% discrepancy in the 1 [keV] bin. We take the difference between the smearing model and LUXSIM as a systematic uncertainty. 
 
-Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the the spread in E as a function energy \ref{eq:E_res}. F(E) is the measure of the variance in recombination fluctuations, with values interpolated from table \ref{table:Var}. W=73 [$\rm \frac{N_{quanta}}{keV}$].
+Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the the spread in E as a function energy \ref{eq:E_res}. $\rm a_\gamma$ and $\rm a_e$ are the coefficients in front of the root n term on the $\rm n_\gamma$ and $\rm n_e$ statistical variance . W=73 [$\rm \frac{N_{quanta}}{keV}$].
 
 \begin{gather}
 \label{eq:E_res1} \rm E= \frac{1}{W}(n_\gamma + n_{e^-}) \\
  \rm \sigma E^2= \frac{1}{W^2}(\sigma n_\gamma ^2 + \sigma n_{e^-} ^2)\\ 
- \rm \sigma E^2= \frac{1}{W^2}(F(E)^2 n_\gamma + F(E)^2 n_{e^-})\\
- \rm \sigma E^2= \frac{F(E)^2}{W}\frac{(n_\gamma + n_{e^-})}{W}\\
- \rm \sigma E^2= \frac{F(E)^2}{W}E\\
-  \rm \sigma E= \frac{F(E)}{\sqrt{W}}\sqrt{E}
+ \rm \sigma E^2= \frac{1}{W^2}(a_\gamma^2 n_\gamma + a_e^2 n_{e^-})\\
+ \rm \sigma E^2= \frac{(a_\gamma+a_e)^2}{W}\frac{(n_\gamma + n_{e^-})}{W}\\
+ \rm \sigma E^2= \frac{(a_\gamma+a_e)^2}{W}E\\
+  \rm \sigma E= \frac{(a_\gamma+a_e)}{\sqrt{W}}\sqrt{E}
 \label{eq:E_res}
 \end{gather}
 
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/E_comp_smear_LUX_SIM_Tritium.eps}
-\includegraphics[width=80mm]{Figures/E_hist_LUX_SIM_Tritium.eps}
+\includegraphics[width=80mm]{Figures/E_Spec/E_spec_compare_SIM.eps}
+\includegraphics[width=80mm]{Figures/E_Spec/E_spec_compare_SIM_log_.eps}
 \caption{MC vs. Data, with detector threshold. And smeared MC vs all MC without a detector threshold. }
 \label{fig:E_spec}
 \end{figure}
@@ -887,8 +899,37 @@ Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the
  \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{Figures/E_density_LUX_SIM_Tritium.eps}
 \includegraphics[width=80mm]{Figures/E_corr.eps}
-\caption{Left, mapping from real Monte Carlo energy to observed energy after applying a finite resolution using LUXSIM. Right, comparing the correction determined from the Monte Carlo (Red) to the smearing model (black). The dashed lines represent the uncertainty in the measured value of F(E). The agreement is within errors from 1 to 18 keVee. The Energy threshold is near 1.0 keVee.}
+\caption{Left, mapping from real Monte Carlo energy to observed energy after applying a finite resolution using LUXSIM. Right, comparing the correction determined from the Monte Carlo (Red) to the detector smearing model (black) given in equation \ref{eq:E_res}. The dashed lines represent the uncertainty in the measured value of F(E). The agreement is within errors from 1 to 18 keVee. The Energy threshold is near 1.0 $\rm keV_{ee}$.}
 \label{fig:E_mapping}
+\end{figure}
+
+\subsection{LY, QY, $\rm \sigma R$ Result}
+
+ It is found that the S1 and S2 spectral shape is not a good match with the light yield model from NEST, thus applying a correction to the observed means using NEST is not prudent. Fortunately, we see that both in the S1 and S2 region of interest were the majority of the tritium events occur the spectral shape correction is less than 10\%. Further, the reconstructed energy, uncorrected for spectral shape, is go to within 10\% as well. Knowing this we can move forward with extracting a more accurate light yield and recombination fluctuation accepting the small error in order to create a more accurate model than NEST to which then we can apply the spectral shape correction.
+
+% Need to talk about centriod subtraction, and how the mean and variance is defined. ... Fit a second degree polynomial to remove the slope from LY, QY... left with M ...
+ \begin{figure}[h!]\centering
+\includegraphics[width=82mm]{Figures/Iter0/n_electron_180_LY_QY_0.png}
+\includegraphics[width=82mm]{Figures/Iter0/n_photon_180_LY_QY_0.png}
+\caption{The data, assuming our g1g2}
+\label{fig:LYQY_0}
+\end{figure}
+
+ \begin{figure}[h!]\centering
+\includegraphics[width=82mm]{Figures/LYQY/LY_180_1sigBand_.png}
+\includegraphics[width=82mm]{Figures/LYQY/QY_180_1sigBand_.png}
+\caption{Light yield and charge yield from tritium data without spectral shape correction.}
+\label{fig:LYQY_0}
+\end{figure}
+
+
+ \begin{figure}[h!]\centering
+ \includegraphics[width=100mm]{Figures/Iter0/std_fig_.eps}
+ \includegraphics[width=82mm]{Figures/Iter0/quanta_LY_QY_0.png}
+ \includegraphics[width=82mm]{Figures/Iter0/R_LY_QY_0.png}
+
+\caption{Extracting recombintion.}
+\label{fig:Rec_0}
 \end{figure}
 
 \newpage

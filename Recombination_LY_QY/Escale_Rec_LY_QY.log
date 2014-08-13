@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  9 AUG 2014 17:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  12 AUG 2014 23:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -407,13 +407,7 @@ LaTeX Warning: Label `fig:1d' multiply defined.
 LaTeX Warning: Label `sub@fig:1d' multiply defined.
 
 
-LaTeX Warning: Label `fig:R_T' multiply defined.
-
-
-LaTeX Warning: Label `fig:R_T' multiply defined.
-
-
-LaTeX Warning: Label `fig:R_T' multiply defined.
+LaTeX Warning: Label `fig:LYQY_0' multiply defined.
 
 
 LaTeX Warning: Label `fig:Dis_S1' multiply defined.
@@ -501,7 +495,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 \openout4 = `Escale_Rec_LY_QY.toc'.
 
  [2]
-<Figures/Tom_Shutt_ER_diagram.png, id=176, 307.8702pt x 154.176pt>
+<Figures/Tom_Shutt_ER_diagram.png, id=187, 307.8702pt x 154.176pt>
 File: Figures/Tom_Shutt_ER_diagram.png Graphic file (type png)
 
 <use Figures/Tom_Shutt_ER_diagram.png>
@@ -512,7 +506,7 @@ Package pdftex.def Info: Figures/Tom_Shutt_ER_diagram.png used on input line 82
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] <Figures/S1S2_density_Kr_Cs_fit.png, id=207, 572.1375pt x 437.2335pt>
+[4] <Figures/S1S2_density_Kr_Cs_fit.png, id=217, 572.1375pt x 437.2335pt>
 File: Figures/S1S2_density_Kr_Cs_fit.png Graphic file (type png)
 
 <use Figures/S1S2_density_Kr_Cs_fit.png>
@@ -520,7 +514,7 @@ Package pdftex.def Info: Figures/S1S2_density_Kr_Cs_fit.png used on input line
 145.
 (pdftex.def)             Requested size: 227.62204pt x 173.94958pt.
 
-<Figures/S1S2_density_XeA_fit.png, id=208, 554.07pt x 438.438pt>
+<Figures/S1S2_density_XeA_fit.png, id=218, 554.07pt x 438.438pt>
 File: Figures/S1S2_density_XeA_fit.png Graphic file (type png)
 
 <use Figures/S1S2_density_XeA_fit.png>
@@ -538,7 +532,7 @@ verted-to.pdf Figures/S1S2_Doke_1.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S1S2_Doke_1-eps-converted-to.pdf, id=211, 570.13pt x 416.55624pt>
+<Figures/S1S2_Doke_1-eps-converted-to.pdf, id=221, 570.13pt x 416.55624pt>
 File: Figures/S1S2_Doke_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/S1S2_Doke_1-eps-converted-to.pdf>
@@ -558,7 +552,7 @@ verted-to.pdf Figures/S1S2_Doke_3.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S1S2_Doke_3-eps-converted-to.pdf, id=226, 570.13pt x 416.55624pt>
+<Figures/S1S2_Doke_3-eps-converted-to.pdf, id=236, 570.13pt x 416.55624pt>
 File: Figures/S1S2_Doke_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/S1S2_Doke_3-eps-converted-to.pdf>
@@ -578,7 +572,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S1_163.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf, id=244, 502.87875pt x 410.5
+<Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf, id=254, 502.87875pt x 410.5
 3375pt>
 File: Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -598,7 +592,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S1_207.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf, id=245, 502.87875pt x 404.5
+<Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf, id=255, 502.87875pt x 404.5
 1125pt>
 File: Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -618,7 +612,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S1_236.eps>
 (epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf, id=246, 502.87875pt x 401.5
+<Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf, id=256, 502.87875pt x 401.5
 pt>
 File: Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -638,7 +632,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S1_410.eps>
 (epstopdf)             \includegraphics on input line 186.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf, id=247, 502.87875pt x 401.5
+<Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf, id=257, 502.87875pt x 401.5
 pt>
 File: Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -658,7 +652,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf, id=248, 502.87875pt x 401
+<Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf, id=258, 502.87875pt x 401
 .5pt>
 File: Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -678,7 +672,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf, id=249, 522.95375pt x 401
+<Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf, id=259, 522.95375pt x 401
 .5pt>
 File: Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -698,7 +692,7 @@ _50-eps-converted-to.pdf Figures/Doke_Fits/fit_S1_Kr_50.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf, id=250, 522.95375pt x 401
+<Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf, id=260, 522.95375pt x 401
 .5pt>
 File: Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -718,7 +712,7 @@ _100-eps-converted-to.pdf Figures/Doke_Fits/fit_S1_Kr_100.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf, id=251, 533.995pt x 401.
+<Figures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf, id=261, 533.995pt x 401.
 5pt>
 File: Figures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf Graphic file (type p
 df)
@@ -738,7 +732,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf, id=252, 522.95375pt x 401.5p
+<Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf, id=262, 522.95375pt x 401.5p
 t>
 File: Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf>
@@ -761,7 +755,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S2_163.eps>
 (epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf, id=253, 502.87875pt x 404.5
+<Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf, id=263, 502.87875pt x 404.5
 1125pt>
 File: Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -781,7 +775,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S2_207.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf, id=254, 502.87875pt x 404.5
+<Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf, id=264, 502.87875pt x 404.5
 1125pt>
 File: Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -801,7 +795,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S2_236.eps>
 (epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf, id=255, 502.87875pt x 404.5
+<Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf, id=265, 502.87875pt x 404.5
 1125pt>
 File: Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -821,7 +815,7 @@ Package epstopdf Info: Source file: <Figures/Doke_Fits/fit_S2_410.eps>
 (epstopdf)             \includegraphics on input line 215.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf, id=256, 512.91624pt x 404.5
+<Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf, id=266, 512.91624pt x 404.5
 1125pt>
 File: Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -841,7 +835,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_Bi214-eps-converted-to.pdf, id=257, 502.87875pt x 404
+<Figures/Doke_Fits/fit_S2_Bi214-eps-converted-to.pdf, id=267, 502.87875pt x 404
 .51125pt>
 File: Figures/Doke_Fits/fit_S2_Bi214-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -861,7 +855,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 219.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_Cs137-eps-converted-to.pdf, id=258, 512.91624pt x 404
+<Figures/Doke_Fits/fit_S2_Cs137-eps-converted-to.pdf, id=268, 512.91624pt x 404
 .51125pt>
 File: Figures/Doke_Fits/fit_S2_Cs137-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -881,7 +875,7 @@ _50-eps-converted-to.pdf Figures/Doke_Fits/fit_S2_Kr_50.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_Kr_50-eps-converted-to.pdf, id=259, 522.95375pt x 401
+<Figures/Doke_Fits/fit_S2_Kr_50-eps-converted-to.pdf, id=269, 522.95375pt x 401
 .5pt>
 File: Figures/Doke_Fits/fit_S2_Kr_50-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -901,7 +895,7 @@ _100-eps-converted-to.pdf Figures/Doke_Fits/fit_S2_Kr_100.eps>
 (epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_Kr_100-eps-converted-to.pdf, id=260, 522.95375pt x 40
+<Figures/Doke_Fits/fit_S2_Kr_100-eps-converted-to.pdf, id=270, 522.95375pt x 40
 8.52625pt>
 File: Figures/Doke_Fits/fit_S2_Kr_100-eps-converted-to.pdf Graphic file (type p
 df)
@@ -921,7 +915,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf, id=261, 522.95375pt x 401.5p
+<Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf, id=271, 522.95375pt x 401.5p
 t>
 File: Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf>
@@ -932,7 +926,7 @@ on input line 227.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/S1S2_Doke2_3_arrow.png, id=263, 570.02963pt x 416.45587pt>
+<Figures/S1S2_Doke2_3_arrow.png, id=273, 570.02963pt x 416.45587pt>
 File: Figures/S1S2_Doke2_3_arrow.png Graphic file (type png)
 
 <use Figures/S1S2_Doke2_3_arrow.png>
@@ -950,7 +944,7 @@ t_S1_410-eps-converted-to.pdf> <./Figures/Doke_Fits/fit_S1_Bi214-eps-converted-
 to.pdf> <./Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf> <./Figures/Doke
 _Fits/fit_S1_Kr_50-eps-converted-to.pdf> <./Figures/Doke_Fits/fit_S1_Kr_100-eps
 -converted-to.pdf> <./Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf>]
-<Figures/MCMC/triangle.png, id=332, 374.3586pt x 374.3586pt>
+<Figures/MCMC/triangle.png, id=342, 374.3586pt x 374.3586pt>
 File: Figures/MCMC/triangle.png Graphic file (type png)
 
 <use Figures/MCMC/triangle.png>
@@ -983,7 +977,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Combined_E/Xe_act_E-eps-converted-to.pdf, id=389, 540.0175pt x 405.515
+<Figures/Combined_E/Xe_act_E-eps-converted-to.pdf, id=399, 540.0175pt x 405.515
 pt>
 File: Figures/Combined_E/Xe_act_E-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Combined_E/Xe_act_E-eps-converted-to.pdf>
@@ -1002,7 +996,7 @@ df>
 (epstopdf)             \includegraphics on input line 269.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Combined_E/Cs_E-eps-converted-to.pdf, id=390, 543.02875pt x 405.515pt>
+<Figures/Combined_E/Cs_E-eps-converted-to.pdf, id=400, 543.02875pt x 405.515pt>
 File: Figures/Combined_E/Cs_E-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/Combined_E/Cs_E-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Combined_E/Cs_E-eps-converted-to.pdf used on i
@@ -1020,7 +1014,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Combined_E/Xe_act_133_E-eps-converted-to.pdf, id=391, 495.8525pt x 405
+<Figures/Combined_E/Xe_act_133_E-eps-converted-to.pdf, id=401, 495.8525pt x 405
 .515pt>
 File: Figures/Combined_E/Xe_act_133_E-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1040,7 +1034,7 @@ _E-eps-converted-to.pdf Figures/Combined_E/X-ray_Xe_E.eps>
 (epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf, id=392, 525.965pt x 405.51
+<Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf, id=402, 525.965pt x 405.51
 5pt>
 File: Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1062,7 +1056,7 @@ rted-to.pdf Figures/bottom_SE.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/bottom_SE-eps-converted-to.pdf, id=419, 603.25375pt x 461.725pt>
+<Figures/bottom_SE-eps-converted-to.pdf, id=429, 603.25375pt x 461.725pt>
 File: Figures/bottom_SE-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/bottom_SE-eps-converted-to.pdf>
@@ -1082,20 +1076,17 @@ Package epstopdf Info: Source file: <Figures/All_disc.eps>
 (epstopdf)                    size: 306409 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/All_disc-eps-conver
 ted-to.pdf Figures/All_disc.eps>
-(epstopdf)             \includegraphics on input line 484.
+(epstopdf)             \includegraphics on input line 486.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/All_disc-eps-converted-to.pdf, id=499, 569.12625pt x 438.63875pt>
+<Figures/All_disc-eps-converted-to.pdf, id=509, 569.12625pt x 438.63875pt>
 File: Figures/All_disc-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/All_disc-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/All_disc-eps-converted-to.pdf used on input li
-ne 484.
+ne 486.
 (pdftex.def)             Requested size: 341.43306pt x 263.1585pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [17]
 Package epstopdf Info: Source file: <Figures/fluc_E.eps>
 (epstopdf)                    date: 2014-08-03 20:46:20
 (epstopdf)                    size: 12313 bytes
@@ -1104,14 +1095,15 @@ Package epstopdf Info: Source file: <Figures/fluc_E.eps>
 (epstopdf)                    size: 10029 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fluc_E-eps-converte
 d-to.pdf Figures/fluc_E.eps>
-(epstopdf)             \includegraphics on input line 490.
+(epstopdf)             \includegraphics on input line 492.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/fluc_E-eps-converted-to.pdf, id=500, 538.01pt x 415.5525pt>
+
+<Figures/fluc_E-eps-converted-to.pdf, id=518, 538.01pt x 415.5525pt>
 File: Figures/fluc_E-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fluc_E-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/fluc_E-eps-converted-to.pdf used on input line
- 490.
+ 492.
 (pdftex.def)             Requested size: 227.62204pt x 175.81169pt.
 Package epstopdf Info: Source file: <Figures/fluc_Q.eps>
 (epstopdf)                    date: 2014-08-03 20:46:20
@@ -1121,41 +1113,37 @@ Package epstopdf Info: Source file: <Figures/fluc_Q.eps>
 (epstopdf)                    size: 16322 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fluc_Q-eps-converte
 d-to.pdf Figures/fluc_Q.eps>
-(epstopdf)             \includegraphics on input line 491.
+(epstopdf)             \includegraphics on input line 493.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/fluc_Q-eps-converted-to.pdf, id=501, 527.9725pt x 414.54875pt>
+<Figures/fluc_Q-eps-converted-to.pdf, id=519, 527.9725pt x 414.54875pt>
 File: Figures/fluc_Q-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fluc_Q-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/fluc_Q-eps-converted-to.pdf used on input line
- 491.
+ 493.
 (pdftex.def)             Requested size: 227.62204pt x 178.72057pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17] [18 <./Figures/All_disc-eps-converted-to.pdf> <./Figures/fluc_E-eps-conver
-ted-to.pdf> <./Figures/fluc_Q-eps-converted-to.pdf>]
-<Figures/EX_Stat_Fano.png, id=555, 578.16pt x 434.1018pt>
+ [18 <./Figures/All_disc-eps-converted-to.pdf> <./Figures/fluc_E-eps-converted-
+to.pdf> <./Figures/fluc_Q-eps-converted-to.pdf>] <Figures/EX_Stat_Fano.png, id=
+565, 578.16pt x 434.1018pt>
 File: Figures/EX_Stat_Fano.png Graphic file (type png)
 
 <use Figures/EX_Stat_Fano.png>
-Package pdftex.def Info: Figures/EX_Stat_Fano.png used on input line 506.
+Package pdftex.def Info: Figures/EX_Stat_Fano.png used on input line 508.
 (pdftex.def)             Requested size: 426.79134pt x 320.4487pt.
 
-<Figures/EX_R_Fano.png, id=556, 544.73512pt x 437.2335pt>
+<Figures/EX_R_Fano.png, id=566, 544.73512pt x 437.2335pt>
 File: Figures/EX_R_Fano.png Graphic file (type png)
 
 <use Figures/EX_R_Fano.png>
-Package pdftex.def Info: Figures/EX_R_Fano.png used on input line 507.
+Package pdftex.def Info: Figures/EX_R_Fano.png used on input line 509.
 (pdftex.def)             Requested size: 227.62204pt x 182.70277pt.
 
-<Figures/EX_Kr_Fano.png, id=557, 544.73512pt x 437.2335pt>
+<Figures/EX_Kr_Fano.png, id=567, 544.73512pt x 437.2335pt>
 File: Figures/EX_Kr_Fano.png Graphic file (type png)
 
 <use Figures/EX_Kr_Fano.png>
-Package pdftex.def Info: Figures/EX_Kr_Fano.png used on input line 508.
+Package pdftex.def Info: Figures/EX_Kr_Fano.png used on input line 510.
 (pdftex.def)             Requested size: 227.62204pt x 182.70277pt.
 
 
@@ -1173,30 +1161,30 @@ Overfull \vbox (2.15147pt too high) has occurred while \output is active []
 s/EX_Kr_Fano.png>] [21]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 614.
+(hyperref)                removing `math shift' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 614.
+(hyperref)                removing `superscript' on input line 616.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 614.
+(hyperref)                removing `math shift' on input line 616.
 
 [22] [23]
-Overfull \hbox (3.10693pt too wide) in paragraph at lines 662--673
+Overfull \hbox (3.10693pt too wide) in paragraph at lines 664--675
  [] 
  []
 
 
 LaTeX Warning: Reference `flucs_mono_bins' on page 24 undefined on input line 6
-83.
+85.
 
-[24] <Figures/EX_T_Fano.png, id=649, 540.5796pt x 411.939pt>
+[24] <Figures/EX_T_Fano.png, id=659, 540.5796pt x 411.939pt>
 File: Figures/EX_T_Fano.png Graphic file (type png)
 
 <use Figures/EX_T_Fano.png>
-Package pdftex.def Info: Figures/EX_T_Fano.png used on input line 687.
+Package pdftex.def Info: Figures/EX_T_Fano.png used on input line 689.
 (pdftex.def)             Requested size: 426.79134pt x 325.23337pt.
 Package epstopdf Info: Source file: <Figures/SIM_stat_T_10Fano.eps>
 (epstopdf)                    date: 2014-03-30 21:01:27
@@ -1207,15 +1195,15 @@ Package epstopdf Info: Source file: <Figures/SIM_stat_T_10Fano.eps>
 (epstopdf)                    size: 13518 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_10Fano-e
 ps-converted-to.pdf Figures/SIM_stat_T_10Fano.eps>
-(epstopdf)             \includegraphics on input line 694.
+(epstopdf)             \includegraphics on input line 697.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/SIM_stat_T_10Fano-eps-converted-to.pdf, id=652, 523.9575pt x 406.51875
+<Figures/SIM_stat_T_10Fano-eps-converted-to.pdf, id=662, 523.9575pt x 406.51875
 pt>
 File: Figures/SIM_stat_T_10Fano-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/SIM_stat_T_10Fano-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SIM_stat_T_10Fano-eps-converted-to.pdf used on
- input line 694.
+ input line 697.
 (pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
 Package epstopdf Info: Source file: <Figures/SIM_stat_T_25Fano.eps>
 (epstopdf)                    date: 2014-03-30 21:01:38
@@ -1226,15 +1214,15 @@ Package epstopdf Info: Source file: <Figures/SIM_stat_T_25Fano.eps>
 (epstopdf)                    size: 10971 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_25Fano-e
 ps-converted-to.pdf Figures/SIM_stat_T_25Fano.eps>
-(epstopdf)             \includegraphics on input line 695.
+(epstopdf)             \includegraphics on input line 698.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/SIM_stat_T_25Fano-eps-converted-to.pdf, id=653, 523.9575pt x 406.51875
+<Figures/SIM_stat_T_25Fano-eps-converted-to.pdf, id=663, 523.9575pt x 406.51875
 pt>
 File: Figures/SIM_stat_T_25Fano-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/SIM_stat_T_25Fano-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SIM_stat_T_25Fano-eps-converted-to.pdf used on
- input line 695.
+ input line 698.
 (pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
 Package epstopdf Info: Source file: <Figures/SIM_stat_T_50Fano.eps>
 (epstopdf)                    date: 2014-03-30 21:01:46
@@ -1245,15 +1233,15 @@ Package epstopdf Info: Source file: <Figures/SIM_stat_T_50Fano.eps>
 (epstopdf)                    size: 9914 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_50Fano-e
 ps-converted-to.pdf Figures/SIM_stat_T_50Fano.eps>
-(epstopdf)             \includegraphics on input line 696.
+(epstopdf)             \includegraphics on input line 699.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/SIM_stat_T_50Fano-eps-converted-to.pdf, id=654, 523.9575pt x 406.51875
+<Figures/SIM_stat_T_50Fano-eps-converted-to.pdf, id=664, 523.9575pt x 406.51875
 pt>
 File: Figures/SIM_stat_T_50Fano-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/SIM_stat_T_50Fano-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SIM_stat_T_50Fano-eps-converted-to.pdf used on
- input line 696.
+ input line 699.
 (pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
 Package epstopdf Info: Source file: <Figures/SIM_stat_T_100Fano.eps>
 (epstopdf)                    date: 2014-03-30 21:01:54
@@ -1264,207 +1252,127 @@ o.pdf>
 (epstopdf)                    size: 9252 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/SIM_stat_T_100Fano-
 eps-converted-to.pdf Figures/SIM_stat_T_100Fano.eps>
-(epstopdf)             \includegraphics on input line 697.
+(epstopdf)             \includegraphics on input line 700.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/SIM_stat_T_100Fano-eps-converted-to.pdf, id=655, 523.9575pt x 406.5187
+<Figures/SIM_stat_T_100Fano-eps-converted-to.pdf, id=665, 523.9575pt x 406.5187
 5pt>
 File: Figures/SIM_stat_T_100Fano-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/SIM_stat_T_100Fano-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SIM_stat_T_100Fano-eps-converted-to.pdf used o
-n input line 697.
+n input line 700.
 (pdftex.def)             Requested size: 227.62204pt x 176.59851pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[25 <./Figures/EX_T_Fano.png>]
-Package epstopdf Info: Source file: <Figures/R_.eps>
-(epstopdf)                    date: 2014-03-31 09:08:09
-(epstopdf)                    size: 27017 bytes
-(epstopdf)             Output file: <Figures/R_-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-31 10:36:46
-(epstopdf)                    size: 19926 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/R_-eps-converted-to
-.pdf Figures/R_.eps>
-(epstopdf)             \includegraphics on input line 708.
-Package epstopdf Info: Output file is already uptodate.
 
-<Figures/R_-eps-converted-to.pdf, id=666, 506.89375pt x 409.53pt>
-File: Figures/R_-eps-converted-to.pdf Graphic file (type pdf)
+LaTeX Warning: Reference `fig:R_T' on page 25 undefined on input line 709.
 
-<use Figures/R_-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/R_-eps-converted-to.pdf used on input line 708
-.
-(pdftex.def)             Requested size: 284.52756pt x 229.87889pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/quanta_Fano.png, id=667, 526.1256pt x 436.5108pt>
-File: Figures/quanta_Fano.png Graphic file (type png)
-
-<use Figures/quanta_Fano.png>
-Package pdftex.def Info: Figures/quanta_Fano.png used on input line 715.
-(pdftex.def)             Requested size: 227.62204pt x 188.85492pt.
-
-<Figures/R_Fano.png, id=668, 520.344pt x 435.0654pt>
-File: Figures/R_Fano.png Graphic file (type png)
- <use Figures/R_Fano.png>
-Package pdftex.def Info: Figures/R_Fano.png used on input line 716.
-(pdftex.def)             Requested size: 227.62204pt x 190.32071pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <Figures/Dahl_fig_Fano.eps>
-(epstopdf)                    date: 2014-03-31 09:46:32
-(epstopdf)                    size: 16341 bytes
-(epstopdf)             Output file: <Figures/Dahl_fig_Fano-eps-converted-to.pdf
->
-(epstopdf)                    date: 2014-03-31 10:49:06
-(epstopdf)                    size: 11488 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/Dahl_fig_Fano-eps-c
-onverted-to.pdf Figures/Dahl_fig_Fano.eps>
-(epstopdf)             \includegraphics on input line 723.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/Dahl_fig_Fano-eps-converted-to.pdf, id=669, 523.9575pt x 432.61626pt>
-File: Figures/Dahl_fig_Fano-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/Dahl_fig_Fano-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Dahl_fig_Fano-eps-converted-to.pdf used on inp
-ut line 723.
-(pdftex.def)             Requested size: 341.43306pt x 281.91676pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package epstopdf Info: Source file: <Figures/Fano_T_Fano.eps>
-(epstopdf)                    date: 2014-03-31 10:27:02
-(epstopdf)                    size: 9820 bytes
-(epstopdf)             Output file: <Figures/Fano_T_Fano-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-31 10:49:06
-(epstopdf)                    size: 7790 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/Fano_T_Fano-eps-con
-verted-to.pdf Figures/Fano_T_Fano.eps>
-(epstopdf)             \includegraphics on input line 729.
-Package epstopdf Info: Output file is already uptodate.
-<Figures/Fano_T_Fano-eps-converted-to.pdf, id=670, 529.98pt x 409.53pt>
-File: Figures/Fano_T_Fano-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/Fano_T_Fano-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/Fano_T_Fano-eps-converted-to.pdf used on input
- line 729.
-(pdftex.def)             Requested size: 284.52756pt x 219.86188pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26 <./Figures/SIM_stat_T_10Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T_25
-Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T_50Fano-eps-converted-to.pdf> <
-./Figures/SIM_stat_T_100Fano-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
+[25 <./Figures/EX_T_Fano.png>] [26 <./Figures/SIM_stat_T_10Fano-eps-converted-t
+o.pdf> <./Figures/SIM_stat_T_25Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T
+_50Fano-eps-converted-to.pdf> <./Figures/SIM_stat_T_100Fano-eps-converted-to.pd
+f>]
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
 
  []
 
-[27 <./Figures/R_-eps-converted-to.pdf> <./Figures/quanta_Fano.png> <./Figures/
-R_Fano.png>]
-
-LaTeX Warning: Text page 28 contains only floats.
-
-[28 <./Figures/Dahl_fig_Fano-eps-converted-to.pdf> <./Figures/Fano_T_Fano-eps-c
-onverted-to.pdf>]
-<Figures/example_integral.png, id=760, 578.16pt x 434.1018pt>
+<Figures/example_integral.png, id=722, 578.16pt x 434.1018pt>
 File: Figures/example_integral.png Graphic file (type png)
 
 <use Figures/example_integral.png>
-Package pdftex.def Info: Figures/example_integral.png used on input line 751.
+Package pdftex.def Info: Figures/example_integral.png used on input line 761.
 (pdftex.def)             Requested size: 369.88582pt x 277.71823pt.
- [29 <./Figures/example_integral.png (PNG copy)>]
-
-LaTeX Font Warning: Command \Large invalid in math mode on input line 762.
-
-LaTeX Font Info:    Calculating math sizes for size <> on input line 765.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 765.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 765.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 765.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 772.
 
+[27]
+LaTeX Font Info:    Calculating math sizes for size <> on input line 775.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/lasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 775.
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 782.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <> not available
-(Font)              size <5> substituted on input line 777.
+(Font)              size <5> substituted on input line 787.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 777.
+(Font)              size <5> substituted on input line 787.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 777.
+(Font)              size <5> substituted on input line 787.
 
-[30]
+[28 <./Figures/example_integral.png (PNG copy)>]
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 799.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 809.
 
+[29]
 Package epstopdf Info: Source file: <Figures/Toy_Model_lin_const.eps>
 (epstopdf)                    date: 2014-02-09 14:44:15
 (epstopdf)                    size: 34367 bytes
@@ -1474,15 +1382,15 @@ to.pdf>
 (epstopdf)                    size: 29933 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_lin_const
 -eps-converted-to.pdf Figures/Toy_Model_lin_const.eps>
-(epstopdf)             \includegraphics on input line 810.
+(epstopdf)             \includegraphics on input line 820.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Toy_Model_lin_const-eps-converted-to.pdf, id=792, 518.93875pt x 405.51
+<Figures/Toy_Model_lin_const-eps-converted-to.pdf, id=760, 518.93875pt x 405.51
 5pt>
 File: Figures/Toy_Model_lin_const-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Toy_Model_lin_const-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Toy_Model_lin_const-eps-converted-to.pdf used 
-on input line 810.
+on input line 820.
 (pdftex.def)             Requested size: 199.16928pt x 155.63802pt.
 Package epstopdf Info: Source file: <Figures/Toy_Model_lin_dep.eps>
 (epstopdf)                    date: 2014-02-09 14:46:11
@@ -1493,15 +1401,15 @@ Package epstopdf Info: Source file: <Figures/Toy_Model_lin_dep.eps>
 (epstopdf)                    size: 43212 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_lin_dep-e
 ps-converted-to.pdf Figures/Toy_Model_lin_dep.eps>
-(epstopdf)             \includegraphics on input line 811.
+(epstopdf)             \includegraphics on input line 821.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Toy_Model_lin_dep-eps-converted-to.pdf, id=793, 518.93875pt x 405.515p
+<Figures/Toy_Model_lin_dep-eps-converted-to.pdf, id=761, 518.93875pt x 405.515p
 t>
 File: Figures/Toy_Model_lin_dep-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/Toy_Model_lin_dep-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Toy_Model_lin_dep-eps-converted-to.pdf used on
- input line 811.
+ input line 821.
 (pdftex.def)             Requested size: 199.16928pt x 155.63802pt.
 Package epstopdf Info: Source file: <Figures/Toy_Model_mean_shift.eps>
 (epstopdf)                    date: 2014-02-09 14:56:42
@@ -1512,162 +1420,162 @@ Package epstopdf Info: Source file: <Figures/Toy_Model_mean_shift.eps>
 (epstopdf)                    size: 9208 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Toy_Model_mean_shif
 t-eps-converted-to.pdf Figures/Toy_Model_mean_shift.eps>
-(epstopdf)             \includegraphics on input line 812.
+(epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Toy_Model_mean_shift-eps-converted-to.pdf, id=794, 506.89375pt x 405.5
+<Figures/Toy_Model_mean_shift-eps-converted-to.pdf, id=762, 506.89375pt x 405.5
 15pt>
 File: Figures/Toy_Model_mean_shift-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Figures/Toy_Model_mean_shift-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Toy_Model_mean_shift-eps-converted-to.pdf used
- on input line 812.
+ on input line 822.
 (pdftex.def)             Requested size: 199.16928pt x 159.33205pt.
+ [30 <./Figures/Toy_Model_lin_const-eps-converted-to.pdf> <./Figures/Toy_Model_
+lin_dep-eps-converted-to.pdf> <./Figures/Toy_Model_mean_shift-eps-converted-to.
+pdf>]
+
+LaTeX Warning: Reference `eq:sig_Stat' on page 31 undefined on input line 841.
+
+Package epstopdf Info: Source file: <Figures/S1S2_Spectra/S1_spec_compare_.eps>
+
+(epstopdf)                    date: 2014-08-12 13:25:25
+(epstopdf)                    size: 35858 bytes
+(epstopdf)             Output file: <Figures/S1S2_Spectra/S1_spec_compare_-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2014-08-12 14:54:18
+(epstopdf)                    size: 30084 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1S2_Spectra/S1_spe
+c_compare_-eps-converted-to.pdf Figures/S1S2_Spectra/S1_spec_compare_.eps>
+(epstopdf)             \includegraphics on input line 844.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to.pdf, id=804, 561.09625p
+t x 421.575pt>
+File: Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to.pdf Graphic file (
+type pdf)
+
+<use Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to
+.pdf used on input line 844.
+(pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
+Package epstopdf Info: Source file: <Figures/S1S2_Spectra/S1_corr_.eps>
+(epstopdf)                    date: 2014-08-12 13:03:02
+(epstopdf)                    size: 14236 bytes
+(epstopdf)             Output file: <Figures/S1S2_Spectra/S1_corr_-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2014-08-12 13:04:50
+(epstopdf)                    size: 9997 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1S2_Spectra/S1_cor
+r_-eps-converted-to.pdf Figures/S1S2_Spectra/S1_corr_.eps>
+(epstopdf)             \includegraphics on input line 846.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf, id=805, 561.09625pt x 421.
+575pt>
+File: Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf use
+d on input line 846.
+(pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `table:Var' on page 31 undefined on input line 821.
 
 [31]
-Package epstopdf Info: Source file: <Figures/S1_comp_smear_LUX_SIM_Tritium.eps>
 
-(epstopdf)                    date: 2014-02-23 10:11:27
-(epstopdf)                    size: 25637 bytes
-(epstopdf)             Output file: <Figures/S1_comp_smear_LUX_SIM_Tritium-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:57
-(epstopdf)                    size: 20795 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/S1_comp_smear_LUX_S
-IM_Tritium-eps-converted-to.pdf Figures/S1_comp_smear_LUX_SIM_Tritium.eps>
-(epstopdf)             \includegraphics on input line 832.
+LaTeX Warning: Reference `sig_Stat' on page 32 undefined on input line 863.
+
+Package epstopdf Info: Source file: <Figures/S1S2_Spectra/S2_spec_.eps>
+(epstopdf)                    date: 2014-08-12 13:26:51
+(epstopdf)                    size: 44825 bytes
+(epstopdf)             Output file: <Figures/S1S2_Spectra/S2_spec_-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2014-08-12 14:54:19
+(epstopdf)                    size: 31530 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1S2_Spectra/S2_spe
+c_-eps-converted-to.pdf Figures/S1S2_Spectra/S2_spec_.eps>
+(epstopdf)             \includegraphics on input line 866.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=811, 523.9575pt
- x 411.5375pt>
-File: Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (
-type pdf)
-
-<use Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to
-.pdf used on input line 832.
-(pdftex.def)             Requested size: 227.62204pt x 178.77875pt.
-Package epstopdf Info: Source file: <Figures/S1_corr_.eps>
-(epstopdf)                    date: 2014-02-23 00:01:21
-(epstopdf)                    size: 23056 bytes
-(epstopdf)             Output file: <Figures/S1_corr_-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:57
-(epstopdf)                    size: 19689 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/S1_corr_-eps-conver
-ted-to.pdf Figures/S1_corr_.eps>
-(epstopdf)             \includegraphics on input line 834.
+<Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf, id=826, 561.09625pt x 421.
+575pt>
+File: Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf use
+d on input line 866.
+(pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
+Package epstopdf Info: Source file: <Figures/S1S2_Spectra/S2_corr_.eps>
+(epstopdf)                    date: 2014-08-12 13:22:03
+(epstopdf)                    size: 16488 bytes
+(epstopdf)             Output file: <Figures/S1S2_Spectra/S2_corr_-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2014-08-12 13:22:29
+(epstopdf)                    size: 14530 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/S1S2_Spectra/S2_cor
+r_-eps-converted-to.pdf Figures/S1S2_Spectra/S2_corr_.eps>
+(epstopdf)             \includegraphics on input line 867.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S1_corr_-eps-converted-to.pdf, id=812, 511.9125pt x 411.5375pt>
-File: Figures/S1_corr_-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/S1_corr_-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/S1_corr_-eps-converted-to.pdf used on input li
-ne 834.
-(pdftex.def)             Requested size: 227.62204pt x 182.98604pt.
+<Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf, id=827, 561.09625pt x 421.
+575pt>
+File: Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf use
+d on input line 867.
+(pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32 <./Figures/Toy_Model_lin_const-eps-converted-to.pdf> <./Figures/Toy_Model_l
-in_dep-eps-converted-to.pdf> <./Figures/Toy_Model_mean_shift-eps-converted-to.p
-df>]
-Package epstopdf Info: Source file: <Figures/S2_comp_smear_LUX_SIM_Tritium.eps>
-
-(epstopdf)                    date: 2014-02-23 10:02:33
-(epstopdf)                    size: 25250 bytes
-(epstopdf)             Output file: <Figures/S2_comp_smear_LUX_SIM_Tritium-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:58
-(epstopdf)                    size: 23832 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/S2_comp_smear_LUX_S
-IM_Tritium-eps-converted-to.pdf Figures/S2_comp_smear_LUX_SIM_Tritium.eps>
-(epstopdf)             \includegraphics on input line 854.
+[32 <./Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to.pdf> <./Figures/S
+1S2_Spectra/S1_corr_-eps-converted-to.pdf>] [33 <./Figures/S1S2_Spectra/S2_spec
+_-eps-converted-to.pdf> <./Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/E_Spec/E_spec_compare_SIM.eps>
+(epstopdf)                    date: 2014-08-12 17:00:04
+(epstopdf)                    size: 16094 bytes
+(epstopdf)             Output file: <Figures/E_Spec/E_spec_compare_SIM-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2014-08-12 17:01:37
+(epstopdf)                    size: 13132 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_Spec/E_spec_compa
+re_SIM-eps-converted-to.pdf Figures/E_Spec/E_spec_compare_SIM.eps>
+(epstopdf)             \includegraphics on input line 892.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=856, 524.96124p
-t x 409.53pt>
-File: Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (
-type pdf)
- <use Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to
-.pdf used on input line 854.
-(pdftex.def)             Requested size: 227.62204pt x 177.5692pt.
-Package epstopdf Info: Source file: <Figures/S2_corr.eps>
-(epstopdf)                    date: 2014-02-23 10:04:15
-(epstopdf)                    size: 17505 bytes
-(epstopdf)             Output file: <Figures/S2_corr-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:58
-(epstopdf)                    size: 13512 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/S2_corr-eps-convert
-ed-to.pdf Figures/S2_corr.eps>
-(epstopdf)             \includegraphics on input line 855.
+<Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf, id=884, 529.98pt x 413
+.545pt>
+File: Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf Graphic file (type
+ pdf)
+ <use Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf
+ used on input line 892.
+(pdftex.def)             Requested size: 227.62204pt x 177.61264pt.
+Package epstopdf Info: Source file: <Figures/E_Spec/E_spec_compare_SIM_log_.eps
+>
+(epstopdf)                    date: 2014-08-12 17:00:39
+(epstopdf)                    size: 17675 bytes
+(epstopdf)             Output file: <Figures/E_Spec/E_spec_compare_SIM_log_-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2014-08-12 17:01:38
+(epstopdf)                    size: 13223 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/E_Spec/E_spec_compa
+re_SIM_log_-eps-converted-to.pdf Figures/E_Spec/E_spec_compare_SIM_log_.eps>
+(epstopdf)             \includegraphics on input line 893.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S2_corr-eps-converted-to.pdf, id=857, 518.93875pt x 409.53pt>
-File: Figures/S2_corr-eps-converted-to.pdf Graphic file (type pdf)
+<Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-to.pdf, id=885, 516.93124
+pt x 413.545pt>
+File: Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-to.pdf Graphic file 
+(type pdf)
 
-<use Figures/S2_corr-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/S2_corr-eps-converted-to.pdf used on input lin
-e 855.
-(pdftex.def)             Requested size: 227.62204pt x 179.63135pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./Figures/S1_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/S
-1_corr_-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `table:Var' on page 34 undefined on input line 865.
-
-[34 <./Figures/S2_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/S
-2_corr-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/E_comp_smear_LUX_SIM_Tritium.eps>
-(epstopdf)                    date: 2014-02-23 11:21:24
-(epstopdf)                    size: 12167 bytes
-(epstopdf)             Output file: <Figures/E_comp_smear_LUX_SIM_Tritium-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:58
-(epstopdf)                    size: 8906 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/E_comp_smear_LUX_SI
-M_Tritium-eps-converted-to.pdf Figures/E_comp_smear_LUX_SIM_Tritium.eps>
-(epstopdf)             \includegraphics on input line 880.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf, id=906, 524.96124pt
- x 409.53pt>
-File: Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.
-pdf used on input line 880.
-(pdftex.def)             Requested size: 227.62204pt x 177.5692pt.
-Package epstopdf Info: Source file: <Figures/E_hist_LUX_SIM_Tritium.eps>
-(epstopdf)                    date: 2014-02-23 11:03:52
-(epstopdf)                    size: 10748 bytes
-(epstopdf)             Output file: <Figures/E_hist_LUX_SIM_Tritium-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2014-02-23 22:16:59
-(epstopdf)                    size: 7766 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/E_hist_LUX_SIM_Trit
-ium-eps-converted-to.pdf Figures/E_hist_LUX_SIM_Tritium.eps>
-(epstopdf)             \includegraphics on input line 881.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf, id=907, 519.9425pt x 409.
-53pt>
-File: Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (type pd
-f)
- <use Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/E_hist_LUX_SIM_Tritium-eps-converted-to.pdf us
-ed on input line 881.
-(pdftex.def)             Requested size: 227.62204pt x 179.2814pt.
+<use Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-t
+o.pdf used on input line 893.
+(pdftex.def)             Requested size: 227.62204pt x 182.09918pt.
 Package epstopdf Info: Source file: <Figures/E_density_LUX_SIM_Tritium.eps>
 (epstopdf)                    date: 2014-02-11 16:34:15
 (epstopdf)                    size: 272481 bytes
@@ -1677,16 +1585,16 @@ erted-to.pdf>
 (epstopdf)                    size: 66820 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/E_density_LUX_SIM_T
 ritium-eps-converted-to.pdf Figures/E_density_LUX_SIM_Tritium.eps>
-(epstopdf)             \includegraphics on input line 888.
+(epstopdf)             \includegraphics on input line 900.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf, id=908, 505.89pt x 409
+<Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf, id=886, 505.89pt x 409
 .53pt>
 File: Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf Graphic file (type
  pdf)
  <use Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf
- used on input line 888.
+ used on input line 900.
 (pdftex.def)             Requested size: 227.62204pt x 184.26804pt.
 Package epstopdf Info: Source file: <Figures/E_corr.eps>
 (epstopdf)                    date: 2014-02-23 11:26:00
@@ -1696,34 +1604,124 @@ Package epstopdf Info: Source file: <Figures/E_corr.eps>
 (epstopdf)                    size: 9607 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/E_corr-eps-converte
 d-to.pdf Figures/E_corr.eps>
-(epstopdf)             \includegraphics on input line 889.
+(epstopdf)             \includegraphics on input line 901.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/E_corr-eps-converted-to.pdf, id=909, 520.94624pt x 408.52625pt>
+<Figures/E_corr-eps-converted-to.pdf, id=887, 520.94624pt x 408.52625pt>
 File: Figures/E_corr-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/E_corr-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/E_corr-eps-converted-to.pdf used on input line
- 889.
+ 901.
 (pdftex.def)             Requested size: 227.62204pt x 178.49915pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35 <./Figures/E_comp_smear_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/E_
-hist_LUX_SIM_Tritium-eps-converted-to.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 896.
+(hyperref)                removing `math shift' on input line 906.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 896.
+(hyperref)                removing `\sigma' on input line 906.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 896.
+(hyperref)                removing `math shift' on input line 906.
 
+<Figures/Iter0/n_electron_180_LY_QY_0.png, id=890, 578.16pt x 434.1018pt>
+File: Figures/Iter0/n_electron_180_LY_QY_0.png Graphic file (type png)
+
+<use Figures/Iter0/n_electron_180_LY_QY_0.png>
+Package pdftex.def Info: Figures/Iter0/n_electron_180_LY_QY_0.png used on input
+ line 912.
+(pdftex.def)             Requested size: 233.31259pt x 175.17438pt.
+
+<Figures/Iter0/n_photon_180_LY_QY_0.png, id=891, 578.16pt x 434.1018pt>
+File: Figures/Iter0/n_photon_180_LY_QY_0.png Graphic file (type png)
+
+<use Figures/Iter0/n_photon_180_LY_QY_0.png>
+Package pdftex.def Info: Figures/Iter0/n_photon_180_LY_QY_0.png used on input l
+ine 913.
+(pdftex.def)             Requested size: 233.31259pt x 175.17438pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Figures/LYQY/LY_180_1sigBand_.png, id=892, 560.0925pt x 437.2335pt>
+File: Figures/LYQY/LY_180_1sigBand_.png Graphic file (type png)
+
+<use Figures/LYQY/LY_180_1sigBand_.png>
+Package pdftex.def Info: Figures/LYQY/LY_180_1sigBand_.png used on input line 9
+19.
+(pdftex.def)             Requested size: 233.31259pt x 182.1357pt.
+
+<Figures/LYQY/QY_180_1sigBand_.png, id=893, 560.0925pt x 437.2335pt>
+File: Figures/LYQY/QY_180_1sigBand_.png Graphic file (type png)
+
+<use Figures/LYQY/QY_180_1sigBand_.png>
+Package pdftex.def Info: Figures/LYQY/QY_180_1sigBand_.png used on input line 9
+20.
+(pdftex.def)             Requested size: 233.31259pt x 182.1357pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package epstopdf Info: Source file: <Figures/Iter0/std_fig_.eps>
+(epstopdf)                    date: 2014-08-12 23:32:52
+(epstopdf)                    size: 15498 bytes
+(epstopdf)             Output file: <Figures/Iter0/std_fig_-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2014-08-12 23:36:09
+(epstopdf)                    size: 11996 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Iter0/std_fig_-eps-
+converted-to.pdf Figures/Iter0/std_fig_.eps>
+(epstopdf)             \includegraphics on input line 927.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/Iter0/std_fig_-eps-converted-to.pdf, id=894, 522.95375pt x 415.5525pt>
+File: Figures/Iter0/std_fig_-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/Iter0/std_fig_-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Iter0/std_fig_-eps-converted-to.pdf used on in
+put line 927.
+(pdftex.def)             Requested size: 284.52756pt x 226.09435pt.
+
+<Figures/Iter0/quanta_LY_QY_0.png, id=895, 578.16pt x 434.1018pt>
+File: Figures/Iter0/quanta_LY_QY_0.png Graphic file (type png)
+
+<use Figures/Iter0/quanta_LY_QY_0.png>
+Package pdftex.def Info: Figures/Iter0/quanta_LY_QY_0.png used on input line 92
+8.
+(pdftex.def)             Requested size: 233.31259pt x 175.17438pt.
+
+<Figures/Iter0/R_LY_QY_0.png, id=896, 578.16pt x 434.1018pt>
+File: Figures/Iter0/R_LY_QY_0.png Graphic file (type png)
+
+<use Figures/Iter0/R_LY_QY_0.png>
+Package pdftex.def Info: Figures/Iter0/R_LY_QY_0.png used on input line 929.
+(pdftex.def)             Requested size: 233.31259pt x 175.17438pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <./Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf> <./Figures/E_Spe
+c/E_spec_compare_SIM_log_-eps-converted-to.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 937.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 937.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 937.
+
+[35 <./Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/E_cor
+r-eps-converted-to.pdf> <./Figures/Iter0/n_electron_180_LY_QY_0.png (PNG copy)>
+ <./Figures/Iter0/n_photon_180_LY_QY_0.png (PNG copy)>]
 Package epstopdf Info: Source file: <Figures/S1_Z_no_field_lux10_20131009T1358_
 cp06914.eps>
 (epstopdf)                    date: 2014-02-01 22:54:53
@@ -1735,17 +1733,17 @@ cp06914-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Figures/S1_Z_no_field_lux10
 _20131009T1358_cp06914-eps-converted-to.pdf Figures/S1_Z_no_field_lux10_2013100
 9T1358_cp06914.eps>
-(epstopdf)             \includegraphics on input line 906.
+(epstopdf)             \includegraphics on input line 947.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=933
+<Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=947
 , 514.92375pt x 430.60875pt>
 File: Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
 <use Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-
-converted-to.pdf used on input line 906.
+converted-to.pdf used on input line 947.
 (pdftex.def)             Requested size: 227.62204pt x 190.34888pt.
 Package epstopdf Info: Source file: <Figures/dT_no_field_2lux10_20131009T1358_c
 p06914.eps>
@@ -1758,17 +1756,17 @@ p06914-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Figures/dT_no_field_2lux10_
 20131009T1358_cp06914-eps-converted-to.pdf Figures/dT_no_field_2lux10_20131009T
 1358_cp06914.eps>
-(epstopdf)             \includegraphics on input line 907.
+(epstopdf)             \includegraphics on input line 948.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=934,
+<Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf, id=948,
  524.96124pt x 406.51875pt>
 File: Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf Gra
 phic file (type pdf)
 
 <use Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-c
-onverted-to.pdf used on input line 907.
+onverted-to.pdf used on input line 948.
 (pdftex.def)             Requested size: 227.62204pt x 176.26355pt.
 
 
@@ -1776,132 +1774,130 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 912.
+(hyperref)                removing `math shift' on input line 953.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 912.
+(hyperref)                removing `superscript' on input line 953.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 912.
+(hyperref)                removing `math shift' on input line 953.
 
-[36 <./Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf> <./Figures/E_cor
-r-eps-converted-to.pdf>] [37 <./Figures/S1_Z_no_field_lux10_20131009T1358_cp069
-14-eps-converted-to.pdf> <./Figures/dT_no_field_2lux10_20131009T1358_cp06914-ep
-s-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 956.
+[36 <./Figures/LYQY/LY_180_1sigBand_.png> <./Figures/LYQY/QY_180_1sigBand_.png>
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 997.
 
-
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 956.
-
-<Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=981, 578.16pt 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 997.
+ [37 <./Figures/Iter0/std_fig_-eps-converted-to.pdf> <./Figures/Iter0/quanta_LY
+_QY_0.png (PNG copy)> <./Figures/Iter0/R_LY_QY_0.png (PNG copy)>]
+<Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=978, 578.16pt 
 x 434.1018pt>
 File: Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic file 
 (type png)
 
 <use Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_cor
-r.png used on input line 973.
+r.png used on input line 1014.
 (pdftex.def)             Requested size: 341.43306pt x 256.35631pt.
 
-<Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=982, 57
+<Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=979, 57
 8.16pt x 434.1018pt>
 File: Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphi
 c file (type png)
 
 <use Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_
-180_corr.png used on input line 974.
+180_corr.png used on input line 1015.
 (pdftex.def)             Requested size: 341.43306pt x 256.35631pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=983, 553.76
+<Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=980, 553.76
 888pt x 435.42674pt>
 File: Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic fi
 le (type png)
 
 <use Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_
-corr.png used on input line 981.
+corr.png used on input line 1022.
 (pdftex.def)             Requested size: 233.31259pt x 183.44937pt.
 
-<Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=984, 554.67226pt
+<Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=981, 554.67226pt
  x 435.42674pt>
 File: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic file (t
 ype png)
 
 <use Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.
-png used on input line 982.
+png used on input line 1023.
 (pdftex.def)             Requested size: 233.31259pt x 183.15703pt.
 
-<Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=985, 55
+<Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=982, 55
 4.67226pt x 436.33012pt>
 File: Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphi
 c file (type png)
 
 <use Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_
-180_corr.png used on input line 983.
+180_corr.png used on input line 1024.
 (pdftex.def)             Requested size: 236.15787pt x 185.77406pt.
 
-<Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=986, 509.503
+<Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png, id=983, 509.503
 5pt x 436.33012pt>
 File: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png Graphic fil
 e (type png)
 
 <use Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png>
 Package pdftex.def Info: Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_c
-orr.png used on input line 984.
+orr.png used on input line 1025.
 (pdftex.def)             Requested size: 216.24094pt x 185.18152pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png, id=988, 553.76888pt x 435.
+<Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png, id=985, 553.76888pt x 435.
 42674pt>
 File: Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type png
 )
  <use Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png>
 Package pdftex.def Info: Figures/LY_100_Tritium_Dec_2013_Yield_100_corr.png use
-d on input line 996.
+d on input line 1037.
 (pdftex.def)             Requested size: 233.31259pt x 183.44937pt.
 
-<Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png, id=989, 545.6385pt x 437.2
+<Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png, id=986, 545.6385pt x 437.2
 335pt>
 File: Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type png
 )
  <use Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png>
 Package pdftex.def Info: Figures/QY_100_Tritium_Dec_2013_Yield_100_corr.png use
-d on input line 997.
+d on input line 1038.
 (pdftex.def)             Requested size: 230.46732pt x 184.67758pt.
 
-<Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png, id=990, 554.67226
+<Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png, id=987, 554.67226
 pt x 436.33012pt>
 File: Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png Graphic file 
 (type png)
 
 <use Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr.png>
 Package pdftex.def Info: Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_cor
-r.png used on input line 998.
+r.png used on input line 1039.
 (pdftex.def)             Requested size: 236.15787pt x 185.77406pt.
 
-<Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png, id=991, 512.21362pt x 
+<Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png, id=988, 512.21362pt x 
 437.2335pt>
 File: Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png Graphic file (type
  png)
  <use Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png>
 Package pdftex.def Info: Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr.png
- used on input line 999.
+ used on input line 1040.
 (pdftex.def)             Requested size: 216.24094pt x 184.58418pt.
 
 
@@ -1918,17 +1914,17 @@ eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Figures/Re_all_log_T_paper_
 corr_threshold-eps-converted-to.pdf Figures/Re_all_log_T_paper_corr_threshold.e
 ps>
-(epstopdf)             \includegraphics on input line 1011.
+(epstopdf)             \includegraphics on input line 1052.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf, id=993, 506.89
+<Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf, id=990, 506.89
 375pt x 431.6125pt>
 File: Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
 <use Figures/Re_all_log_T_paper_corr_threshold-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Re_all_log_T_paper_corr_threshold-eps-converte
-d-to.pdf used on input line 1011.
+d-to.pdf used on input line 1052.
 (pdftex.def)             Requested size: 284.52756pt x 242.2743pt.
 Package epstopdf Info: Source file: <Figures/LY_all_T_paper.eps>
 (epstopdf)                    date: 2014-03-10 07:50:02
@@ -1939,15 +1935,15 @@ f>
 (epstopdf)                    size: 39568 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/LY_all_T_paper-eps-
 converted-to.pdf Figures/LY_all_T_paper.eps>
-(epstopdf)             \includegraphics on input line 1012.
+(epstopdf)             \includegraphics on input line 1053.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/LY_all_T_paper-eps-converted-to.pdf, id=994, 479.7925pt x 407.5225pt>
+<Figures/LY_all_T_paper-eps-converted-to.pdf, id=991, 479.7925pt x 407.5225pt>
 File: Figures/LY_all_T_paper-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/LY_all_T_paper-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/LY_all_T_paper-eps-converted-to.pdf used on in
-put line 1012.
+put line 1053.
 (pdftex.def)             Requested size: 227.62204pt x 193.3389pt.
 Package epstopdf Info: Source file: <Figures/Charge_Y_all_Tritium_Dec_2013_Char
 ge_Yield_180_corr.eps>
@@ -1960,70 +1956,71 @@ ge_Yield_180_corr-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Figures/Charge_Y_all_Tritiu
 m_Dec_2013_Charge_Yield_180_corr-eps-converted-to.pdf Figures/Charge_Y_all_Trit
 ium_Dec_2013_Charge_Yield_180_corr.eps>
-(epstopdf)             \includegraphics on input line 1013.
+(epstopdf)             \includegraphics on input line 1054.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted-to.p
-df, id=995, 468.75125pt x 407.5225pt>
+df, id=992, 468.75125pt x 407.5225pt>
 File: Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted
 -to.pdf Graphic file (type pdf)
 
 <use Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr-eps-converted-
 to.pdf>
 Package pdftex.def Info: Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180
-_corr-eps-converted-to.pdf used on input line 1013.
+_corr-eps-converted-to.pdf used on input line 1054.
 (pdftex.def)             Requested size: 227.62204pt x 197.88446pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[38]
+[38 <./Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-converted-to.pdf> 
+<./Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-converted-to.pdf>]
 
 LaTeX Warning: Text page 39 contains only floats.
 
 [39 <./Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png (PNG copy)> 
 <./Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png (PNG copy
 )>]
-<Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png, id=1008, 536.60475pt x
+<Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png, id=1023, 536.60475pt x
  437.2335pt>
 File: Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png Graphic file (type
  png)
  <use Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png>
 Package pdftex.def Info: Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png
- used on input line 1024.
+ used on input line 1065.
 (pdftex.def)             Requested size: 227.62204pt x 185.47151pt.
 
-<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png, id=1009, 536.604
+<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png, id=1024, 536.604
 75pt x 435.42674pt>
 File: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png Graphic file
  (type png)
 
 <use Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr.png>
 Package pdftex.def Info: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_co
-rr.png used on input line 1025.
+rr.png used on input line 1066.
 (pdftex.def)             Requested size: 227.62204pt x 184.7051pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png, id=1010, 578.16pt x 
+<Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png, id=1025, 578.16pt x 
 434.1018pt>
 File: Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png Graphic file (ty
 pe png)
  <use Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png>
 Package pdftex.def Info: Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.p
-ng used on input line 1032.
+ng used on input line 1073.
 (pdftex.def)             Requested size: 239.00314pt x 179.44676pt.
 
-<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png, id=1011, 536.6
+<Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png, id=1026, 536.6
 0475pt x 435.42674pt>
 File: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png Graphic fi
 le (type png)
 
 <use Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png>
 Package pdftex.def Info: Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield
-_180.png used on input line 1033.
+_180.png used on input line 1074.
 (pdftex.def)             Requested size: 213.39566pt x 173.1577pt.
 
 
@@ -2040,18 +2037,18 @@ harge_Yield_180-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_E_spec_218_Tri
 tium_Dec_2013_Charge_Yield_180-eps-converted-to.pdf Figures/CH3T_E_spec_218_Tri
 tium_Dec_2013_Charge_Yield_180.eps>
-(epstopdf)             \includegraphics on input line 1041.
+(epstopdf)             \includegraphics on input line 1082.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-to.pdf
-, id=1012, 506.89375pt x 421.575pt>
+, id=1027, 506.89375pt x 421.575pt>
 File: Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-t
 o.pdf Graphic file (type pdf)
 
 <use Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-to
 .pdf>
 Package pdftex.def Info: Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_
-180-eps-converted-to.pdf used on input line 1041.
+180-eps-converted-to.pdf used on input line 1082.
 (pdftex.def)             Requested size: 284.52756pt x 236.64003pt.
 
 
@@ -2061,13 +2058,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 es/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png> <./Figures/LY_180_band_lo
 g_Tritium_Dec_2013_Charge_Yield_180_corr.png> <./Figures/QY_180_log_Tritium_Dec
 _2013_Charge_Yield_180_corr.png>]
-<Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png, id=1021, 561.7788pt x 
+<Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png, id=1036, 561.7788pt x 
 408.0846pt>
 File: Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png Graphic file (type
  png)
  <use Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png>
 Package pdftex.def Info: Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png
- used on input line 1053.
+ used on input line 1094.
 (pdftex.def)             Requested size: 227.62204pt x 165.34807pt.
 Package epstopdf Info: Source file: <Figures/CH3T_Leakage_fid_50_Tritium_Dec_20
 13_S2_100Phe_cut.eps>
@@ -2080,31 +2077,31 @@ Package epstopdf Info: Source file: <Figures/CH3T_Leakage_fid_50_Tritium_Dec_20
 (epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_Leakage_fid_50
 _Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf Figures/CH3T_Leakage_fid_5
 0_Tritium_Dec_2013_S2_100Phe_cut.eps>
-(epstopdf)             \includegraphics on input line 1054.
+(epstopdf)             \includegraphics on input line 1095.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pd
-f, id=1022, 562.1pt x 405.515pt>
+f, id=1037, 562.1pt x 405.515pt>
 File: Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-
 to.pdf Graphic file (type pdf)
 
 <use Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-t
 o.pdf>
 Package pdftex.def Info: Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe
-_cut-eps-converted-to.pdf used on input line 1054.
+_cut-eps-converted-to.pdf used on input line 1095.
 (pdftex.def)             Requested size: 227.62204pt x 164.2141pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png, id=1023, 560.8152pt x 4
+<Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png, id=1038, 560.8152pt x 4
 21.575pt>
 File: Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png Graphic file (type 
 png)
  <use Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png>
 Package pdftex.def Info: Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png 
-used on input line 1062.
+used on input line 1103.
 (pdftex.def)             Requested size: 227.62204pt x 171.10359pt.
 Package epstopdf Info: Source file: <Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_
 2013_S2_100Phe_cut.eps>
@@ -2117,18 +2114,18 @@ Package epstopdf Info: Source file: <Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_
 (epstopdf)             Command: <epstopdf --outfile=Figures/CH3T_Leakage_E_fid_
 50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf Figures/CH3T_Leakage_E_f
 id_50_Tritium_Dec_2013_S2_100Phe_cut.eps>
-(epstopdf)             \includegraphics on input line 1063.
+(epstopdf)             \includegraphics on input line 1104.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.
-pdf, id=1024, 560.0925pt x 414.54875pt>
+pdf, id=1039, 560.0925pt x 414.54875pt>
 File: Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converte
 d-to.pdf Graphic file (type pdf)
 
 <use Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted
 -to.pdf>
 Package pdftex.def Info: Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100P
-he_cut-eps-converted-to.pdf used on input line 1063.
+he_cut-eps-converted-to.pdf used on input line 1104.
 (pdftex.def)             Requested size: 227.62204pt x 168.47327pt.
 
 
@@ -2147,21 +2144,21 @@ es/LY_all_T_paper-eps-converted-to.pdf> <./Figures/Charge_Y_all_Tritium_Dec_201
 m_Dec_2013_Yield_180_corr.png> <./Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yie
 ld_180_corr.png> <./Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180.png (P
 NG copy)> <./Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1076.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1117.
 
 [44 <./Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180-eps-converted-
 to.pdf> <./Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut.png> <./Figures/C
 H3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf>]
 [45 <./Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut.png> <./Figures/CH3T_L
 eakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1076.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1117.
 
 (./Escale_Rec_LY_QY.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1076.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1076.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1117.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1117.
 
 Package rerunfilecheck Info: File `Escale_Rec_LY_QY.out' has not changed.
-(rerunfilecheck)             Checksum: EEF1E09A292054357E1C3D053C4ADBC6;2707.
+(rerunfilecheck)             Checksum: A29FB15158DC80818C5B89FBF6C0EFC8;2832.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2173,13 +2170,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1076.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1117.
  ) 
 Here is how much of TeX's memory you used:
- 8153 strings out of 493633
- 135360 string characters out of 3143378
- 230570 words of memory out of 3000000
- 11088 multiletter control sequences out of 15000+200000
+ 8174 strings out of 493633
+ 136032 string characters out of 3143378
+ 230550 words of memory out of 3000000
+ 11102 multiletter control sequences out of 15000+200000
  16974 words of font info for 67 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,18n,42p,2060b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2205,10 +2202,10 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Escale_Rec_LY_QY.pdf (45 pages, 3901366 bytes).
+Output written on Escale_Rec_LY_QY.pdf (45 pages, 4158545 bytes).
 PDF statistics:
- 1231 PDF objects out of 1440 (max. 8388607)
- 967 compressed objects within 10 object streams
- 167 named destinations out of 1000 (max. 500000)
- 659 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1246 PDF objects out of 1440 (max. 8388607)
+ 980 compressed objects within 10 object streams
+ 168 named destinations out of 1000 (max. 500000)
+ 685 words of extra memory for PDF output out of 10000 (max. 10000000)
 
