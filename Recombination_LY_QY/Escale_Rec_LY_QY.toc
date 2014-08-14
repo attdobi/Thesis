@@ -21,7 +21,7 @@
 \contentsline {subsection}{\numberline {5.2}Tritium S2 Mean and NEST}{33}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Tritium Energy Spectrum}{35}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}LY, QY, $\rm \sigma R$ Result}{36}{subsection.5.4}
-\contentsline {section}{\numberline {6}Measuring LY, QY, Recombination and Threshold, Corrected for Spectral shape}{38}{section.6}
+\contentsline {section}{\numberline {6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{38}{section.6}
 \contentsline {subsection}{\numberline {6.1}Tritium S1 Correction}{39}{subsection.6.1}
 \contentsline {subsection}{\numberline {6.2}Tritium S1 Correction}{40}{subsection.6.2}
 \contentsline {section}{\numberline {7}Thresholds}{42}{section.7}
