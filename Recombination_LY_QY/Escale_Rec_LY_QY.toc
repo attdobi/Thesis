@@ -23,17 +23,8 @@
 \contentsline {subsection}{\numberline {5.4}LY, QY, $\rm \sigma R$ Result}{36}{subsection.5.4}
 \contentsline {section}{\numberline {6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{38}{section.6}
 \contentsline {subsection}{\numberline {6.1}Tritium S1 Correction}{39}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Tritium S1 Correction}{40}{subsection.6.2}
-\contentsline {section}{\numberline {7}Thresholds}{42}{section.7}
-\contentsline {subsection}{\numberline {7.1}Ionization and Scintillation Yield and Recombination}{42}{subsection.7.1}
-\contentsline {section}{\numberline {8}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{43}{section.8}
-\contentsline {subsection}{\numberline {8.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{44}{subsection.8.1}
-\contentsline {section}{\numberline {9}Scintillation Yield and Ionization Yield from Tritium Beta Decay}{45}{section.9}
-\contentsline {subsection}{\numberline {9.1}Cuts used in this analysis}{45}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Results at 180 [V/cm], Corrected for Spectral Shape}{45}{subsection.9.2}
-\contentsline {subsection}{\numberline {9.3}Results at 100 [V/cm], Corrected for Spectral Shape}{45}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Compared With recent Compton Scattering Measurement}{45}{subsection.9.4}
-\contentsline {section}{\numberline {10}Fixing the Low Energy Tritium `Pile Up' }{47}{section.10}
-\contentsline {section}{\numberline {11}Discrimination vs E and S1}{49}{section.11}
-\contentsline {subsection}{\numberline {11.1}Discrimination vs. S1}{49}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Discrimination vs. Combined Energy}{49}{subsection.11.2}
+\contentsline {subsection}{\numberline {6.2}Tritium S2 Correction}{39}{subsection.6.2}
+\contentsline {section}{\numberline {7}Thresholds}{41}{section.7}
+\contentsline {section}{\numberline {8}Ionization and Scintillation Yield and Recombination After Correction}{42}{section.8}
+\contentsline {section}{\numberline {9}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{44}{section.9}
+\contentsline {subsection}{\numberline {9.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{45}{subsection.9.1}

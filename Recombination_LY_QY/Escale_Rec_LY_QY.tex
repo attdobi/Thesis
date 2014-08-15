@@ -52,13 +52,13 @@
 
 %title
 \begin{center}
-\noindent { \huge \bfseries Thesis }
+\noindent { \Large \bfseries LUX Run03 Energy Scale Calibration \& \\ Extracting Scintillation, Ionization Yield and Recombination Fluctuations from Tritium Data. \ \\ \ \\ LUX Internal Note }
 
 (draft)
 
 Attila Dobi
 
-Aug-13-2014
+Aug-15-2014
 \end{center}
 
 
@@ -861,7 +861,7 @@ Figure \ref{fig:S1_mapping} shows the application of smearing  from equation \re
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_spec_compare_.eps}
 %\includegraphics[width=80mm]{Figures/S1_smear_comp}
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_corr_.eps}
-\caption{Top: In Black, a simulated tritium photon spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 2 Phe in S1. }
+\caption{Left: In Black S1 tritium spectrum extracted from the data. In blue, The NEST light yield curve. In red, the NEST light yield curve with recombination fluctuations. Dashed magenta is NEST light yield with smearing from equations \ref{eq:S1_res}.  Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 3 Phe in S1. }
 \label{fig:S1_mapping}
 \end{figure}
 
@@ -882,7 +882,7 @@ Figure \ref{fig:S2_mapping} shows the application of smearing from equation \ref
  \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_spec_.eps}
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_corr_.eps}
-\caption{Top: In Black, a simulated tritium electron spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium electron spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium electron spectrum. Note the S2 threshold is around 500 Phe, due to the S1 threshold at 2 Phe.}
+\caption{Left: In Black S2 tritium spectrum extracted from the data. In blue, The NEST light yield curve. In red, the NEST light yield curve with recombination fluctuations. Dashed magenta is NEST light yield with smearing from equations \ref{eq:S2_res}.  Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S2 threshold at about 400 Phe in S2. }
 \label{fig:S2_mapping}
 \end{figure}
 
@@ -954,58 +954,79 @@ Having extracted light yield (Photons/keV] and charge yield (electrons/keV) we c
 
 \section{Measuring LY, QY, Recombination, Corrected for Spectral shape}
 
-In the previous section we determined that the NEST model was not sufficient to produce a spectral shape correction for the tritium data. However it was shown that and spectral shape correction is sufficiently small (less than 10\%) to extract light yield, charge yield and recombination from the tritium spectrum, using this information the model was improved and new simulations were produced. In this section we will take the information gathered in the previous section and apply the known detector resolution in order to create a spectral shape correction for the tritium S1 and S2. Having an improved model for NEST we can even determine the efficiency for  detecting tritium S1, S2 and the energy threshold, since the tritium spectrum still provides events well below the expected energy threshold of around 1.5 $\rm keV_{ee}$.
+In the previous section we determined that the NEST model was not sufficient to produce a spectral shape correction for the tritium data. However, it was shown that and spectral shape correction is sufficiently small (less than 10\%) to extract light yield, charge yield and recombination from the tritium spectrum, using this information the model was improved and new simulations were produced. In this section we will take the information gathered in the previous section and apply the known detector resolution in order to create a spectral shape correction for the tritium S1 and S2. Having an improved model for NEST we can even determine the efficiency for  detecting tritium S1, S2 and the energy threshold, since the tritium spectrum still provides events well below the expected energy threshold of around 1.5 $\rm keV_{ee}$.
 
 
 \subsection{Tritium S1 Correction}
 
-The correction for the mean of the measured light yield, S1 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S1 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean. The resolution of S1 was determined from statistical and  instrumental fluctuations and is given in equation \ref{eq:SigStat} and \ref{eq:SigInst}. The use of Gaussian error down to low S1 is an acceptable approximation since underlying distribution actually consists of the number of photons, $\rm n_\gamma = \frac{S1}{g1}$. With g1=0.097 there are still 20 photons near the S1 threshold of 2 [Phe], thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
-The variance in S1 is the result of recombination fluctuations, statistical fluctuations and instrumental fluctuations at a given energy. The functional form of all three have been previously measured and can be extrapolated for use with the tritium spectrum. The first step is to use the expected light yields from NEST along with the measured smearing from recombination and detector resolution to extract a correction factor for the observed S1 signal. Having a priori knowledge of light yields will allow for the spectral shape to be corrected or can at least be used to approximate an error when we go to extract the light yield and recombination fluctuations from the tritium beta spectrum.
-
-\begin{equation}
- \rm \sigma_{S1}^2=g_1^2(\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{\gamma_{inst}}}^2+\sigma_R^2)
-\label{eq:S1_res}
-\end{equation}
-
-Figure \ref{fig:S1_mapping} shows the application of smearing  from equation \ref{eq:S1_res} applied to the expected S1 tritium spectrum from NEST overlaid with the data. The mapping for converting the observed S1 to the real S1 is shown in figure \ref{fig:S1_mapping}. To calculate the correction we start with the NEST light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
+Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \ref{eq:S1_res} applied to the light yield extracted from the uncorrected tritium data with the data. The mapping for converting the observed S1 to the real S1 is shown in the figure. To calculate the correction we start with the extracted light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_spec_compare_iter1_.eps}
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_corr_iter1_.eps}
-\caption{Top: In Black, a simulated tritium photon spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 2 Phe in S1. }
+\caption{Left: In Black, tritium data. In red, the spectrum after applying measured recombination fluctuations. In dashed blue is after applying recombination and finite detector resolution of equation. Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 3 Phe in S1. }
 \label{fig:S1_mapping_2}
 \end{figure}
 
-\subsection{Tritium S1 Correction}
+\subsection{Tritium S2 Correction}
 
-The correction for the mean of the measured light yield, S1 [Phe], for tritium beta decay can be solved for using equation \ref{eq:5}. Starting with a simulated S1 tritium spectrum with infinite resolution and applying equations \ref{eq:1}-\ref{eq:5} one can attain the mapping of measured mean to true mean. The resolution of S1 was determined from statistical and  instrumental fluctuations and is given in equation \ref{eq:SigStat} and \ref{eq:SigInst}. The use of Gaussian error down to low S1 is an acceptable approximation since underlying distribution actually consists of the number of photons, $\rm n_\gamma = \frac{S1}{g1}$. With g1=0.097 there are still 20 photons near the S1 threshold of 2 [Phe], thus the Gaussian model is still a close approximation of the underlying Poisson distribution. We will use the Gaussian approximation as it makes the application of equations \ref{eq:1}-\ref{eq:5} much simpler.
-The variance in S1 is the result of recombination fluctuations, statistical fluctuations and instrumental fluctuations at a given energy. The functional form of all three have been previously measured and can be extrapolated for use with the tritium spectrum. The first step is to use the expected light yields from NEST along with the measured smearing from recombination and detector resolution to extract a correction factor for the observed S1 signal. Having a priori knowledge of light yields will allow for the spectral shape to be corrected or can at least be used to approximate an error when we go to extract the light yield and recombination fluctuations from the tritium beta spectrum.
 
-\begin{equation}
- \rm \sigma_{S1}^2=g_1^2(\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{\gamma_{inst}}}^2+\sigma_R^2)
-\label{eq:S1_res}
-\end{equation}
-
-Figure \ref{fig:S1_mapping} shows the application of smearing  from equation \ref{eq:S1_res} applied to the expected S1 tritium spectrum from NEST overlaid with the data. The mapping for converting the observed S1 to the real S1 is shown in figure \ref{fig:S1_mapping}. To calculate the correction we start with the NEST light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
+Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \ref{eq:S2_res} applied to the charge yield extracted from the uncorrected tritium data with the data. The mapping for converting the observed S2 to the real S2 is shown in the figure. To calculate the correction we start with the extracted light yield, apply the measured g2, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of electrons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_spec_iter1_.eps}
 \includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_corr_iter1_.eps}
-\caption{Top: In Black, a simulated tritium photon spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 2 Phe in S1. }
+\caption{Left: In Black, tritium data. In red, the spectrum after applying measured recombination fluctuations. In dashed blue is after applying recombination and finite detector resolution of equation. Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S2 threshold at about 400  Phe. }
 \label{fig:S2_mapping_2}
 \end{figure}
 
+\newpage
+
 \section{Thresholds}
 
- \begin{figure}[h!]\centering
- \includegraphics[width=80mm]{Figures/E_Spec/E_Thres_LY_QY_iter1.eps}
- \includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_Thres_.eps}
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_Thres_.eps}
-\caption{Top: In Black, a simulated tritium photon spectrum. In red, the mean of the spectrum after applying finite energy resolution of equation \ref{eq:5}. Bottom Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 2 Phe in S1. }
+\begin{figure}[h!]\centering
+ 
+\subcaptionbox{S1 \label{fig:3a}}{\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_Thres_.eps}}
+\hfill
+\subcaptionbox{$\rm S2_b$ (golden) \label{fig:3b}}{\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_Thres_.eps}}
+
+\bigskip
+
+\subcaptionbox{Combined Energy \label{fig:3c}}{\includegraphics[width=80mm]{Figures/E_Spec/E_Thres_LY_QY_iter1.eps}}
+
+\caption{Threshold calculated from difference of simulated Tritium S1, S2 and energy spectra. a) S1 b) $\rm S2_b$, c) E .}
 \label{fig:Thres}
 \end{figure}
 
-\subsection{Ionization and Scintillation Yield and Recombination}
+\newpage
+
+\section{Ionization and Scintillation Yield and Recombination After Correction}
+
+ \begin{figure}[h!]\centering
+ \includegraphics[width=100mm]{Figures/Iter1/std_fig_.eps}
+ \includegraphics[width=80mm]{Figures/Iter1/quanta_iter1LY_QY_iter1.png}
+ \includegraphics[width=80mm]{Figures/Iter1/R_iter1_LY_QY_iter1.png}
+\caption{After spectral shape correction. Top: Extracted recombination fluctuation from the tritium data from fluctuations in photons and electrons (Black and Red receptively). Bottom right: mean number of quanta in photons, electrons, ions, exitons vs. energy [keV] for the tritium calibrations. Bottom left: Recombination fraction and the one sigma (shaded) vs. energy [keV].}
+\label{fig:Rec_1}
+\end{figure}
+
+
+\newpage
+ \begin{figure}[h!]\centering
+ \includegraphics[width=82mm]{Figures/Iter1/LY_c_180_means_LY_QY_iter1.png}
+ \includegraphics[width=82mm]{Figures/Iter1/QY_fid_means_LY_QY_iter1.png}
+\caption{Extracting LY and QY from data corrected for spectral shape.}
+\label{fig:LYQY_data}
+\end{figure}
+
+
+ \begin{figure}[h!]\centering
+ \includegraphics[width=82mm]{Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png}
+ \includegraphics[width=82mm]{Figures/Iter1/QY_180_1sigBand_.png}
+\caption{LY and QY from tritium data corrected for spectral shape along with the 1 sigma band of g1/g2. The blue and magenta curve are NEST extrapolation and interpolation, respectively.}
+\label{fig:LYQY_data}
+\end{figure}
+
 
 \newpage
 
@@ -1062,6 +1083,7 @@ Field [V/cm]	&S1[Phe]	& Photons[$n_{\gamma}$]	& Yield [$n_{\gamma}$/keV	]	&NEST	
 %\label{table:krAll}
 %\end{table}
 
+\begin{comment}
 
 \newpage
 \section{Scintillation Yield and Ionization Yield from Tritium Beta Decay}
@@ -1182,7 +1204,7 @@ By modifying the scintillation yield down and ionization yield up at low energy 
 \end{figure}
 
 
-
+\end{comment}
 
 \bibliographystyle{thesisbibstyle}
 \bibliography{TritiumBib}
