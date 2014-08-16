@@ -1,70 +1,6 @@
-\documentclass[a4paper,notitlepage]{article}
-\usepackage{amsmath}
-\usepackage{latexsym}
-\usepackage{graphicx}
-\usepackage{color}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{hyperref}
-\usepackage{wasysym}
-\usepackage{verbatim}
-\usepackage[font=normalsize]{caption}
-\usepackage{mathtools}
-\usepackage{relsize}
-\usepackage{cancel}
-\addtolength{\oddsidemargin}{-.875in}
-\addtolength{\evensidemargin}{-.875in}
-\addtolength{\textwidth}{1.75in}
-%\addtolength{\voffset}{-70pt}
-%\addtolength{\textheight} {120pt}
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{subcaption}
-%\usepackage{showframe,subcaption,graphicx}
+\renewcommand{\thechapter}{3}
 
-\hypersetup{
-    bookmarks=true,         % show bookmarks bar?
-    unicode=false,          % non-Latin characters in AcrobatÍs bookmarks
-    pdftoolbar=true,        % show AcrobatÍs toolbar?
-    pdfmenubar=true,        % show AcrobatÍs menu?
-    pdffitwindow=false,     % window fit to page when opened
-    pdfstartview={FitH},    % fits the width of the page to the window
-    pdftitle={My title},    % title
-    pdfauthor={Author},     % author
-    pdfsubject={Subject},   % subject of the document
-    pdfcreator={Creator},   % creator of the document
-    pdfproducer={Producer}, % producer of the document
-    pdfkeywords={keyword1} {key2} {key3}, % list of keywords
-    pdfnewwindow=true,      % links in new window
-    colorlinks=true,       % false: boxed links; true: colored links
-    linkcolor=blue,          % color of internal links
-    citecolor=black,        % color of links to bibliography
-    filecolor=blue,      % color of file links
-    urlcolor=cyan           % color of external links
-}
-
-
-\begin{document}
-\large
-\newenvironment{code}
-{\noindent \color{blue} \begin{tabular}{p{0.1in} @{} p{5.8in}} \\&}
-{\\ \color{black} \end{tabular}}
-
-%title
-\begin{center}
-\noindent { \Large \bfseries LUX Run03 Energy Scale Calibration \& \\ Extracting Scintillation, Ionization Yield and Recombination Fluctuations from Tritium Data. \ \\ \ \\ LUX Internal Note }
-
-(draft)
-
-Attila Dobi
-
-Aug-15-2014
-\end{center}
-
-
-\tableofcontents
-\newpage
-
+\chapter{Energy Scale Calibration}
 
 \section{Calibrating the Combined Energy Scale}
 
@@ -80,7 +16,7 @@ This section outlines the method used to calibrate the energy scale of the dual 
 \end{equation}
 
  \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/Tom_Shutt_ER_diagram.png}
+\includegraphics[width=120mm]{Recombination_LY_QY/Figures/Tom_Shutt_ER_diagram.png}
 \caption{Diagram of an electronic recoil in liquid xenon.}
 \label{fig:TomS}
 \end{figure}
@@ -143,14 +79,14 @@ $\rm ^{214}Bi	$	& 609 			& $\rm \gamma$-emission				 \\ \hline
 The first step in calibrating the energy scale is to plot the observables S1 vs. S2, by doing this the anti correlation between light and change at a given energy become apparent, figure \ref{fig:S1S2_space}. For the data presented here a fiducial cut was placed at a radius of less than 18 [cm] and drift distance between 6 and 46 [cm] which greatly reduces the background event rate. To extract g1 g2 we first determine the average values of S1 and S2 at each known energy. Initially loose diagonal cuts are placed by eye on the populations, figure \ref{fig:S1S2_space}. Next, using a un-binned maximum likelihood fit the mean and sigma are estimated and then refit using $\rm \pm 2\sigma$ of the initial distribution to remove tails from backgrounds. With the initial estimate for the mean S1 and S2 response to a given energy the gains g1,g2 are determined. The resulting value of g1 and g2 is found to be 0.096 $\pm$ 0.009 and 5.94 $\pm$ 1.68 respectively, the fit is shown in figure \ref{fig:Doke1}. The values of g1 and g2 represent a best fit tot he underling recombination theory where for each additional photon there is a corresponding reduction of one electron and visa versa. The method for extracting the uncertainties using MCMC will be discussed later in section \ref{sec:MCMC}.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1S2_density_Kr_Cs_fit.png}
-\includegraphics[width=80mm]{Figures/S1S2_density_XeA_fit.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_density_XeA_fit.png}
 \caption{LUX data in anti correlation space (S1 vs. S2), the black lines indicate the initial cuts by eye used to isolate populations of constant energy. In both figures diagonals represent lines of constant energy with a slope depending on the local recombination probability. The centroids found by an unbind maximum likelihood analysis are shows as a black X, for sources show in table \ref{table:Cal_lines}. }
 \label{fig:S1S2_space}
 \end{figure}
 
  \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/S1S2_Doke_1.eps}
+\includegraphics[width=120mm]{Recombination_LY_QY/Figures/S1S2_Doke_1.eps}
 \caption{Doke plot showing the best fit for the energy calibration parameters g1 and g2 using S1 and S2 means extracted from anti-correlation space. The first three blue points, from the left, are from $\rm^{83}Kr$ calibrations at 50, 105 and 180 V/cm respectively. The open circle was from the K-shell xenon X-ray and was not used for the fit as it's absolute energy and origin from the skin of the detector is uncertain.}
 \label{fig:Doke1}
 \end{figure}
@@ -169,34 +105,34 @@ From the first attempt to find g1,g2 we see, in figure \ref{fig:Doke1}, that the
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/S1S2_Doke_3.eps}
+\includegraphics[width=120mm]{Recombination_LY_QY/Figures/S1S2_Doke_3.eps}
 \caption{Doke plot showing the best fit for the energy calibration parameters g1 and g2 using S1 and S2 extracted from a combined energy space. The first three blue points, from the left, are from $\rm^{83}Kr$ calibrations at 50, 105 and 180 V/cm respectively. The open circle was from the K-shell xenon X-ray and was not used for the fit as it's absolute energy and origin from the skin of the detector is uncertain.}
 \label{fig:Doke2}
 \end{figure}
 
  \begin{figure}[h!]\centering
  
-\subcaptionbox{\label{fig:1a}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_163.eps}}
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163.eps}}
 \hfill
-\subcaptionbox{\label{fig:1b}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_207.eps}}
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_207.eps}}
 \hfill
-\subcaptionbox{\label{fig:1c}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_236.eps}}
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_236.eps}}
 
 \bigskip
 
-\subcaptionbox{\label{fig:1d}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_410.eps}}
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_410.eps}}
 \hfill
-\subcaptionbox{\label{fig:1e}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Bi214.eps}}
+\subcaptionbox{\label{fig:1e}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Bi214.eps}}
 \hfill
-\subcaptionbox{\label{fig:1f}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Cs137.eps}}
+\subcaptionbox{\label{fig:1f}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Cs137.eps}}
 
 \bigskip
 
-\subcaptionbox{\label{fig:1g}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr_50.eps}}
+\subcaptionbox{\label{fig:1g}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_50.eps}}
 \hfill
-\subcaptionbox{\label{fig:1h}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr_100.eps}}
+\subcaptionbox{\label{fig:1h}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_100.eps}}
 \hfill
-\subcaptionbox{\label{fig:1i}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S1_Kr.eps}}
+\subcaptionbox{\label{fig:1i}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr.eps}}
 
 \caption{S1 fits to sources at nominal field of 180 [V/cm] unless otherwise noted. Source and energy in keV from top left to bottom right: a) $\rm ^{131}Xe$: 163, b) $\rm ^{127}Xe$:  207, c) $\rm ^{127}Xe$ \&  $\rm ^{129m}Xe$: 236.8, d)  $\rm ^{127}Xe$: 410, e) $\rm ^{214}Bi$: 609, f) $\rm ^{137}Cs$: 661.6, g) $\rm ^{83m}Kr$: 41.5 - at 50 [V/cm], h) $\rm ^{83m}Kr$ 41.5 - at 105 [V/cm], i) $\rm ^{83m}Kr$ 41.5 .}
 \label{fig:Doke_Fits_S1}
@@ -205,27 +141,27 @@ From the first attempt to find g1,g2 we see, in figure \ref{fig:Doke1}, that the
 
  \begin{figure}[h!]\centering
  
-\subcaptionbox{\label{fig:1a}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_163.eps}}
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_163.eps}}
 \hfill
-\subcaptionbox{\label{fig:1b}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_207.eps}}
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_207.eps}}
 \hfill
-\subcaptionbox{\label{fig:1c}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_236.eps}}
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_236.eps}}
 
 \bigskip
 
-\subcaptionbox{\label{fig:1d}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_410.eps}}
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_410.eps}}
 \hfill
-\subcaptionbox{\label{fig:1e}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Bi214.eps}}
+\subcaptionbox{\label{fig:1e}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Bi214.eps}}
 \hfill
-\subcaptionbox{\label{fig:1f}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Cs137.eps}}
+\subcaptionbox{\label{fig:1f}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Cs137.eps}}
 
 \bigskip
 
-\subcaptionbox{\label{fig:1g}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr_50.eps}}
+\subcaptionbox{\label{fig:1g}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_50.eps}}
 \hfill
-\subcaptionbox{\label{fig:1h}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr_100.eps}}
+\subcaptionbox{\label{fig:1h}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_100.eps}}
 \hfill
-\subcaptionbox{\label{fig:1i}}{\includegraphics[width=50mm]{Figures/Doke_Fits/fit_S2_Kr.eps}}
+\subcaptionbox{\label{fig:1i}}{\includegraphics[width=45mm]{Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr.eps}}
 
 \caption{S2 fits to sources at nominal field of 180 [V/cm] unless otherwise noted. Source and energy in keV from top left to bottom right: a) $\rm ^{131}Xe$: 163, b) $\rm ^{127}Xe$:  207, c) $\rm ^{127}Xe$ \&  $\rm ^{129m}Xe$: 236.8, d)  $\rm ^{127}Xe$: 410, e) $\rm ^{214}Bi$: 609, f) $\rm ^{137}Cs$: 661.6, g) $\rm ^{83m}Kr$: 41.5 - at 50 [V/cm], h) $\rm ^{83m}Kr$ 41.5 - at 105 [V/cm], i) $\rm ^{83m}Kr$ 41.5 .}
 \label{fig:Doke_Fits_S2}
@@ -237,7 +173,7 @@ Figure \ref{fig:Doke_E} is the final Doke plot for multiple peaks the theory des
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/S1S2_Doke2_3_arrow.png}
+\includegraphics[width=100mm]{Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png}
 \caption{Doke plot of the data showing the light yield vs. charge yield. Only solid circles are used for the fit, the open circle is the Xe K shell X-ray from the detector edge.}
 \label{fig:Doke_E}
 \end{figure}
@@ -251,7 +187,7 @@ The error bars reported in this section on g1 and g2 are from the error in the s
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/MCMC/triangle.png} % also line-time.png
+\includegraphics[width=100mm]{Recombination_LY_QY/Figures/MCMC/triangle.png} % also line-time.png
 \caption{MCMC for the linear fit to the Doke plot. There is a strong negative correlation between the slope m and intercept b which results from the degeneracy between gains g1 and g2. }
 \label{fig:MCMC} 
 \end{figure}
@@ -265,16 +201,16 @@ With the values of g1 and g2 known the combined energy of events can be reconstr
 
 \begin{figure}[h!]\centering
  
-\subcaptionbox{\label{fig:1a}}{\includegraphics[width=70mm]{Figures/Combined_E/Xe_act_E.eps}}
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Combined_E/Xe_act_E.eps}}
 \hfill
-\subcaptionbox{\label{fig:1b}}{\includegraphics[width=70mm]{Figures/Combined_E/Cs_E.eps}}
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Combined_E/Cs_E.eps}}
 
 
 \bigskip
 
-\subcaptionbox{\label{fig:1c}}{\includegraphics[width=70mm]{Figures/Combined_E/Cs_Kr_Xe_E.eps}}
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Combined_E/Cs_Kr_Xe_E.eps}}
 \hfill
-\subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Figures/Combined_E/X-ray_Xe_E.eps}}
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Combined_E/X-ray_Xe_E.eps}}
 
 
 \caption{Combined energy scale. a) The xenon activation lines from early in the run. b) $\rm^{137}Cs$ calibration data. c) All calibration data including the $\rm^{83m}Kr$ calibration. d) Xenon X-ray.}
@@ -288,7 +224,7 @@ With the values of g1 and g2 known the combined energy of events can be reconstr
 The value of g1 represents the mean efficiency for collecting photons at the center of the LUX detector, the response to S1 light is flat fielded and normalized to the detector center (section Kr calibrations). The measured value of g1= $\rm0.097\pm0.008$ implies a 9.7\% probability of a photon propagated from the center of the detector stricking a PMT and being converting into a photo electron (PE) signal. The value of g2 represents the average number of PE collected for each electron that escaped recombination at the initial interaction site and then drifted,by the electric field, towards liquid-gas interface where it is extracted. The S2 signals are corrected for depth as impurities exponentially attenuate electrons drifting through the xenon (section Kr cal). The value of g2 can also be thought of as the single electron size in PE, fortunately the LUX detector is low enough in threshold to observe singe electrons being extracted from the liquid. Comparing the value of g2 derived from the Doke method with the single electron size is a good sanity check on the energy scale calibration. As the electrons are extracted from the liquid they are accelerated by larger field between the gate and anode where they electo-lumanesance, a single extracted electron creates tens to hundreds of photons which are collected by both PMT arrays. We can cut on the single electron population (small S2 pulses without an associated S1) and measure the single electron size along with the extraction efficiency efficiency. The extraction efficiency is defined as the probability that an election will be extracted from the liquid into the gas in a region of 3.5 kV between the anode and the gate. For a given event the extraction of electrons is a binomial processes with a rate approaching unity for fields above 5 kV (reference). Figure \ref{fig:SingleE}, shows the single electron size as measured by the bottom PMT array (used for S2 pulses in the LUX detector to avoid saturation). The population is modeled by a skew Gaussian due to the Poisson nature of measuring only a handful of photo electrons (PE) per extracted electron. The mean of the distribution is found to be 9.7 PE/$\rm e^-$ with a width of $\rm \sigma SE$= 3.6 Phe/$\rm e^-$. Thus, the extraction efficiency is g2 over the single electron size and is found to be (59.3$\rm \pm$14)\%, given the extraction field the value is in good agreement with previous measurements in other xenon detectors -[2 refs extraction].
 
 \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/bottom_SE.eps}
+\includegraphics[width=100mm]{Recombination_LY_QY/Figures/bottom_SE.eps}
 \caption{Single electron distribution as seen by the bottom PMT array fitted with a skew Gaussian model to account for the underling Poisson statistics of observing between 9 and 10 photo electrons (PE) for each electron leaving the liquid and entering to the gas phase at a higher field causing electro-luminescence. The $\rm \mu$ of the fit represents the true mean of the skew Gaussian distribution. }
 \label{fig:SingleE}
 \end{figure}
@@ -491,14 +427,14 @@ Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} along with the measurement
 \end{equation}
 
  \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/All_disc.eps}
+\includegraphics[width=120mm]{Recombination_LY_QY/Figures/All_disc.eps}
 \caption{Populations of calibration sources in discrimination space $\rm log\left(\frac{n_e}{n_\gamma}\right) $ vs. combined energy [$\rm keV_{ee}$]. The ovals represent the combination of $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ in black, white, red respectively.}
 \label{fig:E_dis}
 \end{figure}
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/fluc_E.eps}
-\includegraphics[width=80mm]{Figures/fluc_Q.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/fluc_E.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/fluc_Q.eps}
 \caption{Measured values of $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ vs. Energy on the left and vs. Quanta on the right. Measured using sources listed in Table \ref{table:Cal_lines}. }
 \label{fig:Flucs}
 \end{figure}
@@ -513,9 +449,9 @@ The pervious subsection demonstrated the power of using a mono energetic source 
 We begin the treatment of binning with the the case of having a finite bin width around the central combined energy of a mono energetic source. First, we quantify the change in the statistical components of equation \ref{eq:SigR} when slicing out a bin in combined energy space. The slice in combined energy is illustrated for a toy model at quanta corresponding to that of the combined 41.6 keV $\rm^{83}Kr$ decay in Figure \ref{fig:Recomb}. All contribution from recombination fluctuations are included when slicing out a section of combined energy, illustrated in Figure \ref{fig:Recomb}. However, the slice contains only a reduced statistical component from both the light and charge signals, and in the limit that $\rm \Delta E$ goes to zero the statistical component of light and charge converge to a value defined as $\rm \chi_{stat}$ (where $\rm \chi$ is the measured $\rm \sigma$ in a bin of combined energy). To solve for the value of  $\rm \chi_{stat}$ we first calculate the slope induced by statistical variance in the number of photons vs. quanta and the complementary slope of electrons vs. quanta, defined as M and 1-M respectively.  The value of M depends on the magnitude of the statistical variances and is given in equation \ref{eq:Angle}. The sum of the two slopes must equal one as the sum of photons and electors make up combined energy.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=150mm]{Figures/EX_Stat_Fano.png}
-\includegraphics[width=80mm]{Figures/EX_R_Fano.png}
-\includegraphics[width=80mm]{Figures/EX_Kr_Fano.png}
+\includegraphics[width=145mm]{Recombination_LY_QY/Figures/EX_Stat_Fano.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/EX_R_Fano.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/EX_Kr_Fano.png}
 \caption{Top: Illustration of statistical variance, recombination fluctuations are set to 0. The spread in number of photons moves vertically and the spread in number of electrons moves horizontally. In black, a line of constant energy along the mean of combined energy with a width $\rm \Delta E$. Bottom left: Dominated by recombination fluctuations which move 45$^{\circ}$ to statistical variances. Bottom Right: Typical values for recombination and  S1, S2 Stat for $\rm Kr^{83}$. }
 \label{fig:Recomb}
 \end{figure}
@@ -644,6 +580,7 @@ $\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \si
 
 \begin{table}[h!]
 \begin{center}
+\tabcolsep=0.11cm
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
 $\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
@@ -667,6 +604,8 @@ Having demonstrated the method for a mono energetic calibration source the next 
 
 \begin{table}[h!]
 \begin{center}
+\footnotesize
+\tabcolsep=0.11cm
 \begin{tabular}{|c||c|c|c|c|c|c|}
 \hline
 $\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{Det}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{Det}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
@@ -698,14 +637,14 @@ In this subsection we test method outlined in section \ref{sec:flucs_mono_bins} 
 
 
 \begin{figure}[h!]\centering
-\includegraphics[width=130mm]{Figures/EX_T_Fano.png}
+\includegraphics[width=130mm]{Recombination_LY_QY/Figures/EX_T_Fano.png}
 \caption{Illustration of statistical variance for the tritium beta spectrum, recombination fluctuations are set to 0. This plot is analogous to Figure \ref{fig:Recomb} which illustrates the case for the mono energetic $\rm ^{83m}Kr$ decay. Recombination fluctuation move along lines of constant energy, S1 statistical fluctuation move vertically and S2 statistical fluctuations move horizontally. }
 \label{fig:T_Stat}
 \end{figure}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/T_SIM/n_photon_180_.png}
-\includegraphics[width=80mm]{Figures/T_SIM/n_e_180_.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/n_photon_180_.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/n_e_180_.png}
 \caption{Light yield (left) and Charge yield (right) of a simulated tritium spectrum, with the fit to the centroid show in black. The variance in number of photon and electrons per energy bin is used to extract recombination fluctuations.}
 \label{fig:SIM_LYQY}
 \end{figure}
@@ -740,19 +679,19 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 
 \begin{figure}[h!]\centering
  
-\subcaptionbox{\label{fig:1a}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_10.eps}}
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10.eps}}
 \hfill
-\subcaptionbox{\label{fig:1b}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_25.eps}}
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/SIM_R_T_25.eps}}
 
 
 \bigskip
 
-\subcaptionbox{\label{fig:1c}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_50.eps}}
+\subcaptionbox{\label{fig:1c}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/SIM_R_T_50.eps}}
 \hfill
-\subcaptionbox{\label{fig:1d}}{\includegraphics[width=80mm]{Figures/T_SIM/SIM_R_T_100.eps}}
+\subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/T_SIM/SIM_R_T_100.eps}}
 
 
-\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (yellow), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(green). The plots show cases for various bin widths in [KeV]: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
+\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in [KeV]: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
 \label{fig:T_Var}
 \end{figure}% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
 
@@ -761,11 +700,11 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \section{Correcting the Tritium Spectral Shape for Finite Resolution}
 \label{sec:Smear}
 
-The goal of the following two sections is to extract light yield, charge yield and recombination fluctuations from the tritium spectrum using the methods described in section \ref{sec:flucs_mono_bins}. The first step is to use the NEST model in an attempt to undue the effect of the tritium spectral shape and finite detector resolution, described in this section. We find that the light yield and charge yields extracted from the data deviates too much from our initial guess using NEST and therefore the the correction factor calculated can not be applied. However, the correction factor derived by starting with the NEST model is found to be small enough to proceed with extracting new LY, QY and $\rm \sigma R$ from the tritium data without correction. Once these parameters are extracted from the uncorrected data a better model can be built to reproduce the data . We then take that improved model and apply the correction. (Note, NEST  has yet to be vetted at our specific electric field and energy).
+The goal of the following two sections is to extract light yield, charge yield and recombination fluctuations from the tritium spectrum using the methods described in section \ref{sec:flucs_mono_bins}. The first step is to use the NEST model in an attempt to undue the effect of the tritium spectral shape and finite detector resolution, described in this section. We find that the light yield and charge yields extracted from the data deviate too much to apply the correction factor. Since the correction is found to be small we can proceed to extract new LY, QY and $\rm \sigma R$ from the tritium data without correction building a model that better reproduces the data than the NEST model (which has yet to be vetted at our electric field and energy). We then take that improved model and apply the correction.
  
 %The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctuation) that needs to be input into the smearing model, the statistical part from detector resolution remains fixed. Figure \ref{fig:R_T} show the optimal value of $\rm \sigma_R$ being extracted from the tritium data, starting with an initial guess based on the recombination fluctuation measured from the $\rm^{83m}Kr$ data.
 
-The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the functional form resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2},\ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) is transformed into a Gaussian G(i) of equal area: \\ 
+The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the functional form resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2},\ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
 \begin{multline}
 \\ \rm c_i=\frac{N_i \times \Delta x}{\sigma_i\sqrt{2\pi}} \\
 \rm G_{i}(x) = c_i \times exp\left(\frac{-(x-\mu_i)^2}{2\sigma_i^2}\right)\\
@@ -776,7 +715,7 @@ The distribution of tritium events convolved with the detector's finite resoluti
 Where $\rm N_i$ is the count in the $\rm i^{th}$ bin, $\rm \Delta x$ is the bin width, $\rm \mu_i$ is the bin center and $\rm \sigma_i$ is the resolution at the $\rm i^{th}$ bin. Figure \ref{fig:exp_int} show the application of equation \ref{eq:1} to a linear energy distribution with a $\rm \sqrt{E}$ dependent $\sigma$. The observed distribution is the sum of the Gaussians, shown in red.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=130mm]{Figures/example_integral}
+\includegraphics[width=130mm]{Recombination_LY_QY/Figures/example_integral}
 \caption{}
 \label{fig:exp_int}
 \end{figure}
@@ -787,7 +726,7 @@ Where $\rm N_i$ is the count in the $\rm i^{th}$ bin, $\rm \Delta x$ is the bin 
 After modeling the finite resolution with Gaussians the mean observed at each bin can be calculated from the overlap of all bins weighted by the corresponding means. We can write the observed mean in the $\rm i^{th}$ bin, $\nu_i$, in terms of the bin centers $\mu$ and overlapping areas of all bins using equation \ref{eq:1}:
 %\begin{center}
 \begin{equation}
-\Large \nu_i = \frac{\mathlarger{\sum}\limits_{j=1}^{n}\ \mu_j\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}} G_{j}(x)\,\mathrm{d}x} 
+\large \nu_i = \frac{\mathlarger{\sum}\limits_{j=1}^{n}\ \mu_j\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}} G_{j}(x)\,\mathrm{d}x} 
 {\mathlarger{\sum}\limits_{j=1}^{n} \ \mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}} G_{j}(x)\,\mathrm{d}x}  
 \label{eq:2}
 \end{equation}
@@ -797,7 +736,7 @@ Equation \ref{eq:2} can be solved in terms of error function and complimentary e
 \begin{equation}
 %\rm A_i = c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right) + \sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| - \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) - 
 %\sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| + \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) 
-\Large \rm A_{i,j}=\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}}\it G_{j}(x)\,\mathrm{d}x =
+\large \rm A_{i,j}=\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}}\it G_{j}(x)\,\mathrm{d}x =
 \begin{cases}\rm c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right), & j=i  \\ \\
 \rm \frac{c_j}{2} erfc\left(\frac{|\mu_j-\mu_i| - \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right) - 
 \rm \frac{c_j}{2} erfc\left(\frac{|\mu_j-\mu_i| + \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right) , & j \neq i \end{cases}
@@ -835,9 +774,9 @@ To demonstrate the application of equation \ref{eq:5} we use it to smear a toy l
 Figure \ref{fig:Toy_Linear} shows the effect of the finite resolution on a linearly decaying spectral shape. Using a constant resolution $\rm \sigma$ the observed mean, when accounting for finite resolution, shifts down due to the spectral shape. In the case with $\rm \sigma_i \sim \sqrt{\mu_i} $ the observed mean at first shifts higher as the increasing width at higher value bin centers, even with lower counts, out weighs the lower bin centers with higher counts and narrower widths. In both cases as the bin centers approach zero the observed mean shifts higher due to an imposed threshold at zero, here Poisson statistics take over and the Gaussian characterization leads to a loss of events below zero. Thus, for the sake of the toy model in figure \ref{fig:Toy_Linear} we only characterize the relation between the real mean and the observed mean from the second bin center. It is also worth mentioning that for the case of having a varying resolution in figure \ref{fig:Toy_Linear} the shift in spectral shape seems minor, yet there is a a significant 20\% deviation in the observed mean of the last bin.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=70mm]{Figures/Toy_Model_lin_const}
-\includegraphics[width=70mm]{Figures/Toy_Model_lin_dep}
-\includegraphics[width=70mm]{Figures/Toy_Model_mean_shift}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Toy_Model_lin_const}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Toy_Model_lin_dep}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Toy_Model_mean_shift}
 \caption{Top Left: A linearly decaying spectrum, in blue. The black curve represents the sum of the Gaussians assuming a constant resolution. Top Right: A linearly decaying spectrum, in blue. The black curve represents the sum of the Gaussians with a $\rm \sqrt{E}$ dependent resolution. Bottom: The observed mean, with finite resolution, compared to the real mean with infinite resolution. The black points are for the case with linear resolution and the red points represent the case with $\rm \sqrt{E}$ dependent resolution.}
 \label{fig:Toy_Linear}
 \end{figure}
@@ -858,9 +797,9 @@ The variance in S1 is the result of recombination fluctuations, statistical fluc
 Figure \ref{fig:S1_mapping} shows the application of smearing  from equation \ref{eq:S1_res} applied to the expected S1 tritium spectrum from NEST overlaid with the data. The mapping for converting the observed S1 to the real S1 is shown in figure \ref{fig:S1_mapping}. To calculate the correction we start with the NEST light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_spec_compare_.eps}
-%\includegraphics[width=80mm]{Figures/S1_smear_comp}
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_corr_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_.eps}
+%\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1_smear_comp}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_.eps}
 \caption{Left: In Black S1 tritium spectrum extracted from the data. In blue, The NEST light yield curve. In red, the NEST light yield curve with recombination fluctuations. Dashed magenta is NEST light yield with smearing from equations \ref{eq:S1_res}.  Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 3 Phe in S1. }
 \label{fig:S1_mapping}
 \end{figure}
@@ -877,11 +816,11 @@ As in the case of the light yield, the variance in S2 is the result of recombina
 \end{equation}
 
 
-Figure \ref{fig:S2_mapping} shows the application of smearing from equation \ref{eq:S2_res} applied to the S2 tritium spectrum expected from NEST overlaid with the data. As with the S1 spectrum the correction is calculated using NEST for charge yield with the measured g2 applied, convolve it with a tritium beta spectrum and using our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S2 space. Having calculated the dependance of detector resolution vs. the number of photons of a given event (equation \ref{sig_Stat}) we can apply the smearing as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons. From the S2 spectrum, which is more peaked than the S1, we see the ~20\% discrepancy with the NEST charge yield model but it may also be an indication of the error in g1 and g2.
+Figure \ref{fig:S2_mapping} shows the application of smearing from equation \ref{eq:S2_res} applied to the S2 tritium spectrum expected from NEST overlaid with the data. As with the S1 spectrum the correction is calculated using NEST for charge yield with the measured g2 applied, convolve it with a tritium beta spectrum and using our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S2 space. Having calculated the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the smearing as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons. From the S2 spectrum, which is more peaked than the S1, we see the ~20\% discrepancy with the NEST charge yield model but it may also be an indication of the error in g1 and g2.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_spec_.eps}
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_corr_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_.eps}
 \caption{Left: In Black S2 tritium spectrum extracted from the data. In blue, The NEST light yield curve. In red, the NEST light yield curve with recombination fluctuations. Dashed magenta is NEST light yield with smearing from equations \ref{eq:S2_res}.  Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S2 threshold at about 400 Phe in S2. }
 \label{fig:S2_mapping}
 \end{figure}
@@ -903,19 +842,19 @@ Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the
 \label{eq:E_res}
 \end{gather}
 
-
+\newpage
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/E_Spec/E_spec_compare_SIM.eps}
-\includegraphics[width=80mm]{Figures/E_Spec/E_spec_compare_SIM_log_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM_log_.eps}
 \caption{The tritium energy spectrum reconstructed from the data using both Pulse Area and Spike count for S1. Along with LUX SIM, the true tritium beta spectrum and a tritium spectrum smeared with detector resolution. }
 \label{fig:E_spec}
 \end{figure}
 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/E_density_LUX_SIM_Tritium.eps}
-\includegraphics[width=80mm]{Figures/E_corr.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/E_density_LUX_SIM_Tritium.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/E_corr.eps}
 \caption{Left, mapping from real Monte Carlo energy to observed energy after applying a finite resolution using LUXSIM. Right, comparing the correction determined from the Monte Carlo (Red) to the detector smearing model (black) given in equation \ref{eq:E_res}. The dashed lines represent the uncertainty in the measured value of F(E). The agreement is within errors from 1 to 18 keVee. The Energy threshold is near 1.0 $\rm keV_{ee}$.}
 \label{fig:E_mapping}
 \end{figure}
@@ -924,18 +863,19 @@ Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the
 
  The S1 and S2 spectral shape is not a good match with the light yield model from NEST, thus applying a correction to the observed means using NEST is not prudent. Fortunately, we see that both in the S1 and S2 region of interest were the majority of the tritium events occur the spectral shape correction is less than 10\%. Further, the reconstructed energy, uncorrected for spectral shape, is go to within 10\% as well. Knowing this we can move forward with extracting a more accurate light yield and recombination fluctuation accepting the small error in order to create a more accurate model than NEST to which then we can apply the spectral shape correction.
 
+\newpage 
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/Iter0/n_electron_180_LY_QY_0.png}
-\includegraphics[width=84mm]{Figures/Iter0/n_photon_180_LY_QY_0.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png}
 \caption{Number of photons (left) and electrons (right) vs. energy from tritium data without spectral shape correction. The spread in quanta per energy bin is used to measure recombination fluctuations.}
 \label{fig:LYQY_0}
 \end{figure}
 
  \begin{figure}[h!]\centering
- \includegraphics[width=100mm]{Figures/Iter0/std_fig_.eps}
- \includegraphics[width=82mm]{Figures/Iter0/quanta_LY_QY_0.png}
- \includegraphics[width=82mm]{Figures/Iter0/R_LY_QY_0.png}
+ \includegraphics[width=100mm]{Recombination_LY_QY/Figures/Iter0/std_fig_.eps}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter0/quanta_LY_QY_0.png}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png}
 \caption{Top: Extracted recombination fluctuation from the tritium data from fluctuations in photons and electrons (Black and Red receptively). Bottom right: mean number of quanta in photons, electrons, ions, exitons vs. energy [keV] for the tritium calibrations. Bottom left: Recombination fraction and the one sigma (shaded) vs. energy [keV].}
 \label{fig:Rec_0}
 \end{figure}
@@ -943,8 +883,8 @@ Using equation \ref{eq:Fano}, \ref{eq:Gain} and \ref{eq:E_res1} we solve for the
 Having extracted light yield (Photons/keV] and charge yield (electrons/keV) we compare the initial result from the tritium data to NEST, and is shown in figure \ref{fig:LYQY_0}. The disagreement between the data and the NEST yields was expected since previously the S1 and S2 tritium spectrum did not line up, in the previous section. Though the means do not match the measured light yield is within 1 sigma considering the large error in gains g1 and g2.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=82mm]{Figures/LYQY/LY_180_1sigBand_.png}
-\includegraphics[width=82mm]{Figures/LYQY/QY_180_1sigBand_.png}
+\includegraphics[width=82mm]{Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png}
+\includegraphics[width=82mm]{Recombination_LY_QY/Figures/LYQY/QY_180_1sigBand_.png}
 \caption{Light yield and charge yield from tritium data without spectral shape correction at 180 [V/cm] in black, the shaded region represents the one sigma uncertainty on g1 and g2. The NEST yield prediction and it's corresponding 1 sigma is shaded in blue. NEST interpolation in show in magenta to energies where the model is not vetted. }
 \label{fig:LYQY_0}
 \end{figure}
@@ -962,8 +902,8 @@ In the previous section we determined that the NEST model was not sufficient to 
 Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \ref{eq:S1_res} applied to the light yield extracted from the uncorrected tritium data with the data. The mapping for converting the observed S1 to the real S1 is shown in the figure. To calculate the correction we start with the extracted light yield, apply the measured g1, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of photons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_spec_compare_iter1_.eps}
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_corr_iter1_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_iter1_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_iter1_.eps}
 \caption{Left: In Black, tritium data. In red, the spectrum after applying measured recombination fluctuations. In dashed blue is after applying recombination and finite detector resolution of equation. Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S1 threshold at about 3 Phe in S1. }
 \label{fig:S1_mapping_2}
 \end{figure}
@@ -974,8 +914,8 @@ Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \
 Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \ref{eq:S2_res} applied to the charge yield extracted from the uncorrected tritium data with the data. The mapping for converting the observed S2 to the real S2 is shown in the figure. To calculate the correction we start with the extracted light yield, apply the measured g2, convolve it with a tritium beta spectrum and add in our first approximation of recombination fluctuations measured in equation \ref{eq:Inst_Fit}, given infinite detector resolution this is the spectrum the LUX detector would observe in S1 space. Knowing the dependance of detector resolution vs. the number of electrons of a given event (equation \ref{eq:SigDet}) we can apply the model as outlined in \ref{sec:Smear} and calculate the shift from observed mean photons to real mean photons.
 
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_spec_iter1_.eps}
-\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_corr_iter1_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_iter1_.eps}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_iter1_.eps}
 \caption{Left: In Black, tritium data. In red, the spectrum after applying measured recombination fluctuations. In dashed blue is after applying recombination and finite detector resolution of equation. Left: Mapping of the observed mean, with finite resolution, to the mean with infinite resolution for a tritium photon spectrum. Bottom Right: The ratio of the real mean to the observed mean vs. the observed mean for a tritium photon spectrum. Note the S2 threshold at about 400  Phe. }
 \label{fig:S2_mapping_2}
 \end{figure}
@@ -986,13 +926,13 @@ Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \
 
 \begin{figure}[h!]\centering
  
-\subcaptionbox{S1 \label{fig:3a}}{\includegraphics[width=80mm]{Figures/S1S2_Spectra/S1_Thres_.eps}}
+\subcaptionbox{S1 \label{fig:3a}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_.eps}}
 \hfill
-\subcaptionbox{$\rm S2_b$ (golden) \label{fig:3b}}{\includegraphics[width=80mm]{Figures/S1S2_Spectra/S2_Thres_.eps}}
+\subcaptionbox{$\rm S2_b$ (golden) \label{fig:3b}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1S2_Spectra/S2_Thres_.eps}}
 
 \bigskip
 
-\subcaptionbox{Combined Energy \label{fig:3c}}{\includegraphics[width=80mm]{Figures/E_Spec/E_Thres_LY_QY_iter1.eps}}
+\subcaptionbox{Combined Energy \label{fig:3c}}{\includegraphics[width=70mm]{Recombination_LY_QY/Figures/E_Spec/E_Thres_LY_QY_iter1.eps}}
 
 \caption{Threshold calculated from difference of simulated Tritium S1, S2 and energy spectra. a) S1 b) $\rm S2_b$, c) E .}
 \label{fig:Thres}
@@ -1003,9 +943,9 @@ Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \
 \section{Ionization and Scintillation Yield and Recombination After Correction}
 
  \begin{figure}[h!]\centering
- \includegraphics[width=100mm]{Figures/Iter1/std_fig_.eps}
- \includegraphics[width=80mm]{Figures/Iter1/quanta_iter1LY_QY_iter1.png}
- \includegraphics[width=80mm]{Figures/Iter1/R_iter1_LY_QY_iter1.png}
+ \includegraphics[width=100mm]{Recombination_LY_QY/Figures/Iter1/std_fig_.eps}
+ \includegraphics[width=70mm]{Recombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_iter1.png}
+ \includegraphics[width=70mm]{Recombination_LY_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png}
 \caption{After spectral shape correction. Top: Extracted recombination fluctuation from the tritium data from fluctuations in photons and electrons (Black and Red receptively). Bottom right: mean number of quanta in photons, electrons, ions, exitons vs. energy [keV] for the tritium calibrations. Bottom left: Recombination fraction and the one sigma (shaded) vs. energy [keV].}
 \label{fig:Rec_1}
 \end{figure}
@@ -1013,16 +953,16 @@ Figure \ref{fig:S1_mapping_2} shows the application of smearing  from equation \
 
 \newpage
  \begin{figure}[h!]\centering
- \includegraphics[width=82mm]{Figures/Iter1/LY_c_180_means_LY_QY_iter1.png}
- \includegraphics[width=82mm]{Figures/Iter1/QY_fid_means_LY_QY_iter1.png}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter1/LY_c_180_means_LY_QY_iter1.png}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter1/QY_fid_means_LY_QY_iter1.png}
 \caption{Extracting LY and QY from data corrected for spectral shape.}
 \label{fig:LYQY_data}
 \end{figure}
 
 
  \begin{figure}[h!]\centering
- \includegraphics[width=82mm]{Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png}
- \includegraphics[width=82mm]{Figures/Iter1/QY_180_1sigBand_.png}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png}
+ \includegraphics[width=82mm]{Recombination_LY_QY/Figures/Iter1/QY_180_1sigBand_.png}
 \caption{LY and QY from tritium data corrected for spectral shape along with the 1 sigma band of g1/g2. The blue and magenta curve are NEST extrapolation and interpolation, respectively.}
 \label{fig:LYQY_data}
 \end{figure}
@@ -1040,8 +980,8 @@ There were two data sets in late 2013 that contain $\rm^{83m}Kr$ decays at zero 
 
  
  \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/S1_Z_no_field_lux10_20131009T1358_cp06914}
-\includegraphics[width=80mm]{Figures/dT_no_field_2lux10_20131009T1358_cp06914}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914}
+\includegraphics[width=70mm]{Recombination_LY_QY/Figures/dT_no_field_2lux10_20131009T1358_cp06914}
 \caption{Left: $\rm^{83m}Kr$ peaks at zero field. ** The 9.4 keV peak is fit only for events with a decay time separation greater than 1000 [ns]. Right: shows the timing separation between the 32.1 and 9.4 [keV] decays plotted above.}
 \label{fig:ZeroField_Kr}
 \end{figure}
@@ -1082,133 +1022,3 @@ Field [V/cm]	&S1[Phe]	& Photons[$n_{\gamma}$]	& Yield [$n_{\gamma}$/keV	]	&NEST	
 %\end{center}
 %\label{table:krAll}
 %\end{table}
-
-\begin{comment}
-
-\newpage
-\section{Scintillation Yield and Ionization Yield from Tritium Beta Decay}
-
-\subsection{Cuts used in this analysis}
-
-\begin{itemize}
-\item Standard LIX Pulse finder classifier used in the WIMP search.
-\item $\rm S2_b > 100 [Phe] $
-\item PDE (g1) = 0.138 $\rm \pm 0.005$, measured with Tritium
-\item Extraction = 0.655 $\rm \pm 0.02$ measured with Tritium.
-\item single e- = 9.95 $\rm \pm 0.1$ [Phe/e-]
-\item Using NEST 4c bands.
-\end{itemize}
-
-
-
-\subsection{Results at 180 [V/cm], Corrected for Spectral Shape}
-
-See Figures \ref{fig:L_Q_Yield} and \ref{fig:L_Q_Yield_180}.
-
-The scintillation and ionization yield is defined as [Photons/keV] and [Electrons/keV] respectively. For conversion of pulse area to photons and electrons along with the combined energy calculation see section []. The measurement was made using a triturated methane calibration source which provides betas ranging from $\rm>1$ to about 18 [keV]. Over 150,000 beta decay events, in the fiducial volume, were used to measure scintillation and ionization yield at 180 [V/cm]. Figure \ref{fig:L_Q_Yield} shows the results from the tritium calibration before correcting for the shape of the tritium spectrum.
-
-\begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Figures/LY_c_180_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=120mm]{Figures/CH3T_fid_E_S2_c_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\caption{Top: Scintillation yield vs. combined enery using tritium beta decay. Bottom: Ionization yield vs. combined energy using tritium beta decay. At a drift field of 180 [V/cm], in the fiducial volume, and containing over 150,000 beta decays. The S1, S2 and  energy has been corrected for spectral shape and detector resolution. The endpoint of the tritium beta spectrum is 18.6 [keV]. }
-\label{fig:L_Q_Yield}
-\end{figure}
-
-
- \begin{figure}[h!]\centering
-\includegraphics[width=82mm]{Figures/LY_180_band_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=82mm]{Figures/QY_180_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=83mm]{Figures/LY_180_band_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\includegraphics[width=76mm]{Figures/QY_180_log_Tritium_Dec_2013_Charge_Yield_180_corr.png}
-\caption{180 [V/cm], corrected for spectral shape. Top Left: Mean scintillation yield vs. combined energy using tritium beta decay (black line). $\rm^{83}Kr$ lines are plotted for reference but only the 32.1 [keV] line (red star) is kosher since the 9.4 [keV] line is dependent on timing separation, the 9.4 [keV] line is plotted (blue star) for separations greater than 1000 [ns]. Top Right: Mean ionization yield vs. combined energy (black line). Bottom Left: Scintillation yield vs. combined energy on a log scale. Bottom Right: Ionization yield vs. combined energy on a log scale. The shaded blue regions represent the NEST mean with $\pm 5\%$ that has been vetted by data [Erik Dahl Thesis]. The shaded magenta regions represent the NEST extrapolations from data. The measurement is made at a field of 180 [V/cm] and contains over 150,000 beta decays. The endpoint of the tritium beta spectrum is 18.6 [keV]}
-\label{fig:L_Q_Yield_180}
-\end{figure}
-
-
-\subsection{Results at 100 [V/cm], Corrected for Spectral Shape}
-
-... See Figure \ref{fig:L_Q_Yield_100}.
-
-
- \begin{figure}[h!]\centering
-\includegraphics[width=82mm]{Figures/LY_100_Tritium_Dec_2013_Yield_100_corr}
-\includegraphics[width=81mm]{Figures/QY_100_Tritium_Dec_2013_Yield_100_corr}
-\includegraphics[width=83mm]{Figures/LY_180_band_log_Tritium_Dec_2013_Yield_100_corr}
-\includegraphics[width=76mm]{Figures/QY_180_log_Tritium_Dec_2013_Yield_100_corr}
-\caption{105 [V/cm], corrected for spectral shape. Top Left: Mean scintillation yield vs. combined energy using tritium beta decay (black line). $\rm^{83}Kr$ lines are plotted for reference but only the 32.1 [keV] line (red star) is kosher since the 9.4 [keV] line is dependent on timing separation, the 9.4 [keV] line is plotted (blue star) for separations greater than 1000 [ns]. Top Right: Mean ionization yield vs. combined energy (black line). Bottom Left: Scintillation yield vs. combined energy on a log scale. Bottom Right: Ionization yield vs. combined energy on a log scale. The shaded blue regions represent the NEST mean with $\pm 5\%$ that has been vetted by data [Erik Dahl Thesis]. The shaded magenta regions represent the NEST extrapolations from data. The measurement is made at a field of 100 [V/cm] and contains about 5,000 beta decays. The endpoint of the tritium beta spectrum is 18.6 [keV]}
-\label{fig:L_Q_Yield_100}
-\end{figure}
-
-
-
-\subsection{Compared With recent Compton Scattering Measurement}
-
-... See Figure \ref{fig:L_Q_Yield_Baudis}.
-
- \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/Re_all_log_T_paper_corr_threshold.eps}
-\includegraphics[width=80mm]{Figures/LY_all_T_paper.eps}
-\includegraphics[width=80mm]{Figures/Charge_Y_all_Tritium_Dec_2013_Charge_Yield_180_corr.eps}
-\caption{Top: Scintillation yield relative to the yield of the 32.1 gamma of [keV] $\rm^{83}Kr $  vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red points represent a recent Compton scattering measurement at 450 [V/cm]. Also shown are the corresponding quenching of the 32.1 [keV]  gamma of $\rm^{83}Kr$ (star inside circle). Bottom: scintillation yield [Photons/keV] vs. Energy. Shaded blue curve is tritium at 100 [V/cm], shaded black curve is tritium at 180 [V/cm], red circles represent a recent Compton scattering measurement at 450 [V/cm].}
-\label{fig:L_Q_Yield_Baudis}
-\end{figure}
-
-\newpage
-\section{Fixing the Low Energy Tritium `Pile Up' }
-
-By modifying the scintillation yield down and ionization yield up at low energy the strange `pile up' at low energies can be resolved. 
-
-\begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/CH3T_E_dis_Tritium_Dec_2013_Yield_180_corr.png}
-\includegraphics[width=80mm]{Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Yield_180_corr}
-%\includegraphics[width=77mm]{Figures/CH3T_ER_NEST_Tritium_Dec_2013_Charge_Yield_180.png}
-\caption{With S1 and S2 spectral shape correction. Left: log10(S2/S1) (black) and NEST (shaded blue) vs. Energy. The data and the NEST prediction agree between 1[keV] to 8 [keV], where the NEST model is optimized. Right: log10(S2/S1) (black) plotted vs S1. The shaded blue region represents the NEST mean with $\pm 5\%$. that has been vetted by data [Erik Dahl Thesis]. The shaded magenta regions represent the NEST extrapolations from data. The deviation at low S1 is potentially due to greater ionization yield than predicted by NEST at low energy.}
-\label{fig:L_Q_Yield_180_NEST}
-\end{figure}
-
-\begin{figure}[h!]\centering
-\includegraphics[width=84mm]{Figures/CH3T_E_dis_Tritium_Dec_2013_Charge_Yield_180}
-\includegraphics[width=75mm]{Figures/CH3T_S1_dis_zoom_Tritium_Dec_2013_Charge_Yield_180}
-%\includegraphics[width=77mm]{Figures/CH3T_ER_NEST_Tritium_Dec_2013_Charge_Yield_180.png}
-\caption{No spectral shape correction. Left: log10(S2/S1) (black) and NEST (shaded blue) vs. Energy. The data and the NEST prediction agree between 1[keV] to 8 [keV], where the NEST model is optimized. Right: log10(S2/S1) (black) plotted vs S1. The shaded blue region represents the NEST mean with $\pm 5\%$  The deviation at low S1 is potentially due to greater ionization yield than predicted by NEST at low energy.}
-\label{fig:L_Q_Yield_NEST_2}
-\end{figure}
-
-
- \begin{figure}[h!]\centering
-\includegraphics[width=100mm]{Figures/CH3T_E_spec_218_Tritium_Dec_2013_Charge_Yield_180}
-\caption{Tritium Data along with LUX SIM,  the `pile up' at low energy seen in all previous tritium energy specta can be solved by modifying charge yield and light yield at low energies.}
-\label{fig:L_Q_Yield_NEST_3}
-\end{figure}
-
-
-\newpage
-\section{Discrimination vs E and S1}
-
-\subsection{Discrimination vs. S1}
-
- \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/CH3T_fid_50_Tritium_Dec_2013_S2_100Phe_cut}
-\includegraphics[width=80mm]{Figures/CH3T_Leakage_fid_50_Tritium_Dec_2013_S2_100Phe_cut}
-\caption{Discrimination vs. S1. On average from 0 to 50 Phe the discrimination is 99.50\%, defined by the number of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 4c).}
-\label{fig:Dis_S1}
-\end{figure}
-
-\subsection{Discrimination vs. Combined Energy}
-
- \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Figures/CH3T_fid_E_Tritium_Dec_2013_S2_100Phe_cut}
-\includegraphics[width=80mm]{Figures/CH3T_Leakage_E_fid_50_Tritium_Dec_2013_S2_100Phe_cut}
-\caption{Discrimination vs. combined energy. On average from 0 to 6.5 keV (0-50 Phe  S1) the discrimination is 99.46\%, defined by the number of events of events below the mean of the nuclear recoil band. The red band represents the NEST nuclear recoil band (version 4c).}
-\label{fig:Dis_S1}
-\end{figure}
-
-
-\end{comment}
-
-\bibliographystyle{thesisbibstyle}
-\bibliography{TritiumBib}
-
-
-
-\end{document}
