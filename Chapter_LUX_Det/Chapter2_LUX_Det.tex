@@ -33,10 +33,21 @@ The LUX detector is a two phase xenon time projection chamber TPC,  [ref LUX ins
 
 \section{The Light and Charge Signals}
 
-When energy is deposited in the active region of the xenon TPC it is converted to excitation, ionization and heat. For a given energy deposit, NR events lose a significant portion of energy to heat leaving less energy available for excitation and ionization than an ER event. Xenon excitons de-excite on the order of nano seconds producing 175nm VUV scintillation light, recombining ion electron pairs also emit scintillation light. The two channels for photon production overlap and sum to produce the primary scintillation signal (S1), arriving within 10s of ns as the photons are collected the  PMT arrays. Electrons which escape recombination with their ion pair feel the effect of the drift field and begin to drift upwards towards the gas phase phase (drift times of 0-324 $\rm \mu s$). Once extracted into the gas the electrons accelerate and electroluminece  producing a much larger secondary scintillation signal (S2), proportional the the number of electrons extracted. A schematic of an NR and ER event is shown in figure \ref{fig:TomS_ER}, figure \ref{fig:TomS_ER} and an illustration of an energy deposition in the LUX detector is show in figure \ref{fig:LUX_Event}. The timing separation between the S1 and S2 pulse is used to define the drift time and the hit pattern of the S2 signal on the top PMT array is used to define the XY position of the event. From the S1 and S2 signals the full x,y,z position and energy deposit of the event can be reconstructed.
+When energy is deposited in the active region of the xenon TPC it is converted to excitation, ionization and heat, equation \ref{eq:E_Q}. For a given energy deposit, NR events lose a significant portion of energy to heat leaving less energy available for excitation and ionization than an ER event. Xenon excitons de-excite on the order of nano seconds producing 175nm VUV scintillation light, recombining ion electron pairs also emit scintillation light. The two channels for photon production overlap and sum to produce the primary scintillation signal (S1), arriving within 10s of ns as the photons are collected the  PMT arrays. Electrons which escape recombination with their ion pair feel the effect of the drift field and begin to drift upwards towards the gas phase phase (drift times of 0-324 $\rm \mu s$). Once extracted into the gas the electrons accelerate and electroluminece  producing a much larger secondary scintillation signal (S2), proportional the the number of electrons extracted. A schematic of an NR and ER event is shown in figure \ref{fig:TomS_ER}, figure \ref{fig:TomS_ER} and an illustration of an energy deposition in the LUX detector is show in figure \ref{fig:LUX_Event}. The timing separation between the S1 and S2 pulse is used to define the drift time and the hit pattern of the S2 signal on the top PMT array is used to define the XY position of the event. From the S1 and S2 signals the full x,y,z position and energy deposit of the event can be reconstructed.
+
 %Show prompt fraction plot to describe event selection.
 
 
+\begin{equation}
+\begin{split}
+\rm E= W\times n_q + Heat \\
+\rm E= W (n_i + n_{ex}) + Heat \\
+\rm E= W (n_\gamma + n_e) + Heat \\
+\label{eq:E_Q}
+\end{split}
+\end{equation}
+
+Where E is the energy of the deposit in keV, $\rm n_q$ is number of quanta (photons + electrons), $\rm n_i$, $\rm n_{ex}$, $\rm n_\gamma$ and $\rm n_e$ represent the number of ions, exitons, photons and electrons respectively. W for xenon has been measured to be 13.7 $\rm \pm$ 0.2  [quanta/eV] (refs).
 
  \begin{figure}[h!]\centering
  \includegraphics[width=150mm]{Chapter_LUX_Det/NR_T_Shutt.png}
@@ -67,12 +78,12 @@ The primary and secondary signals have unique properties which can be used to id
 \label{fig:LUX_Golden}
 \end{figure}
 
-To to the pulse characteristics of S1 and S2 we define a variable Prompt Fraction that traces the area covered in the fist 10\% of the pulse. For S1s this value will approach 1 and for S2s the value will be below 0.1, this provides for a powerful separation of the populations. The separation of population is shown in figure for the case of a $\rm ^{83m}Kr$ data set (41.5 keV gamma) and a tritium calibration data set (1-18.5 keV beta decay). The populations of single photons, single electrons, S1s and S2s are clearly visible and well speparted when plotting the prompt  fraction variable vs. pulse area (PE). Golden events for the WIMP search are single scatters which contain one S1 paired with a subsequent S2 pulse. Each single scatter golden event has a well defined x,y coordinate and z from the drift time. Golden events are corrected for detector geometry and electron attenuation, discussed in the next section.
+To to the pulse characteristics of S1 and S2 we define a variable Prompt Fraction that traces the area covered in the fist 10\% of the pulse. For S1s this value will approach 1 and for S2s the value will be below 0.1, this provides for a powerful separation of the populations. The separation of population is shown in figure for the case of a $\rm ^{83m}Kr$ data set (41.5 keV gamma) and a tritium calibration data set (1-18.5 keV beta decay). The populations of single photons, single electrons, S1s and S2s are clearly visible and well separated when plotting the prompt  fraction variable vs. pulse area (PE). Figure \ref{fig:Prompt_Fraction} shows the density plot for a $\rm^{83}Kr$ and Tritium calibration with the population of single electrons, single photons and the S1 S2 pairs associated with gammas, betas and alpha interactions in the LUX detector. We define Golden events for the WIMP search are single scatters with a single S1 paired with a subsequent S2 pulse, with this requirement each golden event has a well defined x,y coordinate and z from the drift time making it possible to correct the signals for geometry and electron attenuation.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_LUX_Det/Kr_83_Density_text.png}
 \includegraphics[width=120mm]{Chapter_LUX_Det/T_Density_text.png}
-\caption{Density plot}
+\caption{Density plot of prompt fraction vs. Pulse Area. Top: $\rm^{83m}Kr$ data set. Bottom: Tritium data set. Populations of single electrons, single photons and the S1 S2 pairs associated with gammas, betas and alpha are highlighted as rectangles.}
 \label{fig:Prompt_Fraction}
 \end{figure}
 
