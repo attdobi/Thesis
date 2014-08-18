@@ -23,22 +23,22 @@
 \contentsline {subsection}{\numberline {4.3.1}Measuring Recombination Fluctuations with Mono-Energetic Sources}{33}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Results with Mono Energetic Calibration Sources}{37}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Measuring Recombination Fluctuations in Desecrate Energy Bins}{39}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Measuring the Fano Factor in Bins of Energy}{43}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Application to $\rm ^{83}Kr$}{44}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Application to Tritium Data (any continus spectrum)}{47}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Centriod Subtraction}{49}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}Correcting the Tritium Spectral Shape for Finite Resolution}{52}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Calculating the Observed Energy}{53}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Smearing a Toy Spectrum}{55}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{56}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Tritium S1 Mean and NEST}{56}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Tritium S2 Mean and NEST}{58}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Tritium Energy Spectrum}{59}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}LY, QY, $\rm \sigma R$ Result}{62}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{64}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Tritium S1 Correction}{64}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Tritium S2 Correction}{65}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Thresholds}{66}{section.4.7}
-\contentsline {section}{\numberline {4.8}Ionization and Scintillation Yield and Recombination After Correction}{67}{section.4.8}
-\contentsline {section}{\numberline {4.9}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{68}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{69}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.3.4}Measuring the Fano Factor in Bins of Energy}{44}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Application to $\rm ^{83}Kr$}{45}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Application to Tritium Data (any continus spectrum)}{48}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Centriod Subtraction}{50}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Correcting the Tritium Spectral Shape for Finite Resolution}{55}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Calculating the Observed Energy}{57}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Smearing a Toy Spectrum}{59}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{61}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Tritium S1 Mean and NEST}{61}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Tritium S2 Mean and NEST}{62}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Tritium Energy Spectrum}{64}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}LY, QY, $\rm \sigma R$ Result}{68}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{70}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Tritium S1 Correction}{70}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Tritium S2 Correction}{71}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}Thresholds}{72}{section.4.7}
+\contentsline {section}{\numberline {4.8}Ionization and Scintillation Yield and Recombination After Correction}{73}{section.4.8}
+\contentsline {section}{\numberline {4.9}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{74}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{75}{subsection.4.9.1}
