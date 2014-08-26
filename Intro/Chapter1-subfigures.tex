@@ -30,7 +30,7 @@ Chapter 5 provides the conclusion to the thesis.
 
 \section{Evidence for Dark Matter}
 
-Astronomical observations hinting at the existence of dark matter were first observed in 1932 by Oort \cite{Oort} and more precisely in 1937 by Zwicky  \cite{Zwicky}. Both noted discrepancies in galactic mass measurements when comparing the luminous mass and the mass attained from galactic rotation curves measured by red shifts. Oort had noted up to a factor of ten more mass than luminous mass in the Sombrero Galaxy and Zwicky found a factor of 500 for the Coma cluster. Both the observations were far to large to be accounted for by light absorption, indicating the existence of dark matter to account for the missing mass. Since then more evidence for the existence of dark matter has been compiled, including big ban nucleosynthesis (BBN), anisotropies in the cosmic microwave background (CMB), formation of large structures, galactic ration curves, and gravitational lensing. All independent techniques leading to a unified conclusion for the existence of non baryonic and non luminous matter. Individually some pieces of evidence, such as galactic rotation curves, can be explained by modifications to general relativity (GR), but not all simultaneously. The existence of non relativistic, dark matter particles are required unify all known observations. This dark matter does not couple to the electromagnetic force and is thus able to avoid our standard detection techniques, making its presence felt on large scales via gravity. In the last thirty years significant progress has been made in the direct detection of such a particle, the forefront of which will be presented in this thesis.
+Astronomical observations hinting at the existence of dark matter were first observed in 1932 by Oort \cite{Oort} and more precisely in 1937 by Zwicky  \cite{Zwicky}. Both noted discrepancies in galactic mass measurements when comparing the luminous mass to the required to support galactic rotational velocities measured by red shifts. Oort had noted up to a factor of ten more mass than luminous mass in the Sombrero Galaxy and Zwicky found a factor of 500 for the Coma cluster. Both the observations were far to large to be accounted for by light absorption, indicating the existence of dark matter to account for the missing mass. Since then more evidence for the existence of dark matter has been compiled, including big bang nucleosynthesis (BBN), anisotropies in the cosmic microwave background (CMB), baryonic acoustic oscillations (BAO), formation of large structures, galactic ration curves, and gravitational lensing. All independent techniques leading to a unified conclusion for the existence of non baryonic and non luminous matter. Individually some pieces of evidence, such as galactic rotation curves, can be explained by modifications to general relativity (GR), but not all simultaneously. The existence of non relativistic, dark matter particles are required in order to unify the current observations. This dark matter does not couple to the electromagnetic force and is thus able to avoid our standard detection techniques, making its presence felt on large scales via gravity. In the last thirty years significant progress has been made in the direct detection of such a particle, the forefront of which will be presented in this thesis.
 
 \subsection{Galactic Rotation Curves}
 
@@ -63,14 +63,14 @@ Big band nucleosynthesis (BBN) accounts for the relative abundances of light ele
 The baryon density measured using BBN is constrained to within 1\% and in agreement with the latest constraints from Plank's CMB data, $\Omega_b h^2$= 0.02205 $\pm$ 0.00028 \cite{Planck_Param}.
 
 \subsection{CMB}
+\label{sec:CMB}
+The early universe consisted of a plasma making the universe opaque to photons as they scattered off free electrons. As the temperature fell below the binding energy of hydrogen 13.6 eV, electrons neutral atoms allowing photons to decouple from the plasma making the universe became transparent. The mean temperature of decoupling was actually at 0.25 eV ($\sim 4000 \, K$ as photons still scatter frequently near the binding energy of hydrogen \cite{BBN}. The cosmic microwave background (CMB) emanated from this time after making a final scatter photons decoupled from electrons effectively attaining a mean free path on the scale of the universe. Thus photons observed today at the red shift temperature of 2.72548$\pm$0.00057 K \cite{CMB_Temp} have not interacted from the time of last scatter 379,000 years after the bing bang. The CMB has encoded within it a wealth of information about the universe as it was at the time of decoupling, as ever more increasing measurements from COBE, WMAP and Planck have been able to probe slight temperature variations to 1 part in 100,000 as seen in figure \ref{fig:CMB_Hist}. Table \ref{table:Cosmo_Param} shows the constraints on cosmological parameters set by Planck. The results are in good agreement with baryonic density derived from BBN and predict a dark matter component of 25.8\%.
 
-The early universe consisted of a plasma making the universe opaque to photons as they scattered off free electrons. As the temperature fell below the binding energy of hydrogen 13.6 eV, electrons settled in to form neutral atoms and the universe became transparent to its own light. The mean temperature of decoupling was actually at 0.25 eV ($\sim 4000 \, K$ as photons still scatter frequently near the binding energy of hydrogen \cite{BBN}. The cosmic microwave background (CMB) emanated from this time after making a final scatter photons decoupled from electrons effectively attaining a mean free path on the scale of the universe. Thus photons observed today at the red shift temperature of 2.72548$\pm$0.00057 K \cite{CMB_Temp} have not interacted from the time of last scatter 379,000 years after the bing bang.
-
-%photons and baryons were tightly coupled together in a plasma
-
-%Image of Cobe, WMAP, Plank
-NASA/JPL-Caltech/ESA
-
+\begin{figure}[h!]\centering
+\includegraphics[width=130mm]{Intro/Ch1_Figures/CMB_Hist.jpg}
+\caption{Improvement of resolution from COBE, first to discover anisotropies in the CMB, to WMAP and Planck which have set stringent limits on cosmological parameters by mapping variations in temperature of 1 part in 100,000. Image credit: NASA/JPL-Caltech/ESA. }
+\label{fig:CMB_Hist}
+\end{figure}
 
 \begin{table}[h!]
 \footnotesize
@@ -86,24 +86,55 @@ $\Omega_K$ 			& -0.0005$\pm$0.0065 (95\%) & Curvature\\ \hline
 $\Sigma_{m_v}$		& $<$ 0.230 					& Sum of neutrino masses [eV] \\ \hline
 $H_0$ 					& 67.77$\pm$0.77				& Hubble Constant [$\rm km s^{-1} Mpc^{-1}$]\\ \hline
 \end{tabular}
-\caption{Cosmological parameters. $^*$ Only Planck}
+\caption{Cosmological parameters. $^*$ Only Planck. \cite{Planck_Param}}
 \label{table:Cosmo_Param}
 \end{center}
 \end{table}
 
 \subsection{BAO}
-Sloan result
+
+The universe 379,000 years after the big bang was uniformly distributed, with only small variations observed in the CMB temperature of 1/100,000 \cite{Plank_Map}. Before decoupling took place gravity pulled baryons and dark matter into high density regions resulting in an opposing outward force from photon pressure. The outward force from the photon pressure was only felt by the baryons whereas the dark matter component would not not couple to photons. The competing attractive and repulsive forces gave rise to baryonic acoustic oscillations (BAO) with density regions propagating as spherical sound waves do. The amplitudes of the waves are separated by a characteristic radius called the sound horizon r, which is sensitive to the initial dark matter and baryon densities \cite{BAO_Theory}. Anisotropies in the CMB power spectrum probe these oscillations as discussed previously in \ref{sec:CMB}. At the time of decoupling the photon pressure ceased providing the opposing force allowing the gravitational restoring force to dampen the oscillations. If the picture since the time of the CMB is propagated forward in time we expect that areas of the CMB that were denser would cluster, thus statistically the universe is expected to have large scale structures on the order of the sound horizon r. Measurements of BAO by the Sloan Digital Sky Survey \cite{Sloan} and BOSS \cite{BOSS}are consistent with the sound horizon expected from anisotropies in the CMB, with a preferred scale of $\rm 100hh^{-1}$ Mpc ($\sim$150 Mpc) between large scale structures. Figure {fig:BOSS} shows the result from BOSS using Lyman-$\alpha$ absorption in quasar emission spectrum due to the presence of neutral hydrogen in the intergalactic medium \cite{BOSS}.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Intro/Ch1_Figures/BOSS.png}
+\caption{BAO peak obtained from BOSS \cite{BOSS} }
+\label{fig:BOSS}
+\end{figure}
 
 \subsection{Gravitational Lensing}
 
-At large distances the velocity of objects around the center of a galaxy does not fall off as predicted by Newtonian physics. Instead the velocity distributions appear constant as if a halo of Õnon-luminous mass was surrounding the galaxy. The rotation curve of our own Milky-way galaxy requires the presence of dark-matter [14]. Astronomical observations of the bullet-cluster also support the existence of dark-matter. The bullet-cluster is made up of two galaxy clusters which have recently collided and passed through each other. The collision has caused the ordinary matter to heat and emit X-rays, from elector-magnetic interactions, allowing for the mass distribution to be mapped [15]. However, the observed concentration of mass is not consistent with the center of mass predicted by GR, specifically gravitational lensing [16]. The way light bends around the bullet-cluster would indicate the presence of a dark-matter shell which, unlike the ordinary matter, has passed through at a faster rate due to the lack of interactions. Figure 3 shows the concentration of mass in the bullet-cluster as observed from xrays, emitted by ordinary matter, in pink and the concentration of mass from gravitational lensing in blue.
+Gravitational lensing can be to map the focal points of gravitational mass in a galaxy or cluster. The idea is to look for repeating structures around a large central mass which have been bent around regions of large mass. These repeating structures are caused by light trajectories bending before reaching earth creating an optical illusion, appearing as if the light had emanated from multiple sources along a straight lines of sight. Observations of the Bullet cluster strongly support the existence of dark-matter. The Bullet cluster is made up of two galaxy clusters which have recently collided and passed through each other. The collision has caused the ordinary, baryonic matter to heat and emit X-rays that are observed and used to map the luminous mass distribution \cite{Bullet_Cluster_Xray}. However, the observed concentration of mass is not consistent with the center of mass observed using gravitational lensing via GR \cite{Bullet_Cluster_DM}. The way light bends around the bullet-cluster would indicate the presence of a dark-matter shell which, unlike the ordinary matter, has passed through at a faster rate due to the lack of interactions. Figure \ref{Bullet} shows the concentration of mass in the bullet-cluster as observed from X-rays, emitted by baryonic matter, in pink and the concentration of mass from gravitational lensing in blue. The X-ray mapping from Chandra when compared with  gravitational lensing studies of the Bullet cluster clearly demonstrate a decoupling of the dark matter center of mass from the baryonic center of mass induced by the cluster's recent collision.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Intro/Ch1_Figures/Bullet_Cluster.png}
+\caption{The concentration of mass in the bullet-cluster as observed from X-rays, emitted by baryonic matter, in pink and the concentration of mass from gravitational lensing in blue. [Composite image credit: X-ray: NASA/CXC/CfA/M.Markevitch et al.; Optical: NASA/STScI; Magellan/U.Arizona/D.Clowe et al.; Lensing Map: NASA/STScI; ESO WFI; Magellan/U.Arizona/D.Clowe et al.] }
+\label{fig:Bullet}
+\end{figure}
 
 
-\subsection{$\rm \Lambda CDM$}
+%\subsection{$\rm \Lambda CDM$}
 
 \section{Dark matter Candidates}
-..MACHOS
+
+The evidence for the existence of missing mass outlined in the previous section forces us to examine solutions to account for those cosmological phenomina. It is natural to at first try and solve the anomaly by using our understanding of standard model particles. The first candidate considered for dark matter is the existence of Massive Compact Halo Objects (MACHOs). However, the MACHO theory requires that the extra mass be baryonic which is refuted by the precision measurements (BBN, CMB) that limit Baryonic mass to only 2.2\% while the overall matter energy density required is 31.75\% \cite{BBN_Constraints} \cite{Planck_Param} (see table \ref{table:Cosmo_Param}).
+A non baryonic candidate drawn from the standard model are neutrinos, which are known to carry mass due to oscillations and only interact weakly \cite{SNO}. However, large scale structure formation require that the universe have a `cold' ( non relativistic)dark matter component in order to become gravitationally bound to galaxies. With current constraints on the neutrinos masses to less than 0.23 eV \cite{Planck_Param}, neutrinos are highly relativistic and would fail to reproduce structuring of the universe observed today \cite{Neutrino_DM}.
+
 \subsection{AXIONS}
+\begin{footnotesize}``I named them after a laundry detergent, since they clean up a problem with an axial current" Ð Frank Wilczek
+\end{footnotesize}
+
+
+Axions were introduced to solve the strong CP problem. The Lagrangian allowed by gauge symmetry includes a term
+\begin{equation}
+\centering
+\rm \mathcal{L}=\Theta \frac{g_s^2}{32\pi^2}G^{a}_{\mu \nu}\widetilde{G}^{\mu \nu a}
+\end{equation}
+
+\noindent where g is the gluon QCD coupling constant, $\rm G^{a}_{\mu \nu}$ the gluon field strength and $\rm \Theta$ is a constant \cite{AXION_Theory}. The Lagrangian breaks gauge symmetry which allows for CP violating and is expected to contribute to the electric dipole moment (NEDM). Measurements of the NEDM have been constrained to be much smaller than expected with CP violation. NEDM is constrained to be less than $\rm 2.9\times10^{-26}$ e cm (90\% CL) \cite{NEDM}, resulting in $\rm \Theta$ of less than $\rm 0.7 \times 10^{-11}$.
+
+An elegant solution for the lack of observe red electric dipole moment was introduced by Pecci and Quinn. The proposed idea is to promote $\rm \Theta$ to a dynamical field value through a new symmetry (PQ symmetry) which is spontaneously broken naturally leading to $\rm \Theta=0$ by minimizing the potential  \cite{PQ1} \cite{PQ2}. Such a solution to the strong CP problem leads to the existence of a light pseudo scalar particle, the Axion. The axion would be a light particle which could couple to the electromagnetic field, in the presence of a strong electromagnetic field, $ \rm \textit{a} \leftrightarrow \gamma \gamma $ \cite{CAST}.
+
+Searches for axions involve looking for the rare electromagnetic interactions that convert axions into microwaves in resonating cavities with large magnetic fields here on earth. ADMX has been sensitive to mass scales of 3.3 $\rm \mu eV$ to 3.59 $\rm \mu eV$ with planned upgrades to explore more parameter space \cite{ADMX}. Coupling of photons to axions could also occur in the strong electromagnetic fields of our own sun. The CAST experiment searches for axions produced in the interior of the sun from thermal photons, with keV energies, which then arrive to the detector where they are converted back into X-rays within a large dipole magnet \cite{CAST}. The axion solves the strong CP problem and is a potential dark matter candidate, there is still vast parameter space to explore with potential axion massed ranging from $\rm \mu eV$ to eV scales. Instruments are being upgraded to explore these regions and will require patience, since each potential axion mass requires tuning the cavity to a specific resonance and waiting.
 
 \subsection{WIMPs}
 

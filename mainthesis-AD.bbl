@@ -53,6 +53,105 @@ D.~J. {Fixsen}.
 \newblock \emph{apj}, 707:916--920, December 2009.
 \newblock \doi{10.1088/0004-637X/707/2/916}.
 
+\bibitem{Plank_Map}
+P.A.R. Ade et~al.
+\newblock {Planck 2013 results. I. Overview of products and scientific
+  results}.
+\newblock 2013.
+\newblock \doi{10.1051/0004-6361/201321529}.
+
+\bibitem{BAO_Theory}
+Daniel~J. Eisenstein, Hee-jong Seo, and 1~White, Martin~J.
+\newblock {On the Robustness of the Acoustic Scale in the Low-Redshift
+  Clustering of Matter}.
+\newblock \emph{Astrophys.J.}, 664:660--674, 2007.
+\newblock \doi{10.1086/518755}.
+
+\bibitem{Sloan}
+W.~J. {Percival}, et~al.
+\newblock {Baryon acoustic oscillations in the Sloan Digital Sky Survey Data
+  Release 7 galaxy sample}.
+\newblock \emph{mnras}, 401:2148--2168, February 2010.
+\newblock \doi{10.1111/j.1365-2966.2009.15812.x}.
+
+\bibitem{BOSS}
+Anse Slosar, et~al.
+\newblock {Measurement of Baryon Acoustic Oscillations in the Lyman-alpha
+  Forest Fluctuations in BOSS Data Release 9}.
+\newblock \emph{JCAP}, 1304:026, 2013.
+\newblock \doi{10.1088/1475-7516/2013/04/026}.
+
+\bibitem{Bullet_Cluster_Xray}
+Maxim Markevitch.
+\newblock {Chandra observation of the most interesting cluster in the
+  universe}.
+\newblock 2005.
+
+\bibitem{Bullet_Cluster_DM}
+Douglas Clowe, et~al.
+\newblock {A direct empirical proof of the existence of dark matter}.
+\newblock \emph{Astrophys.J.}, 648:L109--L113, 2006.
+\newblock \doi{10.1086/508162}.
+
+\bibitem{BBN_Constraints}
+Peter~J. Kernan and Lawrence~M. Krauss.
+\newblock {Refined big bang nucleosynthesis constraints on Omega (baryon) and N
+  (neutrino)}.
+\newblock \emph{Phys.Rev.Lett.}, 72:3309--3312, 1994.
+\newblock \doi{10.1103/PhysRevLett.72.3309}.
+
+\bibitem{SNO}
+Q.R. Ahmad et~al.
+\newblock {Direct evidence for neutrino flavor transformation from neutral
+  current interactions in the Sudbury Neutrino Observatory}.
+\newblock \emph{Phys.Rev.Lett.}, 89:011301, 2002.
+\newblock \doi{10.1103/PhysRevLett.89.011301}.
+
+\bibitem{Neutrino_DM}
+George~R. Blumenthal, S.M. Faber, Joel~R. Primack, and Martin~J. Rees.
+\newblock {Formation of Galaxies and Large Scale Structure with Cold Dark
+  Matter}.
+\newblock \emph{Nature}, 311:517--525, 1984.
+\newblock \doi{10.1038/311517a0}.
+
+\bibitem{AXION_Theory}
+Masahiro Kawasaki and Kazunori Nakayama.
+\newblock {Axions: Theory and Cosmological Role}.
+\newblock \emph{Ann.Rev.Nucl.Part.Sci.}, 63:69--95, 2013.
+\newblock \doi{10.1146/annurev-nucl-102212-170536}.
+
+\bibitem{NEDM}
+C.A. Baker, et~al.
+\newblock {An Improved experimental limit on the electric dipole moment of the
+  neutron}.
+\newblock \emph{Phys.Rev.Lett.}, 97:131801, 2006.
+\newblock \doi{10.1103/PhysRevLett.97.131801}.
+
+\bibitem{PQ1}
+R.~D. Peccei and Helen~R. Quinn.
+\newblock $\mathrm{CP}$.
+\newblock \emph{Phys. Rev. Lett.}, 38:1440--1443, Jun 1977.
+\newblock \doi{10.1103/PhysRevLett.38.1440}.
+
+\bibitem{PQ2}
+R.~D. Peccei and Helen~R. Quinn.
+\newblock Constraints imposed by $\mathrm{CP}$ conservation in the presence of
+  pseudoparticles.
+\newblock \emph{Phys. Rev. D}, 16:1791--1797, Sep 1977.
+\newblock \doi{10.1103/PhysRevD.16.1791}.
+
+\bibitem{CAST}
+E.~Arik et~al.
+\newblock {Probing eV-scale axions with CAST}.
+\newblock \emph{JCAP}, 0902:008, 2009.
+\newblock \doi{10.1088/1475-7516/2009/02/008}.
+
+\bibitem{ADMX}
+S.~J. {Asztalos}, et~al.
+\newblock {SQUID-Based Microwave Cavity Search for Dark-Matter Axions}.
+\newblock \emph{Physical Review Letters}, 104(4):041301, January 2010.
+\newblock \doi{10.1103/PhysRevLett.104.041301}.
+
 \bibitem{FanoTheoretical}
 T.~Doke, A.~Hitachi, S.~Kubota, A.~Nakamoto, and T.~Takahashi.
 \newblock {Estimation of Fano factors in liquid argon, krypton, xenon and
