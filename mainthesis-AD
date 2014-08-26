@@ -99,7 +99,7 @@
 %three lines.  
 \newpage
 \bibliographystyle{thesisbibstyle}
-\bibliography{TritiumBib}
+\bibliography{AD_ThesisBib}
 %                 file name(s) of your bib file(s)
 
 \end{document}
