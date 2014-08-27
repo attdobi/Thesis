@@ -5,57 +5,57 @@
 \contentsline {subsection}{\numberline {1.2.1}Galactic Rotation Curves}{4}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}BBN}{4}{subsection.1.2.2}
 \contentsline {subsection}{\numberline {1.2.3}CMB}{6}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}BAO}{8}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Gravitational Lensing}{9}{subsection.1.2.5}
-\contentsline {section}{\numberline {1.3}Dark Matter Candidates}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}AXIONS}{12}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}WIMPs}{14}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}WIMP Dark Matter Searches}{15}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Direct Detection}{17}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}The WIMP signal}{18}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Background Rejection}{18}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Direct Detection Experiments}{18}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.2.4}BAO}{9}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Gravitational Lensing}{11}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Dark Matter Candidates}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}AXIONS}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}WIMPs}{15}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}WIMP Dark Matter Searches}{17}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Direct Detection}{18}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}The WIMP signal}{20}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Background Rejection}{20}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Direct Detection Experiments}{20}{subsection.1.4.4}
 \contentsline {chapter}{List of Abbreviations}{1}{chapter*.2}
-\contentsline {chapter}{\numberline {2}The LUX Detector}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{19}{section.2.1}
-\contentsline {section}{\numberline {2.2}The LUX TPC}{20}{section.2.2}
-\contentsline {section}{\numberline {2.3}The Light and Charge Signals}{20}{section.2.3}
-\contentsline {section}{\numberline {2.4}Identifying S1, S2}{24}{section.2.4}
-\contentsline {section}{\numberline {2.5}LUX Science Result (WIMP limit)}{26}{section.2.5}
-\contentsline {chapter}{\numberline {3}XYZ Correction}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}$\rm ^{83m}Kr$ Calibration}{31}{section.3.1}
-\contentsline {section}{\numberline {3.2}S2 Electron Lifetime and x,y Correction}{32}{section.3.2}
-\contentsline {section}{\numberline {3.3}S1 x,y,z Correction}{36}{section.3.3}
-\contentsline {section}{\numberline {3.4}Application to x,y,z Corrections in Data Processing}{39}{section.3.4}
-\contentsline {chapter}{\numberline {4}Energy Scale Calibration}{43}{chapter.4}
-\contentsline {section}{\numberline {4.1}Calibrating the Combined Energy Scale}{43}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Anti-Correlation Space}{45}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Refitting in Combined Energy Space}{47}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Finding Errors with MCMC}{52}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Combined Energy Space}{54}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Light Collection and Electron extraction}{54}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Modeling Intrinsic Detector Resolution}{56}{section.4.2}
-\contentsline {section}{\numberline {4.3}Measuring Recombination Fluctuations}{61}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Measuring Recombination Fluctuations with Mono-Energetic Sources}{61}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Results with Mono Energetic Calibration Sources}{65}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Measuring Recombination Fluctuations in Desecrate Energy Bins}{67}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Measuring the Fano Factor in Bins of Energy}{72}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Application to $\rm ^{83}Kr$}{73}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Application to Tritium Data (any continus spectrum)}{76}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Centriod Subtraction}{78}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}Correcting the Tritium Spectral Shape for Finite Resolution}{83}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Calculating the Observed Energy}{85}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Smearing a Toy Spectrum}{87}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{89}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Tritium S1 Mean and NEST}{89}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Tritium S2 Mean and NEST}{90}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Tritium Energy Spectrum}{92}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}LY, QY, $\rm \sigma R$ Result}{96}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{98}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Tritium S1 Correction}{100}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Tritium S2 Correction}{100}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}Thresholds}{102}{section.4.7}
-\contentsline {section}{\numberline {4.8}Ionization and Scintillation Yield and Recombination After Correction}{103}{section.4.8}
-\contentsline {section}{\numberline {4.9}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{105}{section.4.9}
-\contentsline {subsection}{\numberline {4.9.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{108}{subsection.4.9.1}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{109}{chapter*.67}
+\contentsline {chapter}{\numberline {2}The LUX Detector}{21}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{21}{section.2.1}
+\contentsline {section}{\numberline {2.2}The LUX TPC}{22}{section.2.2}
+\contentsline {section}{\numberline {2.3}The Light and Charge Signals}{22}{section.2.3}
+\contentsline {section}{\numberline {2.4}Identifying S1, S2}{26}{section.2.4}
+\contentsline {section}{\numberline {2.5}LUX Science Result (WIMP limit)}{28}{section.2.5}
+\contentsline {chapter}{\numberline {3}XYZ Correction}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}$\rm ^{83m}Kr$ Calibration}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}S2 Electron Lifetime and x,y Correction}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}S1 x,y,z Correction}{38}{section.3.3}
+\contentsline {section}{\numberline {3.4}Application to x,y,z Corrections in Data Processing}{41}{section.3.4}
+\contentsline {chapter}{\numberline {4}Energy Scale Calibration}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Calibrating the Combined Energy Scale}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Anti-Correlation Space}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Refitting in Combined Energy Space}{49}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Finding Errors with MCMC}{54}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Combined Energy Space}{56}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Light Collection and Electron extraction}{56}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Modeling Intrinsic Detector Resolution}{58}{section.4.2}
+\contentsline {section}{\numberline {4.3}Measuring Recombination Fluctuations}{63}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Measuring Recombination Fluctuations with Mono-Energetic Sources}{63}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Results with Mono Energetic Calibration Sources}{67}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Measuring Recombination Fluctuations in Desecrate Energy Bins}{69}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Measuring the Fano Factor in Bins of Energy}{74}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Application to $\rm ^{83}Kr$}{75}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Application to Tritium Data (any continus spectrum)}{78}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Centriod Subtraction}{80}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Correcting the Tritium Spectral Shape for Finite Resolution}{85}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Calculating the Observed Energy}{87}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Smearing a Toy Spectrum}{89}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{91}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Tritium S1 Mean and NEST}{91}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Tritium S2 Mean and NEST}{92}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Tritium Energy Spectrum}{94}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}LY, QY, $\rm \sigma R$ Result}{98}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Measuring LY, QY, Recombination, Corrected for Spectral shape}{100}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Tritium S1 Correction}{102}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Tritium S2 Correction}{102}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}Thresholds}{104}{section.4.7}
+\contentsline {section}{\numberline {4.8}Ionization and Scintillation Yield and Recombination After Correction}{105}{section.4.8}
+\contentsline {section}{\numberline {4.9}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{107}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{110}{subsection.4.9.1}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{111}{chapter*.69}
