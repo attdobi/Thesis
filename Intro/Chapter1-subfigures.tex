@@ -8,10 +8,17 @@
 
 %We must proceed in life as kittens... into the box, out of the box, pause, into the box again, then out of the box just in time for more food...
 
-A few centuries ago one of the greatest strides in astronomy was made by Kepler working off Tyco Brahe's data in understanding planetary orbits. Keplar had discovered that planets move along elliptical orbits with the sun at one of the foci and thus developed the laws of planetary motion. In 1609 the concept was revolutionary yet it raised a more interesting question, why do planets move in elliptical orbits? Kepler said that each planet was guided in its elliptical orbit by a resident angel, the model still needed refinement. 
-Two hundred and fifty years later, another significant discovery was made on the nature of light by James Maxwell. Apparently, the light from mars shining into Tyco Brahe's naked eye (He did not use a telescope) had propagated through space as an electro magnetic wave. The propagation of light through a vacuum would require electric fields without the presence of charge, thus it was proposed that the universe is filled with aether through which electromagnetic waves could propagate. 
+A few centuries ago one of the greatest strides in astronomy was made by Kepler working off Tyco Brahe's data in understanding planetary orbits. Kepler discovered that planets move along elliptical orbits with the sun at one of the foci and thus developed the laws of planetary motion, along with the fact that it's useful to share data. In 1609 the concept was revolutionary yet it raised a more interesting question, why do planets move in elliptical orbits? Kepler explanation was that each planet was guided in its elliptical orbit by a resident angel, illustrated in figure \ref{fig:Kepler}.
 
-Fast forward to the era of the standard model, and  precision cosmology . The standard model provides as a nearly perfect framework to understand the interactions of particles we know of. Precision cosmological measurements are now constraining parameters deemed impossible several decades ago (Plank is a huge step up from Tyco's eye ball), and has provided the basis for the concordance cosmological model ($\rm \Lambda CDM$). Apart from knowing that planets move in elliptical orbits we also know that the universe is primarily composed of dark energy (69.2\%) and dark matter (25.8\%). Ordinary particles described by the standard model which compose our current understanding of `everything' only constitute 4.82\% of the universe. See figure \ref{fig:Lambda_CDM} for a diagram of the concordance cosmological model.
+\begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Intro/Ch1_Figures/Keplar.jpg}
+\caption{Kepler explains the elliptical orbit of Mars is felt fixed by a resident angel guiding its orbit.}
+\label{fig:Kepler}
+\end{figure}
+ 
+Two hundred and fifty years later, another significant discovery was made on the nature of light by James Maxwell. Apparently, the light from mars shining into Tyco Brahe's eye (unaided by a telescope) had propagated through space as an electro magnetic wave. The propagation of light through a vacuum would require electric fields without the presence of charge, thus it was proposed that the universe is filled with aether through which electromagnetic waves could propagate. 
+
+Fast forward to the era of the standard model, and  precision cosmology . The standard model provides as a nearly perfect framework to understand the interactions of particles we know of. Precision cosmological measurements are now constraining parameters deemed impossible several decades ago (Plank is a huge step up from Tyco's eye ball).  These measurements have provided the basis for the concordance cosmological model ($\rm \Lambda CDM$). Apart from knowing that planets move in elliptical orbits we also know that the universe is primarily composed of dark energy (69.2\%) and dark matter (25.8\%). Ordinary particles described by the standard model which compose our current understanding of `everything' only constitute 4.82\% of the universe. See figure \ref{fig:Lambda_CDM} for a diagram of the concordance cosmological model.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=150mm]{Intro/Ch1_Figures/Lambda_CDM.png}
@@ -34,7 +41,7 @@ In Chap.\ 3, the position dependent corrections of energy deposition in the LUX 
 
 In Chap.\ 4, the absolute energy scale calibration of the LUX detector is discussed.
 
-Chapter 5 ... provides the conclusion to the thesis.
+Chapter 5 ... (more to come) provides the conclusion to the thesis.
 
 \section{Evidence for Dark Matter}
 
@@ -202,7 +209,7 @@ As the universe expanded and cooled production of WIMPs from standard model part
 
 \noindent Using a typical weak scale cross-section in equation \ref{eq:WIMP_Relic},
 \begin{equation}
-\left<\sigma_A \nu \right> \sim \frac{\alpha^2}{m_{weal}^2} \sim 10^{-9} \mathrm{GeV}^{-2}
+\left<\sigma_A \nu \right> \sim \frac{\alpha^2}{m_{weak}^2} \sim 10^{-9} \mathrm{GeV}^{-2}
 \end{equation}
 
 \noindent We find that the relic WIMP density reduces to $\Omega_\chi h^2$ = 0.1 for a particle with a weak scale interaction, referred to as the WIMP miracle. In good agreement with the expected cold dark matter component of the universe $\Omega_{c}h^2 = 0.12029  \cite{Planck_Param}$
@@ -268,51 +275,96 @@ $\rm M_\chi$ [$\rm GeV/c^2$] 	&	r 		&	$\rm E_{max}$ [keV] \\ \hline
 
 To calculate the WIMP-target scattering event rate we follow the derivation given by Lewin and Smith \cite{Lewin_Smith}. The differential rate of the WIMP nuclear recoils will be an exponentially decaying spectrum.
 
-\being{equation}
-\frac{dR}{dE_R}=\frac{R_0}{E_0r}e^{-E_R/E_0r}
+\begin{equation}
+\rm \frac{dR}{dE_R}=\frac{R_0}{E_0r}e^{-E_R/E_0r}
+\label{eq:WIMP_Rate_1}
 \end{equation}
 
 \noindent $\rm E_R$ is the recoil energy, $\rm E_0$ is the most probable WIMP kinetic energy, r is the kinematic factor, R is the event rate per unit mass and $\rm R_0$ is the total rate. The event rate dR scattering off a tater size A can be written as
 
 \begin{equation}
-\rm dR=\frac{N_0}{A}\sigma \nu dn
+\rm dR=\frac{\mathcal{N}_0}{A}\sigma \nu dn
+\label{eq:dR}
 \end{equation}
 
-\noindent Where $\N_0$ is Avagadro's number, A is the atomic mass, $\rm \sigma$ is the atomic mass, $\rm \nu$ is the WIMP velocity and dn is the differential number density of WIMPs given by:
+\noindent Where $\rm \mathcal{N}_0$ is Avagadro's number, A is the atomic mass, $\rm \sigma$ is the atomic mass, $\rm \nu$ is the WIMP velocity and dn is the differential number density of WIMPs given by:
 
 \begin{equation}
-\rm dn=\frac{no}{k}\mathcal{f}(\nu, \nu_E)d^3\nu
+\rm dn=\frac{n_o}{k}\mathcal{F}(\nu, \nu_E)d^3\nu
+\label{eq:dn}
 \end{equation}
 
-\noident k = $\rm (\pi \nu_0^2)^{3/2} as $\nu_esc \rightarrow \inf$, an approximation good to within 0.5\% for the Milky Way. The WIMP velocity distribution $\rm mathcal{f}(\nu, \nu_E)$ is assumed to be ideal gas described by a Maxwellian distribution:
+\noindent Where k = $\rm (\pi \nu_0^2)^{3/2}$ as $\nu_{esc} \rightarrow \infty$, an approximation good to within 0.5\% for the Milky Way.  $\rm n_o$ is the particle number density ($\rm n_o = p_\chi / m_\chi$). The WIMP velocity distribution $\rm \mathcal{F}(\nu, \nu_E)$ is assumed to be ideal gas described by a Maxwellian distribution:
 
 \begin{equation}
-\rm \mathcal{f}(\nu, \nu_E) = e^{-(\nu+\nu_E)^2/\nu_0^2
+\rm \mathcal{F}(\nu, \nu_E) = e^{-(\nu+\nu_E)^2/\nu_0^2}
 \end{equation}
 
-\noindent Where $\rm \nu$ is the WIMP velocity, $\rm \nu_E$ is the earth velocity, $\rm \nu_0$ is the average velocity (about 230 km/s).
+\noindent Where $\rm \nu$ is the WIMP velocity, $\rm \nu_E$ is the earth velocity, $\rm \nu_0$ is the average velocity (about 230 km/s). We now rewrite equation \ref{eq:WIMP_Rate_1} interns of an integral over all possible velocities rather than energy and plug in the result for dR (\ref{eq:dR}) and dn (\ref{eq:dn}) leading to :
 
-%show figure with crossection vs target nuclei 
-Xenon being a relatively heavy element, A=131, makes it an ideal candidate for a WIMP dark-matter search at low energy thresholds. Other common detection mediums are germanium, which is rather expensive on the ton scale, and argon which is inexpensive but contains a troublesome radioactive isotope $\rm^{39}Ar$. To probe dark matter cross sections the next generation experiments must be bigger and contain less radioactive background contamination, with current limits on the WIMP cross section a ton scale xenon experiment may only see a handful of events per year.
+\begin{equation}
+\rm \frac{dR}{dE_R}=\frac{R_0}{E_0r}\frac{1}{k}\frac{1}{2\pi \nu_0^2}\mathlarger{\int}\limits_{\mathsmaller \nu_{min}}^{\mathsmaller \nu_{max}} \frac{1}{\nu}\mathcal{F}(\nu, \nu_E)d^3\nu
+\end{equation}
 
-\subsection{The WIMP signal}
+\noindent $\rm R_0$ absorbs the constants $\rm R_0 = \frac{2}{\pi^{1/2}}\frac{\mathcal{N_0}}{A}\frac{\rho_\chi}{M_\chi}\sigma_T\nu_o $.
 
-\subsection{Background Rejection}
+Having solved for the differential rate we now calculate the spin independent cross section for WIMPs scattering off nucleons of an atom ($\rm \sigma_T$). We write the cross section as a sum off scattering off protons and neutrons in the nucleus. We use the fact that nucleon coupling for protons and neutrons is approximately equal \cite{Fp_Fn}.
 
-\subsection{Direct Detection Experiments}
-Several experiments are currently conducting dark matter searches using several target nuclei (show plot of spectrum vs. target nuclei). If a WIMP signal is seen the spectrum measured from scattering off several nuclei can be used to infer the WIMP mass.
+\begin{equation}
+\rm \sigma_T = \frac{4\mu^2A}{\pi} [Z\cdot \mathit{f_p} + (A-Z) \mathit{f_n} ] \approx \frac{4 \mu^2 A^2}{\pi} \sigma_n
+\end{equation}
 
-Xenon: LUX and LZ, Xenon 100 and 1 ton, Panda X, XMass
-Argon: Dark side
-Neon/Argon: mini clean
-Germanium: Cogent
-Bubble chamber: Picaso
-Crest
+\noindent Where $\rm \mu$ is the reduced mass of the WIMP  nucleon system given by:
+
+\begin{equation}
+\mu=\frac{M_\chi M_n}{M_\chi + M_n}
+\end{equation}
+
+\noindent Finally we must add the specific nuclear form factor for the specific target atom to account for decoherence, described by the Helm factor \cite{Helm_Factor} F(q). The cross section for spin independent scattering off the target nucleus can be written as a product of the idealized cross section and Helm factor:
+
+\begin{equation}
+\rm \sigma_T(q)= \sigma_TF^2(q)=\frac{4A^2}{\pi}\left(\frac{M_\chi M_n}{M_\chi + M_n}\right)^2\sigma_nF^2(q)
+\end{equation}
+
+The spin-independent cross section for WIMPs is found to be proportional to the atomic number squared ($\rm A^2$). The event rate per nuclear recoil energy is plotted for several potential WIMP search target nuclei in figure \ref{fig:WIMP_Target_Nuclei}.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=140mm]{Intro/Ch1_Figures/Target_Nuclei.png}
+\caption{Plot of WIMP event rate per kg/day/keV vs. Nuclear recoil energy (keV) for several target nuclei, using parameters from \cite{Lewin_Smith}. At low detection threshold xenon is the most attractive target nuclei. The drop off in the xenon spectral shape is due to decoherence described by the Helm factor \cite{Helm_Factor}. }
+\label{fig:WIMP_Target_Nuclei}
+\end{figure}
+
+
+Xenon being a relatively heavy element, A=131, makes it an ideal candidate for a WIMP dark-matter search at low energy thresholds. Xenon detectors today have achieved thresholds as low as 3 $\rm keV_{nr}$ \cite{LUX_PRL}. Other common detection mediums are germanium, which is rather expensive on the ton scale, and argon which is inexpensive but contains a troublesome radioactive isotope $\rm^{39}Ar$. To probe dark matter cross sections the next generation experiments must be bigger and contain less radioactive background contamination. With current limits on the WIMP cross section a ton scale xenon experiment may only detect a handful of events per year.
+
+
+
+\subsection{WIMP Detection Experiments}
+
+Several experiments are currently conducting WIMP dark matter searches using several target nuclei. We have found that the interaction rate for WIMPs with target nuclei is expected to be rare. In the event that a WIMP does strike a target in the detector it will primarily interact with the nucleus, deposit energy, and traverse throughout the detector without a second interaction. Neutrons could also interact with atomic nuclei and fake a WIMP signal, however after the initial energy deposit they are likely to interact again. Thus, neutrons can be rejected by cutting multiple scatters in detectors on the scale of the neutron mean free path at an energy required to fake a WIMP signal (order 10 cm). The most common source of backgrounds are electromagnetic in nature, gammas and betas from the rock surrounding the experiment, detector components, and internal to the xenon. Just like for the case of neutrons the likelihood of a single scatter within the detector is highly unlikely. Naked beta decays are the most troublesome, appearing as a single energy deposit in the detector medium. Fortunately, electronic recoil events can be discriminated from WIMP like nuclear recoil events by more than 1/100 using the ratio of charge to light or charge to phonons produced in the interaction. Xenon based experiments currently having the best limits on WIMP nucleon cross sections \cite{LUX_PRL}.
+
+\begin{itemize}
+
+\item Xenon experiments: LUX \cite{LUX_PRL}, Xenon100 \cite{Xenon100} , PandaX \cite{PandaX}, XMass \cite{XMass}.
+
+\item Argon experiments: Dark Side \cite{DarkSide}, MiniClean \cite{MiniCLEAN}. 
+
+\item Germanium experiments: CDMS \cite{CDMS},  CoGeNT \cite{CoGeNT}.
+
+\item Bubble chamber using fluorine: PICASSO \cite{PICASSO} (19F), COUPP \cite{COUPP} ($\rm CF_3I$).
+
+\end{itemize}
 
 %show WIMP limit improvement over the last 30 years
 
 
+\begin{comment}
+\subsection{Background Rejection}
 
+We have found that the interaction rate for WIMPs with target nuclei is expected to be rare. In the event that a WIMP does strike a target in the detector it will primarily interact with the nucleus, deposit energy, and traverse throughout the detector without a second interaction. Neutrons could also interact with atomic nuclei and fake a WIMP signal, however after the initial energy deposit they are likely to interact again. Thus, neutrons can be rejected by cutting multiple scatters in detectors on the scale of the neutron mean free path at an energy required to fake a WIMP signal (order 10 cm). 
+
+The most common source of backgrounds are electromagnetic in nature, gammas and betas from the rock surrounding the experiment, detector components, and internal to the xenon. Just like for the case of neutrons the likelihood of a single scatter within the detector is highly unlikely. The most troublesome of background being naked beta decays which look like a single energy deposit in the detector medium. Nuclear recoil events and electronic recoil events can be discriminated further by more than 1/100 using the ratio of charge to light or charge to phonons produced in the interaction.
+\end{comment}
 
 %% Useful LATEX tips below:
 `

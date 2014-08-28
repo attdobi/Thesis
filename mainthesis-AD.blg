@@ -9,49 +9,63 @@ A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
 A level-1 auxiliary file: Recombination_LY_QY/Chapter_E_scale_Flucs.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
+I was expecting a `,' or a `}'---line 202 of file AD_ThesisBib.bib
+ :    
+ :    author = {{Aalseth}, C.~E. and {Barbeau}, P.~S. and {Colaresi}, J. and
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 876 of file AD_ThesisBib.bib
+ : @article{xmass
+ :               ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in BBN
 Warning--empty journal in OmegaB_BBN
 Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
-You've used 27 entries,
+Warning--empty journal in PandaX
+Warning--empty author in CoGeNT
+Warning--empty title in CoGeNT
+Warning--empty journal in CoGeNT
+Warning--empty year in CoGeNT
+You've used 40 entries,
             2322 wiz_defined-function locations,
-            729 strings with 10023 characters,
-and the built_in function-call counts, 9364 in all, are:
-= -- 607
-> -- 262
-< -- 0
-+ -- 120
-- -- 60
-* -- 494
-:= -- 1067
-add.period$ -- 104
-call.type$ -- 27
-change.case$ -- 27
+            820 strings with 17413 characters,
+and the built_in function-call counts, 13703 in all, are:
+= -- 887
+> -- 365
+< -- 1
++ -- 166
+- -- 83
+* -- 719
+:= -- 1546
+add.period$ -- 152
+call.type$ -- 40
+change.case$ -- 41
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 991
-empty$ -- 933
-format.name$ -- 82
-if$ -- 2014
+cite$ -- 49
+duplicate$ -- 1470
+empty$ -- 1379
+format.name$ -- 115
+if$ -- 2956
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 293
-newline$ -- 164
-num.names$ -- 27
-pop$ -- 464
+int.to.str$ -- 40
+missing$ -- 427
+newline$ -- 237
+num.names$ -- 41
+pop$ -- 682
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 166
+skip$ -- 257
 stack$ -- 0
-substring$ -- 392
-swap$ -- 590
-text.length$ -- 0
+substring$ -- 556
+swap$ -- 877
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 4
-while$ -- 49
-width$ -- 29
-write$ -- 339
-(There were 4 warnings)
+warning$ -- 9
+while$ -- 72
+width$ -- 42
+write$ -- 492
+(There were 2 error messages)
