@@ -9,14 +9,15 @@ A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
 A level-1 auxiliary file: Recombination_LY_QY/Chapter_E_scale_Flucs.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-I was expecting a `,' or a `}'---line 202 of file AD_ThesisBib.bib
+I was expecting a `,' or a `}'---line 204 of file AD_ThesisBib.bib
  :    
  :    author = {{Aalseth}, C.~E. and {Barbeau}, P.~S. and {Colaresi}, J. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 876 of file AD_ThesisBib.bib
- : @article{xmass
- :               ,
+You're missing a field name---line 1235 of file AD_ThesisBib.bib
+ :   
+ :   %address      = {The address of the publisher},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty journal in BBN
 Warning--empty journal in OmegaB_BBN
@@ -27,45 +28,45 @@ Warning--empty author in CoGeNT
 Warning--empty title in CoGeNT
 Warning--empty journal in CoGeNT
 Warning--empty year in CoGeNT
-You've used 40 entries,
+You've used 49 entries,
             2322 wiz_defined-function locations,
-            820 strings with 17413 characters,
-and the built_in function-call counts, 13703 in all, are:
-= -- 887
-> -- 365
+            890 strings with 19938 characters,
+and the built_in function-call counts, 16910 in all, are:
+= -- 1105
+> -- 453
 < -- 1
-+ -- 166
-- -- 83
-* -- 719
-:= -- 1546
-add.period$ -- 152
-call.type$ -- 40
-change.case$ -- 41
++ -- 206
+- -- 103
+* -- 895
+:= -- 1907
+add.period$ -- 188
+call.type$ -- 49
+change.case$ -- 50
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 1470
-empty$ -- 1379
-format.name$ -- 115
-if$ -- 2956
+cite$ -- 58
+duplicate$ -- 1803
+empty$ -- 1702
+format.name$ -- 142
+if$ -- 3655
 int.to.chr$ -- 0
-int.to.str$ -- 40
-missing$ -- 427
-newline$ -- 237
-num.names$ -- 41
-pop$ -- 682
+int.to.str$ -- 49
+missing$ -- 523
+newline$ -- 291
+num.names$ -- 51
+pop$ -- 827
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 257
+skip$ -- 309
 stack$ -- 0
-substring$ -- 556
-swap$ -- 877
+substring$ -- 700
+swap$ -- 1083
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 72
-width$ -- 42
-write$ -- 492
+while$ -- 89
+width$ -- 51
+write$ -- 609
 (There were 2 error messages)

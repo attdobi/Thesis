@@ -240,6 +240,66 @@ E.~{Behnke}, et~al.
 \newblock \emph{PRD}, 86(5):052001, September 2012.
 \newblock \doi{10.1103/PhysRevD.86.052001}.
 
+\bibitem{Aprile_LXe_overview}
+E.~Aprile and T.~Doke.
+\newblock Liquid xenon detectors for particle physics and astrophysics.
+\newblock \emph{Rev. Mod. Phys.}, 82:2053--2097, Jul 2010.
+\newblock \doi{10.1103/RevModPhys.82.2053}.
+
+\bibitem{Kr_ppt_Dobi}
+Attila Dobi, et~al.
+\newblock {Detection of krypton in xenon for dark matter applications}.
+\newblock \emph{Nucl.Instrum.Meth.}, A665:1--6, 2011.
+\newblock \doi{10.1016/j.nima.2011.11.043}.
+
+\bibitem{lux_kr_removal}
+A.I. Bolozdynya, P.P. Brusov, T.~Shutt, C.E. Dahl, and J.~Kwong.
+\newblock A chromatographic system for removal of radioactive 85kr from xenon.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 579(1):50
+  -- 53, 2007.
+\newblock ISSN 0168-9002.
+\newblock \doi{DOI: 10.1016/j.nima.2007.04.011}.
+\newblock Proceedings of the 11th Symposium on Radiation Measurements and
+  Applications.
+
+\bibitem{xmass_kr_removal}
+K.~Abe, et~al.
+\newblock Distillation of liquid xenon to remove krypton.
+\newblock \emph{Astroparticle Physics}, 31(4):290 -- 296, 2009.
+\newblock ISSN 0927-6505.
+\newblock \doi{DOI: 10.1016/j.astropartphys.2009.02.006}.
+
+\bibitem{Doke_Scintillation}
+T.~Doke and K.~Masuda.
+\newblock {Present status of liquid rare gas scintillation detectors and their
+  new application to gamma-ray calorimeters}.
+\newblock \emph{Nucl.Instrum.Meth.}, A420:62--80, 1999.
+\newblock \doi{10.1016/S0168-9002(98)00933-4}.
+
+\bibitem{Dahl_Thesis}
+C.~E. Dahl.
+\newblock \emph{Ph.D. Thesis}.
+\newblock Ph.D. thesis, Princeton University, 2009.
+
+\bibitem{Xe_singlet_tripplet_lifetime}
+S~Kubota, M~Hishida, and J~Raun.
+\newblock Evidence for a triplet state of the self-trapped exciton states in
+  liquid argon, krypton and xenon.
+\newblock \emph{Journal of Physics C: Solid State Physics}, 11(12):2645, 1978.
+
+\bibitem{Xe_Recombination_Time}
+Akira Hitachi, et~al.
+\newblock {Effect of ionization density on the time dependence of luminescence
+  from liquid argon and xenon}.
+\newblock \emph{Phys.Rev.}, B27:5279--5285, 1983.
+\newblock \doi{10.1103/PhysRevB.27.5279}.
+
+\bibitem{Xe_Density}
+David~P. Lide, editor.
+\newblock \emph{{CRC Handbook of Chemistry and Physics}}.
+\newblock CRC PRESS, 81 edition, 2000.
+
 \bibitem{FanoTheoretical}
 T.~Doke, A.~Hitachi, S.~Kubota, A.~Nakamoto, and T.~Takahashi.
 \newblock {Estimation of Fano factors in liquid argon, krypton, xenon and
