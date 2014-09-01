@@ -9,12 +9,7 @@ A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
 A level-1 auxiliary file: Recombination_LY_QY/Chapter_E_scale_Flucs.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-I was expecting a `,' or a `}'---line 204 of file AD_ThesisBib.bib
- :    
- :    author = {{Aalseth}, C.~E. and {Barbeau}, P.~S. and {Colaresi}, J. and
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1313 of file AD_ThesisBib.bib
+You're missing a field name---line 1370 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -24,49 +19,45 @@ Warning--empty journal in OmegaB_BBN
 Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
 Warning--empty journal in PandaX
-Warning--empty author in CoGeNT
-Warning--empty title in CoGeNT
-Warning--empty journal in CoGeNT
-Warning--empty year in CoGeNT
-You've used 57 entries,
+You've used 60 entries,
             2322 wiz_defined-function locations,
-            943 strings with 22938 characters,
-and the built_in function-call counts, 19626 in all, are:
-= -- 1283
-> -- 536
+            972 strings with 24786 characters,
+and the built_in function-call counts, 20803 in all, are:
+= -- 1365
+> -- 571
 < -- 1
-+ -- 244
-- -- 122
-* -- 1033
-:= -- 2212
-add.period$ -- 215
-call.type$ -- 57
-change.case$ -- 56
++ -- 259
+- -- 130
+* -- 1089
+:= -- 2358
+add.period$ -- 231
+call.type$ -- 60
+change.case$ -- 60
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 2082
-empty$ -- 1981
-format.name$ -- 168
-if$ -- 4245
+cite$ -- 65
+duplicate$ -- 2215
+empty$ -- 2097
+format.name$ -- 180
+if$ -- 4503
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 605
-newline$ -- 334
-num.names$ -- 59
-pop$ -- 964
+int.to.str$ -- 60
+missing$ -- 642
+newline$ -- 356
+num.names$ -- 63
+pop$ -- 998
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 358
+skip$ -- 370
 stack$ -- 0
-substring$ -- 820
-swap$ -- 1253
+substring$ -- 850
+swap$ -- 1350
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 9
-while$ -- 105
-width$ -- 59
-write$ -- 700
-(There were 2 error messages)
+warning$ -- 5
+while$ -- 111
+width$ -- 62
+write$ -- 750
+(There was 1 error message)

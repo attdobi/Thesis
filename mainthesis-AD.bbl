@@ -225,7 +225,11 @@ A.~{Hime}.
 \newblock \doi{10.1126/science.1186112}.
 
 \bibitem{CoGeNT}
-
+C.~E. {Aalseth}, et~al.
+\newblock {CoGeNT: A search for low-mass dark matter using p-type point contact
+  germanium detectors}.
+\newblock \emph{prd}, 88(1):012002, July 2013.
+\newblock \doi{10.1103/PhysRevD.88.012002}.
 
 \bibitem{PICASSO}
 S.~Archambault et~al.
@@ -352,6 +356,27 @@ Matthew Szydagis, Adalyn Fyhrie, Daniel Thorngren, and Mani Tripathi.
   in Liquid Xenon}.
 \newblock \emph{JINST}, 8:C10003, 2013.
 \newblock \doi{10.1088/1748-0221/8/10/C10003}.
+
+\bibitem{CDMSlite}
+R.~Agnese et~al.
+\newblock {Search for Low-Mass Weakly Interacting Massive Particles Using
+  Voltage-Assisted Calorimetric Ionization Detection in the SuperCDMS
+  Experiment}.
+\newblock \emph{Phys.Rev.Lett.}, 112(4):041302, 2014.
+\newblock \doi{10.1103/PhysRevLett.112.041302}.
+
+\bibitem{CRESSTII}
+G.~Angloher, et~al.
+\newblock Results from 730 kg days of the cresst-ii dark matter search.
+\newblock \emph{The European Physical Journal C}, 72(4):1971, 2012.
+\newblock ISSN 1434-6044.
+\newblock \doi{10.1140/epjc/s10052-012-1971-8}.
+
+\bibitem{DAMA}
+R.~{Bernabei}, et~al.
+\newblock {Final model independent result of DAMA/LIBRA-phase1}.
+\newblock \emph{European Physical Journal C}, 73:2648, December 2013.
+\newblock \doi{10.1140/epjc/s10052-013-2648-7}.
 
 \bibitem{Aprile_LY}
 E.~Aprile, et~al.
