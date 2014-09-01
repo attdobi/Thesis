@@ -14,7 +14,7 @@ I was expecting a `,' or a `}'---line 204 of file AD_ThesisBib.bib
  :    author = {{Aalseth}, C.~E. and {Barbeau}, P.~S. and {Colaresi}, J. and
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1235 of file AD_ThesisBib.bib
+You're missing a field name---line 1313 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -28,45 +28,45 @@ Warning--empty author in CoGeNT
 Warning--empty title in CoGeNT
 Warning--empty journal in CoGeNT
 Warning--empty year in CoGeNT
-You've used 49 entries,
+You've used 57 entries,
             2322 wiz_defined-function locations,
-            890 strings with 19938 characters,
-and the built_in function-call counts, 16910 in all, are:
-= -- 1105
-> -- 453
+            943 strings with 22938 characters,
+and the built_in function-call counts, 19626 in all, are:
+= -- 1283
+> -- 536
 < -- 1
-+ -- 206
-- -- 103
-* -- 895
-:= -- 1907
-add.period$ -- 188
-call.type$ -- 49
-change.case$ -- 50
++ -- 244
+- -- 122
+* -- 1033
+:= -- 2212
+add.period$ -- 215
+call.type$ -- 57
+change.case$ -- 56
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 1803
-empty$ -- 1702
-format.name$ -- 142
-if$ -- 3655
+cite$ -- 66
+duplicate$ -- 2082
+empty$ -- 1981
+format.name$ -- 168
+if$ -- 4245
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 523
-newline$ -- 291
-num.names$ -- 51
-pop$ -- 827
+int.to.str$ -- 57
+missing$ -- 605
+newline$ -- 334
+num.names$ -- 59
+pop$ -- 964
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 309
+skip$ -- 358
 stack$ -- 0
-substring$ -- 700
-swap$ -- 1083
+substring$ -- 820
+swap$ -- 1253
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 9
-while$ -- 89
-width$ -- 51
-write$ -- 609
+while$ -- 105
+width$ -- 59
+write$ -- 700
 (There were 2 error messages)
