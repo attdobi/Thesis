@@ -215,7 +215,7 @@ The primary and secondary scintillation signals can be identified by their uniqu
 
 To identify S1 and S2 populations we define the variable Prompt Fraction as the area covered in the first 10\% of the pulse normalized to the total area. The calculation is performed on the summed waveform after a first pass which defines the pulse's start and end timestamp. 
 %For S1s this value will approach 1 and for S2s the value will be below 0.1, this provides for a figure of merit used to separation of the populations.
-The separation of population density when plotting the total pulse area (PE) vs. Prompt Fraction is shown in figure \ref{fig:Prompt_Fraction},  for the case of a $\rm ^{83m}Kr$ data set (41.5 keV) and a tritium calibration data set (1-18.5 keV). The population of single electrons, single photons and the S1 S2 pairs associated with gammas, betas and alpha interactions are well separated and alpha are highlighted as rectangles. The upper left corner makes up the region of single photons, as their areas consist of approximately 1 PE, the definition of the PMTs response to a detected photon. The single electron population is labeled SE and peaks at roughly 20 PE with a prompt fraction of -1. For all S1pulses the prompt fraction is found to be between 1 and 0.3 (log10 of 0 and -0.5) for the entire range of Pulse Area. The pulse are is a proxy for energy deposit, spanning from 1 keV tritium events to 7 MeV alphas. The populations of S2 from $\rm^{83m}Kr$, tritium, $\rm \gamma$, $\rm \betas$ and $\rm \alphas$ are found to have Prompt Fractions more than an order of magnitude smaller than their S1 counterpart. 
+The separation of population density when plotting the total pulse area (PE) vs. Prompt Fraction is shown in figure \ref{fig:Prompt_Fraction},  for the case of a $\rm ^{83m}Kr$ data set (41.5 keV) and a tritium calibration data set (1-18.5 keV). The population of single electrons, single photons and the S1 S2 pairs associated with gammas, betas and alpha interactions are well separated and alpha are highlighted as rectangles. The upper left corner makes up the region of single photons, as their areas consist of approximately 1 PE, the definition of the PMTs response to a detected photon. The single electron population is labeled SE and peaks at roughly 20 PE with a prompt fraction of -1. For all S1pulses the prompt fraction is found to be between 1 and 0.3 (log10 of 0 and -0.5) for the entire range of Pulse Area. The pulse are is a proxy for energy deposit, spanning from 1 keV tritium events to 7 MeV alphas. The populations of S2 from $\rm^{83m}Kr$, tritium, $\rm \gamma$, $\rm \beta$ and $\rm \alpha$ are found to have Prompt Fractions more than an order of magnitude smaller than their corresponding S1. 
 %Note: The double population seen in the $\rm^{83m}Kr$ S1 population is the result of double decay separated by 154 ns which can skew the apparent prompt fraction to lower values, discussed further in [XYZ Corrections].
 
 
@@ -231,18 +231,34 @@ The S1 and S2s corresponding to an event are identified using the prompt fractio
 
 \section{LUX Science Result (WIMP limit)}
 
-The first science run of the LUX detector consisted of 85.3 live days from April 21, 2013 to Aug 8, 2013. All single scatter (golden) events during the first science run are shown in figure \ref{fig:LUX_Result_Event}, with the vast majority of events occurring at the edges of the detector. For the WIMP search a fiducial cut is applied that reduces residual radioactivity from the detector surface and PMTs by another four orders of magnitude, thanks to the excellent self shielding properties of liquid xenon. The fiducial cut consists of a radial cut at radius less than 18 cm and a z cut of drift time between 38 and 305 $\rm \mu s$, the fiducial cut is shown in the figure.
+The first science run of the LUX detector consisted of 85.3 live days from April 21, 2013 to Aug 8, 2013. A total of 83,673,413 triggers were recorded with 19,796 remaining as golden after applying quality cuts. A list of the cuts used is given in table \ref{table:WIMP_Quality_Cuts}.  Detector stability cuts remove the live time in which liquid level, gas pressure or grid voltages were out of normal ranges. The single scatter cut requires a single S1 with a subsequent S2 within a time window of 324 $\rm \mu s$, the maximum time required for electrons to traverse the active region. An area cut was also placed on both the S1 and S2 in order to narrow the energy region of interest. The minimum S2 requirement of 200 PE ensures the quality of the x,y position reconstruction, with $\sim$ 8 extracted electrons. An additional cut was placed around time windows with anomalously high single electron rates. All single scatter WIMP search events before applying the fiducial cut are shown in figure \ref{fig:LUX_Result_Event}, the vast majority of events occurring at the edges of the detector. 
+The fiducial cut reduces residual radioactivity from the detector surface and PMTs by another two orders of magnitude. The fiducial cut consists of a radial cut at radius less than 18 cm from the detector center. The z coordinate in drift time is 0 at the liquid surface and 324 $\rm \mu s$ at the cathode. The fiducial cut in z is for a drift time between 38 and 305 $\rm \mu s$ corresponding to 6 to 46 cm below the liquid surface (drift velocity = 1.51 mm/$\rm mu s$). The fiducial cut is shown as the dashed cyan line in figure \ref{fig:LUX_Result_Event}.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{table}[h!]
+%\footnotesize
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Cut & Events Remaining \\ \hlineall triggers & 83, 673, 413 \\ \hlinedetector stability & 82, 918, 902 \\ \hlinesingle scatter & 6, 585, 686 \\ \hlineS1 energy (2 - 30 phe) & 26, 824 \\ \hlineS2 energy (200 - 3300 phe) &  20, 989 \\ \hlinesingle electron background & 19, 796 \\ \hlinefiducial volume & 160 \\ \hline
+\end{tabular}
+\caption{Data quality cuts used for the WIMP search results presented in \cite{LUX_PRL}.}
+\label{table:WIMP_Quality_Cuts}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
  \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Chapter_LUX_Det/LUX_Result_Event.png}
-\caption{All single scatter events seen in the active region of the LUX detector over the course of the first science run. The rectangular cut indicates the fiducial volume, in which the background rate is suppressed by another four orders of magnitude due xenon self shielding.}
+\includegraphics[width=130mm]{Chapter_LUX_Det/LUX_Result_Event.png}
+\caption{All single scatter events seen in the active region of the LUX detector over the course of the first science run. The rectangular cut indicates the fiducial volume.}
 \label{fig:LUX_Result_Event}
 \end{figure}
 
+Within the fiducial volume 160 events remain which meet our WIMP search energy requirement. The energy cut is placed in terms of S1 from 2-30 PE. As explained in chapter [Energy Calibrations] this corresponds to roughly 1.0 to 6 $\rm keV_{ee}$ or 3 to 25 $\rm keV_{nr}$. We choose to select events based on S1 because it is directly observed, whereas true energy depends on the nature of the event (ER or NR) and must be inferred. %These subtletie will be discussed in further detail in this thesis. 
 
-Within the fiducial volume 160 events remain which meet our WIMP search energy requirement. The energy cut is placed in terms of S1 from 2-30 PE, corresponding to roughly 1.0 to 6 $\rm keV_{ee}$ or 3 to 25 $\rm keV_{nr}$. The energy cut is placed in S1 since the S1 quantity is directly observe whereas true energy needs to be reconstructed and depends on the nature of the event (ER or NR). These subtleties will be discussed in further detail in this thesis. 
-
-The remaining 160 events are then tested for ER or NR likelihood by plotting the charge to light ratio (S2/S1) vs. energy (S1). The ER and NR discrimination band is showing in figure \ref{fig:LUX_Result}, the blue and red bands represent the 10\% to 90\% confidence bounds of events being electronic and nuclear type recoils, respectively. The ER band was defined using a tritium calibration source ($\rm \beta^{-}$) and the NR band was defined using neutrons from AmBe and $\rm^{252}Cf$ along with NEST simulations [ref NEST]. The ER/NR discrimination at 50\% NR acceptance was measured to be $\rm 99.6\pm0.1$ \%. All 160 remaining events in the fiducial volume are consistent with being ER type events, with a rate expected from internal detector components and the surrounding rock [ref LUX BG paper]. The residual ER background rate being roughly two events per day in the WIMP region of interest (expectation: 3.6$\rm\pm$0.3 mDRU).
+The remaining 160 events in the fiducial are then tested for ER or NR likelihood by plotting the charge to light ratio (S2/S1) vs. energy (S1). The ER and NR discrimination band is measured using calibration data and shown in figure \ref{fig:LUX_Result}. The blue and red bands represent the 10\% to 90\% confidence bounds of events being ER and NR type, respectively. The ER band was measured using a tritium calibration source ($\rm \beta^{-}$) and the NR band was measured with neutrons from AmBe and $\rm^{252}Cf$ along with NEST simulations \cite{NEST_2013}. The ER/NR discrimination at 50\% NR acceptance was measured to be $\rm 99.6\pm0.1$ \%. All 160 remaining events in the fiducial volume are consistent with being ER type events, with a rate expected from internal detector components and the surrounding rock [ref LUX BG paper]. The residual ER background rate being roughly two events per day in the WIMP region of interest (expectation: 3.6$\rm\pm$0.3 mDRU).
 
 
  \begin{figure}[h!]\centering
