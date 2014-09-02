@@ -20,45 +20,45 @@ Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
 Warning--empty journal in PandaX
 Warning--empty journal in Start_Kr
-You've used 64 entries,
+You've used 66 entries,
             2322 wiz_defined-function locations,
-            997 strings with 25734 characters,
-and the built_in function-call counts, 22142 in all, are:
-= -- 1446
-> -- 619
+            1011 strings with 26480 characters,
+and the built_in function-call counts, 22871 in all, are:
+= -- 1496
+> -- 637
 < -- 1
-+ -- 281
-- -- 141
-* -- 1155
-:= -- 2510
-add.period$ -- 246
-call.type$ -- 64
-change.case$ -- 64
++ -- 289
+- -- 145
+* -- 1195
+:= -- 2595
+add.period$ -- 254
+call.type$ -- 66
+change.case$ -- 66
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 2362
-empty$ -- 2226
-format.name$ -- 195
-if$ -- 4790
+cite$ -- 72
+duplicate$ -- 2437
+empty$ -- 2300
+format.name$ -- 201
+if$ -- 4949
 int.to.chr$ -- 0
-int.to.str$ -- 64
-missing$ -- 685
-newline$ -- 379
-num.names$ -- 67
-pop$ -- 1073
+int.to.str$ -- 66
+missing$ -- 707
+newline$ -- 391
+num.names$ -- 69
+pop$ -- 1104
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 396
+skip$ -- 407
 stack$ -- 0
-substring$ -- 883
-swap$ -- 1437
+substring$ -- 922
+swap$ -- 1482
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 117
-width$ -- 66
-write$ -- 797
+while$ -- 121
+width$ -- 68
+write$ -- 823
 (There was 1 error message)

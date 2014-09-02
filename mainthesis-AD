@@ -32,7 +32,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{morefloats}
-
+\usepackage{rotating}
+\usepackage{tikz}
 
 \newcommand{\tbsp}{\rule{0pt}{18pt}} %used to get a vertical distance after \hline
 \renewcommand{\baselinestretch}{2}

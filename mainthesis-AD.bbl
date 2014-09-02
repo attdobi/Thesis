@@ -334,6 +334,20 @@ Akira Hitachi, et~al.
 \newblock \emph{Phys.Rev.}, B27:5279--5285, 1983.
 \newblock \doi{10.1103/PhysRevB.27.5279}.
 
+\bibitem{Recomb_Time_NEST}
+Jeremy Mock, et~al.
+\newblock {Modeling Pulse Characteristics in Xenon with NEST}.
+\newblock \emph{JINST}, 9:T04002, 2014.
+\newblock \doi{10.1088/1748-0221/9/04/T04002}.
+
+\bibitem{Recomb_Time_Extraction}
+J.~V. {Dawson}, et~al.
+\newblock {A study of the scintillation induced by alpha particles and gamma
+  rays in liquid xenon in an electric field}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research A},
+  545:690--698, June 2005.
+\newblock \doi{10.1016/j.nima.2005.01.343}.
+
 \bibitem{Xe_Density}
 David~P. Lide, editor.
 \newblock \emph{{CRC Handbook of Chemistry and Physics}}.

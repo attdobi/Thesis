@@ -24,8 +24,8 @@ Throughout the science run periodic $\rm^{83m}Kr$ injections were performed to c
 
 \begin{figure}[h!]\centering
  
-\subcaptionbox{\KrCal event with 60 ns timing separation. \label{fig:Kr_a}}{\includegraphics[width=120mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform.eps}}
-\subcaptionbox{\KrCal event with 220 ns timing separation.\label{fig:Kr_b}}{\includegraphics[width=120mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform.eps}}
+\subcaptionbox{\KrCal event with 60 ns timing separation. \label{fig:Kr_a}}{\includegraphics[width=130mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform.eps}}
+\subcaptionbox{\KrCal event with 220 ns timing separation.\label{fig:Kr_b}}{\includegraphics[width=130mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform.eps}}
 
 \caption{The S1 and S2 of two \KrCal events. Top Figures (a): Show a \KrCal event in which the two x-rays have overlapped within 60 ns, the S2 arrives about 93 $\rm \mu s$ later. Bottom Figures (b): Show a \KrCal event in which the two x-rays have overlapped within 220 ns, the S2 arrives about 205 $\rm \mu s$ later. The LUX pulse finder classifies events within a 1$\rm \mu s$ window as a single S1. The S2 pulses are insensitive to the timing separation of the dual decay as electron diffusion smears the pulses two together as the electrons drift.}
 \label{fig:Kr_Waveform}
@@ -104,11 +104,15 @@ To calculate the x,y,z dependent Normalization Factor for S1 ($\rm \mathcal{NF}_
 
 Figure \ref{fig:S1_XYZ_norm_center} shows the response of the detector to $\rm^{83m}Kr$ normalized to the center of the detector in 16 slices of z, each with a 2[cm] x 2[cm] x,y grid. The plotted maps and normalized to the center of the detector and represent the inverse of the normalization factor ($\rm \mathcal{NF}_{S1}$). We choose to normalize the the center of the detector as it represents the overall average light collection efficiency of the detector as this value varies roughly linearly from top to bottom, with lower light collection at the top and higher light collection at the bottom. Though the dominate correction is the z dependance there is also substructure to each z slice in x,y which is illustrated in figure \ref{fig:S1_XYZ_norm_center_slice}, where we have normalized each slice to its own center. Plotting in this way it is evident that near the top and bottom there are additional geometric effects near the edges, whereas in the central z slices the uniformity in x,y is much better due to increased scattering off the teflon.
 
-\begin{figure}[h!]\centering
-\includegraphics[width=150mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png}
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{sidewaysfigure}[h!]\centering
+\includegraphics[width=230mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png}
 \caption{S1 x,y,z response normalized to the center of the detector. The interpolated map represents the inverse of the normalization factor $\mathcal{NF}$. }
 \label{fig:S1_XYZ_norm_center}
-\end{figure}
+\end{sidewaysfigure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
 \begin{figure}[h!]\centering
 \includegraphics[width=150mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png}
@@ -146,14 +150,14 @@ The electron lifetime and the stability of the z dependent S1 correction over th
 For the results discussed in the subsequent sections of the thesis we will only work with the x,y,z corrected S1 and $\rm S2_b$ pulses defined at $\rm S1_c$ and $\rm S2{_b}_c$ respectively.
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2.eps}
-\caption{Electron lifetime measured using \KrCal calibrations over the corse of the LUX science run in 2013.}
+\includegraphics[width=100mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_3.eps}
+\caption{Electron lifetime measured using \KrCal calibrations during the LUX science run in 2013. The blue dashed lines show the boundaries of the WIMP search from April 21 to Aug 8, 2013. The red dashed lines indicate circulation loss events.}
 \label{fig:S2_EL_time}
 \end{figure}
 
 \begin{figure}[h!]\centering
-\includegraphics[width=80mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2.eps}
-\caption{Measured response of to light from \KrCal calibrations at the center of the LUX detector over the corse of the LUX science run in 2013.}
+\includegraphics[width=100mm]{Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_3.eps}
+\caption{Measured response of to light from \KrCal calibrations at the center of the LUX detector during of the LUX science run in 2013. The blue dashed lines show the boundaries of the WIMP search from April 21 to Aug 8, 2013. The red dashed lines indicate circulation loss events.}
 \label{fig:S1_center_time}
 \end{figure}
 
