@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  1 SEP 2014 11:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  1 SEP 2014 17:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -590,7 +590,13 @@ Overfull \hbox (8.46794pt too wide) in paragraph at lines 18--18
 i-ence run. T,A,G,C,B 
  []
 
-[5] [6] [7] [8] [9] [10])
+[5] [6]
+Overfull \hbox (5.96724pt too wide) in paragraph at lines 29--29
+ [][] [][]\OT1/cmr/m/n/12 The S1 and S2 of two $[]Kr $events. Top Fig-ures (a):
+ Show a $[]Kr $event 
+ []
+
+[7] [8] [9] [10])
 \tf@lof=\write5
 \openout5 = `mainthesis-AD.lof'.
 
@@ -603,7 +609,7 @@ No file Abbreviations.tex.
 
 (./Intro/Chapter1-subfigures.tex
 Chapter 1.
-<Intro/Ch1_Figures/Keplar.jpg, id=781, 513.92pt x 397.485pt>
+<Intro/Ch1_Figures/Keplar.jpg, id=794, 513.92pt x 397.485pt>
 File: Intro/Ch1_Figures/Keplar.jpg Graphic file (type jpg)
 
 <use Intro/Ch1_Figures/Keplar.jpg>
@@ -617,7 +623,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-] <Intro/Ch1_Figures/Lambda_CDM.png, id=787, 785.93625pt x 587.19376pt>
+] <Intro/Ch1_Figures/Lambda_CDM.png, id=800, 785.93625pt x 587.19376pt>
 File: Intro/Ch1_Figures/Lambda_CDM.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/Lambda_CDM.png>
@@ -629,7 +635,7 @@ Package pdftex.def Info: Intro/Ch1_Figures/Lambda_CDM.png used on input line 24
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./Intro/Ch1_Figures/Keplar.jpg>] [3 <./Intro/Ch1_Figures/Lambda_CDM.png>]
-[4] [5] <Intro/Ch1_Figures/MW_Rotation.png, id=814, 542.025pt x 607.26875pt>
+[4] [5] <Intro/Ch1_Figures/MW_Rotation.png, id=827, 542.025pt x 607.26875pt>
 File: Intro/Ch1_Figures/MW_Rotation.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/MW_Rotation.png>
@@ -637,28 +643,28 @@ Package pdftex.def Info: Intro/Ch1_Figures/MW_Rotation.png used on input line 5
 5.
 (pdftex.def)             Requested size: 341.43306pt x 382.54428pt.
  [6 <./Intro/Ch1_Figures/MW_Rotation.png>] [7] [8] <Intro/Maru/tiny_box.jpg, id
-=845, 501.875pt x 376.40625pt>
+=859, 501.875pt x 376.40625pt>
 File: Intro/Maru/tiny_box.jpg Graphic file (type jpg)
 
 <use Intro/Maru/tiny_box.jpg>
 Package pdftex.def Info: Intro/Maru/tiny_box.jpg used on input line 84.
 (pdftex.def)             Requested size: 204.85983pt x 153.64407pt.
 
-<Intro/Maru/small_box_2.jpg, id=846, 451.6875pt x 339.2675pt>
+<Intro/Maru/small_box_2.jpg, id=860, 451.6875pt x 339.2675pt>
 File: Intro/Maru/small_box_2.jpg Graphic file (type jpg)
 
 <use Intro/Maru/small_box_2.jpg>
 Package pdftex.def Info: Intro/Maru/small_box_2.jpg used on input line 86.
 (pdftex.def)             Requested size: 204.85983pt x 153.87515pt.
 
-<Intro/Maru/medium_box_2.jpg, id=847, 602.25pt x 451.6875pt>
+<Intro/Maru/medium_box_2.jpg, id=861, 602.25pt x 451.6875pt>
 File: Intro/Maru/medium_box_2.jpg Graphic file (type jpg)
 
 <use Intro/Maru/medium_box_2.jpg>
 Package pdftex.def Info: Intro/Maru/medium_box_2.jpg used on input line 91.
 (pdftex.def)             Requested size: 204.85983pt x 153.64752pt.
 
-<Intro/Maru/large_box.jpg, id=848, 481.8pt x 361.35pt>
+<Intro/Maru/large_box.jpg, id=862, 481.8pt x 361.35pt>
 File: Intro/Maru/large_box.jpg Graphic file (type jpg)
 
 <use Intro/Maru/large_box.jpg>
@@ -668,7 +674,7 @@ Package pdftex.def Info: Intro/Maru/large_box.jpg used on input line 93.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Intro/Ch1_Figures/CMB_Hist.jpg, id=851, 925.056pt x 513.8397pt>
+<Intro/Ch1_Figures/CMB_Hist.jpg, id=865, 925.056pt x 513.8397pt>
 File: Intro/Ch1_Figures/CMB_Hist.jpg Graphic file (type jpg)
 
 <use Intro/Ch1_Figures/CMB_Hist.jpg>
@@ -689,14 +695,14 @@ Overfull \vbox (6.49268pt too high) has occurred while \output is active []
 
 [10 <./Intro/Maru/tiny_box.jpg> <./Intro/Maru/small_box_2.jpg> <./Intro/Maru/me
 dium_box_2.jpg> <./Intro/Maru/large_box.jpg>] [11 <./Intro/Ch1_Figures/CMB_Hist
-.jpg>] <Intro/Ch1_Figures/BOSS.png, id=876, 582.175pt x 437.635pt>
+.jpg>] <Intro/Ch1_Figures/BOSS.png, id=889, 582.175pt x 437.635pt>
 File: Intro/Ch1_Figures/BOSS.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/BOSS.png>
 Package pdftex.def Info: Intro/Ch1_Figures/BOSS.png used on input line 139.
 (pdftex.def)             Requested size: 341.43306pt x 256.66652pt.
  [12 <./Intro/Ch1_Figures/BOSS.png>]
-<Intro/Ch1_Figures/Bullet_Cluster.png, id=888, 307.8702pt x 225.4824pt>
+<Intro/Ch1_Figures/Bullet_Cluster.png, id=901, 307.8702pt x 225.4824pt>
 File: Intro/Ch1_Figures/Bullet_Cluster.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/Bullet_Cluster.png>
@@ -710,7 +716,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [13] [14 <./Intro/Ch1_Figures/Bullet_Cluster.png>]
 Missing character: There is no Ð in font cmr10!
  [15]
-<Intro/Ch1_Figures/Carlos_Axions.png, id=922, 579.16376pt x 383.4325pt>
+<Intro/Ch1_Figures/Carlos_Axions.png, id=935, 579.16376pt x 383.4325pt>
 File: Intro/Ch1_Figures/Carlos_Axions.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/Carlos_Axions.png>
@@ -722,7 +728,7 @@ Package pdftex.def Info: Intro/Ch1_Figures/Carlos_Axions.png used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16] [17 <./Intro/Ch1_Figures/Carlos_Axions.png>] [18]
-<Intro/Ch1_Figures/DM_Detection.png, id=950, 1199.48125pt x 656.4525pt>
+<Intro/Ch1_Figures/DM_Detection.png, id=963, 1199.48125pt x 656.4525pt>
 File: Intro/Ch1_Figures/DM_Detection.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/DM_Detection.png>
@@ -730,7 +736,7 @@ Package pdftex.def Info: Intro/Ch1_Figures/DM_Detection.png used on input line
 223.
 (pdftex.def)             Requested size: 369.88582pt x 202.42639pt.
  [19] [20 <./Intro/Ch1_Figures/DM_Detection.png>] <Intro/Ch1_Figures/DM_Dist_MW
-.png, id=965, 619.31375pt x 405.515pt>
+.png, id=978, 619.31375pt x 405.515pt>
 File: Intro/Ch1_Figures/DM_Dist_MW.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/DM_Dist_MW.png>
@@ -742,7 +748,7 @@ Package pdftex.def Info: Intro/Ch1_Figures/DM_Dist_MW.png used on input line 23
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21] [22 <./Intro/Ch1_Figures/DM_Dist_MW.png>] [23]
-<Intro/Ch1_Figures/Target_Nuclei.png, id=997, 575.2692pt x 415.3116pt>
+<Intro/Ch1_Figures/Target_Nuclei.png, id=1010, 575.2692pt x 415.3116pt>
 File: Intro/Ch1_Figures/Target_Nuclei.png Graphic file (type png)
 
 <use Intro/Ch1_Figures/Target_Nuclei.png>
@@ -776,20 +782,20 @@ Chapter 2.
 
 
 
-] <Chapter_LUX_Det/LUX_Real.png, id=1063, 698.61pt x 445.665pt>
+] <Chapter_LUX_Det/LUX_Real.png, id=1076, 698.61pt x 445.665pt>
 File: Chapter_LUX_Det/LUX_Real.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Real.png>
-Package pdftex.def Info: Chapter_LUX_Det/LUX_Real.png used on input line 20.
+Package pdftex.def Info: Chapter_LUX_Det/LUX_Real.png used on input line 21.
 (pdftex.def)             Requested size: 349.30414pt x 222.83195pt.
 
-<Chapter_LUX_Det/LUX_half_rendering_white_text.png, id=1064, 668.4975pt x 728.7
+<Chapter_LUX_Det/LUX_half_rendering_white_text.png, id=1077, 668.4975pt x 728.7
 225pt>
 File: Chapter_LUX_Det/LUX_half_rendering_white_text.png Graphic file (type png)
 
  <use Chapter_LUX_Det/LUX_half_rendering_white_text.png>
 Package pdftex.def Info: Chapter_LUX_Det/LUX_half_rendering_white_text.png used
- on input line 32.
+ on input line 33.
 (pdftex.def)             Requested size: 334.24792pt x 364.36035pt.
 
 
@@ -797,39 +803,39 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [29 <./Chapter_LUX_Det/LUX_Real.png>] [30 <./Chapter_LUX_Det/LUX_half_rendering
 _white_text.png>] [31] [32]
-<Chapter_LUX_Det/BG_Rejection.png, id=1096, 673.51625pt x 623.32875pt>
+<Chapter_LUX_Det/BG_Rejection.png, id=1109, 673.51625pt x 623.32875pt>
 File: Chapter_LUX_Det/BG_Rejection.png Graphic file (type png)
 
 <use Chapter_LUX_Det/BG_Rejection.png>
-Package pdftex.def Info: Chapter_LUX_Det/BG_Rejection.png used on input line 79
+Package pdftex.def Info: Chapter_LUX_Det/BG_Rejection.png used on input line 80
 .
 (pdftex.def)             Requested size: 269.40172pt x 249.32707pt.
  [33 <./Chapter_LUX_Det/BG_Rejection.png>] <Chapter_LUX_Det/ER_NR_Band_Cal.png,
- id=1105, 742.775pt x 528.97626pt>
+ id=1118, 742.775pt x 528.97626pt>
 File: Chapter_LUX_Det/ER_NR_Band_Cal.png Graphic file (type png)
 
 <use Chapter_LUX_Det/ER_NR_Band_Cal.png>
 Package pdftex.def Info: Chapter_LUX_Det/ER_NR_Band_Cal.png used on input line 
-87.
+88.
 (pdftex.def)             Requested size: 371.38658pt x 264.48747pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34] [35 <./Chapter_LUX_Det/ER_NR_Band_Cal.png>]
-<Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png, id=1117, 1012.78375pt x 703.62
+<Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png, id=1130, 1012.78375pt x 703.62
 875pt>
 File: Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png Graphic file (type png)
  <use Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png>
 Package pdftex.def Info: Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png used on
- input line 101.
+ input line 102.
 (pdftex.def)             Requested size: 405.10632pt x 281.4465pt.
  [36 <./Chapter_LUX_Det/LUX_Feild_Grids_with_Field.png>] [37]
-<Chapter_LUX_Det/ER_T_Shutt.png, id=1148, 1026.83624pt x 496.85625pt>
+<Chapter_LUX_Det/ER_T_Shutt.png, id=1161, 1026.83624pt x 496.85625pt>
 File: Chapter_LUX_Det/ER_T_Shutt.png Graphic file (type png)
 
 <use Chapter_LUX_Det/ER_T_Shutt.png>
-Package pdftex.def Info: Chapter_LUX_Det/ER_T_Shutt.png used on input line 163.
+Package pdftex.def Info: Chapter_LUX_Det/ER_T_Shutt.png used on input line 164.
 
 (pdftex.def)             Requested size: 369.88582pt x 178.97424pt.
 
@@ -837,52 +843,48 @@ Package pdftex.def Info: Chapter_LUX_Det/ER_T_Shutt.png used on input line 163.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [38] [39 <./Chapter_LUX_Det/ER_T_Shutt.png>]
-<Chapter_LUX_Det/NR_T_Shutt.png, id=1174, 1042.89626pt x 492.84125pt>
+<Chapter_LUX_Det/NR_T_Shutt.png, id=1187, 1042.89626pt x 492.84125pt>
 File: Chapter_LUX_Det/NR_T_Shutt.png Graphic file (type png)
 
 <use Chapter_LUX_Det/NR_T_Shutt.png>
-Package pdftex.def Info: Chapter_LUX_Det/NR_T_Shutt.png used on input line 187.
+Package pdftex.def Info: Chapter_LUX_Det/NR_T_Shutt.png used on input line 188.
 
 (pdftex.def)             Requested size: 369.88582pt x 174.79817pt.
  [40 <./Chapter_LUX_Det/NR_T_Shutt.png>]
-<Chapter_LUX_Det/LUX_Event_Diagram.png, id=1189, 457.2282pt x 372.9132pt>
+<Chapter_LUX_Det/LUX_Event_Diagram.png, id=1202, 457.2282pt x 372.9132pt>
 File: Chapter_LUX_Det/LUX_Event_Diagram.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Event_Diagram.png>
 Package pdftex.def Info: Chapter_LUX_Det/LUX_Event_Diagram.png used on input li
-ne 200.
+ne 201.
 (pdftex.def)             Requested size: 426.79134pt x 348.09166pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `Electron_Diffusion' on page 41 undefined on input line
- 206.
-
 [41] [42 <./Chapter_LUX_Det/LUX_Event_Diagram.png>]
-<Chapter_LUX_Det/LUX_Golden_Event_2keV.png, id=1204, 671.6292pt x 427.3566pt>
+<Chapter_LUX_Det/LUX_Golden_Event_2keV.png, id=1218, 671.6292pt x 427.3566pt>
 File: Chapter_LUX_Det/LUX_Golden_Event_2keV.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Golden_Event_2keV.png>
 Package pdftex.def Info: Chapter_LUX_Det/LUX_Golden_Event_2keV.png used on inpu
-t line 211.
+t line 212.
 (pdftex.def)             Requested size: 369.88582pt x 235.35333pt.
  [43 <./Chapter_LUX_Det/LUX_Golden_Event_2keV.png>]
-<Chapter_LUX_Det/Kr_83_Density_text.png, id=1211, 560.0925pt x 420.97275pt>
+<Chapter_LUX_Det/Kr_83_Density_text.png, id=1225, 560.0925pt x 420.97275pt>
 File: Chapter_LUX_Det/Kr_83_Density_text.png Graphic file (type png)
 
 <use Chapter_LUX_Det/Kr_83_Density_text.png>
 Package pdftex.def Info: Chapter_LUX_Det/Kr_83_Density_text.png used on input l
-ine 225.
+ine 226.
 (pdftex.def)             Requested size: 312.9803pt x 235.2485pt.
 
-<Chapter_LUX_Det/T_Density_text.png, id=1212, 560.0925pt x 420.97275pt>
+<Chapter_LUX_Det/T_Density_text.png, id=1226, 560.0925pt x 420.97275pt>
 File: Chapter_LUX_Det/T_Density_text.png Graphic file (type png)
 
 <use Chapter_LUX_Det/T_Density_text.png>
 Package pdftex.def Info: Chapter_LUX_Det/T_Density_text.png used on input line 
-226.
+227.
 (pdftex.def)             Requested size: 312.9803pt x 235.2485pt.
 
 
@@ -890,19 +892,19 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [44] [45 <./Chapter_LUX_Det/Kr_83_Density_text.png> <./Chapter_LUX_Det/T_Densit
 y_text.png>] [46]
-<Chapter_LUX_Det/LUX_Result_Event.png, id=1233, 674.52pt x 371.9496pt>
+<Chapter_LUX_Det/LUX_Result_Event.png, id=1248, 674.52pt x 371.9496pt>
 File: Chapter_LUX_Det/LUX_Result_Event.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Result_Event.png>
 Package pdftex.def Info: Chapter_LUX_Det/LUX_Result_Event.png used on input lin
-e 263.
+e 264.
 (pdftex.def)             Requested size: 369.88582pt x 203.96562pt.
  [47 <./Chapter_LUX_Det/LUX_Result_Event.png>] <Chapter_LUX_Det/LUX_Result.png,
- id=1243, 621.32124pt x 459.7175pt>
+ id=1258, 621.32124pt x 459.7175pt>
 File: Chapter_LUX_Det/LUX_Result.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Result.png>
-Package pdftex.def Info: Chapter_LUX_Det/LUX_Result.png used on input line 272.
+Package pdftex.def Info: Chapter_LUX_Det/LUX_Result.png used on input line 273.
 
 (pdftex.def)             Requested size: 341.43306pt x 252.62794pt.
 
@@ -910,11 +912,11 @@ Package pdftex.def Info: Chapter_LUX_Det/LUX_Result.png used on input line 272.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [48] [49 <./Chapter_LUX_Det/LUX_Result.png>]
-<Chapter_LUX_Det/LUX_Limit.png, id=1268, 536.7252pt x 463.0098pt>
+<Chapter_LUX_Det/LUX_Limit.png, id=1282, 536.7252pt x 463.0098pt>
 File: Chapter_LUX_Det/LUX_Limit.png Graphic file (type png)
 
 <use Chapter_LUX_Det/LUX_Limit.png>
-Package pdftex.def Info: Chapter_LUX_Det/LUX_Limit.png used on input line 285.
+Package pdftex.def Info: Chapter_LUX_Det/LUX_Limit.png used on input line 286.
 (pdftex.def)             Requested size: 341.43306pt x 294.53781pt.
 
 
@@ -928,39 +930,112 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 10.
+(hyperref)                removing `math shift' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 10.
+(hyperref)                removing `superscript' on input line 13.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 10.
+(hyperref)                removing `math shift' on input line 13.
+
+
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/RbKr_83_Decay.png, id=1303, 404.51125pt x 3
+06.14375pt>
+File: Chapter_XYZ_Corr/Thesis_Corr_Plots/RbKr_83_Decay.png Graphic file (type p
+ng)
+ <use Chapter_XYZ_Corr/Thesis_Corr_Plots/RbKr_83_Decay.png>
+Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/RbKr_83_Decay.png u
+sed on input line 18.
+(pdftex.def)             Requested size: 256.0748pt x 193.80585pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [53
 
 
 ]
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png, id=1293, 560.99588pt x 4
+Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merg
+ed_Waveform.eps>
+(epstopdf)                    date: 2014-09-01 16:18:47
+(epstopdf)                    size: 13351 bytes
+(epstopdf)             Output file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merg
+ed_Waveform-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-01 16:19:38
+(epstopdf)                    size: 10653 bytes
+(epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
+r_Plots/Kr_Merged_Waveform-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Pl
+ots/Kr_Merged_Waveform.eps>
+(epstopdf)             \includegraphics on input line 27.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform-eps-converted-to.pdf, id
+=1314, 1442.38875pt x 652.4375pt>
+File: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform-eps-converted-to.pd
+f Graphic file (type pdf)
+
+<use Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform-eps-converted-to.pdf
+>
+Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform-
+eps-converted-to.pdf used on input line 27.
+(pdftex.def)             Requested size: 341.43306pt x 154.43784pt.
+Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Spli
+t_Waveform.eps>
+(epstopdf)                    date: 2014-09-01 16:04:31
+(epstopdf)                    size: 14330 bytes
+(epstopdf)             Output file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Spli
+t_Waveform-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-09-01 16:04:49
+(epstopdf)                    size: 11474 bytes
+(epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
+r_Plots/Kr_Split_Waveform-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plo
+ts/Kr_Split_Waveform.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform-eps-converted-to.pdf, id=
+1315, 1442.38875pt x 652.4375pt>
+File: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform-eps-converted-to.pdf>
+Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform-e
+ps-converted-to.pdf used on input line 28.
+(pdftex.def)             Requested size: 341.43306pt x 154.43784pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[54 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/RbKr_83_Decay.png>]
+
+LaTeX Warning: Text page 55 contains only floats.
+
+[55 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Merged_Waveform-eps-converted-to.p
+df> <./Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_Split_Waveform-eps-converted-to.pd
+f>]
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png, id=1347, 560.99588pt x 4
 20.97275pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png Graphic file (type p
 ng)
  <use Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png u
-sed on input line 16.
+sed on input line 39.
 (pdftex.def)             Requested size: 204.85983pt x 153.72763pt.
 
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_RZ_density.png, id=1294, 560.99588pt x 4
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_RZ_density.png, id=1348, 560.99588pt x 4
 20.97275pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_RZ_density.png Graphic file (type p
 ng)
  <use Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_RZ_density.png>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_RZ_density.png u
-sed on input line 17.
+sed on input line 40.
 (pdftex.def)             Requested size: 204.85983pt x 153.72763pt.
- [54 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png> <./Chapter_XYZ_Co
+ [56 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/Kr_XY_density.png> <./Chapter_XYZ_Co
 rr/Thesis_Corr_Plots/Kr_RZ_density.png>]
+
+LaTeX Warning: Reference `Ch:2' on page 57 undefined on input line 52.
+
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bott
 om_hist_EL.eps>
 (epstopdf)                    date: 2014-08-20 13:03:23
@@ -972,17 +1047,17 @@ om_hist_EL-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S2_bottom_hist_EL-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plo
 ts/S2_bottom_hist_EL.eps>
-(epstopdf)             \includegraphics on input line 34.
+(epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-eps-converted-to.pdf, id=
-1302, 573.14125pt x 461.725pt>
+1356, 573.14125pt x 461.725pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-eps-converted-to.pdf
  Graphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-e
-ps-converted-to.pdf used on input line 34.
+ps-converted-to.pdf used on input line 55.
 (pdftex.def)             Requested size: 213.39566pt x 171.91351pt.
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bott
 om_lifetime.eps>
@@ -995,24 +1070,26 @@ om_lifetime-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S2_bottom_lifetime-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Pl
 ots/S2_bottom_lifetime.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-eps-converted-to.pdf, id
-=1303, 569.12625pt x 461.725pt>
+=1357, 569.12625pt x 461.725pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-eps-converted-to.pd
 f Graphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-eps-converted-to.pdf
 >
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-
-eps-converted-to.pdf used on input line 35.
+eps-converted-to.pdf used on input line 56.
 (pdftex.def)             Requested size: 207.70511pt x 168.5106pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55]
+[57] [58 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-eps-converted-
+to.pdf> <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-eps-converted-
+to.pdf>]
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1c
 m_1cm/S2_b_XY_1cm_norm.eps>
 (epstopdf)                    date: 2014-08-19 16:24:41
@@ -1024,18 +1101,18 @@ m_1cm/S2_b_XY_1cm_norm-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-converted-to.pdf Chapter_XYZ_Corr/The
 sis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm.eps>
-(epstopdf)             \includegraphics on input line 53.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-converted
--to.pdf, id=1311, 561.09625pt x 421.575pt>
+-to.pdf, id=1391, 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-conve
 rted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_X
-Y_1cm_norm-eps-converted-to.pdf used on input line 53.
+Y_1cm_norm-eps-converted-to.pdf used on input line 72.
 (pdftex.def)             Requested size: 210.55038pt x 158.19315pt.
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1c
 m_1cm/S2_b_XY_1cm_norm_FlatField.eps>
@@ -1048,22 +1125,22 @@ m_1cm/S2_b_XY_1cm_norm_FlatField-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm_FlatField-eps-converted-to.pdf Chapter_XY
 Z_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm_FlatField.eps>
-(epstopdf)             \includegraphics on input line 54.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm_FlatField-eps
--converted-to.pdf, id=1312, 561.09625pt x 421.575pt>
+-converted-to.pdf, id=1392, 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm_FlatFiel
 d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm_FlatField
 -eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_X
-Y_1cm_norm_FlatField-eps-converted-to.pdf used on input line 54.
+Y_1cm_norm_FlatField-eps-converted-to.pdf used on input line 73.
 (pdftex.def)             Requested size: 210.55038pt x 158.19315pt.
- [56 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_hist_EL-eps-converted-to.p
-df> <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_bottom_lifetime-eps-converted-to.p
-df>]
+ [59 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-co
+nverted-to.pdf> <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_
+norm_FlatField-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr
 _res.eps>
 (epstopdf)                    date: 2014-08-20 18:28:40
@@ -1075,69 +1152,59 @@ _res-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S2_corr_res-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_
 corr_res.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-converted-to.pdf, id=1338, 
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-converted-to.pdf, id=1414, 
 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-con
-verted-to.pdf used on input line 72.
+verted-to.pdf used on input line 91.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[57 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_norm-eps-con
-verted-to.pdf> <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_b_1cm_1cm/S2_b_XY_1cm_n
-orm_FlatField-eps-converted-to.pdf>] [58 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/
-S2_corr_res-eps-converted-to.pdf>]
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png, id=1387,
+[60 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S2_corr_res-eps-converted-to.pdf>]
+[61]
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png, id=1446,
  1486.95525pt x 911.50537pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png Grap
 hic file (type png)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_cent
-er_crop_80.png used on input line 87.
+er_crop_80.png used on input line 106.
 (pdftex.def)             Requested size: 426.79134pt x 261.61765pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png, id=13
-88, 1491.47212pt x 901.56825pt>
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png, id=14
+47, 1491.47212pt x 901.56825pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png G
 raphic file (type png)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_cent
-er_slice_crop.png used on input line 93.
+er_slice_crop.png used on input line 112.
 (pdftex.def)             Requested size: 426.79134pt x 257.98138pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59]
+[62 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png>]
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField_norm_center_crop.png, i
-d=1396, 1494.18225pt x 894.34125pt>
+d=1456, 1494.18225pt x 894.34125pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField_norm_center_crop.p
 ng Graphic file (type png)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField_norm_center_crop.pn
 g>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField
-_norm_center_crop.png used on input line 107.
+_norm_center_crop.png used on input line 126.
 (pdftex.def)             Requested size: 426.79134pt x 255.4494pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_crop_80.png>]
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr
 _res.eps>
 (epstopdf)                    date: 2014-08-20 18:13:15
@@ -1149,24 +1216,24 @@ _res-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/S1_corr_res-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_
 corr_res.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf, id=1403, 
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf, id=1458, 
 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf Graph
 ic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-con
-verted-to.pdf used on input line 115.
+verted-to.pdf used on input line 134.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[61 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png>
-] [62 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField_norm_center_cro
+[63 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_norm_center_slice_crop.png>
+] [64 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_XYZ_Kr_FlatField_norm_center_cro
 p.png>]
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetim
 e_fig_2.eps>
@@ -1179,18 +1246,22 @@ e_fig_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/lifetime_fig_2-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plots/
 lifetime_fig_2.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
-<Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf, id=141
-6, 561.09625pt x 421.575pt>
+<Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf, id=147
+2, 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-
-converted-to.pdf used on input line 128.
+converted-to.pdf used on input line 147.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package epstopdf Info: Source file: <Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_cent
 er_fig_2.eps>
 (epstopdf)                    date: 2014-08-20 22:36:57
@@ -1202,39 +1273,39 @@ er_fig_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_XYZ_Corr/Thesis_Cor
 r_Plots/s1_center_fig_2-eps-converted-to.pdf Chapter_XYZ_Corr/Thesis_Corr_Plots
 /s1_center_fig_2.eps>
-(epstopdf)             \includegraphics on input line 134.
+(epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps-converted-to.pdf, id=14
-17, 561.09625pt x 421.575pt>
+73, 561.09625pt x 421.575pt>
 File: Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps-converted-to.pdf G
 raphic file (type pdf)
 
 <use Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps
--converted-to.pdf used on input line 134.
+-converted-to.pdf used on input line 153.
 (pdftex.def)             Requested size: 227.62204pt x 171.01997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [63 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf> <
-./Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf>]
-[64 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps-converted-to.pdf>
-]
+) [65 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/S1_corr_res-eps-converted-to.pdf>]
+[66 <./Chapter_XYZ_Corr/Thesis_Corr_Plots/lifetime_fig_2-eps-converted-to.pdf> 
+<./Chapter_XYZ_Corr/Thesis_Corr_Plots/s1_center_fig_2-eps-converted-to.pdf>]
 \openout2 = `Recombination_LY_QY/Chapter_E_scale_Flucs.aux'.
 
- (./Recombination_LY_QY/Chapter_E_scale_Flucs.tex
+
+(./Recombination_LY_QY/Chapter_E_scale_Flucs.tex
 Chapter 4.
-[65
+[67
 
 
-] [66]
+] [68]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[67]
-<Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png, id=1484, 572.1375pt x 
+[69]
+<Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png, id=1541, 572.1375pt x 
 437.2335pt>
 File: Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png Graphic file (type
  png)
@@ -1243,7 +1314,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png
  used on input line 79.
 (pdftex.def)             Requested size: 199.16928pt x 152.20673pt.
 
-<Recombination_LY_QY/Figures/S1S2_density_XeA_fit.png, id=1485, 554.07pt x 438.
+<Recombination_LY_QY/Figures/S1S2_density_XeA_fit.png, id=1542, 554.07pt x 438.
 438pt>
 File: Recombination_LY_QY/Figures/S1S2_density_XeA_fit.png Graphic file (type p
 ng)
@@ -1268,7 +1339,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Doke_1-eps-converted-to.pdf, id=1488, 570.13p
+<Recombination_LY_QY/Figures/S1S2_Doke_1-eps-converted-to.pdf, id=1545, 570.13p
 t x 416.55624pt>
 File: Recombination_LY_QY/Figures/S1S2_Doke_1-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1281,8 +1352,8 @@ to.pdf used on input line 86.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68] [69 <./Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png> <./Recombin
-ation_LY_QY/Figures/S1S2_density_XeA_fit.png>] [70 <./Recombination_LY_QY/Figur
+[70] [71 <./Recombination_LY_QY/Figures/S1S2_density_Kr_Cs_fit.png> <./Recombin
+ation_LY_QY/Figures/S1S2_density_XeA_fit.png>] [72 <./Recombination_LY_QY/Figur
 es/S1S2_Doke_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Doke_3.ep
 s>
@@ -1297,7 +1368,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Doke_3-eps-converted-to.pdf, id=1521, 570.13p
+<Recombination_LY_QY/Figures/S1S2_Doke_3-eps-converted-to.pdf, id=1576, 570.13p
 t x 416.55624pt>
 File: Recombination_LY_QY/Figures/S1S2_Doke_3-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1320,7 +1391,7 @@ s/fit_S1_163.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf, id=1522
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf, id=1577
 , 502.87875pt x 410.53375pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1343,7 +1414,7 @@ s/fit_S1_207.eps>
 (epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf, id=1523
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf, id=1578
 , 502.87875pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1366,7 +1437,7 @@ s/fit_S1_236.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf, id=1524
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf, id=1579
 , 502.87875pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1389,7 +1460,7 @@ s/fit_S1_410.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf, id=1525
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf, id=1580
 , 502.87875pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1413,7 +1484,7 @@ its/fit_S1_Bi214.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf, id=15
-26, 502.87875pt x 401.5pt>
+81, 502.87875pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1436,7 +1507,7 @@ its/fit_S1_Cs137.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf, id=15
-27, 522.95375pt x 401.5pt>
+82, 522.95375pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1459,7 +1530,7 @@ its/fit_S1_Kr_50.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf, id=15
-28, 522.95375pt x 401.5pt>
+83, 522.95375pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1482,7 +1553,7 @@ Fits/fit_S1_Kr_100.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf, id=1
-529, 533.995pt x 401.5pt>
+584, 533.995pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1504,7 +1575,7 @@ S1_Kr-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf, id=1530,
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf, id=1585,
  522.95375pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1531,7 +1602,7 @@ s/fit_S2_163.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf, id=1531
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf, id=1586
 , 502.87875pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_163-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1554,7 +1625,7 @@ s/fit_S2_207.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf, id=1532
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf, id=1587
 , 502.87875pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_207-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1577,7 +1648,7 @@ s/fit_S2_236.eps>
 (epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf, id=1533
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf, id=1588
 , 502.87875pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_236-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1600,7 +1671,7 @@ s/fit_S2_410.eps>
 (epstopdf)             \includegraphics on input line 149.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf, id=1534
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf, id=1589
 , 512.91624pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_410-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1624,7 +1695,7 @@ its/fit_S2_Bi214.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Bi214-eps-converted-to.pdf, id=15
-35, 502.87875pt x 404.51125pt>
+90, 502.87875pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Bi214-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1647,7 +1718,7 @@ its/fit_S2_Cs137.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Cs137-eps-converted-to.pdf, id=15
-36, 512.91624pt x 404.51125pt>
+91, 512.91624pt x 404.51125pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Cs137-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1670,7 +1741,7 @@ its/fit_S2_Kr_50.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_50-eps-converted-to.pdf, id=15
-37, 522.95375pt x 401.5pt>
+92, 522.95375pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_50-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -1693,7 +1764,7 @@ Fits/fit_S2_Kr_100.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_100-eps-converted-to.pdf, id=1
-538, 522.95375pt x 408.52625pt>
+593, 522.95375pt x 408.52625pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_100-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -1715,7 +1786,7 @@ S2_Kr-eps-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf, id=1539,
+<Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf, id=1594,
  522.95375pt x 401.5pt>
 File: Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1728,8 +1799,8 @@ nverted-to.pdf used on input line 161.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[71 <./Recombination_LY_QY/Figures/S1S2_Doke_3-eps-converted-to.pdf>]
-<Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png, id=1555, 560.99588pt x 420
+[73 <./Recombination_LY_QY/Figures/S1S2_Doke_3-eps-converted-to.pdf>]
+<Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png, id=1610, 560.99588pt x 420
 .97275pt>
 File: Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png Graphic file (type png
 )
@@ -1741,7 +1812,7 @@ d on input line 173.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[72 <./Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf> <
+[74 <./Recombination_LY_QY/Figures/Doke_Fits/fit_S1_163-eps-converted-to.pdf> <
 ./Recombination_LY_QY/Figures/Doke_Fits/fit_S1_207-eps-converted-to.pdf> <./Rec
 ombination_LY_QY/Figures/Doke_Fits/fit_S1_236-eps-converted-to.pdf> <./Recombin
 ation_LY_QY/Figures/Doke_Fits/fit_S1_410-eps-converted-to.pdf> <./Recombination
@@ -1749,7 +1820,7 @@ _LY_QY/Figures/Doke_Fits/fit_S1_Bi214-eps-converted-to.pdf> <./Recombination_LY
 _QY/Figures/Doke_Fits/fit_S1_Cs137-eps-converted-to.pdf> <./Recombination_LY_QY
 /Figures/Doke_Fits/fit_S1_Kr_50-eps-converted-to.pdf> <./Recombination_LY_QY/Fi
 gures/Doke_Fits/fit_S1_Kr_100-eps-converted-to.pdf> <./Recombination_LY_QY/Figu
-res/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf>] [73 <./Recombination_LY_QY/Figur
+res/Doke_Fits/fit_S1_Kr-eps-converted-to.pdf>] [75 <./Recombination_LY_QY/Figur
 es/Doke_Fits/fit_S2_163-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Do
 ke_Fits/fit_S2_207-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fi
 ts/fit_S2_236-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fits/fi
@@ -1758,15 +1829,15 @@ Bi214-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Cs1
 37-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_50-
 eps-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr_100-ep
 s-converted-to.pdf> <./Recombination_LY_QY/Figures/Doke_Fits/fit_S2_Kr-eps-conv
-erted-to.pdf>] [74 <./Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png>]
-<Recombination_LY_QY/Figures/MCMC/triangle.png, id=1661, 374.3586pt x 374.3586p
+erted-to.pdf>] [76 <./Recombination_LY_QY/Figures/S1S2_Doke2_3_arrow.png>]
+<Recombination_LY_QY/Figures/MCMC/triangle.png, id=1717, 374.3586pt x 374.3586p
 t>
 File: Recombination_LY_QY/Figures/MCMC/triangle.png Graphic file (type png)
  <use Recombination_LY_QY/Figures/MCMC/triangle.png>
 Package pdftex.def Info: Recombination_LY_QY/Figures/MCMC/triangle.png used on 
 input line 187.
 (pdftex.def)             Requested size: 284.52756pt x 284.53262pt.
- [75 <./Recombination_LY_QY/Figures/MCMC/triangle.png>]
+ [77 <./Recombination_LY_QY/Figures/MCMC/triangle.png>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/Combined_E/Xe_
 act_E.eps>
 (epstopdf)                    date: 2014-08-03 20:18:42
@@ -1781,7 +1852,7 @@ E/Xe_act_E.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Combined_E/Xe_act_E-eps-converted-to.pdf, id=1669,
+<Recombination_LY_QY/Figures/Combined_E/Xe_act_E-eps-converted-to.pdf, id=1724,
  540.0175pt x 405.515pt>
 File: Recombination_LY_QY/Figures/Combined_E/Xe_act_E-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -1804,7 +1875,7 @@ _E.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Combined_E/Cs_E-eps-converted-to.pdf, id=1670, 543
+<Recombination_LY_QY/Figures/Combined_E/Cs_E-eps-converted-to.pdf, id=1725, 543
 .02875pt x 405.515pt>
 File: Recombination_LY_QY/Figures/Combined_E/Cs_E-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1827,8 +1898,8 @@ d_E/Cs_Kr_Xe_E.eps>
 (epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Combined_E/Cs_Kr_Xe_E-eps-converted-to.pdf, id=167
-1, 536.0025pt x 405.515pt>
+<Recombination_LY_QY/Figures/Combined_E/Cs_Kr_Xe_E-eps-converted-to.pdf, id=172
+6, 536.0025pt x 405.515pt>
 File: Recombination_LY_QY/Figures/Combined_E/Cs_Kr_Xe_E-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -1850,8 +1921,8 @@ d_E/X-ray_Xe_E.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf, id=167
-2, 525.965pt x 405.515pt>
+<Recombination_LY_QY/Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf, id=172
+7, 525.965pt x 405.515pt>
 File: Recombination_LY_QY/Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -1863,7 +1934,7 @@ converted-to.pdf used on input line 210.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76] [77 <./Recombination_LY_QY/Figures/Combined_E/Xe_act_E-eps-converted-to.pd
+[78] [79 <./Recombination_LY_QY/Figures/Combined_E/Xe_act_E-eps-converted-to.pd
 f> <./Recombination_LY_QY/Figures/Combined_E/Cs_E-eps-converted-to.pdf> <./Reco
 mbination_LY_QY/Figures/Combined_E/Cs_Kr_Xe_E-eps-converted-to.pdf> <./Recombin
 ation_LY_QY/Figures/Combined_E/X-ray_Xe_E-eps-converted-to.pdf>]
@@ -1880,7 +1951,7 @@ converted-to.pdf>
 (epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/bottom_SE-eps-converted-to.pdf, id=1702, 603.25375
+<Recombination_LY_QY/Figures/bottom_SE-eps-converted-to.pdf, id=1757, 603.25375
 pt x 461.725pt>
 File: Recombination_LY_QY/Figures/bottom_SE-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1893,8 +1964,8 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/bottom_SE-eps-converted-to
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[78] [79 <./Recombination_LY_QY/Figures/bottom_SE-eps-converted-to.pdf>]
-[80] [81] [82] [83] [84] [85] [86]
+[80] [81 <./Recombination_LY_QY/Figures/bottom_SE-eps-converted-to.pdf>]
+[82] [83] [84] [85] [86] [87] [88]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/All_disc.eps>
 (epstopdf)                    date: 2014-08-03 15:37:35
 (epstopdf)                    size: 1199909 bytes
@@ -1907,7 +1978,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 427.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/All_disc-eps-converted-to.pdf, id=1799, 569.12625p
+<Recombination_LY_QY/Figures/All_disc-eps-converted-to.pdf, id=1855, 569.12625p
 t x 438.63875pt>
 File: Recombination_LY_QY/Figures/All_disc-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1932,7 +2003,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 433.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/fluc_E-eps-converted-to.pdf, id=1800, 538.01pt x 4
+<Recombination_LY_QY/Figures/fluc_E-eps-converted-to.pdf, id=1856, 538.01pt x 4
 15.5525pt>
 File: Recombination_LY_QY/Figures/fluc_E-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1952,7 +2023,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 434.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/fluc_Q-eps-converted-to.pdf, id=1801, 527.9725pt x
+<Recombination_LY_QY/Figures/fluc_Q-eps-converted-to.pdf, id=1857, 527.9725pt x
  414.54875pt>
 File: Recombination_LY_QY/Figures/fluc_Q-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1964,14 +2035,14 @@ f used on input line 434.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[87]
+[89]
 
-LaTeX Warning: Text page 88 contains only floats.
+LaTeX Warning: Text page 90 contains only floats.
 
-[88 <./Recombination_LY_QY/Figures/All_disc-eps-converted-to.pdf> <./Recombinat
+[90 <./Recombination_LY_QY/Figures/All_disc-eps-converted-to.pdf> <./Recombinat
 ion_LY_QY/Figures/fluc_E-eps-converted-to.pdf> <./Recombination_LY_QY/Figures/f
-luc_Q-eps-converted-to.pdf>] [89]
-<Recombination_LY_QY/Figures/EX_Stat_Fano.png, id=1853, 578.16pt x 434.1018pt>
+luc_Q-eps-converted-to.pdf>] [91]
+<Recombination_LY_QY/Figures/EX_Stat_Fano.png, id=1909, 578.16pt x 434.1018pt>
 File: Recombination_LY_QY/Figures/EX_Stat_Fano.png Graphic file (type png)
 
 <use Recombination_LY_QY/Figures/EX_Stat_Fano.png>
@@ -1979,7 +2050,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/EX_Stat_Fano.png used on i
 nput line 450.
 (pdftex.def)             Requested size: 369.88582pt x 277.71823pt.
 
-<Recombination_LY_QY/Figures/EX_R_Fano.png, id=1854, 544.73512pt x 437.2335pt>
+<Recombination_LY_QY/Figures/EX_R_Fano.png, id=1910, 544.73512pt x 437.2335pt>
 File: Recombination_LY_QY/Figures/EX_R_Fano.png Graphic file (type png)
 
 <use Recombination_LY_QY/Figures/EX_R_Fano.png>
@@ -1987,7 +2058,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/EX_R_Fano.png used on inpu
 t line 451.
 (pdftex.def)             Requested size: 170.71652pt x 137.02875pt.
 
-<Recombination_LY_QY/Figures/EX_Kr_Fano.png, id=1855, 544.73512pt x 437.2335pt>
+<Recombination_LY_QY/Figures/EX_Kr_Fano.png, id=1911, 544.73512pt x 437.2335pt>
 File: Recombination_LY_QY/Figures/EX_Kr_Fano.png Graphic file (type png)
 <use Recombination_LY_QY/Figures/EX_Kr_Fano.png>
 Package pdftex.def Info: Recombination_LY_QY/Figures/EX_Kr_Fano.png used on inp
@@ -1997,18 +2068,18 @@ ut line 452.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[90]
+[92]
 
-LaTeX Warning: Text page 91 contains only floats.
+LaTeX Warning: Text page 93 contains only floats.
 
-[91 <./Recombination_LY_QY/Figures/EX_Stat_Fano.png (PNG copy)> <./Recombinatio
+[93 <./Recombination_LY_QY/Figures/EX_Stat_Fano.png (PNG copy)> <./Recombinatio
 n_LY_QY/Figures/EX_R_Fano.png> <./Recombination_LY_QY/Figures/EX_Kr_Fano.png>]
-[92] [93]
+[94] [95]
 
-LaTeX Warning: Reference `eq:Residual_Stat' on page 94 undefined on input line 
+LaTeX Warning: Reference `eq:Residual_Stat' on page 96 undefined on input line 
 539.
 
-[94]
+[96]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 556.
@@ -2021,14 +2092,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 556.
 
-[95]
+[97]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[96]
+[98]
 Overfull \hbox (6.4486pt too wide) in paragraph at lines 607--618
  [] 
  []
@@ -2036,8 +2107,8 @@ Overfull \hbox (6.4486pt too wide) in paragraph at lines 607--618
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[97] [98] [99]
-<Recombination_LY_QY/Figures/EX_T_Fano.png, id=1963, 540.5796pt x 411.939pt>
+[99] [100] [101]
+<Recombination_LY_QY/Figures/EX_T_Fano.png, id=2019, 540.5796pt x 411.939pt>
 File: Recombination_LY_QY/Figures/EX_T_Fano.png Graphic file (type png)
 
 <use Recombination_LY_QY/Figures/EX_T_Fano.png>
@@ -2049,7 +2120,7 @@ t line 638.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Recombination_LY_QY/Figures/T_SIM/n_photon_180_.png, id=1966, 579.96675pt x 43
+<Recombination_LY_QY/Figures/T_SIM/n_photon_180_.png, id=2022, 579.96675pt x 43
 7.2335pt>
 File: Recombination_LY_QY/Figures/T_SIM/n_photon_180_.png Graphic file (type pn
 g)
@@ -2058,7 +2129,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/T_SIM/n_photon_180_.png us
 ed on input line 644.
 (pdftex.def)             Requested size: 199.16928pt x 150.15186pt.
 
-<Recombination_LY_QY/Figures/T_SIM/n_e_180_.png, id=1967, 570.02963pt x 437.233
+<Recombination_LY_QY/Figures/T_SIM/n_e_180_.png, id=2023, 570.02963pt x 437.233
 5pt>
 File: Recombination_LY_QY/Figures/T_SIM/n_e_180_.png Graphic file (type png)
  <use Recombination_LY_QY/Figures/T_SIM/n_e_180_.png>
@@ -2069,7 +2140,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/T_SIM/n_e_180_.png used on
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[100] [101 <./Recombination_LY_QY/Figures/EX_T_Fano.png>] [102 <./Recombination
+[102] [103 <./Recombination_LY_QY/Figures/EX_T_Fano.png>] [104 <./Recombination
 _LY_QY/Figures/T_SIM/n_photon_180_.png> <./Recombination_LY_QY/Figures/T_SIM/n_
 e_180_.png>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/T_SIM/SIM_R_T_
@@ -2086,7 +2157,7 @@ T_10.eps>
 (epstopdf)             \includegraphics on input line 680.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10-eps-converted-to.pdf, id=1992, 51
+<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10-eps-converted-to.pdf, id=2048, 51
 6.93124pt x 413.545pt>
 File: Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2109,7 +2180,7 @@ T_25.eps>
 (epstopdf)             \includegraphics on input line 682.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_25-eps-converted-to.pdf, id=1993, 51
+<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_25-eps-converted-to.pdf, id=2049, 51
 6.93124pt x 413.545pt>
 File: Recombination_LY_QY/Figures/T_SIM/SIM_R_T_25-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2132,7 +2203,7 @@ T_50.eps>
 (epstopdf)             \includegraphics on input line 687.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_50-eps-converted-to.pdf, id=1994, 51
+<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_50-eps-converted-to.pdf, id=2050, 51
 6.93124pt x 413.545pt>
 File: Recombination_LY_QY/Figures/T_SIM/SIM_R_T_50-eps-converted-to.pdf Graphic
  file (type pdf)
@@ -2155,7 +2226,7 @@ _T_100.eps>
 (epstopdf)             \includegraphics on input line 689.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_100-eps-converted-to.pdf, id=1995, 5
+<Recombination_LY_QY/Figures/T_SIM/SIM_R_T_100-eps-converted-to.pdf, id=2051, 5
 16.93124pt x 413.545pt>
 File: Recombination_LY_QY/Figures/T_SIM/SIM_R_T_100-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2168,11 +2239,11 @@ erted-to.pdf used on input line 689.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[103]
+[105]
 
-LaTeX Warning: Text page 104 contains only floats.
+LaTeX Warning: Text page 106 contains only floats.
 
-[104 <./Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10-eps-converted-to.pdf> <./R
+[106 <./Recombination_LY_QY/Figures/T_SIM/SIM_R_T_10-eps-converted-to.pdf> <./R
 ecombination_LY_QY/Figures/T_SIM/SIM_R_T_25-eps-converted-to.pdf> <./Recombinat
 ion_LY_QY/Figures/T_SIM/SIM_R_T_50-eps-converted-to.pdf> <./Recombination_LY_QY
 /Figures/T_SIM/SIM_R_T_100-eps-converted-to.pdf>]
@@ -2180,15 +2251,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 705--706
 
  []
 
-[105]
-<Recombination_LY_QY/Figures/example_integral.png, id=2055, 578.16pt x 434.1018
+[107]
+<Recombination_LY_QY/Figures/example_integral.png, id=2110, 578.16pt x 434.1018
 pt>
 File: Recombination_LY_QY/Figures/example_integral.png Graphic file (type png)
  <use Recombination_LY_QY/Figures/example_integral.png>
 Package pdftex.def Info: Recombination_LY_QY/Figures/example_integral.png used 
 on input line 716.
 (pdftex.def)             Requested size: 369.88582pt x 277.71823pt.
- [106 <./Recombination_LY_QY/Figures/example_integral.png (PNG copy)>]
+ [108 <./Recombination_LY_QY/Figures/example_integral.png (PNG copy)>]
 
 LaTeX Font Warning: Command \large invalid in math mode on input line 727.
 
@@ -2274,11 +2345,11 @@ Overfull \hbox (7.58232pt too wide) detected at line 742
 /m/it/14.4 x\OT1/cmr/m/n/14.4 ) d\OT1/cmr/m/it/14.4 x \OT1/cmr/m/n/14.4 = []
  []
 
-[107]
+[109]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 764.
 
-[108]
+[110]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/Toy_Model_lin_
 const.eps>
 (epstopdf)                    date: 2014-08-16 16:14:18
@@ -2293,7 +2364,7 @@ _lin_const.eps>
 (epstopdf)             \includegraphics on input line 775.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Toy_Model_lin_const-eps-converted-to.pdf, id=2089,
+<Recombination_LY_QY/Figures/Toy_Model_lin_const-eps-converted-to.pdf, id=2145,
  526.96875pt x 409.53pt>
 File: Recombination_LY_QY/Figures/Toy_Model_lin_const-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -2316,7 +2387,7 @@ in_dep.eps>
 (epstopdf)             \includegraphics on input line 776.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Toy_Model_lin_dep-eps-converted-to.pdf, id=2090, 5
+<Recombination_LY_QY/Figures/Toy_Model_lin_dep-eps-converted-to.pdf, id=2146, 5
 26.96875pt x 409.53pt>
 File: Recombination_LY_QY/Figures/Toy_Model_lin_dep-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2339,7 +2410,7 @@ l_mean_shift.eps>
 (epstopdf)             \includegraphics on input line 777.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Toy_Model_mean_shift-eps-converted-to.pdf, id=2091
+<Recombination_LY_QY/Figures/Toy_Model_mean_shift-eps-converted-to.pdf, id=2147
 , 517.935pt x 409.53pt>
 File: Recombination_LY_QY/Figures/Toy_Model_mean_shift-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2352,10 +2423,10 @@ onverted-to.pdf used on input line 777.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[109] [110 <./Recombination_LY_QY/Figures/Toy_Model_lin_const-eps-converted-to.
+[111] [112 <./Recombination_LY_QY/Figures/Toy_Model_lin_const-eps-converted-to.
 pdf> <./Recombination_LY_QY/Figures/Toy_Model_lin_dep-eps-converted-to.pdf> <./
 Recombination_LY_QY/Figures/Toy_Model_mean_shift-eps-converted-to.pdf>]
-[111]
+[113]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 1_spec_compare_.eps>
 (epstopdf)                    date: 2014-08-12 13:25:25
@@ -2371,7 +2442,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-to.pdf
-, id=2145, 561.09625pt x 421.575pt>
+, id=2200, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_-eps-converted-t
 o.pdf Graphic file (type pdf)
 
@@ -2394,8 +2465,8 @@ ectra/S1_corr_.eps>
 (epstopdf)             \includegraphics on input line 800.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf, id=214
-6, 561.09625pt x 421.575pt>
+<Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf, id=220
+1, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -2407,7 +2478,7 @@ converted-to.pdf used on input line 800.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[112] [113 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_-eps-con
+[114] [115 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_-eps-con
 verted-to.pdf> <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_-eps-convert
 ed-to.pdf>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
@@ -2424,8 +2495,8 @@ ectra/S2_spec_.eps>
 (epstopdf)             \includegraphics on input line 820.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf, id=218
-3, 561.09625pt x 421.575pt>
+<Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf, id=223
+8, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -2447,8 +2518,8 @@ ectra/S2_corr_.eps>
 (epstopdf)             \includegraphics on input line 821.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf, id=218
-4, 561.09625pt x 421.575pt>
+<Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf, id=223
+9, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pdf Gr
 aphic file (type pdf)
 
@@ -2460,9 +2531,9 @@ converted-to.pdf used on input line 821.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[114] [115 <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_-eps-converted-t
+[116] [117 <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_-eps-converted-t
 o.pdf> <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_-eps-converted-to.pd
-f>] [116]
+f>] [118]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/E_Spec/E_spec_
 compare_SIM.eps>
 (epstopdf)                    date: 2014-08-12 17:00:04
@@ -2478,7 +2549,7 @@ pec/E_spec_compare_SIM.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pdf, id
-=2229, 529.98pt x 413.545pt>
+=2286, 529.98pt x 413.545pt>
 File: Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -2502,7 +2573,7 @@ s/E_Spec/E_spec_compare_SIM_log_.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-to.pd
-f, id=2230, 516.93124pt x 413.545pt>
+f, id=2287, 516.93124pt x 413.545pt>
 File: Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM_log_-eps-converted-
 to.pdf Graphic file (type pdf)
 
@@ -2526,7 +2597,7 @@ ensity_LUX_SIM_Tritium.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pdf, id
-=2231, 505.89pt x 409.53pt>
+=2288, 505.89pt x 409.53pt>
 File: Recombination_LY_QY/Figures/E_density_LUX_SIM_Tritium-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -2547,7 +2618,7 @@ verted-to.pdf>
 (epstopdf)             \includegraphics on input line 855.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/E_corr-eps-converted-to.pdf, id=2232, 520.94624pt 
+<Recombination_LY_QY/Figures/E_corr-eps-converted-to.pdf, id=2289, 520.94624pt 
 x 408.52625pt>
 File: Recombination_LY_QY/Figures/E_corr-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2568,11 +2639,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 860.
 
-[117 <./Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.
+[119 <./Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM-eps-converted-to.
 pdf> <./Recombination_LY_QY/Figures/E_Spec/E_spec_compare_SIM_log_-eps-converte
 d-to.pdf> <./Recombination_LY_QY/Figures/E_density_LUX_SIM_Tritium-eps-converte
-d-to.pdf> <./Recombination_LY_QY/Figures/E_corr-eps-converted-to.pdf>] [118]
-<Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png, id=2275, 531.184
+d-to.pdf> <./Recombination_LY_QY/Figures/E_corr-eps-converted-to.pdf>] [120]
+<Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png, id=2330, 531.184
 5pt x 429.10312pt>
 File: Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png Graphic file
  (type png)
@@ -2582,7 +2653,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY
 _0.png used on input line 867.
 (pdftex.def)             Requested size: 199.16928pt x 160.89363pt.
 
-<Recombination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png, id=2276, 571.83638
+<Recombination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png, id=2331, 571.83638
 pt x 435.42674pt>
 File: Recombination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png Graphic file (
 type png)
@@ -2605,7 +2676,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/Iter0/std_fig_
 (epstopdf)             \includegraphics on input line 874.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Iter0/std_fig_-eps-converted-to.pdf, id=2277, 522.
+<Recombination_LY_QY/Figures/Iter0/std_fig_-eps-converted-to.pdf, id=2332, 522.
 95375pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/Iter0/std_fig_-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2615,7 +2686,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter0/std_fig_-eps-convert
 ed-to.pdf used on input line 874.
 (pdftex.def)             Requested size: 256.0748pt x 203.48935pt.
 
-<Recombination_LY_QY/Figures/Iter0/quanta_LY_QY_0.png, id=2278, 535.70137pt x 4
+<Recombination_LY_QY/Figures/Iter0/quanta_LY_QY_0.png, id=2333, 535.70137pt x 4
 37.2335pt>
 File: Recombination_LY_QY/Figures/Iter0/quanta_LY_QY_0.png Graphic file (type p
 ng)
@@ -2624,7 +2695,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter0/quanta_LY_QY_0.png u
 sed on input line 875.
 (pdftex.def)             Requested size: 204.85983pt x 167.20456pt.
 
-<Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png, id=2279, 528.47438pt x 437.23
+<Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png, id=2334, 528.47438pt x 437.23
 35pt>
 File: Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png Graphic file (type png)
  <use Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png>
@@ -2636,7 +2707,7 @@ n input line 876.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png, id=2281, 560.0925pt x 4
+<Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png, id=2336, 560.0925pt x 4
 37.2335pt>
 File: Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png Graphic file (type 
 png)
@@ -2645,7 +2716,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png
 used on input line 884.
 (pdftex.def)             Requested size: 233.31259pt x 182.1357pt.
 
-<Recombination_LY_QY/Figures/LYQY/QY_180_1sigBand_.png, id=2282, 560.0925pt x 4
+<Recombination_LY_QY/Figures/LYQY/QY_180_1sigBand_.png, id=2337, 560.0925pt x 4
 37.2335pt>
 File: Recombination_LY_QY/Figures/LYQY/QY_180_1sigBand_.png Graphic file (type 
 png)
@@ -2657,11 +2728,11 @@ used on input line 885.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[119 <./Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png> <./Recomb
-ination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png>] [120 <./Recombination_LY
+[121 <./Recombination_LY_QY/Figures/Iter0/n_electron_180_LY_QY_0.png> <./Recomb
+ination_LY_QY/Figures/Iter0/n_photon_180_LY_QY_0.png>] [122 <./Recombination_LY
 _QY/Figures/Iter0/std_fig_-eps-converted-to.pdf> <./Recombination_LY_QY/Figures
 /Iter0/quanta_LY_QY_0.png> <./Recombination_LY_QY/Figures/Iter0/R_LY_QY_0.png>]
-[121 <./Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png> <./Recombination
+[123 <./Recombination_LY_QY/Figures/LYQY/LY_180_1sigBand_.png> <./Recombination
 _LY_QY/Figures/LYQY/QY_180_1sigBand_.png>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 1_spec_compare_iter1_.eps>
@@ -2678,7 +2749,7 @@ igures/S1S2_Spectra/S1_spec_compare_iter1_.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_iter1_-eps-converted-
-to.pdf, id=2315, 526.96875pt x 411.5375pt>
+to.pdf, id=2371, 526.96875pt x 411.5375pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_iter1_-eps-conve
 rted-to.pdf Graphic file (type pdf)
 
@@ -2702,7 +2773,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_iter1_-eps-converted-to.pdf, 
-id=2316, 561.09625pt x 421.575pt>
+id=2372, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_iter1_-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -2715,7 +2786,7 @@ _-eps-converted-to.pdf used on input line 904.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[122]
+[124]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 2_spec_iter1_.eps>
 (epstopdf)                    date: 2014-08-14 08:09:17
@@ -2731,7 +2802,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_iter1_-eps-converted-to.pdf, 
-id=2326, 540.0175pt x 413.545pt>
+id=2382, 540.0175pt x 413.545pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_iter1_-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -2755,7 +2826,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_iter1_-eps-converted-to.pdf, 
-id=2327, 561.09625pt x 421.575pt>
+id=2383, 561.09625pt x 421.575pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_iter1_-eps-converted-to.
 pdf Graphic file (type pdf)
 
@@ -2768,7 +2839,7 @@ _-eps-converted-to.pdf used on input line 916.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[123 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_iter1_-eps-con
+[125 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_spec_compare_iter1_-eps-con
 verted-to.pdf> <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_corr_iter1_-eps-c
 onverted-to.pdf>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1S2_Spectra/S
@@ -2785,8 +2856,8 @@ pectra/S1_Thres_.eps>
 (epstopdf)             \includegraphics on input line 927.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_-eps-converted-to.pdf, id=23
-48, 517.935pt x 409.53pt>
+<Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_-eps-converted-to.pdf, id=24
+04, 517.935pt x 409.53pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -2808,8 +2879,8 @@ pectra/S2_Thres_.eps>
 (epstopdf)             \includegraphics on input line 929.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/S1S2_Spectra/S2_Thres_-eps-converted-to.pdf, id=23
-49, 527.9725pt x 415.5525pt>
+<Recombination_LY_QY/Figures/S1S2_Spectra/S2_Thres_-eps-converted-to.pdf, id=24
+05, 527.9725pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/S1S2_Spectra/S2_Thres_-eps-converted-to.pdf G
 raphic file (type pdf)
 
@@ -2832,7 +2903,7 @@ Spec/E_Thres_LY_QY_iter1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/E_Spec/E_Thres_LY_QY_iter1-eps-converted-to.pdf, i
-d=2350, 517.935pt x 415.5525pt>
+d=2406, 517.935pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/E_Spec/E_Thres_LY_QY_iter1-eps-converted-to.p
 df Graphic file (type pdf)
 
@@ -2845,7 +2916,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/E_Spec/E_Thres_LY_QY_iter1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[124 <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_iter1_-eps-converted-t
+[126 <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_spec_iter1_-eps-converted-t
 o.pdf> <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_corr_iter1_-eps-converted
 -to.pdf>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/Iter1/std_fig_
@@ -2862,7 +2933,7 @@ Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/Iter1/std_fig_
 (epstopdf)             \includegraphics on input line 944.
 Package epstopdf Info: Output file is already uptodate.
 
-<Recombination_LY_QY/Figures/Iter1/std_fig_-eps-converted-to.pdf, id=2370, 522.
+<Recombination_LY_QY/Figures/Iter1/std_fig_-eps-converted-to.pdf, id=2426, 522.
 95375pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/Iter1/std_fig_-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2872,7 +2943,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter1/std_fig_-eps-convert
 ed-to.pdf used on input line 944.
 (pdftex.def)             Requested size: 284.52756pt x 226.09435pt.
 
-<Recombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_iter1.png, id=2371, 535.70
+<Recombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_iter1.png, id=2427, 535.70
 137pt x 437.2335pt>
 File: Recombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_iter1.png Graphic fil
 e (type png)
@@ -2882,7 +2953,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_it
 er1.png used on input line 945.
 (pdftex.def)             Requested size: 199.16928pt x 162.56111pt.
 
-<Recombination_LY_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png, id=2372, 528.47438p
+<Recombination_LY_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png, id=2428, 528.47438p
 t x 437.2335pt>
 File: Recombination_LY_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png Graphic file (t
 ype png)
@@ -2895,11 +2966,11 @@ png used on input line 946.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[125 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_-eps-converted-to.pdf
+[127 <./Recombination_LY_QY/Figures/S1S2_Spectra/S1_Thres_-eps-converted-to.pdf
 > <./Recombination_LY_QY/Figures/S1S2_Spectra/S2_Thres_-eps-converted-to.pdf> <
 ./Recombination_LY_QY/Figures/E_Spec/E_Thres_LY_QY_iter1-eps-converted-to.pdf>]
 
-<Recombination_LY_QY/Figures/Iter1/LY_c_180_means_LY_QY_iter1.png, id=2419, 553
+<Recombination_LY_QY/Figures/Iter1/LY_c_180_means_LY_QY_iter1.png, id=2474, 553
 .76888pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/Iter1/LY_c_180_means_LY_QY_iter1.png Graphic 
 file (type png)
@@ -2909,7 +2980,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter1/LY_c_180_means_LY_QY
 _iter1.png used on input line 954.
 (pdftex.def)             Requested size: 233.31259pt x 175.07617pt.
 
-<Recombination_LY_QY/Figures/Iter1/QY_fid_means_LY_QY_iter1.png, id=2420, 553.7
+<Recombination_LY_QY/Figures/Iter1/QY_fid_means_LY_QY_iter1.png, id=2475, 553.7
 6888pt x 415.5525pt>
 File: Recombination_LY_QY/Figures/Iter1/QY_fid_means_LY_QY_iter1.png Graphic fi
 le (type png)
@@ -2923,7 +2994,7 @@ ter1.png used on input line 955.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<Recombination_LY_QY/Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png, id=2421, 5
+<Recombination_LY_QY/Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png, id=2476, 5
 60.0925pt x 437.2335pt>
 File: Recombination_LY_QY/Figures/Iter1/LY_180__1sigBand_LY_QY_iter1.png Graphi
 c file (type png)
@@ -2933,7 +3004,7 @@ Package pdftex.def Info: Recombination_LY_QY/Figures/Iter1/LY_180__1sigBand_LY_
 QY_iter1.png used on input line 962.
 (pdftex.def)             Requested size: 233.31259pt x 182.1357pt.
 
-<Recombination_LY_QY/Figures/Iter1/QY_180_1sigBand_.png, id=2422, 560.0925pt x 
+<Recombination_LY_QY/Figures/Iter1/QY_180_1sigBand_.png, id=2477, 560.0925pt x 
 437.2335pt>
 File: Recombination_LY_QY/Figures/Iter1/QY_180_1sigBand_.png Graphic file (type
  png)
@@ -2957,11 +3028,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 971.
 
-[126 <./Recombination_LY_QY/Figures/Iter1/std_fig_-eps-converted-to.pdf> <./Rec
+[128 <./Recombination_LY_QY/Figures/Iter1/std_fig_-eps-converted-to.pdf> <./Rec
 ombination_LY_QY/Figures/Iter1/quanta_iter1LY_QY_iter1.png> <./Recombination_LY
-_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png>] [127 <./Recombination_LY_QY/Figures
+_QY/Figures/Iter1/R_iter1_LY_QY_iter1.png>] [129 <./Recombination_LY_QY/Figures
 /Iter1/LY_c_180_means_LY_QY_iter1.png> <./Recombination_LY_QY/Figures/Iter1/QY_
-fid_means_LY_QY_iter1.png>] [128 <./Recombination_LY_QY/Figures/Iter1/LY_180__1
+fid_means_LY_QY_iter1.png>] [130 <./Recombination_LY_QY/Figures/Iter1/LY_180__1
 sigBand_LY_QY_iter1.png> <./Recombination_LY_QY/Figures/Iter1/QY_180_1sigBand_.
 png>]
 Package epstopdf Info: Source file: <Recombination_LY_QY/Figures/S1_Z_no_field_
@@ -2979,7 +3050,7 @@ Y_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps-conv
-erted-to.pdf, id=2456, 514.92375pt x 430.60875pt>
+erted-to.pdf, id=2512, 514.92375pt x 430.60875pt>
 File: Recombination_LY_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -3003,7 +3074,7 @@ _QY/Figures/dT_no_field_2lux10_20131009T1358_cp06914.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <Recombination_LY_QY/Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-conve
-rted-to.pdf, id=2457, 524.96124pt x 406.51875pt>
+rted-to.pdf, id=2513, 524.96124pt x 406.51875pt>
 File: Recombination_LY_QY/Figures/dT_no_field_2lux10_20131009T1358_cp06914-eps-
 converted-to.pdf Graphic file (type pdf)
 
@@ -3025,23 +3096,23 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 987.
 
-[129 <./Recombination_LY_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-e
+[131 <./Recombination_LY_QY/Figures/S1_Z_no_field_lux10_20131009T1358_cp06914-e
 ps-converted-to.pdf> <./Recombination_LY_QY/Figures/dT_no_field_2lux10_20131009
-T1358_cp06914-eps-converted-to.pdf>]) [130] (./mainthesis-AD.bbl [131
+T1358_cp06914-eps-converted-to.pdf>]) [132] (./mainthesis-AD.bbl [133
 
 ]
-Underfull \hbox (badness 1360) in paragraph at lines 118--122
+Underfull \hbox (badness 1360) in paragraph at lines 150--154
 \OT1/cmr/m/n/12 mo-log-i-cal Role.  \OT1/cmr/m/it/12 Ann.Rev.Nucl.Part.Sci.\OT1
 /cmr/m/n/12 , 63:69--95, 2013.  doi:$10 . 1146 /
  []
 
-[132] [133] [134]
+[134] [135] [136]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ‰ in font cmr12!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
- [135]
+ [137]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
  (./mainthesis-AD.aux (./Abbreviations.aux)
 (./Intro/Chapter1-subfigures.aux) (./supertabular.aux)
@@ -3051,7 +3122,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `mainthesis-AD.out' has not changed.
-(rerunfilecheck)             Checksum: 70E7D198456134B74848923F5CE9D698;5036.
+(rerunfilecheck)             Checksum: 8D3B61DA65E155ABFA92BF51DCC80620;5075.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3066,13 +3137,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 493633
- 158460 string characters out of 3143378
- 278329 words of memory out of 3000000
- 11725 multiletter control sequences out of 15000+200000
+ 9174 strings out of 493633
+ 159638 string characters out of 3143378
+ 282124 words of memory out of 3000000
+ 11750 multiletter control sequences out of 15000+200000
  17914 words of font info for 71 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 36i,18n,44p,2575b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,44p,2575b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -3096,10 +3167,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-dist
 fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/texmf-dist/fon
 ts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on mainthesis-AD.pdf (145 pages, 14483901 bytes).
+Output written on mainthesis-AD.pdf (147 pages, 14520355 bytes).
 PDF statistics:
- 2671 PDF objects out of 2984 (max. 8388607)
- 2211 compressed objects within 23 object streams
- 417 named destinations out of 1000 (max. 500000)
- 1111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2727 PDF objects out of 2984 (max. 8388607)
+ 2257 compressed objects within 23 object streams
+ 425 named destinations out of 1000 (max. 500000)
+ 1126 words of extra memory for PDF output out of 10000 (max. 10000000)
 

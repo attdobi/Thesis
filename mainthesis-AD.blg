@@ -9,7 +9,7 @@ A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
 A level-1 auxiliary file: Recombination_LY_QY/Chapter_E_scale_Flucs.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-You're missing a field name---line 1370 of file AD_ThesisBib.bib
+You're missing a field name---line 1387 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -19,45 +19,46 @@ Warning--empty journal in OmegaB_BBN
 Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
 Warning--empty journal in PandaX
-You've used 60 entries,
+Warning--empty journal in Start_Kr
+You've used 64 entries,
             2322 wiz_defined-function locations,
-            972 strings with 24786 characters,
-and the built_in function-call counts, 20803 in all, are:
-= -- 1365
-> -- 571
+            997 strings with 25734 characters,
+and the built_in function-call counts, 22142 in all, are:
+= -- 1446
+> -- 619
 < -- 1
-+ -- 259
-- -- 130
-* -- 1089
-:= -- 2358
-add.period$ -- 231
-call.type$ -- 60
-change.case$ -- 60
++ -- 281
+- -- 141
+* -- 1155
+:= -- 2510
+add.period$ -- 246
+call.type$ -- 64
+change.case$ -- 64
 chr.to.int$ -- 0
-cite$ -- 65
-duplicate$ -- 2215
-empty$ -- 2097
-format.name$ -- 180
-if$ -- 4503
+cite$ -- 70
+duplicate$ -- 2362
+empty$ -- 2226
+format.name$ -- 195
+if$ -- 4790
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 642
-newline$ -- 356
-num.names$ -- 63
-pop$ -- 998
+int.to.str$ -- 64
+missing$ -- 685
+newline$ -- 379
+num.names$ -- 67
+pop$ -- 1073
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 370
+skip$ -- 396
 stack$ -- 0
-substring$ -- 850
-swap$ -- 1350
+substring$ -- 883
+swap$ -- 1437
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 111
-width$ -- 62
-write$ -- 750
+warning$ -- 6
+while$ -- 117
+width$ -- 66
+write$ -- 797
 (There was 1 error message)
