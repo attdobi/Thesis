@@ -28,38 +28,39 @@
 \BOOKMARK [1][-]{section.2.5}{LUX Science Result \(WIMP limit\)}{chapter.2}% 28
 \BOOKMARK [0][-]{chapter.3}{Spacial Dependent Correction of the S1 and S2 Signals}{}% 29
 \BOOKMARK [1][-]{section.3.1}{83mKr Calibration}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.2}{S2 Electron Lifetime and x,y Correction}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.3}{S1 x,y,z Correction}{chapter.3}% 32
-\BOOKMARK [1][-]{section.3.4}{Application to x,y,z Corrections in Data Processing}{chapter.3}% 33
-\BOOKMARK [0][-]{chapter.4}{Energy Scale Calibration}{}% 34
-\BOOKMARK [1][-]{section.4.1}{Calibrating the Combined Energy Scale}{chapter.4}% 35
-\BOOKMARK [2][-]{subsection.4.1.1}{Anti-Correlation Space}{section.4.1}% 36
-\BOOKMARK [2][-]{subsection.4.1.2}{Refitting in Combined Energy Space}{section.4.1}% 37
-\BOOKMARK [2][-]{subsection.4.1.3}{Finding Errors with MCMC}{section.4.1}% 38
-\BOOKMARK [2][-]{subsection.4.1.4}{Combined Energy Space}{section.4.1}% 39
-\BOOKMARK [2][-]{subsection.4.1.5}{Light Collection and Electron extraction}{section.4.1}% 40
-\BOOKMARK [1][-]{section.4.2}{Modeling Intrinsic Detector Resolution}{chapter.4}% 41
-\BOOKMARK [1][-]{section.4.3}{Measuring Recombination Fluctuations}{chapter.4}% 42
-\BOOKMARK [2][-]{subsection.4.3.1}{Measuring Recombination Fluctuations with Mono-Energetic Sources}{section.4.3}% 43
-\BOOKMARK [2][-]{subsection.4.3.2}{Results with Mono Energetic Calibration Sources}{section.4.3}% 44
-\BOOKMARK [2][-]{subsection.4.3.3}{Measuring Recombination Fluctuations in Desecrate Energy Bins}{section.4.3}% 45
-\BOOKMARK [2][-]{subsection.4.3.4}{Measuring the Fano Factor in Bins of Energy}{section.4.3}% 46
-\BOOKMARK [2][-]{subsection.4.3.5}{Application to 83Kr}{section.4.3}% 47
-\BOOKMARK [2][-]{subsection.4.3.6}{Application to Tritium Data \(any continus spectrum\)}{section.4.3}% 48
-\BOOKMARK [2][-]{subsection.4.3.7}{Centriod Subtraction}{section.4.3}% 49
-\BOOKMARK [1][-]{section.4.4}{Correcting the Tritium Spectral Shape for Finite Resolution}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.1}{Calculating the Observed Energy}{section.4.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.2}{Smearing a Toy Spectrum}{section.4.4}% 52
-\BOOKMARK [1][-]{section.4.5}{Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.5.1}{Tritium S1 Mean and NEST}{section.4.5}% 54
-\BOOKMARK [2][-]{subsection.4.5.2}{Tritium S2 Mean and NEST}{section.4.5}% 55
-\BOOKMARK [2][-]{subsection.4.5.3}{Tritium Energy Spectrum}{section.4.5}% 56
-\BOOKMARK [2][-]{subsection.4.5.4}{LY, QY, R Result}{section.4.5}% 57
-\BOOKMARK [1][-]{section.4.6}{Measuring LY, QY, Recombination, Corrected for Spectral shape}{chapter.4}% 58
-\BOOKMARK [2][-]{subsection.4.6.1}{Tritium S1 Correction}{section.4.6}% 59
-\BOOKMARK [2][-]{subsection.4.6.2}{Tritium S2 Correction}{section.4.6}% 60
-\BOOKMARK [1][-]{section.4.7}{Thresholds}{chapter.4}% 61
-\BOOKMARK [1][-]{section.4.8}{Ionization and Scintillation Yield and Recombination After Correction}{chapter.4}% 62
-\BOOKMARK [1][-]{section.4.9}{The Standard Candle. Light Yield from 83mKr}{chapter.4}% 63
-\BOOKMARK [2][-]{subsection.4.9.1}{Field dependence of light yield from the 32.1 keV gamma of 83mKr }{section.4.9}% 64
-\BOOKMARK [0][-]{chapter*.80}{Bibliography}{}% 65
+\BOOKMARK [1][-]{section.3.2}{83mKr \040Mixing in Liquid Xenon}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{S2 Electron Lifetime and x,y Correction}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{S1 Spacial Dependant Correction}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Application to x,y,z Corrections in Data Processing}{chapter.3}% 34
+\BOOKMARK [0][-]{chapter.4}{Energy Scale Calibration}{}% 35
+\BOOKMARK [1][-]{section.4.1}{Calibrating the Combined Energy Scale}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.1.1}{Anti-Correlation Space}{section.4.1}% 37
+\BOOKMARK [2][-]{subsection.4.1.2}{Refitting in Combined Energy Space}{section.4.1}% 38
+\BOOKMARK [2][-]{subsection.4.1.3}{Finding Errors with MCMC}{section.4.1}% 39
+\BOOKMARK [2][-]{subsection.4.1.4}{Combined Energy Space}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.5}{Light Collection and Electron extraction}{section.4.1}% 41
+\BOOKMARK [1][-]{section.4.2}{Modeling Intrinsic Detector Resolution}{chapter.4}% 42
+\BOOKMARK [1][-]{section.4.3}{Measuring Recombination Fluctuations}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.3.1}{Measuring Recombination Fluctuations with Mono-Energetic Sources}{section.4.3}% 44
+\BOOKMARK [2][-]{subsection.4.3.2}{Results with Mono Energetic Calibration Sources}{section.4.3}% 45
+\BOOKMARK [2][-]{subsection.4.3.3}{Measuring Recombination Fluctuations in Desecrate Energy Bins}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.4}{Measuring the Fano Factor in Bins of Energy}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.5}{Application to 83Kr}{section.4.3}% 48
+\BOOKMARK [2][-]{subsection.4.3.6}{Application to Tritium Data \(any continus spectrum\)}{section.4.3}% 49
+\BOOKMARK [2][-]{subsection.4.3.7}{Centriod Subtraction}{section.4.3}% 50
+\BOOKMARK [1][-]{section.4.4}{Correcting the Tritium Spectral Shape for Finite Resolution}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.1}{Calculating the Observed Energy}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.2}{Smearing a Toy Spectrum}{section.4.4}% 53
+\BOOKMARK [1][-]{section.4.5}{Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.5.1}{Tritium S1 Mean and NEST}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.2}{Tritium S2 Mean and NEST}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.3}{Tritium Energy Spectrum}{section.4.5}% 57
+\BOOKMARK [2][-]{subsection.4.5.4}{LY, QY, R Result}{section.4.5}% 58
+\BOOKMARK [1][-]{section.4.6}{Measuring LY, QY, Recombination, Corrected for Spectral shape}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.6.1}{Tritium S1 Correction}{section.4.6}% 60
+\BOOKMARK [2][-]{subsection.4.6.2}{Tritium S2 Correction}{section.4.6}% 61
+\BOOKMARK [1][-]{section.4.7}{Thresholds}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.8}{Ionization and Scintillation Yield and Recombination After Correction}{chapter.4}% 63
+\BOOKMARK [1][-]{section.4.9}{The Standard Candle. Light Yield from 83mKr}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.9.1}{Field dependence of light yield from the 32.1 keV gamma of 83mKr }{section.4.9}% 65
+\BOOKMARK [0][-]{chapter*.82}{Bibliography}{}% 66
