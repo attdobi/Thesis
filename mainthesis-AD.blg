@@ -6,10 +6,10 @@ A level-1 auxiliary file: Intro/Chapter1-subfigures.aux
 A level-1 auxiliary file: supertabular.aux
 A level-1 auxiliary file: Chapter_LUX_Det/Chapter2_LUX_Det.aux
 A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
-A level-1 auxiliary file: Recombination_LY_QY/Chapter_E_scale_Flucs.aux
+A level-1 auxiliary file: Chapter_E_Scale/Chapter4_E_Scale.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-You're missing a field name---line 1387 of file AD_ThesisBib.bib
+You're missing a field name---line 1398 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -20,45 +20,45 @@ Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
 Warning--empty journal in PandaX
 Warning--empty journal in Start_Kr
-You've used 69 entries,
+You've used 73 entries,
             2322 wiz_defined-function locations,
-            1033 strings with 28154 characters,
-and the built_in function-call counts, 23971 in all, are:
-= -- 1570
-> -- 664
+            1062 strings with 28864 characters,
+and the built_in function-call counts, 25539 in all, are:
+= -- 1662
+> -- 724
 < -- 1
-+ -- 301
-- -- 151
-* -- 1257
-:= -- 2721
-add.period$ -- 266
-call.type$ -- 69
-change.case$ -- 69
++ -- 329
+- -- 165
+* -- 1347
+:= -- 2888
+add.period$ -- 279
+call.type$ -- 73
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 2553
-empty$ -- 2413
-format.name$ -- 210
-if$ -- 5189
+cite$ -- 79
+duplicate$ -- 2720
+empty$ -- 2565
+format.name$ -- 228
+if$ -- 5523
 int.to.chr$ -- 0
-int.to.str$ -- 69
-missing$ -- 740
-newline$ -- 409
-num.names$ -- 72
-pop$ -- 1148
+int.to.str$ -- 73
+missing$ -- 790
+newline$ -- 430
+num.names$ -- 76
+pop$ -- 1226
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 422
+skip$ -- 452
 stack$ -- 0
-substring$ -- 976
-swap$ -- 1558
+substring$ -- 1037
+swap$ -- 1672
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 127
-width$ -- 71
-write$ -- 862
+while$ -- 136
+width$ -- 75
+write$ -- 908
 (There was 1 error message)

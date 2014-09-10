@@ -88,7 +88,9 @@
 \include{supertabular}
 \include{Chapter_LUX_Det/Chapter2_LUX_Det}
 \include{Chapter_XYZ_Corr/Chapter3_XYZ_Corr}
-\include{Recombination_LY_QY/Chapter_E_scale_Flucs}
+\include{Chapter_E_Scale/Chapter4_E_Scale}
+\include{Chapter_Flucs/Chapter5_Flucs}
+%\include{Recombination_LY_QY/Chapter_E_scale_Flucs}
 %\include{Chapter3}
 %\include{AppendixA}
 %\include{AppendixB}

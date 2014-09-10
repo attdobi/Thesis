@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Aprile_LY}
+E.~Aprile, et~al.
+\newblock Measurement of the scintillation yield of low-energy electrons in
+  liquid xenon.
+\newblock \emph{Phys. Rev. D}, 86:112004, Dec 2012.
+\newblock \doi{10.1103/PhysRevD.86.112004}.
+
+\bibitem{Baudis}
+L.~Baudis, et~al.
+\newblock Response of liquid xenon to compton electrons down to 1.5 kev.
+\newblock \emph{Phys. Rev. D}, 87:115015, Jun 2013.
+\newblock \doi{10.1103/PhysRevD.87.115015}.
+
+\bibitem{FanoTheoretical}
+T.~Doke, A.~Hitachi, S.~Kubota, A.~Nakamoto, and T.~Takahashi.
+\newblock {Estimation of Fano factors in liquid argon, krypton, xenon and
+  xenon-doped liquid argon}.
+\newblock \emph{Nucl.Instrum.Meth.}, 134:353--357, 1976.
+\newblock \doi{10.1016/0029-554X(76)90292-5}.
+
+\end{thebibliography}

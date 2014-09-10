@@ -453,4 +453,26 @@ E.~Aprile, et~al.
 \newblock \emph{Phys. Rev. D}, 86:112004, Dec 2012.
 \newblock \doi{10.1103/PhysRevD.86.112004}.
 
+\bibitem{Doke_alpha}
+Tadayoshi Doke, et~al.
+\newblock Absolute scintillation yields in liquid argon and xenon for various
+  particles.
+\newblock \emph{Japanese Journal of Applied Physics}, 41(3R):1538, 2002.
+
+\bibitem{Tritium_Q}
+Sz. Nagy, T.~Fritioff, M.~Bjšrkhage, I.~Bergstršm, and R.~Schuch.
+\newblock On the q -value of the tritium ?-decay.
+\newblock \emph{EPL (Europhysics Letters)}, 74(3):404, 2006.
+
+\bibitem{Tritium_Mean}
+D.~P. Gregory and D.~A. Landsman.
+\newblock Average decay energy of tritium.
+\newblock \emph{Phys. Rev.}, 109:2091--2091, Mar 1958.
+\newblock \doi{10.1103/PhysRev.109.2091}.
+
+\bibitem{Tritium_Eq}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
 \end{thebibliography}
