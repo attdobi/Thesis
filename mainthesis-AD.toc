@@ -52,7 +52,8 @@
 \contentsline {subsection}{\numberline {5.4.2}Smearing a Toy Spectrum}{123}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Recombination and Recombination Fluctuations From Tritium Corrected For Spectral Shape}{126}{section.5.5}
 \contentsline {section}{\numberline {5.6}Extracting Recombination Fluctuations}{126}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Extracting Recombination fraction From Tritium Data}{126}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Measuring Alpha From the Tritium Data}{126}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}The Big Picture, Recombination Fluctuations}{126}{subsection.5.6.3}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{131}{chapter*.74}
+\contentsline {subsection}{\numberline {5.6.1}Extracting Recombination fraction From Tritium Data}{129}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Modeling the Discrimination Band}{129}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Measuring Alpha From the Tritium Data}{131}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}The Big Picture, Recombination Fluctuations}{132}{section.5.7}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{135}{chapter*.75}

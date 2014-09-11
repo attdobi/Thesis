@@ -557,48 +557,97 @@ Figure \ref{fig:Toy_Linear} shows the effect of the finite resolution on a linea
 
 \section{Recombination and Recombination Fluctuations From Tritium Corrected For Spectral Shape}
 
-Once the S1 and S2 has been corrected for spectral shape the recombination fraction r and the recombination fluctuation $\rm \sigma r$ can be extracted from the tritium calibration data. The spectral shape correction will be discussed in further detail in Chapter [].
-
-
-
 
 \section{Extracting Recombination Fluctuations}
 
+First need to calibrate the energy scale solving for g1 and g2 as outlined in \ref{Ch:Ch4}. Second, the S1 and S2 signals of the tritium calibration are corrected for spectral shape as outlined previously in section \ref{sec:Smear}. Third, having modeled and measured the statistical and instrumented variances for light collection of the LUX detector \ref{eq:SigDet} \ref{eq:SigStat} \ref{eq:SigInst} we can calculate the expected component of detector resolution in each energy bin $\rm \chi_{Det}^2$ \ref{eq:SigCE} ref{eq:Angle} {eq:Centroid}. For the remained of the thesis we will work in centroid subtracted space as detailed in equation {eq:Centroid}, the results are identical to working in non centroid subtracted space using a bin width correction of equation \ref{eq:SigR_CE_lim}, which is the equivalent of making a linear approximation to the local slope.  
+
+
+In each energy bin we measure the mean of S1/g1 and $\rm S2_b$/g2 resulting in the mean number of photons and electrons. Once that is known the variance from detector resolution in each bin can be determined, defined as $\rm \chi_{Det}^2$ \ref{eq:Centroid} \ref{eq:SigCE}. We then measure the variance of both the fluctuations in the photon and electron channels using Gaussian fits to the distributions in each energy bin, defined as $\rm \chi^2$. The recombination variance and variance caused by detector resolution are two independent processes making the observed variance in each bin $\rm \chi^2$ a sum of $\rm \chi_{Det}^2$ and $\rm \sigma_R^2$. We measure the variance of both the light and channel $\rm \chi_{\gamma}^2$ and $\rm \chi_e^2$ and solve for $\rm \sigma_{R_\gamma}^2$ and $\rm \sigma_{R_e}^2$ where the subscripts $\rm \gamma$ and e denote the photon and electron channel respectively. Using this we find
+\begin{equation}
+\rm \sigma_R^2 = \sigma_{R_\gamma}^2 = \sigma_{R_e}^2 = \chi^2-\chi_{Det}^2
+\end{equation}
+\noindent the same result as outlined in \ref{eq:SigR_Cent}. The recombination fluctuation $\rm \sigma R$ can be extracted from the tritium calibration data. The result of the tritium calibration is shown in figure \ref{fig:R_Flucs_Quanta} for both the 170 V/cm and 100 V/cm data. The 170 V/cm data had 140,000 tritium beta decays in the fiducial volume and the 100 V/cm data contained 4,500 events. 
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
 \begin{figure}[h!]\centering
  
-\subcaptionbox{$\rm \sigma r$, 170 V/cm \label{fig:5a}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1/std_fig_iter1LY_QY_iter1.eps}}
+\subcaptionbox{$\rm \sigma_R$, 170 V/cm \label{fig:5a}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Iter1/std_fig_iter1LY_QY_iter1.eps}}
 \hfill
 \subcaptionbox{Quanta, 170 V/cm \label{fig:5b}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1/quanta_inter1Tritium_LY_QY_iter1.png}}
 
 \bigskip
 
-\subcaptionbox{Quanta, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1_100/std_fig_100_iter1Tritium_LY_QY_100_iter1.eps}}
+\subcaptionbox{$\rm \sigma_R$, 100 V/cm \label{fig:5c}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Iter1_100/std_fig_100_iter1Tritium_LY_QY_100_iter1.eps}}
 \hfill
-\subcaptionbox{$\rm \sigma r$, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1_100/quanta_100_iter1.png}}
+\subcaptionbox{Quanta, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1_100/quanta_100_iter1.png}}
 
  %\includegraphics[width=100mm]{Chapter_Flucs/Figures/Iter1/std_fig_iter1LY_QY_iter1.eps}
  %\includegraphics[width=100mm]{Chapter_Flucs/Figures/Iter1/quanta_inter1Tritium_LY_QY_iter1.png}
  %\includegraphics[width=70mm]{Chapter_Flucs/Figures/Iter1/R_iter1_LY_QY_iter1.png}
-\caption{After spectral shape correction. Top: Extracted recombination fluctuation from the tritium data from fluctuations in photons and electrons (Black and Red receptively). Bottom right: mean number of quanta in photons, electrons, ions, excitons vs. energy [keV] for the tritium calibrations. Bottom left: Recombination fraction and the one sigma (shaded) vs. energy [keV].}
+\caption{The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm) show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta). The figures on the right in in \ref{fig:R_Flucs_Quanta} (b: 170 V/cm, d: 100 V/cm) show the mean and one sigma standard deviation of the measured number of photons (blue) and electrons (red). Also shown is the total quanta (in black) which is the sum of photons and electrons and the expected number of ions (magenta) and excitons (cyan) using $\rm \alpha$ = 0.20.}
 \label{fig:R_Flucs_Quanta}
 \end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm)  show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta). The detector resolution is actually slightly better than the resolution of the best channel, for the case of LUX is the charge collection. The remaining fluctuations in the light and charge channel after subtracting off the detector resolution in quadrature are shown in black and red, respectively. In regions where the measured recombinations are larger than the fluctuations caused by detector resolution any error in quanta counting from uncertainty on g1 and g2 is negligible as the signals add in quadrature. At the higher energy bins the uncertainty grows as the result becomes statistics limited. 
+
+The figures on the right in in \ref{fig:R_Flucs_Quanta} (b: 170 V/cm, d: 100 V/cm) show the mean and one sigma standard deviation of the measured number of photons (blue) and electrons (red). Also shown is the total quanta (in black) which is the sum of photons and electrons and the expected number of ions (magenta) and excitons (cyan) using $\rm \alpha$ = 0.20. Since the detector resolution $\rm \chi_{Det}$ is solved for in terms of photons and electrons the means of the of number of photons and electrons in each energy bin must be measured first.
 
 \subsection{Extracting Recombination fraction From Tritium Data}
 
+Having measured the mean number of photons and electrons in each bin the value of recombination probability r can be determined using equation \ref{eq:Quanta}. Figure \ref{fig:R_T} shows the measurement of recombination probability r for the 170 V/cm and 100 V/cm tritium calibration data. The shaded region represents the one sigma of the recombination probability which can be thought of in terms of the recombination fluctuation $\rm \sigma_r = \sigma_R / N_{ions} $. Note that the bands converge below 4 $\rm keV_{ee}$ meaning that the light yields and charge yields also converge (discussed in ch 6), this leads to the energy thresholds at 1.5 keV being identical for at the two fields as seen in \ref{ch:Ch4}. Further, the ER and NR discrimination in this region overlap as will be discussed in the next subsection. All this translates into no observed improvement in either energy threshold or background rejection from 1 to 4 $\rm keV_{ee}$ between using a 100 and 170 V/cm field.
+
 \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_Flucs/Figures/Iter1_100/R_comp.png}
-\caption{Recombination Fraction at 170 V/cm (black) and 100 V/cm (blue). The shaded regions represent the one sigma of the observed fluctuations in recombination fractions $\rm \sigma_r$.  }
+\caption{Recombination Fraction at 170 V/cm (black) and 100 V/cm (blue). The shaded regions represent the one sigma of the observed fluctuations in recombination fractions $\rm \sigma_r$. The dashed line at 1.0 $\rm keV_{ee}$ represents the 50\% detection threshold.}
 \label{fig:R_T}
+\end{figure}
+
+
+\subsection{Modeling the Discrimination Band}
+
+The main purpose of this section, and the tritium calibrations, are to be able to make predictions about WIMP sensitivity at various electric fields and in the WIMP search energies of interest, 1-5 $\rm keV_{ee}$. We now have the ability to reconstruct the electronic recoil band as it would appear with infinite detector resolution, with the ability to expand the band width by adding the measured detector resolution. Knowing the mean and width of the electronic recoil band and the mean of the NR band (described later) we can make predictions for ER and NR type discrimination which is a proxy for background event rejection.  
+
+The mean of the ER band in discrimination space can be written as
+\begin{equation}
+\rm log_{10}(S2_b/S1) = log_{10} \left(\frac{(1-r)N_i}{(r+\alpha)N_i}\right) + log_{10}(g2/g1)
+\label{eq:Band_Mean}
+\end{equation}
+
+\noindent where the observed charge and light signals $S2_b$ and S1 have been converted to recombination probability r,  number of ions $\rm N_i$ and $\rm \alpha$ using equations \ref{eq:Gain} and \ref{eq:Quanta}.
+
+The variance of the band can be written as,
+\begin{equation}
+\rm Var_{log_{10}(S2_b/S1)} = \frac{1}{log_{10}^2} \times \sigma_R^2 \left( \frac{ - (\alpha+1) }{(1-r)(r+\alpha)N_i} \right)^2
+\label{eq:Band_Var}
+\end{equation}
+
+\noindent Which has been written in terms of the number of ions $\rm N_i$, the recombination fraction r, and the measured recombination fluctuation $\rm \sigma_R$, defined to be $\rm \sigma_r\times N_i$. The result of the ER band's mean population and its corresponding 1 sigma fluctuation are shows in figure \ref{fig:ER_Band_Calc} for the case of 100 V/cm (blue) and 170 V/cm (black). This result shows the ER band with recombination fluctuations only. One can add light and charge collection fluctuations in quadrature to complete the modeling specific to any detector. Above 4 $\rm keV_{ee}$ the band separate as the higher drift field increased the charge extraction leading to better discrimination.
+
+\begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Chapter_Flucs/Figures/Iter1_100/Band_comp.png}
+\caption{The result of the ER band's mean population and its corresponding 1 sigma fluctuation for the case of 100 V/cm (blue) and 170 V/cm (black). We find an over lap below 4 $keV_{ee}$ where the additional strength of the drift field is hither improving threshold of discrimination. Above 4 $\rm keV_{ee}$ the band separate as the higher drift field increased the charge extraction leading to better discrimination.}
+\label{fig:ER_Band_Calc}
 \end{figure}
 
 
 \subsection{Measuring Alpha From the Tritium Data}
 
+Having measured r and $\rm \sigma_r$ the constancy of the value of $\rm \alpha$ can be checked by requiring that as the number of ions goes to one the observed recombination fluctuations tend to that of a binomial process. This is justified since an ion electron pair will either recombine or not, given some recombination probability r the binomial variance is written as,
+\begin{equation}
+\rm BinoVar= (1-r)rN_i
+\label{eq:Bino_Var}
+\end{equation}
+
+\noindent where r is the recombination probability and $\rm N_i$ is the number of ions which can be thought of as the number of trials for the binomial process. In figure \ref{fig:Alpha_T} the measured recombination fluctuation from the tritium data is compared to the standard deviation of a purely binomial process. An extrapolation to one ion electron pair ($\rm N_i$ =1) is made to the lowest energy bins still above threshold 1.5 to 3 keV. We find that the best intercept converging to a purely binomial process is with $\alpha$ = 0.20 consistent with the measurement in \cite{Doke_alpha} and not 0.06 as used in \cite{Dahl_Thesis}.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=73mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.png}
 \includegraphics[width=73mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tritium_LY_QY_100_iter1.png}
-\caption{Extracting alpha from the tritium data by requiring that the observed standard deviation converge with that of a binomial process. On the right, the same concept as the number of ions approaches 1 the fluctuation should be that of a binomial process, that ion will either recombine or not. }
+\caption{Extracting alpha from the tritium data by requiring that the observed standard deviation converge with that of a binomial process. On the right, the same concept as the number of ions approaches 1 the fluctuation should be that of a binomial process, that ion will either recombine or not.  the best intercept converging to a purely binomial process is with $\alpha$ = 0.20 }
 \label{fig:Alpha_T}
 \end{figure}
 
