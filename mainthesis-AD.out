@@ -50,10 +50,10 @@
 \BOOKMARK [1][-]{section.5.4}{Correcting for Spectral Shape for Finite Resolution}{chapter.5}% 50
 \BOOKMARK [2][-]{subsection.5.4.1}{Calculating the Observed Energy}{section.5.4}% 51
 \BOOKMARK [2][-]{subsection.5.4.2}{Smearing a Toy Spectrum}{section.5.4}% 52
-\BOOKMARK [1][-]{section.5.5}{Recombination and Recombination Fluctuations From Tritium Corrected For Spectral Shape}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.6}{Extracting Recombination Fluctuations}{chapter.5}% 54
-\BOOKMARK [2][-]{subsection.5.6.1}{Extracting Recombination fraction From Tritium Data}{section.5.6}% 55
-\BOOKMARK [2][-]{subsection.5.6.2}{Modeling the Discrimination Band}{section.5.6}% 56
-\BOOKMARK [2][-]{subsection.5.6.3}{Measuring Alpha From the Tritium Data}{section.5.6}% 57
-\BOOKMARK [1][-]{section.5.7}{The Big Picture, Recombination Fluctuations}{chapter.5}% 58
-\BOOKMARK [0][-]{chapter*.75}{Bibliography}{}% 59
+\BOOKMARK [1][-]{section.5.5}{Extracting Recombination Fluctuations from Tritium Calibration Data}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.5.1}{Extracting Recombination fraction From Tritium Data}{section.5.5}% 54
+\BOOKMARK [2][-]{subsection.5.5.2}{Modeling the ER Band}{section.5.5}% 55
+\BOOKMARK [2][-]{subsection.5.5.3}{Measuring Alpha From the Tritium Data}{section.5.5}% 56
+\BOOKMARK [1][-]{section.5.6}{Extracting Recombination Fluctuations from 137Cs Calibration}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.7}{Recombination Fluctuations, The Bigger Picture}{chapter.5}% 58
+\BOOKMARK [0][-]{chapter*.76}{Bibliography}{}% 59
