@@ -53,7 +53,7 @@
 \contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{126}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Extracting Recombination fraction From Tritium Data}{129}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Modeling the ER Band}{130}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Measuring Alpha From the Tritium Data}{131}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.3}Measuring Alpha From the Tritium Data}{132}{subsection.5.5.3}
 \contentsline {section}{\numberline {5.6}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{134}{section.5.6}
 \contentsline {section}{\numberline {5.7}Recombination Fluctuations, The Bigger Picture}{135}{section.5.7}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{139}{chapter*.76}

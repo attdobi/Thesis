@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  11 SEP 2014 21:32
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  11 SEP 2014 21:36
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3082,7 +3082,11 @@ File: Chapter_Flucs/Figures/Iter1_100/Band_comp.png Graphic file (type png)
 Package pdftex.def Info: Chapter_Flucs/Figures/Iter1_100/Band_comp.png used on 
 input line 630.
 (pdftex.def)             Requested size: 369.88582pt x 304.9939pt.
- [131] [132 <./Chapter_Flucs/Figures/Iter1_100/Band_comp.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[131] [132 <./Chapter_Flucs/Figures/Iter1_100/Band_comp.png>]
 <Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.png, id
 =2515, 560.99588pt x 420.97275pt>
 File: Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.pn
@@ -3091,8 +3095,8 @@ g Graphic file (type png)
 <use Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.png
 >
 Package pdftex.def Info: Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium
-_LY_QY_100_iter1.png used on input line 649.
-(pdftex.def)             Requested size: 207.70511pt x 155.86024pt.
+_LY_QY_100_iter1.png used on input line 650.
+(pdftex.def)             Requested size: 210.55038pt x 157.99928pt.
 
 <Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tritium_LY_QY_100_iter1.pn
 g, id=2516, 560.99588pt x 420.97275pt>
@@ -3102,8 +3106,8 @@ r1.png Graphic file (type png)
 <use Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tritium_LY_QY_100_iter
 1.png>
 Package pdftex.def Info: Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tr
-itium_LY_QY_100_iter1.png used on input line 650.
-(pdftex.def)             Requested size: 207.70511pt x 155.86024pt.
+itium_LY_QY_100_iter1.png used on input line 651.
+(pdftex.def)             Requested size: 210.55038pt x 157.99928pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -3111,15 +3115,15 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [133]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
+(hyperref)                removing `math shift' on input line 660.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 659.
+(hyperref)                removing `superscript' on input line 660.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 659.
+(hyperref)                removing `math shift' on input line 660.
 
 [134 <./Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.
 png> <./Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tritium_LY_QY_100_i
@@ -3129,7 +3133,7 @@ File: Chapter_Flucs/Figures/Cs/quanta_cs_.png Graphic file (type png)
 
 <use Chapter_Flucs/Figures/Cs/quanta_cs_.png>
 Package pdftex.def Info: Chapter_Flucs/Figures/Cs/quanta_cs_.png used on input 
-line 664.
+line 665.
 (pdftex.def)             Requested size: 204.85983pt x 175.49074pt.
 
 <Chapter_Flucs/Figures/Cs/R_cs_.png, id=2531, 533.89462pt x 437.2335pt>
@@ -3137,7 +3141,7 @@ File: Chapter_Flucs/Figures/Cs/R_cs_.png Graphic file (type png)
 
 <use Chapter_Flucs/Figures/Cs/R_cs_.png>
 Package pdftex.def Info: Chapter_Flucs/Figures/Cs/R_cs_.png used on input line 
-665.
+666.
 (pdftex.def)             Requested size: 204.85983pt x 167.76498pt.
  [135 <./Chapter_Flucs/Figures/Cs/quanta_cs_.png> <./Chapter_Flucs/Figures/Cs/R
 _cs_.png>]
@@ -3152,7 +3156,7 @@ ter1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_Flucs/Figures/alpha
 /bino_amp_100_iter1-eps-converted-to.pdf Chapter_Flucs/Figures/alpha/bino_amp_1
 00_iter1.eps>
-(epstopdf)             \includegraphics on input line 677.
+(epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_Flucs/Figures/alpha/bino_amp_100_iter1-eps-converted-to.pdf, id=2544, 
@@ -3162,7 +3166,7 @@ ic file (type pdf)
 
 <use Chapter_Flucs/Figures/alpha/bino_amp_100_iter1-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_Flucs/Figures/alpha/bino_amp_100_iter1-eps-con
-verted-to.pdf used on input line 677.
+verted-to.pdf used on input line 678.
 (pdftex.def)             Requested size: 207.70511pt x 156.0575pt.
 Package epstopdf Info: Source file: <Chapter_Flucs/Figures/alpha/R_v_Ni_100_ite
 r1.eps>
@@ -3175,7 +3179,7 @@ r1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=Chapter_Flucs/Figures/alpha
 /R_v_Ni_100_iter1-eps-converted-to.pdf Chapter_Flucs/Figures/alpha/R_v_Ni_100_i
 ter1.eps>
-(epstopdf)             \includegraphics on input line 678.
+(epstopdf)             \includegraphics on input line 679.
 Package epstopdf Info: Output file is already uptodate.
 
 <Chapter_Flucs/Figures/alpha/R_v_Ni_100_iter1-eps-converted-to.pdf, id=2545, 56
@@ -3185,7 +3189,7 @@ File: Chapter_Flucs/Figures/alpha/R_v_Ni_100_iter1-eps-converted-to.pdf Graphic
 
 <use Chapter_Flucs/Figures/alpha/R_v_Ni_100_iter1-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter_Flucs/Figures/alpha/R_v_Ni_100_iter1-eps-conve
-rted-to.pdf used on input line 678.
+rted-to.pdf used on input line 679.
 (pdftex.def)             Requested size: 207.70511pt x 156.0575pt.
 
 [136 <./Chapter_Flucs/Figures/alpha/bino_amp_100_iter1-eps-converted-to.pdf> <.
@@ -3230,7 +3234,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
 Here is how much of TeX's memory you used:
  17412 strings out of 493633
  323200 string characters out of 3143378
- 439923 words of memory out of 3000000
+ 439855 words of memory out of 3000000
  19781 multiletter control sequences out of 15000+200000
  15429 words of font info for 61 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -3256,7 +3260,7 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/texmf-dist/
 fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on mainthesis-AD.pdf (155 pages, 13706745 bytes).
+Output written on mainthesis-AD.pdf (155 pages, 13706769 bytes).
 PDF statistics:
  2770 PDF objects out of 2984 (max. 8388607)
  2302 compressed objects within 24 object streams
