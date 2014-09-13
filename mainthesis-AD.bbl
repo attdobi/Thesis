@@ -49,6 +49,11 @@ M.~Arenz and R.~Vianden.
 \newblock ISSN 0304-3843.
 \newblock \doi{10.1007/s10751-012-0723-3}.
 
+\bibitem{Dahl_Thesis}
+C.~E. Dahl.
+\newblock \emph{Ph.D. Thesis}.
+\newblock Ph.D. thesis, Princeton University, 2009.
+
 \bibitem{Oort}
 J.~H. {Oort}.
 \newblock {The force exerted by the stellar system in the direction
@@ -297,11 +302,6 @@ John~R de~Laeter, et~al.
 \newblock Atomic weights of the elements. review 2000 (iupac technical report).
 \newblock \emph{Pure and Applied Chemistry}, 75(6):683--800, 2003.
 
-\bibitem{Dahl_Thesis}
-C.~E. Dahl.
-\newblock \emph{Ph.D. Thesis}.
-\newblock Ph.D. thesis, Princeton University, 2009.
-
 \bibitem{alpha_argon}
 M.~Miyajima, et~al.
 \newblock Average energy expended per ion pair in liquid argon.
@@ -474,5 +474,18 @@ D.~P. Gregory and D.~A. Landsman.
 P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
 \newblock A simple relation for the fermi function.
 \newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
+\bibitem{83Kr_HalfLife_1}
+I.~Ahmad, et~al.
+\newblock Half-lives of isomeric states in fe57 and kr83.
+\newblock \emph{Phys. Rev. C}, 52:2240--2241, Oct 1995.
+\newblock \doi{10.1103/PhysRevC.52.2240}.
+
+\bibitem{Mozumder}
+A.~Mozumder.
+\newblock Free-ion yield and electron-ion recombination rate in liquid xenon.
+\newblock \emph{Chemical Physics Letters}, 245(4–5):359 -- 363, 1995.
+\newblock ISSN 0009-2614.
+\newblock \doi{http://dx.doi.org/10.1016/0009-2614(95)01024-4}.
 
 \end{thebibliography}

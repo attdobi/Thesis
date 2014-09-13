@@ -567,8 +567,31 @@ Since the tritium beta spectrum is continuous the calibration data is divided in
 \end{equation}
 \noindent the same result as outlined in \ref{eq:SigR_Cent}. The recombination fluctuation $\rm \sigma R$ can be extracted from the tritium calibration data. The result of the tritium calibration is shown in figure \ref{fig:R_Flucs_Quanta} for both the 170 V/cm and 100 V/cm data. The 170 V/cm data had 140,000 tritium beta decays in the fiducial volume and the 100 V/cm data contained 4,500 events. 
 
-% Add plot with number of photons and electrons vs. energy.
 
+%
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+ 
+\subcaptionbox{$\rm n_\gamma$, 170 V/cm \label{fig:5a}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_iter1_180_.png}}
+\hfill
+\subcaptionbox{$\rm n_e$, 170 V/cm \label{fig:5b}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_iter1_180_.png}}
+
+\bigskip
+
+\subcaptionbox{$\rm n_\gamma$ 100 V/cm \label{fig:5c}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_100_iter1_180_Tritium_LY_QY_100_iter1.png}}
+\hfill
+\subcaptionbox{$\rm n_e$, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_100_iter1_180_Tritium_LY_QY_100_iter1.png}}
+
+\caption{a: Density plot of number of photons vs. energy in keV using the tritium calibration data at 170 V/cm. b: Number of electrons vs. energy in keV using the tritium calibration data at 170 V/cm. c: Number of photons vs. energy in keV using the tritium calibration data at 100 V/cm. d: Number of electrons vs. energy in keV using the tritium calibration data at 100 V/cm. The data has been corrected for spectral shape. The black line indicates the quadratic fit to the centroid of the population. }
+\label{fig:Raw_Quanta}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+
+%
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
@@ -582,7 +605,6 @@ Since the tritium beta spectrum is continuous the calibration data is divided in
 \subcaptionbox{$\rm \sigma_R$, 100 V/cm \label{fig:5c}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Iter1_100/std_fig_100_iter1Tritium_LY_QY_100_iter1.eps}}
 \hfill
 \subcaptionbox{Quanta, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Iter1_100/quanta_100_iter1.png}}
-
 
 \caption{The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm) show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta). The figures on the right in in \ref{fig:R_Flucs_Quanta} (b: 170 V/cm, d: 100 V/cm) show the mean and one sigma standard deviation of the measured number of photons (blue) and electrons (red). Also shown is the total quanta (in black) which is the sum of photons and electrons and the expected number of ions (magenta) and excitons (cyan) using $\rm \alpha$ = 0.20.}
 \label{fig:R_Flucs_Quanta}
@@ -642,14 +664,14 @@ Having measured r and $\rm \sigma_r$ from the tritium calibration data the const
 \label{eq:Bino_Var}
 \end{equation}
 
-\noindent where r is the recombination probability and $\rm N_i$ is the number of ions which can be thought of as the number of trials for the binomial process. In figure \ref{fig:Alpha_T} the y axis shows the ratio of the measured standard deviation of recombination to the standard deviation of a purely binomial process. The figure on the right has the expected binomial standard deviation on the x axis. The best alpha is one in which the observed standard deviation converges with that of a binomial process as the binomial variance tends to 1. The figure on the left has the number of ions available for recombination on the x axis. As the number of ions approaches one the standard deviation of recombination should become that of a binomial process. A single ion will either recombine or not with probability r.  The extrapolation is made by fitting the lowest energy bins above 90\% threshold 1.2 to 3 keV. We find that the best intercept converging to a purely binomial process is with $\alpha$ = 0.20 consistent with the measurement in \cite{Doke_alpha} and not 0.06 as used in \cite{Dahl_Thesis}.
+\noindent where r is the recombination probability and $\rm N_i$ is the number of ions which can be thought of as the number of trials for the binomial process. In figure \ref{fig:Alpha_T} the y axis shows the ratio of the measured standard deviation of recombination to the standard deviation of a purely binomial process. The figure on the right has the expected binomial standard deviation on the x axis. The best alpha is one in which the observed standard deviation converges with that of a binomial process as the binomial variance tends to 1. The figure on the left has the number of ions available for recombination on the x axis. As the number of ions approaches one the standard deviation of recombination should become that of a binomial process. A single ion will either recombine or not with probability r.  The extrapolation is made by fitting the lowest energy bins above 90\% threshold 1.3 to 3 keV. Going below the value of one on the y axis implies that recombining electron-ion pairs have a variance better than binomial, which is unphysical if it is a random process.We find that the best intercept converging to a purely binomial process is with $\alpha$ = 0.20 consistent with the measurement in \cite{Doke_alpha} and not 0.06 as used in \cite{Dahl_Thesis}.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
-\includegraphics[width=74mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1Tritium_LY_QY_100_iter1.png}
-\includegraphics[width=74mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1Tritium_LY_QY_100_iter1.png}
-\caption{Determining the best $\rm \alpha$ using the tritium calibration data, with $\rm \alpha$ = 0.3(blue), 0.2(magenta), 0.15(black) and 0.06(red). Left: The y axis is the ratio of the observed standard deviation of recombination to that of a binomial processes plotted vs. the expected binomial standard deviation on the x axis. The best $\rm \alpha$ is one in which the observed standard deviation converges with that of a binomial process as the binomial variance tends to 1. Right, the same y axis as on the left but plotted vs. the number of ions available for recombination. As the number of ions approaches one the standard deviation of recombination should become that of a binomial process. A single ion will either recombine or not with probability r.  The best intercept converging to a purely binomial process (black star) is with $\rm \alpha$ = 0.20. Note, the fits use only data above 90\% threshold at 1.2 keV, starting from the third data point from the left. The higher end cut off at  3 keV corresponds to the end of the fitted lines. }
+\includegraphics[width=74mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_iter1.eps}
+\includegraphics[width=74mm]{Chapter_Flucs/Figures/alpha/bino_norm_amp_ions_iter1.eps}
+\caption{Determining the best $\rm \alpha$ using the tritium calibration data, with $\rm \alpha$ = 0.3(blue), 0.2(black), 0.15(magenta) and 0.06(red). Left: The y axis is the ratio of the measured standard deviation of recombination to that of a binomial processes and is plotted vs. the expected binomial standard deviation on the x axis. The best $\rm \alpha$ is one for which the observed standard deviation converges with that of a binomial process as the binomial variance tends to 1. Right, the same y axis as on the left but plotted vs. the number of ions available for recombination. As the number of ions approaches one the standard deviation of recombination should become that of a binomial process. A single ion will either recombine or not with probability r.  The best intercept converging to a purely binomial process (black star) is with $\rm \alpha$ = 0.20. Falling below the value of one on the y axis implies that recombining electron-ion pairs have a variance better than binomial, which is unphysical if it is a random process. Note, the fits use only data above 90\% threshold at 1.3 keV, starting from the third data point from the left. The higher end cut off at  3 keV corresponds to the end of the fitted lines. }
 \label{fig:Alpha_T}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
@@ -680,6 +702,87 @@ We have now measured the recombination probability and fluctuation over a wide r
 \caption{ Recombination fluctuations measurements are labeled on the plot and include data from tritium at 170 V/cm, tritium at 100 V/cm, $\rm ^{137}Cs$ calibration, the line sources used for the energy scale calibration listed in table \ref{table:Cal_lines} and a $\rm ^{57}Co$ calibration at a variety of electric fields ranging from 60 to 5000 V/cm from \cite{Dahl_Thesis}. Left: the observed recombination fluctuation $\rm \sigma_R$ measurements vs. the standard deviation expected from a purely binomial process,equation \ref{eq:Bino_Var}. }
 \label{fig:R_Big}
 \end{figure}
+
+
+The apparent amplification of the observed ER fluctuations over that of a binomial process is troubling. What causes the ER events to be so apparently erratic over their nuclear recoil counterparts which can be well described by binomial fluctuation \cite{Dahl_Thesis}. The key difference that lends a clue to solving the puzzle is that for a given energy nuclear recoils will produce significantly less election-ion pairs. As see in the extraction of $\rm \alpha$ in figure \ref{fig:Alpha_T} as the number of ions goes to zero the recombination fluctuations are becoming more binomial like. The second point to ponder is that we had made the assumption that each electron-ion pair is a separate entity, never encountering other electron-ion pairs. 
+
+There are well motivated argument to be had for the potential of encounter recombination probability. First, in liquid xenon the decay of the calibration source \KrCal has been observed to receive an enhancement of several percent in the light yield of the second 9.4 keV following the first decay of 32.1 keV \cite{Start_Kr}. This can be attributed to the second decay occurring surrounded by charge from the first decay causing an enhanced encounter recombination probability thus increasing light yield.  The two decays are separated by a half life to 154 ns \cite{83Kr_HalfLife_1} and the shorter the timing separation the greater the light yield enhancement, with light yield enhancement observed past 1000 ns \cite{Kastens}, \cite{Baudis} [LUX data shows enhancement out to 2000 ns could add this plot to thesis...]. This lends evidence that freed electrons can be attracted to ions while diffusing from the interaction site on the time scales of hundreds of nano seconds. The idea of encounter probability was worked out by Mozumder, finding encounter recombination probabilities of 0.01 in order to explain the ion production rate in liquid xenon \cite{Mozumder}. 
+
+We set out to model the variations expected from having a recombination porbability contains a component from encounter recombination probability. Once the model for variance is worked out we can fit to the tritium and $\rm^{137}Cs$ calibration data in an attempt to extract the encounter recombination probability.
+
+
+First we start with expression for the variance of a binomial process with some recombination probability r. 
+
+\begin{equation}
+\rm Var_r= (1-r)rN_i
+\label{eq:Bino_Var2}
+\end{equation}
+
+\noindent where $N_i$ is the number of ions, and can be thought of as the number of trials. Next we split the total observed recombination probability into two components.
+
+\begin{equation}
+\rm r=r_s + r_\epsilon
+\label{eq:rs}
+\end{equation}
+
+\noindent where $\rm r_s$ is the self recombination probability and $\rm r_\epsilon$ is the encounter recombination probability. With the expectation that  $\rm r_\epsilon << r_s$, \cite{Mozumder}. With the recombination probability split the variance of the two can be considered to be two independent processes occurring subsequently. The total variance of the process is the the sum of the individual variances. For $\rm N_i$ number of ions equation \ref{eq:Bino_Var2} becomes:
+
+\begin{equation}
+\rm Var_{(r_s + r_\epsilon)} = r_s(1-r_s)N_i + \sum\limits_{N_i} r_\epsilon(1-r_\epsilon)(N_i-1)
+\label{eq:Var_s}
+\end{equation}
+
+\noindent the first term is the binomial variance of a single electron-ion pair with some probability $\rm r_s$ to recombine. The second term is the binomial variance of the average encounter probability $\rm r_\epsilon$ with all other electrons excluding its own escaped electron, a total of ($\rm N_i$-1). The second term is then summed over all possible ions, accounting for all $\rm N_i$ ions with $\rm N_i -1$ electrons available to be encountered. Due to the relatively slow mobility of ions vs electrons, we treat the ions to be fixed with the freed electrons having some probability of encounter an ion. This is a simplistic model that treats the encounter probability as an overall average for all electron-ion pair combinations. Assuming $N_i$ is large equation \ref{eq:Var_s} can be simplified to 
+
+\begin{equation}
+\rm Var_{(r_s + r_\epsilon)} = r_s(1-r_s)N_i + r_\epsilon(1-r_\epsilon)N_i^2
+\label{eq:Var_s2}
+\end{equation}
+
+The result of splitting the recombination probability into self and encounter recombination is subtle, yet has huge implications. Comparing equation \ref{eq:Bino_Var2} to \ref{eq:Var_s} it is evident that the binomial variance of the process with encounter recombination probability will grow like $\rm N_i^2$ as opposed to the binomial variance of a single process that grows like $\rm N_i$. In order to understand the amplification of the binomial fluctuation as observed in the data, figure \ref{fig:R_Big}, we define an amplification term as the ratio of the binomial variance with encounter recombination probability to that of a binomial process with self recombination probability r.
+
+\begin{equation}
+\rm \mathcal{A}= \frac{Var_{(r_s + r_\epsilon)}}{Var_r}
+\label{eq:Amp}
+\end{equation}
+
+\noindent $\rm Var_{(r_s + r_\epsilon)}$ and $\rm Var_r$ are given in equations \ref{eq:Var_s2} and \ref{eq:Bino_Var2}, respectively. 
+
+
+\subsection{Measuring Encounter Recombination Probability}
+
+We will treat two cases. First, we will assume that $\rm r_\epsilon << r_s$ and $\rm r_s \simeq r$. Second, we will hold the ratio of $\rm r_\epsilon/r_s$ to be a constant. The second case is motivated by the idea that electric field and energy dependance that governs self recombination probability also applies to encounter recombination probability.
+
+The amplification of the binomial variance from equation \ref{eq:Amp} is
+
+\begin{equation}
+\rm \mathcal{A} =\frac{N_i}{N_i} \left( \frac{ r_s(1-r_s) + r_\epsilon(1-r_\epsilon)N_i }{ r(1-r) } \right)
+\label{eq:Amp_S1}
+\end{equation}
+
+\noindent assuming that $\rm r_\epsilon << r_s$ and $\rm r_s \simeq r$ equation \ref{eq:Amp_S1} can be simplified to, 
+
+\begin{equation}
+\rm \mathcal{A} =\left(1 +  \frac{ r_\epsilon(1-r_\epsilon)N_i }{ r(1-r) } \right)
+\label{eq:Amp_S2}
+\end{equation}
+ 
+\noindent  Using equation \ref{eq:Amp_S2} the value of encounter recombination probability $\rm r_\epsilon$ can be extracted from the tritium and $\rm^{137}Cs$ data using $\rm N_i$, r, and $\rm \mathcal{A}$.  Where the value of binomial amplification $\rm \mathcal{A}$ is the extracted from the data as the recombination fluctuation $\rm \sigma R$ over binomial, shown in figure \ref{fig:R_Big}. The result of extracting encounter recombination probability $\rm r_\epsilon$ is shown in figure \ref{fig:Encounter_R_Const}. The overall average of  $\rm r_\epsilon$ from the calibration data is $\rm r_\epsilon$ = 0.00424.
+
+\newpage
+
+\begin{figure}[h!]\centering
+\includegraphics[width=73mm]{Chapter_Flucs/Figures/Recomb_Flucs/E_const.eps}
+\includegraphics[width=73mm]{Chapter_Flucs/Figures/Recomb_Flucs/Ni_const.eps}
+\caption{ Encounter recombination probability $\rm r_\epsilon$ from the tritium and $\rm^{137}Cs$ calibration data, derived from equation \ref{eq:Amp_S2}. Left plotted vs. energy in keV. Right: plotted vs. the number of ions. The solid red line represents the overall average of $\rm r_\epsilon$ from the calibration data is $\rm r_\epsilon$ = 0.00424. }
+\label{fig:Encounter_R_Const}
+\end{figure}
+
+
+
+
+
+\section{Conclusion}
 
 
 There have been numerous steps in this section culminating in expanding our knowledge by extracting as much information as possible from the tritium calibration source. We have measured that the best exciton to ion ratio $\rm \alpha$ measured to be 0.20 in the WIMP search energies, which is consistent with the measurement from \cite{Doke_alpha}. The value of alpha was constrained by extrapolating the recombination fluctuations from the tritium data from 3 to 1.2 keV and requiring that for a single ion-electron pair the fluctuation be purely binomial, shown in figure \ref{fig:Alpha_T}.

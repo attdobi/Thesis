@@ -51,22 +51,24 @@
 \contentsline {subsection}{\numberline {5.4.1}Calculating the Observed Energy}{121}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Smearing a Toy Spectrum}{123}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{126}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Extracting Recombination fraction From Tritium Data}{129}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.1}Extracting Recombination fraction From Tritium Data}{130}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Modeling the ER Band}{130}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Measuring Alpha From the Tritium Data}{132}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{134}{section.5.6}
-\contentsline {section}{\numberline {5.7}Recombination Fluctuations, The Bigger Picture}{135}{section.5.7}
-\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yield}{139}{chapter.6}
-\contentsline {section}{\numberline {6.1}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{139}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Tritium S1 Mean and NEST}{139}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Tritium S2 Mean and NEST}{141}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Tritium Energy Spectrum}{144}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}LY, QY, $\rm \sigma R$ Result}{147}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Measuring LY, QY, Recombination, Corrected for Spectral shape}{149}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Tritium S1 Correction}{151}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Tritium S2 Correction}{151}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Thresholds}{153}{section.6.3}
-\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{154}{section.6.4}
-\contentsline {section}{\numberline {6.5}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{156}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{157}{subsection.6.5.1}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{159}{chapter*.90}
+\contentsline {subsection}{\numberline {5.5.3}Measuring Alpha From the Tritium Data}{133}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{135}{section.5.6}
+\contentsline {section}{\numberline {5.7}Recombination Fluctuations, The Bigger Picture}{136}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Measuring Encounter Recombination Probability}{141}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}Conclusion}{141}{section.5.8}
+\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yield}{144}{chapter.6}
+\contentsline {section}{\numberline {6.1}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{144}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Tritium S1 Mean and NEST}{144}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Tritium S2 Mean and NEST}{146}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Tritium Energy Spectrum}{149}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}LY, QY, $\rm \sigma R$ Result}{152}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Measuring LY, QY, Recombination, Corrected for Spectral shape}{154}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tritium S1 Correction}{156}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tritium S2 Correction}{156}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Thresholds}{158}{section.6.3}
+\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{159}{section.6.4}
+\contentsline {section}{\numberline {6.5}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{161}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{162}{subsection.6.5.1}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{164}{chapter*.92}
