@@ -690,6 +690,7 @@ To expand the picture of recombination fluctuation to higher energies the same m
 \label{fig:Cs_LYQYR}
 \end{figure}
 
+\newpage
 
 \section{Recombination Fluctuations, The Bigger Picture}
 We have now measured the recombination probability and fluctuation over a wide range of energies and at two fields for tritium (100 and 170 V/cm). The calibrations range from the 1.0 keV 50\% threshold with tritium to about 700 keV with the $\rm^{137}Cs$ calibration, and include the line sources used for the energy calibration in \ref{Ch:E_Scale_Cal} and table \ref{table:Cal_lines}. Also shown is a $\rm ^{57}Co$ calibration at a variety of electric fields ranging from 60 to 5000 V/cm from \cite{Dahl_Thesis}. Figure \ref{fig:R_Big} on the left shows the observed recombination fluctuation $\rm \sigma_R$ measurements vs. the standard deviation expected from a purely binomial process (equation \ref{eq:Bino_Var}). At our field of 100 and 170 V/cm we find good agreement with a simple power law fit which can be thought of as the fluctuation receiving an amplification over the underlying binomial process.
@@ -707,7 +708,7 @@ We have now measured the recombination probability and fluctuation over a wide r
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-Up until this point were have made the assumption that every electron ions pair is a separate entity that either recombines or not. There is no physical justification for the power law fit in figure \ref{fig:R_Big} to the apparent binomial variance amplification. This is indeed a fatal flaw in our recombination model. The observed variance is off by roughly a factor of $\rm N_ion$, surpassing 1000 in the cesium data. There is yet a greater issue with the recombination theory than the failure to describe the variance. The decline of recombination probability as the energy (or $\rm N_i$) tends to zero is unphysical, shown in figure \ref{fig:R_T}. The probability of the electron ion-pair to recombine with its electron pair should be insensitive to the number of electron-ion pairs created by the energy deposit. We take this as a first clue to solving the problem and outline the consequences of allowing for electron-ion pair mixing with some encounter probability in the next two sub-sections. Culminating with a model which will reproduce the observed recombination fraction, explain its decline at low energy, and also naturally yield the correct recombination fluctuations.
+There is no physical justification for the power law fit in figure \ref{fig:R_Big} to the apparent binomial variance amplification. This is a fatal flaw in our recombination model. The observed variance is off by roughly a factor of $\rm N_{ions}$, surpassing 1000 in the cesium data. The recombination model we are using assumes that every electron ions pair is a separate entity that either recombines or not, thus the variance should be binomial. There is another issue with the recombination model. The decline of recombination probability as the energy (or $\rm N_i$) tends to zero is unphysical yet is observed in the data, shown in figure \ref{fig:R_T}. The probability of the electron ion-pair to recombine should be insensitive to the number of electron-ion pairs created by the energy deposit. We take this as a first clue to solving the problem and outline the consequences of allowing for electron-ion pair mixing with some encounter probability in the next two sub-sections. Culminating with a model which will simultaneously reproduce the observed recombination fraction, explain its decline at low energy, and yield the correct recombination fluctuations.
 
 \newpage 
 
@@ -835,48 +836,122 @@ The simplistic model outlined in this subsection demonstrates that recombination
 
 \subsection{Clusters of Encounter Recombination}
 
-In the previous subsection a model was introduced which could reproduce the observed recombination fluctuations of ER events. However, the model failed to produce the correct recombination probability. We found that as the energy (or $\rm N_i$) rises the recombination probability tends to 1, and beyond as $\rm r=r_s + N_i\cdot r_\epsilon$. The zeroth order correction to this problem is to remove the self recombination term $\rm r_s$ and treat self recombination as just another encounter recombination probability, $\rm r_s=r_\epsilon$. Next, we will not allow the full $\rm N_i$ electrons to interact with each ion as this is unphysical. Instead, only a small fraction of the total ions $\rm N_\epsilon$ are allowed to have encounters for each energy deposit, illustrated in \ref{fig:Flucs_Fig}. The value of $\rm N_\epsilon$ is set by the requirement to reproduce the correct recombination probability. The observed recombination probability r is then written as,
+In the previous subsection a model was introduced which could predict the observed recombination fluctuations of ER events. However, the model failed to produce the correct recombination probability. We found that as the energy (or $\rm N_i$) rises the recombination probability tends to 1, and beyond as $\rm r=r_s + N_i\cdot r_\epsilon$. The zeroth order correction to this problem is to remove the self recombination term $\rm r_s$ and treat self recombination as just another encounter recombination probability, $\rm r_s=r_\epsilon$. Next, we will not allow the full $\rm N_i$ electrons to interact with each ion as this is unphysical. Instead, only a small number of the total ions $\rm N_\epsilon$ are allowed to have encounters for each energy deposit, illustrated in \ref{fig:Flucs_Fig}. The value of $\rm N_\epsilon$ is set by the requirement to reproduce the correct recombination probability. The observed recombination probability r is then written as,
 
 \begin{equation}
 \rm r=r_s+(N_\epsilon-1) r_\epsilon = N_\epsilon r_\epsilon
 \label{eq:Simp1}
 \end{equation}
 
-\noindent where r is the observed recombination probability at a given energy, $\rm r_s$ is the self recombination probability taken to be equal to the encounter recombination probability $\rm r_\epsilon$, and $\rm N_\epsilon$ is the average number of electron encounters for each ion. Note that the value of $\rm N_\epsilon$ used is an average which can also vary event to event depending on the ER track geometry. The equation for recombination probability in \ref{eq:Simp1} inadvertently solves the biggest issue of the original recombination model. By taking self recombination $\rm r_s$ to be equal to $\rm r_\epsilon$ the observed recombination probability r naturally vanishes as the energy ($\rm N_i$) tends to zero, as observed in the data shown in figure \ref{fig:R_T}. The binomial variance of such a process is,
+\noindent where r is the observed recombination probability at a given energy, $\rm r_s$ is the self recombination probability taken to be equal to the encounter recombination probability $\rm r_\epsilon$, and $\rm N_\epsilon$ is the average number of electron encounters for each ion. Note that the value of $\rm N_\epsilon$ used is an average and can also vary event to event depending on the ER track geometry. The equation for recombination probability in \ref{eq:Simp1} inadvertently solves the other issue of the original recombination model. By taking self recombination $\rm r_s$ to be equal to $\rm r_\epsilon$ the observed recombination probability r naturally vanishes as the energy ($\rm N_i$) tends to zero, as observed in the data shown in figure \ref{fig:R_T}. The binomial variance of such a process is,
 
 \begin{equation}
 \rm Var_{N_\epsilon r_\epsilon} = (1-N_\epsilon r_\epsilon)N_\epsilon r_\epsilon N_i
 \label{eq:SimpVar}
 \end{equation}
 
-\noindent where $\rm Var_{N_\epsilon r_\epsilon} $ is the recombination variance in number of quanta for a given interaction with $\rm N_i$ ions, encounter recombination probability $\rm r_\epsilon$ with an average of $\rm N_\epsilon$ encounters. The variance derived in equation \ref{eq:SimpVar} grown like $\rm N_i$ and suffers the same problem as our original model. The variance should grow like $\rm N_i^2$ to explain the observer recombination fluctuations in the data, as done in the previous subsection. 
+\noindent where $\rm Var_{N_\epsilon r_\epsilon} $ is the recombination variance in number of quanta squared for a given interaction with $\rm N_i$ ions, encounter recombination probability $\rm r_\epsilon$ with an average of $\rm N_\epsilon$ encounters. The variance derived in equation \ref{eq:SimpVar} grown like $\rm N_i$ and suffers the same problem as our original model. The variance needs to grow like $\rm N_i^2$ to explain the observed recombination fluctuations in the data, as seen in the previous subsection. 
 
-The solution is surprisingly straight forward considering the two requirements. First, to keep the correct observed recombination probability of each interaction the value of  encounter interaction $\rm N_\epsilon$ must be fixed. Second, to get the additional factor of $\rm N_i$ in variance the process of  $\rm N_\epsilon$ should be repeated scaling like $\rm N_i$. Remember, we are only allowing a small number, $\rm N_\epsilon$, of the total ions available ions to have encounters. Consider the interaction picture in figure \ref{fig:Flucs_Fig} for $\rm N_\epsilon$ interaction being repeated $\rm N_i/N_\epsilon$ times, such a process is illustrated in figure \ref{fig:Flucs_Fig_Cluster}.
+The solution is surprisingly straight forward considering the two requirements. First, in order to maintain the correct recombination probability r the value of  encounter interaction $\rm N_\epsilon$ must be fixed. Second, to get the additional factor of $\rm N_i$ in variance the process of  $\rm N_\epsilon$ must be be repeated, with the repetition scaling like $\rm N_i$. Remember, we are only allowing a small number, $\rm N_\epsilon$, of the total ions available ions to have encounters. Consider the picture in figure \ref{fig:Flucs_Fig} but for $\rm N_\epsilon$ interactions repeated $\rm N_i/N_\epsilon$ times in $\rm N_C$ clusters, such a process is illustrated in figure \ref{fig:Flucs_Fig_Cluster}. The number of clusters $\rm N_C$ for a given in equation \ref{eq:N_C}. 
+
+\begin{equation}
+\rm N_C = N_i/N_\epsilon
+\label{eq:N_C}
+\end{equation}
 
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
 \includegraphics[width=150mm]{Chapter_Flucs/Figures/Recomb_Flucs/Bino_V_Cluster.png}
-\caption{ ... %Illustration of recombination for the case of a in single ion, blue box highlighted in black at the center. The total recombination probability for one ion is the combination of the the dominant self recombination probability ($\rm r_s$) plus the sum of the encounter recombination probabilities ($\rm r_\epsilon$) from the remaining N-1 electrons. This process is repeated for N number of ion electron pairs leading to a binomial variance given in equation \ref{eq:Var_s}. }
+\caption{Illustration of recombination for the case of a in single ion occurring in $\rm N_C$ clusters with number of encounters $\rm N_\epsilon$. The total recombination probability for all clusters is equal to the average of each individual cluster. In each cluster the recombination probability is equal to the number of interaction $\rm N_\epsilon$ times the encounter recombination probability $\rm r_\epsilon$. The process is repeated for $\rm N_C$ clusters, resulting in and additional factor $\rm N_i$ in the observed variance while maintaining the correct average recombination probability r. }
 \label{fig:Flucs_Fig_Cluster}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
+The value $\rm N_\epsilon$ can be considered as the number of encounters per cluster, or generalized to the number of ions per cluster. The electron-ion pairs have $\rm N_\epsilon$ encounters in each cluster with an average recombination probability r. The total recombination probability of the system of clusters remains equal to $r=\rm N_\epsilon r_\epsilon$ without blowing up to unity. Since the process is repeated for $\rm N_C$ clusters the variance from equation \ref{eq:SimpVar} becomes
+
+\begin{equation}
+\rm Var_{N_\epsilon r_\epsilon} =  \sum\limits_{N_C}(1-N_\epsilon r_\epsilon)N_\epsilon r_\epsilon N_i
+\label{eq:SimpVar_C}
+\end{equation}
+
+\noindent where $\rm Var_{N_\epsilon r_\epsilon} $ is the recombination variance of equation \ref{eq:SimpVar} for $\rm N_C$ clusters. Plugging in the value of $\rm N_C$ from equation \ref{eq:N_C} we find
+
+\begin{equation}
+\rm Var_{N_\epsilon r_\epsilon} =  (1-N_\epsilon r_\epsilon)N_\epsilon r_\epsilon N_i (N_i/N_\epsilon)
+\label{eq:SimpVar_C}
+\end{equation}
+
+\noindent where the multiplication by $\rm N_C$ is written as $\rm N_i/N_\epsilon$. Further simplifying equation \ref{eq:SimpVar_C} and recalling that $\rm r=N_\epsilon r_\epsilon$,
+
+\begin{equation}
+\begin{split}
+\rm Var_{N_\epsilon r_\epsilon} =  (1-N_\epsilon r_\epsilon) r_\epsilon N_i^2 \\
+\rm Var_{N_\epsilon r_\epsilon} =  (1-r) r_\epsilon N_i^2
+\end{split}
+\label{eq:SimpVar_C_2}
+\end{equation}
+
+\noindent Taking the result for variance given in equation \ref{eq:SimpVar_C_2} we calculate the apparent amplification factor $\rm \mathcal{A}$ over that of a binomial process, our original recombination theory. 
+
+\begin{equation}
+\begin{split}
+\rm \mathcal{A} = \frac{Var_{N_\epsilon r_\epsilon}}{Var_{r}} = \frac{(1-r)r_\epsilon N_i^2}{(1-r)rN_i} \\
+\rm \mathcal{A} = \frac{r_\epsilon N_i}{r} \\
+\rm \mathcal{A} = \frac{N_i}{N_\epsilon} = N_C\\
+\end{split}
+\label{eq:Simp_Amp}
+\end{equation}
+
+\noindent the amplification factor in equation \ref{eq:Simp_Amp} remarkably simple. The amplification over that of a binomial process reduces to the number of clusters $\rm N_C$. Note, the value of $\rm N_\epsilon$ is the ratio of $\rm r/r_\epsilon$. This is the key to the cluster recombination model. We have picked up an additional factor $\rm N_i$ in the variance while maintaining the correct average recombination probability r. Using equation \ref{eq:Simp_Amp} we can extract the encounter probability $\rm r_\epsilon$, the cluster size $\rm N_\epsilon$ and the number of clusters $\rm N_C$ from our calibration data.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+\subcaptionbox{\label{fig:1a}}{\includegraphics[width=120mm]{Chapter_Flucs/Figures/Recomb_Flucs/Simple/E_re.eps}}
+
+\bigskip
+
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=70mm]{Chapter_Flucs/Figures/Recomb_Flucs/Simple/E_Ne.eps}}
+\hfill
+\subcaptionbox{\label{fig:1b}}{\includegraphics[width=70mm]{Chapter_Flucs/Figures/Recomb_Flucs/Simple/E_clusters.eps}}
+\caption{The data shown are labeled on the plot and include calibration data of tritium data at 170 V/cm, tritium at 100 V/cm (blue), $\rm ^{137}Cs$ at 170 V/cm, and data over a rang of fields using $\rm ^{57}Co$ from Dahl. \cite{Dahl_Thesis}. a) The encounter recombination probability $\rm r_\epsilon$ plotted vs. energy. b) The number of encounters per cluster $\rm N_\epsilon$ vs. energy. c) The number of clusters $\rm N_C$ vs. energy.}
+\label{fig:Simple_re}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+The average value of $\rm r_\epsilon$ over a wide range of energies is found to be 0.01, shown in figure \ref{fig:Simple_re}. The value of  $\rm r_\epsilon$ determined by using the cluster-encounter model is consistent with that noted by Mozumder in 1995 to explain ion fluctuations in liquid xenon \cite{Mozumder}. The value of  $\rm r_\epsilon=0.01$ corresponds to an average value of encounters $\rm N_\epsilon = 50$, which can be thought of as the cluster size. Figure \ref{fig:Simple_re} (c) also shows the number of clusters vs. energy, which grows linearly with $\rm N_i$.  Note, the number of clusters is the factor by which the binomial fluctuations of the initial self-recombination model are amplified at at given energy.
 
 
+The number of interaction per cluster $\rm N_\epsilon$, or cluster size, sets the encounter probability $\rm r_\epsilon$ in this model. The value of $\rm N_\epsilon$ appears to level off around 25 as energy tends to zero and varies between 25 to 100 over a wide range of energies and electric fields. Both $\rm r_\epsilon$ and $\rm N_\epsilon$ appear to have dependencies on electric field and energy . Which is not surprising as both the track geometry and interaction probability depend on electric field and energy. The data from Dahl over the range of 60 to 5000 V/cm especially illuminates the dependancies vs. field. We proceed with a simplified model and take the value of  $\rm N_\epsilon$ as a constant. The average value of $\rm N_\epsilon =50$ is used to calculate the expected variance at each energy using equation \ref{eq:Simp_Amp}, the result is shown in figure \ref{fig:Flucs_Simple}.
 
-The value of the encounter probability of sub 1\% was also noted by Mozumder in 1995 to explain ion fluctuations in liquid xenon\cite{Mozumder}. 
+\newpage 
 
-Recombination fluctuations for ER events have been modeled by a simple binomial process and agree to within 30\% over a wide range of electric fields and energies. The picture of ER band mean and width is now complete, only requiring recombination fraction r as an input. The recombination fraction is dependent on the energy of the interaction and electric field and is described well by modeling from Thomas \& Imel \cite{Thomas_Imel} , Dahl \cite{Dahl_Thesis} and NEST \cite{NEST}, \cite{NEST_2013}. 
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+\includegraphics[width=150mm]{Chapter_Flucs/Figures/Recomb_Flucs/Simple/R_v_E_model_stupid_simple_iter1.eps}
+\caption{ The measured recombination fluctuations from calibration data vs. energy. The red line indicates the expected recombination fluctuation of the clustering model given in equation \ref{eq:SimpVar_C_2}, assuming a cluster size of $\rm N_\epsilon = 50$. $\rm N_\epsilon = 50$ corresponds to an average encounter recombination probability of $\rm r_\epsilon = 0.01$.The deviation of the fit for recombination fluctuations and the data is less than 30\%. The \KrCal data point is the result of two decays and is expected to fall below the curve by 40\% considering the sum of the individual variances.}
+\label{fig:Flucs_Simple}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
+\noindent Figure \ref{fig:Flucs_Simple} shows the measured recombination fluctuations vs. energy along with that expected for the clustering model given in equation \ref{eq:SimpVar_C_2}, for $\rm N_\epsilon =50 $. $\rm N_\epsilon = 50$ corresponds to an average encounter recombination probability of $\rm r_\epsilon = 0.01$. The deviation of the fit and the data is less than 30\%, including Dahl's data taken at electric fields ranging from 60 to 5000 V/cm. 
+
+With the clustered encounter model we can now account for the recombination fluctuations and understand why recombination tends to zero as energy tends to zero. Having explained these two phenomena, the clustered-encounter model is a significant improvement over the initial recombination model. The flaw of the initial recombination model was to assume that the recombination process only consists of ion-electron pair self recombination. This assumption is what lead to the observed variance being off by a factor of $\rm N_i$ and the inability to explain the dependance of recombination fraction as energy tends to zero. The picture of ER band mean and width is now complete, only requiring recombination fraction r as an input. The recombination fraction is dependent on the energy of the interaction and electric field, modeled by Thomas \& Imel \cite{Thomas_Imel} and NEST \cite{NEST}, \cite{NEST_2013}. 
+
+\newpage
 
 \section{Conclusion}
 
+%This should be the conclusion after showing the ER band and alpha...
 
-There have been numerous steps in this section culminating in expanding our knowledge by extracting as much information as possible from the tritium calibration source. We have measured that the best exciton to ion ratio $\rm \alpha$ measured to be 0.20 in the WIMP search energies, which is consistent with the measurement from \cite{Doke_alpha}. The value of alpha was constrained by extrapolating the recombination fluctuations from the tritium data from 3 to 1.2 keV and requiring that for a single ion-electron pair the fluctuation be purely binomial, shown in figure \ref{fig:Alpha_T}.
+There have been numerous steps in this section culminating in expanding our knowledge by extracting as much information as possible from the calibration sources. We have measured that the best exciton to ion ratio $\rm \alpha$ measured to be 0.20 in the WIMP search energies, which is consistent with the measurement from \cite{Doke_alpha}. The value of alpha was constrained by extrapolating the recombination fluctuations from the tritium data from 3 to 1.2 keV and requiring that for a single ion-electron pair the fluctuation be purely binomial, shown in figure \ref{fig:Alpha_T}.
 
-Most importantly, the measurements in this section can be used to predict the ER band in any xenon detector, as shown in figure \ref{fig:ER_Band_Calc}. The most critical results are those specific to our WIMP search, 10-100 GeV WIMPs, which are focused in the range of 1 to 5 $\rm keV_{ee}$ and well covered by the tritium calibration data. Having extracted the values of r and $\rm \sigma_r$ for ER events the generic mean and band widths can be determined. Thus, the ER band shape can be determined for any xenon detector with the application of the additional variance from the specific detector resolution. The knowledge of this band shape can be used to make predictions about the background rejection power of a given experiment. 
+The recombination model presented in this section can be used to predict the ER band for any xenon detector, as shown in figure \ref{fig:ER_Band_Calc}. The most critical results are those specific to our WIMP search, 10-100 GeV WIMPs, which are focused in the range of 1 to 5 $\rm keV_{ee}$ and well covered by the tritium calibration data. Having extracted the values of r and $\rm \sigma_r$ for ER events the generic mean and band widths can be determined. Thus, the ER band shape can be determined for any xenon detector with the application of the additional variance from the specific detector resolution. The knowledge of this band shape can be used to make predictions about the background rejection power of a given experiment. 
 
 It is surprising to find that changing the drift filed from 100 V/cm to 170 V/cm had only an epsilon impact on the mean of ER band below 4 $\rm keV_{ee}$, figure \ref{fig:ER_Band_Calc}. Further, there was no impact on the energy threshold since the light and charge yields merge at the threshold of 1 keV. A more dramatic field dependance was expected from \cite{Dahl_Thesis} and \cite{NEST_2013}. However, the low energy region never been probed to such high precision as with the tritium calibration using the LUX detector. To expand upon the modeling at low energies it will be useful for the next science run using the LUX detector to take tritium calibration data at a verity of fields. This will allow us to predict exactly how much additional NR and ER discrimination can be achieved by increasing the field. %We also want to explore if the recombination fluctuation can truly be thought of an an amplification of the variance over that of the underlying binomial process of electron-ion pair recombination.
