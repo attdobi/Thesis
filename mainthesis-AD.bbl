@@ -488,4 +488,10 @@ A.~Mozumder.
 \newblock ISSN 0009-2614.
 \newblock \doi{http://dx.doi.org/10.1016/0009-2614(95)01024-4}.
 
+\bibitem{Thomas_Imel}
+J.~Thomas and D.~A. Imel.
+\newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
+\newblock \emph{Phys. Rev. A}, 36:614--616, Jul 1987.
+\newblock \doi{10.1103/PhysRevA.36.614}.
+
 \end{thebibliography}
