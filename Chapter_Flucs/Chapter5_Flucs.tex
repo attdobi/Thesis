@@ -852,7 +852,7 @@ In the previous subsection a model was introduced which could predict the observ
 
 \noindent where $\rm Var_{N_\epsilon r_\epsilon} $ is the recombination variance in number of quanta squared for a given interaction with $\rm N_i$ ions, encounter recombination probability $\rm r_\epsilon$ with an average of $\rm N_\epsilon$ encounters. The variance derived in equation \ref{eq:SimpVar} grown like $\rm N_i$ and suffers the same problem as our original model. The variance needs to grow like $\rm N_i^2$ to explain the observed recombination fluctuations in the data, as seen in the previous subsection. 
 
-The solution is surprisingly straight forward considering the two requirements. First, in order to maintain the correct recombination probability r the value of  encounter interaction $\rm N_\epsilon$ must be fixed. Second, to get the additional factor of $\rm N_i$ in variance the process of  $\rm N_\epsilon$ must be be repeated, with the repetition scaling like $\rm N_i$. Remember, we are only allowing a small number, $\rm N_\epsilon$, of the total ions available ions to have encounters. Consider the picture in figure \ref{fig:Flucs_Fig} but for $\rm N_\epsilon$ interactions repeated $\rm N_i/N_\epsilon$ times in $\rm N_C$ clusters, such a process is illustrated in figure \ref{fig:Flucs_Fig_Cluster}. The number of clusters $\rm N_C$ for a given in equation \ref{eq:N_C}. 
+The solution is surprisingly straight forward considering the two requirements. First, in order to maintain the correct recombination probability r the value of  encounter interactions $\rm N_\epsilon$ must be fixed. Second, to get the additional factor of $\rm N_i$ in variance the process of size  $\rm N_\epsilon$ must be be repeated, with the repetition scaling like $\rm N_i$. Remember, we are only allowing a small number, $\rm N_\epsilon$, of the total ions available ions to have encounters. Consider the picture in figure \ref{fig:Flucs_Fig} but for $\rm N_\epsilon$ encounters repeated $\rm N_i/N_\epsilon$ times in $\rm N_C$ clusters, such a process is illustrated in figure \ref{fig:Flucs_Fig_Cluster}. The number of clusters $\rm N_C$ for a given in equation \ref{eq:N_C}. 
 
 \begin{equation}
 \rm N_C = N_i/N_\epsilon
@@ -870,7 +870,7 @@ The solution is surprisingly straight forward considering the two requirements. 
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-The value $\rm N_\epsilon$ can be considered as the number of encounters per cluster, or generalized to the number of ions per cluster. The electron-ion pairs have $\rm N_\epsilon$ encounters in each cluster with an average recombination probability r. The total recombination probability of the system of clusters remains equal to $r=\rm N_\epsilon r_\epsilon$ without blowing up to unity. Since the process is repeated for $\rm N_C$ clusters the variance from equation \ref{eq:SimpVar} becomes
+The value $\rm N_\epsilon$ can be considered as the number of encounters per cluster, or generalized to the number of ions per cluster. The electron-ion pairs have $\rm N_\epsilon$ encounters in each cluster with an average recombination probability r. The total recombination probability of the system of clusters remains equal to $\rm r=\rm N_\epsilon r_\epsilon$ without blowing up to unity. Since the process is repeated for $\rm N_C$ clusters the variance from equation \ref{eq:SimpVar} becomes
 
 \begin{equation}
 \rm Var_{N_\epsilon r_\epsilon} =  \sum\limits_{N_C}(1-N_\epsilon r_\epsilon)N_\epsilon r_\epsilon N_i
@@ -889,7 +889,8 @@ The value $\rm N_\epsilon$ can be considered as the number of encounters per clu
 \begin{equation}
 \begin{split}
 \rm Var_{N_\epsilon r_\epsilon} =  (1-N_\epsilon r_\epsilon) r_\epsilon N_i^2 \\
-\rm Var_{N_\epsilon r_\epsilon} =  (1-r) r_\epsilon N_i^2
+\rm Var_{N_\epsilon r_\epsilon} =  (1-r) r_\epsilon N_i^2 \\
+\rm Var_{N_\epsilon r_\epsilon} =  (1-r) r \frac{N_i^2}{N_\epsilon} 
 \end{split}
 \label{eq:SimpVar_C_2}
 \end{equation}
@@ -898,9 +899,9 @@ The value $\rm N_\epsilon$ can be considered as the number of encounters per clu
 
 \begin{equation}
 \begin{split}
-\rm \mathcal{A} = \frac{Var_{N_\epsilon r_\epsilon}}{Var_{r}} = \frac{(1-r)r_\epsilon N_i^2}{(1-r)rN_i} \\
-\rm \mathcal{A} = \frac{r_\epsilon N_i}{r} \\
-\rm \mathcal{A} = \frac{N_i}{N_\epsilon} = N_C\\
+\rm \mathcal{A} = \frac{Var_{N_\epsilon r_\epsilon}}{Var_{r}} = \frac{(1-r)r N_i^2/N\epsilon}{(1-r)rN_i} \\
+%\rm \mathcal{A} = \frac{r_\epsilon N_i}{r} \\
+\rm \mathcal{A} = \frac{N_i}{N_\epsilon} = N_C
 \end{split}
 \label{eq:Simp_Amp}
 \end{equation}
@@ -934,13 +935,13 @@ The number of interaction per cluster $\rm N_\epsilon$, or cluster size, sets th
 \small\normalsize
 \begin{figure}[h!]\centering
 \includegraphics[width=150mm]{Chapter_Flucs/Figures/Recomb_Flucs/Simple/R_v_E_model_stupid_simple_iter1.eps}
-\caption{ The measured recombination fluctuations from calibration data vs. energy. The red line indicates the expected recombination fluctuation of the clustering model given in equation \ref{eq:SimpVar_C_2}, assuming a cluster size of $\rm N_\epsilon = 50$. $\rm N_\epsilon = 50$ corresponds to an average encounter recombination probability of $\rm r_\epsilon = 0.01$.The deviation of the fit for recombination fluctuations and the data is less than 30\%. The \KrCal data point is the result of two decays and is expected to fall below the curve by 40\% considering the sum of the individual variances.}
+\caption{ The measured recombination fluctuations from calibration data vs. energy. The red line indicates the expected recombination fluctuation of the clustering model given in equation \ref{eq:SimpVar_C_2}, assuming a cluster size of $\rm N_\epsilon = 50$. $\rm N_\epsilon = 50$ corresponds to an average encounter recombination probability of $\rm r_\epsilon = 0.01$. The deviation of the fit from the data is less than 30\%. The \KrCal data point is the result of two decays and is expected to fall below the curve by 40\% considering the sum of the individual variances.}
 \label{fig:Flucs_Simple}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-\noindent Figure \ref{fig:Flucs_Simple} shows the measured recombination fluctuations vs. energy along with that expected for the clustering model given in equation \ref{eq:SimpVar_C_2}, for $\rm N_\epsilon =50 $. $\rm N_\epsilon = 50$ corresponds to an average encounter recombination probability of $\rm r_\epsilon = 0.01$. The deviation of the fit and the data is less than 30\%, including Dahl's data taken at electric fields ranging from 60 to 5000 V/cm. 
+\noindent Figure \ref{fig:Flucs_Simple} shows the measured recombination fluctuations vs. energy along with that expected for the clustering model given in equation \ref{eq:SimpVar_C_2}, for $\rm N_\epsilon =50 $, corresponding to an average encounter recombination probability of $\rm r_\epsilon = 0.01$. The deviation of the fit and the data is less than 30\%, including Dahl's data taken at electric fields ranging from 60 to 5000 V/cm. 
 
 With the clustered encounter model we can now account for the recombination fluctuations and understand why recombination tends to zero as energy tends to zero. Having explained these two phenomena, the clustered-encounter model is a significant improvement over the initial recombination model. The flaw of the initial recombination model was to assume that the recombination process only consists of ion-electron pair self recombination. This assumption is what lead to the observed variance being off by a factor of $\rm N_i$ and the inability to explain the dependance of recombination fraction as energy tends to zero. The picture of ER band mean and width is now complete, only requiring recombination fraction r as an input. The recombination fraction is dependent on the energy of the interaction and electric field, modeled by Thomas \& Imel \cite{Thomas_Imel} and NEST \cite{NEST}, \cite{NEST_2013}. 
 
