@@ -47,29 +47,28 @@
 \contentsline {subsection}{\numberline {5.3.2}Application to $\rm ^{83}Kr$}{110}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Application to Simulated Tritium Data (any continuous spectrum)}{113}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Centriod Subtraction}{116}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Correcting for Spectral Shape for Finite Resolution}{120}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Calculating the Observed Energy}{121}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Smearing a Toy Spectrum}{123}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{126}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Extracting Recombination fraction From Tritium Data}{130}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Modeling the ER Band}{130}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Measuring Alpha From the Tritium Data}{133}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{135}{section.5.6}
-\contentsline {section}{\numberline {5.7}Recombination Fluctuations, The Bigger Picture}{137}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}Encounter Recombination Probability}{139}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Clusters of Encounter Recombination}{147}{subsection.5.7.2}
-\contentsline {section}{\numberline {5.8}Conclusion}{155}{section.5.8}
-\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yield}{157}{chapter.6}
-\contentsline {section}{\numberline {6.1}Measuring LY, QY and Recombination, Uncorrected for Spectral shape}{157}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Tritium S1 Mean and NEST}{157}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Tritium S2 Mean and NEST}{159}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Tritium Energy Spectrum}{162}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}LY, QY, $\rm \sigma R$ Result}{165}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Measuring LY, QY, Recombination, Corrected for Spectral shape}{167}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Tritium S1 Correction}{169}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Tritium S2 Correction}{169}{subsection.6.2.2}
-\contentsline {section}{\numberline {6.3}Thresholds}{171}{section.6.3}
-\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{172}{section.6.4}
-\contentsline {section}{\numberline {6.5}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{174}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{175}{subsection.6.5.1}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{177}{chapter*.98}
+\contentsline {section}{\numberline {5.4}Extracting Recombination Fluctuations from Tritium Calibration Data}{120}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Extracting Recombination fraction From Tritium Data}{124}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Modeling the ER Band}{124}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Measuring Alpha From the Tritium Data}{127}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{129}{section.5.5}
+\contentsline {section}{\numberline {5.6}Recombination Fluctuations, The Bigger Picture}{131}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Encounter Recombination Probability}{133}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Clusters of Encounter Recombination}{141}{subsection.5.6.2}
+\contentsline {section}{\numberline {5.7}Conclusion}{149}{section.5.7}
+\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yield from Tritium Calibration}{151}{chapter.6}
+\contentsline {section}{\numberline {6.1}Correcting for Spectral Shape for Finite Resolution}{152}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Calculating the Observed Energy}{153}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Smearing a Toy Spectrum}{155}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}LY, QY and NEST}{157}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tritium S1 and S2 Mean and NEST}{158}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tritium Energy Spectrum}{161}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}LY, QY, $\rm \sigma R$ Result}{164}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Measuring LY, QY, Recombination, Corrected for Spectral shape}{165}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Tritium S1 Correction}{166}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Tritium S2 Correction}{167}{subsection.6.3.2}
+\contentsline {section}{\numberline {6.4}Thresholds}{169}{section.6.4}
+\contentsline {section}{\numberline {6.5}Ionization and Scintillation Yield After Correction}{170}{section.6.5}
+\contentsline {section}{\numberline {6.6}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{172}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Field dependence of light yield from the 32.1 keV gamma of $\rm ^{83m}Kr$ }{174}{subsection.6.6.1}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{176}{chapter*.97}

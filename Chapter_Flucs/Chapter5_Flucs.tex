@@ -469,96 +469,11 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 
 
 \newpage
-\section{Correcting for Spectral Shape for Finite Resolution}
-\label{sec:Smear}
-
-%The goal of the following two sections is to extract light yield, charge yield and recombination fluctuations from the tritium spectrum using the methods described in section \ref{sec:flucs_mono_bins}. The first step is to use the NEST model in an attempt to undue the effect of the tritium spectral shape and finite detector resolution, described in this section. We find that the light yield and charge yields extracted from the data deviate too much to apply the correction factor. Since the correction is found to be small we can proceed to extract new LY, QY and $\rm \sigma R$ from the tritium data without correction building a model that better reproduces the data than the NEST model (which has yet to be vetted at our electric field and energy). We then take that improved model and apply the correction.
- 
-%The first step is to solve for the value of $\rm \sigma_R$ (recombination fluctuation) that needs to be input into the smearing model, the statistical part from detector resolution remains fixed. Figure \ref{fig:R_T} show the optimal value of $\rm \sigma_R$ being extracted from the tritium data, starting with an initial guess based on the recombination fluctuation measured from the $\rm^{83m}Kr$ data.
-
-The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean to shift from the actual mean. The shift is non trivial and depends on the spectral shape and the functional form resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed spectrum to lower values, and the functional form of the of resolution will also shift the spectrum. Figure \ref{fig:exp_int} and equations \ref{eq:2} and \ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Take for example a linearly declining distribution, starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
-\begin{multline}
-\\ \rm c_i=\frac{N_i \times \Delta x}{\sigma_i\sqrt{2\pi}} \\
-\rm G_{i}(x) = c_i \times exp\left(\frac{-(x-\mu_i)^2}{2\sigma_i^2}\right)\\
-\label{eq:1}
-\end{multline}
-
-
-Where $\rm N_i$ is the count in the $\rm i^{th}$ bin, $\rm \Delta x$ is the bin width, $\rm \mu_i$ is the bin center and $\rm \sigma_i$ is the resolution at the $\rm i^{th}$ bin. Figure \ref{fig:exp_int} show the application of equation \ref{eq:1} to a linear energy distribution with a $\rm \sqrt{E}$ dependent $\sigma$. The observed distribution is the sum of the Gaussians, shown in red.
-
- \begin{figure}[h!]\centering
-\includegraphics[width=130mm]{Chapter_Flucs/Figures/example_integral}
-\caption{}
-\label{fig:exp_int}
-\end{figure}
-
-
-\subsection{Calculating the Observed Energy}
-
-After modeling the finite resolution with Gaussians the mean observed at each bin can be calculated from the overlap of all bins weighted by the corresponding means. We can write the observed mean in the $\rm i^{th}$ bin, $\nu_i$, in terms of the bin centers $\mu$ and overlapping areas of all bins using equation \ref{eq:1}:
-%\begin{center}
-\begin{equation}
-\nu_i = \frac{\mathlarger{\sum}\limits_{j=1}^{n}\ \mu_j\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}} G_{j}(x)\,\mathrm{d}x} 
-{\mathlarger{\sum}\limits_{j=1}^{n} \ \mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}} G_{j}(x)\,\mathrm{d}x}  
-\label{eq:2}
-\end{equation}
-%\end{center}
-
-Equation \ref{eq:2} can be solved in terms of error function and complimentary error function, first we will generalize a formula to solve for the overlapping area from the $\rm j^{th}$ bin into the $\rm i^{th}$ bin. 
-\begin{equation}
-%\rm A_i = c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right) + \sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| - \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) - 
-%\sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| + \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) 
-\rm A_{i,j}=\mathlarger{\int}\limits_{\mathsmaller{\mu_i-\frac{\Delta x}{2}}}^{\mathsmaller{\mu_i+\frac{\Delta x}{2}}}\it G_{j}(x)\,\mathrm{d}x =
-\begin{cases}\rm c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right), & j=i  \\
-\rm \frac{c_j}{2} erfc\left(\frac{|\mu_j-\mu_i| - \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right) - 
-\rm \frac{c_j}{2} erfc\left(\frac{|\mu_j-\mu_i| + \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right) , & j \neq i \end{cases}
-\label{eq:3}
-\end{equation}
-
-As $\rm \mu$ approaches zero the Gaussian distribution of equation \ref{eq:1} begins to spill over into negative values, which in some cases may be unphysical. For instance, the Gaussian assumption leads to negative photons. We can chose to ignore this area or make the distribution more Poisson like by bouncing the Gaussian back at $\rm \mu = 0$. The formula for accounting for the area of the reflected Gaussian is described in \ref{eq:6}. Ultimately this assumption has little impact on the S1 and S2 analysis because the threshold cut off well before the zero interface is reached, but it does make the distributions more Poisson like near the zeroth bins. Equation \ref{eq:6} is the same as \ref{eq:3} with the bin center $\rm \mu_i$ mapped to $\rm -\mu_i$.
-
-\begin{equation}
-%\rm A_i = c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right) + \sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| - \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) - 
-%\sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| + \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) 
-\rm B_{i,j}=
-\rm \frac{c_j}{2} erfc\left(\frac{|\mu_j+\mu_i| - \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right) - 
-\rm \frac{c_j}{2} erfc\left(\frac{|\mu_j+\mu_i| + \frac{\Delta x}{2}}{\sigma _j\sqrt{2}} \right)
-\label{eq:6}
-\end{equation}
-
-The error function and complementary error function are defined in equation \ref{eq:4} and the coefficient $\rm c_i$ is defined in equation \ref{eq:1}.
-\begin{multline}
-\\ \rm erf(x)=\frac{2}{\sqrt{\pi}} \times \int\limits_{0}^{x} exp(-t^2)\\
-\rm erfc(x)=\frac{2}{\sqrt{\pi}} \times \int\limits_{x}^{\infty} exp(-t^2) = 1 - erf(x)\\
-\label{eq:4}
-\end{multline}
-
-Finally, we solve for the observed mean in the $\rm i^{th}$ bin by summing all the Gaussian overlaps $\rm A_{i,j}$ + $\rm B_{i,j}$ (equations \ref{eq:3},\ref{eq:6}), weighting the overlapping area from each bin by the corresponding bin center $\rm \mu_j$. The result is shown in equation \ref{eq:5} and is equivalent to equation \ref{eq:2} when the area from the reflected Gaussian is not considered, $\rm B_{i,j}$=0.
-\begin{equation}
-\rm \nu_i =  \frac{\sum\limits_{j=1}^{n}\mu_j\cdot (A_{i,j}+B_{i,j})}{\sum\limits_{j=1}^{n} (A_{i,j}+B_{i,j})}
-\label{eq:5}
-\end{equation}
-
-\subsection{Smearing a Toy Spectrum}
-
-To demonstrate the application of equation \ref{eq:5} we use it to smear a toy linearly decaying spectrum. By modifying the dependence of $\rm \sigma_i$ on $\rm \mu_i$ we can better understand the effects of the spectral shape and the functional for of the resolution.
-
-Figure \ref{fig:Toy_Linear} shows the effect of the finite resolution on a linearly decaying spectral shape. Using a constant resolution $\rm \sigma$ the observed mean, when accounting for finite resolution, shifts down due to the spectral shape. In the case with $\rm \sigma_i \sim \sqrt{\mu_i} $ the observed mean at first shifts higher as the increasing width at higher value bin centers, even with lower counts, out weighs the lower bin centers with higher counts and narrower widths. In both cases as the bin centers approach zero the observed mean shifts higher due to an imposed threshold at zero, here Poisson statistics take over and the Gaussian characterization leads to a loss of events below zero. Thus, for the sake of the toy model in figure \ref{fig:Toy_Linear} we only characterize the relation between the real mean and the observed mean from the second bin center. It is also worth mentioning that for the case of having a varying resolution in figure \ref{fig:Toy_Linear} the shift in spectral shape seems minor, yet there is a a significant 20\% deviation in the observed mean of the last bin.
-
- \begin{figure}[h!]\centering
-\includegraphics[width=70mm]{Chapter_Flucs/Figures/Toy_Model_lin_const}
-\includegraphics[width=70mm]{Chapter_Flucs/Figures/Toy_Model_lin_dep}
-\includegraphics[width=70mm]{Chapter_Flucs/Figures/Toy_Model_mean_shift}
-\caption{Top Left: A linearly decaying spectrum, in blue. The black curve represents the sum of the Gaussians assuming a constant resolution. Top Right: A linearly decaying spectrum, in blue. The black curve represents the sum of the Gaussians with a $\rm \sqrt{E}$ dependent resolution. Bottom: The observed mean, with finite resolution, compared to the real mean with infinite resolution. The black points are for the case with linear resolution and the red points represent the case with $\rm \sqrt{E}$ dependent resolution.}
-\label{fig:Toy_Linear}
-\end{figure}
-
-\newpage
 
 
 \section{Extracting Recombination Fluctuations from Tritium Calibration Data}
 
-In this section we apply the methods outlined in this chapter and use them to extract the recombination fluctuations vs. energy from the tritium data. The first step in this process was calibrate the energy scale solving for g1 and g2 as outlined in \ref{Ch:E_Scale_Cal}. Second, the S1 and S2 signals of the tritium calibration data were corrected for spectral shape as outlined previously in section \ref{sec:Smear} and discussed in more detail in \ref{Ch:LYQY}. Finally, having modeled and measured the statistical and instrumented variances for light collection of the LUX detector \ref{eq:SigDet} \ref{eq:SigStat} \ref{eq:SigInst} the component of detector resolution in each energy bin can be calculated$\rm \chi_{Det}^2$ \ref{eq:SigCE}, ref{eq:Angle}, {eq:Centroid}. For the remained of the thesis we will work in centroid subtracted space as detailed in equation {eq:Centroid}, the results are identical to working in non centroid subtracted space using a bin width correction of equation \ref{eq:SigR_CE_lim}, which is the equivalent of making a linear approximation to the local slope.  
+In this section we apply the methods outlined in this chapter and use them to extract the recombination fluctuations vs. energy from the tritium data. The first step in this process was calibrate the energy scale solving for g1 and g2 as outlined in \ref{Ch:E_Scale_Cal}. Second, the S1 and S2 signals of the tritium calibration data were corrected for spectral shape as outlined previously in section \ref{sec:Smear} and discussed in more detail in \ref{Ch:LYQY}. Finally, having modeled and measured the statistical and instrumented variances for light collection of the LUX detector \ref{eq:SigDet} \ref{eq:SigStat} \ref{eq:SigInst} the component of detector resolution in each energy bin can be calculated $\rm \chi_{Det}^2$ \ref{eq:SigCE}, ref{eq:Angle}, {eq:Centroid}. For the remained of the thesis we will work in centroid subtracted space as detailed in equation {eq:Centroid}, the results are identical to working in non centroid subtracted space using a bin width correction of equation \ref{eq:SigR_CE_lim}, which is the equivalent of making a linear approximation to the local slope.  
 
 
 Since the tritium beta spectrum is continuous the calibration data is divided into energy bins. In each energy bin the mean of S1 and $\rm S2_b$ is measured and converted to the mean number of photons and electrons using g1 and g2. Once that is known the variance from detector resolution in each bin can be determined, defined as $\rm \chi_{Det}^2$ \ref{eq:Centroid}, \ref{eq:SigCE}. We then measure the variance of both the fluctuations in the photon and electron channels using Gaussian fits to the distributions in each energy bin, defined as $\rm \chi^2$. The recombination variance and variance from detector resolution are two independent processes making the observed variance in each bin $\rm \chi^2$ a sum of $\rm \chi_{Det}^2$ and $\rm \sigma_R^2$. We measure the variance of both the light and channel $\rm \chi_{\gamma}^2$ and $\rm \chi_e^2$ and solve for $\rm \sigma_{R_\gamma}^2$ and $\rm \sigma_{R_e}^2$ where the subscripts $\rm \gamma$ and e denote the photon and electron channel respectively. Using this we find
