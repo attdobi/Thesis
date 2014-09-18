@@ -54,6 +54,31 @@ C.~E. Dahl.
 \newblock \emph{Ph.D. Thesis}.
 \newblock Ph.D. thesis, Princeton University, 2009.
 
+\bibitem{Kastens}
+L.W. Kastens, S.~Bedikian, S.B. Cahn, A.~Manzur, and D.N. McKinsey.
+\newblock {A 83Krm Source for Use in Low-background Liquid Xenon Time
+  Projection Chambers}.
+\newblock \emph{JINST}, 5:P05006, 2010.
+\newblock \doi{10.1088/1748-0221/5/05/P05006}.
+
+\bibitem{Baudis}
+L.~Baudis, et~al.
+\newblock Response of liquid xenon to compton electrons down to 1.5 kev.
+\newblock \emph{Phys. Rev. D}, 87:115015, Jun 2013.
+\newblock \doi{10.1103/PhysRevD.87.115015}.
+
+\bibitem{83Kr_HalfLife_1}
+I.~Ahmad, et~al.
+\newblock Half-lives of isomeric states in fe57 and kr83.
+\newblock \emph{Phys. Rev. C}, 52:2240--2241, Oct 1995.
+\newblock \doi{10.1103/PhysRevC.52.2240}.
+
+\bibitem{83Kr_HalfLife_2}
+S.~L. Ruby, Y.~Hazoni, and M.~Pasternak.
+\newblock Lifetimes of the low-energy m1 transitions in la137 and kr83.
+\newblock \emph{Phys. Rev.}, 129:826--828, Jan 1963.
+\newblock \doi{10.1103/PhysRev.129.826}.
+
 \bibitem{Oort}
 J.~H. {Oort}.
 \newblock {The force exerted by the stellar system in the direction
@@ -433,19 +458,6 @@ V.~Eckardt, et~al.
   krypton-83m}.
 \newblock 2001.
 
-\bibitem{Kastens}
-L.W. Kastens, S.~Bedikian, S.B. Cahn, A.~Manzur, and D.N. McKinsey.
-\newblock {A 83Krm Source for Use in Low-background Liquid Xenon Time
-  Projection Chambers}.
-\newblock \emph{JINST}, 5:P05006, 2010.
-\newblock \doi{10.1088/1748-0221/5/05/P05006}.
-
-\bibitem{Baudis}
-L.~Baudis, et~al.
-\newblock Response of liquid xenon to compton electrons down to 1.5 kev.
-\newblock \emph{Phys. Rev. D}, 87:115015, Jun 2013.
-\newblock \doi{10.1103/PhysRevD.87.115015}.
-
 \bibitem{Aprile_LY}
 E.~Aprile, et~al.
 \newblock Measurement of the scintillation yield of low-energy electrons in
@@ -475,12 +487,6 @@ P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
 \newblock A simple relation for the fermi function.
 \newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
 
-\bibitem{83Kr_HalfLife_1}
-I.~Ahmad, et~al.
-\newblock Half-lives of isomeric states in fe57 and kr83.
-\newblock \emph{Phys. Rev. C}, 52:2240--2241, Oct 1995.
-\newblock \doi{10.1103/PhysRevC.52.2240}.
-
 \bibitem{Mozumder}
 A.~Mozumder.
 \newblock Free-ion yield and electron-ion recombination rate in liquid xenon.
@@ -493,5 +499,14 @@ J.~Thomas and D.~A. Imel.
 \newblock Recombination of electron-ion pairs in liquid argon and liquid xenon.
 \newblock \emph{Phys. Rev. A}, 36:614--616, Jul 1987.
 \newblock \doi{10.1103/PhysRevA.36.614}.
+
+\bibitem{Kirill_Methane}
+K.~N. Pushkin, et~al.
+\newblock Scintillation light, ionization yield and scintillation decay times
+  in high pressure xenon and xenon methane.
+\newblock \emph{Nuclear Science, IEEE Transactions on}, 54(3):744--750, June
+  2007.
+\newblock ISSN 0018-9499.
+\newblock \doi{10.1109/TNS.2007.894815}.
 
 \end{thebibliography}
