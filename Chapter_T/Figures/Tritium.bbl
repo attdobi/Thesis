@@ -1,0 +1,102 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{LUX_PRL}
+S.~Akerib, D.\, et~al.
+\newblock First results from the lux dark matter experiment at the sanford
+  underground research facility.
+\newblock \emph{Phys. Rev. Lett.}, 112:091303, Mar 2014.
+\newblock \doi{10.1103/PhysRevLett.112.091303}.
+
+\bibitem{Kastens:2009rt}
+L.W. Kastens, S.~Bedikian, S.B. Cahn, A.~Manzur, and D.N. McKinsey.
+\newblock {A 83Krm Source for Use in Low-background Liquid Xenon Time
+  Projection Chambers}.
+\newblock \emph{JINST}, 5:P05006, 2010.
+\newblock \doi{10.1088/1748-0221/5/05/P05006}.
+
+\bibitem{83Kr_HalfLife_1}
+I.~Ahmad, et~al.
+\newblock Half-lives of isomeric states in fe57 and kr83.
+\newblock \emph{Phys. Rev. C}, 52:2240--2241, Oct 1995.
+\newblock \doi{10.1103/PhysRevC.52.2240}.
+
+\bibitem{83Kr_HalfLife_2}
+S.~L. Ruby, Y.~Hazoni, and M.~Pasternak.
+\newblock Lifetimes of the low-energy m1 transitions in la137 and kr83.
+\newblock \emph{Phys. Rev.}, 129:826--828, Jan 1963.
+\newblock \doi{10.1103/PhysRev.129.826}.
+
+\bibitem{Tritium_Q}
+Sz. Nagy, T.~Fritioff, M.~Bjšrkhage, I.~Bergstršm, and R.~Schuch.
+\newblock On the q -value of the tritium ?-decay.
+\newblock \emph{EPL (Europhysics Letters)}, 74(3):404, 2006.
+
+\bibitem{Tritium_Mean}
+D.~P. Gregory and D.~A. Landsman.
+\newblock Average decay energy of tritium.
+\newblock \emph{Phys. Rev.}, 109:2091--2091, Mar 1958.
+\newblock \doi{10.1103/PhysRev.109.2091}.
+
+\bibitem{Tritium_Eq}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
+\bibitem{Tritium_halflife_all}
+L.~L. Lucas and M.~P. Unterweger.
+\newblock Comprehensive review and critical evaluation of the half-life of
+  tritium.
+\newblock \emph{Journal of Research of NIST}, 105(4):541 -- 551, 2000.
+\newblock ISSN 0883-2889.
+\newblock \doi{http://dx.doi.org/10.6028/jres.105.043}.
+
+\bibitem{miyake:1983}
+Hitoshi Miyake, Masao Matsuyama, Kan Ashida, and Kuniaki Watanabe.
+\newblock Permeation, diffusion, and solution of hydrogen isotopes, methane,
+  and inert gases in/through tetrafluoroethylene and polyethylene.
+\newblock \emph{Journal of Vacuum Science Technology A: Vacuum, Surfaces, and
+  Films}, 1(3):1447--1451, Jul 1983.
+\newblock ISSN 0734-2101.
+\newblock \doi{10.1116/1.572038}.
+
+\bibitem{LUX_BG}
+D.~S. {Akerib}, et~al.
+\newblock {Radiogenic and Muon-Induced Backgrounds in the LUX Dark Matter
+  Detector}.
+\newblock \emph{ArXiv e-prints}, March 2014.
+
+\bibitem{Dobi_CH4}
+A.~Dobi, et~al.
+\newblock Study of a zirconium getter for purification of xenon gas.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  620(2â€“3):594 -- 598, 2010.
+\newblock ISSN 0168-9002.
+\newblock \doi{http://dx.doi.org/10.1016/j.nima.2010.03.151}.
+
+\bibitem{Kr_ppt_Dobi}
+Attila Dobi, et~al.
+\newblock {Detection of krypton in xenon for dark matter applications}.
+\newblock \emph{Nucl.Instrum.Meth.}, A665:1--6, 2011.
+\newblock \doi{10.1016/j.nima.2011.11.043}.
+
+\bibitem{EXO_SAM}
+A.~Dobi, et~al.
+\newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
+\newblock \emph{Nucl.Instrum.Meth.}, A675:40--46, 2012.
+\newblock \doi{10.1016/j.nima.2012.01.066}.
+
+\bibitem{Kirill_Methane}
+K.~N. Pushkin, et~al.
+\newblock Scintillation light, ionization yield and scintillation decay times
+  in high pressure xenon and xenon methane.
+\newblock \emph{Nuclear Science, IEEE Transactions on}, 54(3):744--750, June
+  2007.
+\newblock ISSN 0018-9499.
+\newblock \doi{10.1109/TNS.2007.894815}.
+
+\end{thebibliography}
