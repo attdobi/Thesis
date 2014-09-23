@@ -66,17 +66,17 @@
 \contentsline {subsection}{\numberline {6.2.3}Results for Light Yield, Charge Yield and Recombination}{165}{subsection.6.2.3}
 \contentsline {section}{\numberline {6.3}Measuring Light Yield, Charge Yield and Recombination, Corrected for Spectral Shape}{169}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Tritium S1 and S2 Correction}{169}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Detector Threshold Measured with Tritium}{172}{section.6.4}
-\contentsline {section}{\numberline {6.5}Ionization and Scintillation Yield After Correction}{175}{section.6.5}
-\contentsline {section}{\numberline {6.6}The Standard Candle and Tritium Scintillation Yield}{180}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}The Standard Candle. Light Yield from $\rm ^{83m}Kr$}{180}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Comparing Tritium Scintillation Yield with Compton Scatters}{183}{subsection.6.6.2}
-\contentsline {chapter}{\numberline {7}Tritium Calibration Source and the ER Band}{186}{chapter.7}
-\contentsline {section}{\numberline {7.1}Tritium as a Calibration Source}{186}{section.7.1}
-\contentsline {section}{\numberline {7.2}Results from the Tritiated Methane Calibration}{188}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Tritiated Methane injection into the LUX detector}{188}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Mixing of Tritiated Methane in Liquid Xenon}{191}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Definition of Electronic Recoil Band and Comparison with NEST Model}{192}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Threshold Determination}{195}{subsection.7.2.4}
-\contentsline {section}{\numberline {7.3}Additional Calibrations with Tritium}{197}{section.7.3}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{199}{chapter*.108}
+\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{173}{section.6.4}
+\contentsline {section}{\numberline {6.5}Comparison of Light Yield Measured With Tritium to Other Measurements With Compton Scatters}{178}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}The Standard Candle: Light Yield from $\rm ^{83m}Kr$}{178}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Comparing Tritium Scintillation Yield with Compton Scatters}{180}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Summery}{183}{section.6.6}
+\contentsline {chapter}{\numberline {7}Tritium Calibration Source and the ER Band}{185}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tritium as a Calibration Source}{185}{section.7.1}
+\contentsline {section}{\numberline {7.2}Results from the Tritiated Methane Calibration}{187}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Tritiated Methane injection into the LUX detector}{187}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Mixing of Tritiated Methane in Liquid Xenon}{190}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Definition of Electronic Recoil Band and Comparison with NEST Model}{191}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Threshold Determination}{194}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Additional Calibrations with Tritium}{196}{section.7.3}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{198}{chapter*.106}
