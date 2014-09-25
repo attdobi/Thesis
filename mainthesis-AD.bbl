@@ -79,6 +79,18 @@ S.~L. Ruby, Y.~Hazoni, and M.~Pasternak.
 \newblock \emph{Phys. Rev.}, 129:826--828, Jan 1963.
 \newblock \doi{10.1103/PhysRev.129.826}.
 
+\bibitem{Aprile_LY}
+E.~Aprile, et~al.
+\newblock Measurement of the scintillation yield of low-energy electrons in
+  liquid xenon.
+\newblock \emph{Phys. Rev. D}, 86:112004, Dec 2012.
+\newblock \doi{10.1103/PhysRevD.86.112004}.
+
+\bibitem{Tritium_Eq}
+P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
+\newblock A simple relation for the fermi function.
+\newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
+
 \bibitem{Oort}
 J.~H. {Oort}.
 \newblock {The force exerted by the stellar system in the direction
@@ -458,13 +470,6 @@ V.~Eckardt, et~al.
   krypton-83m}.
 \newblock 2001.
 
-\bibitem{Aprile_LY}
-E.~Aprile, et~al.
-\newblock Measurement of the scintillation yield of low-energy electrons in
-  liquid xenon.
-\newblock \emph{Phys. Rev. D}, 86:112004, Dec 2012.
-\newblock \doi{10.1103/PhysRevD.86.112004}.
-
 \bibitem{Doke_alpha}
 Tadayoshi Doke, et~al.
 \newblock Absolute scintillation yields in liquid argon and xenon for various
@@ -481,11 +486,6 @@ D.~P. Gregory and D.~A. Landsman.
 \newblock Average decay energy of tritium.
 \newblock \emph{Phys. Rev.}, 109:2091--2091, Mar 1958.
 \newblock \doi{10.1103/PhysRev.109.2091}.
-
-\bibitem{Tritium_Eq}
-P~Venkataramaiah, K~Gopala, A~Basavaraju, S~S Suryanarayana, and H~Sanjeeviah.
-\newblock A simple relation for the fermi function.
-\newblock \emph{Journal of Physics G: Nuclear Physics}, 11(3):359, 1985.
 
 \bibitem{Mozumder}
 A.~Mozumder.
@@ -509,6 +509,16 @@ K.~N. Pushkin, et~al.
 \newblock ISSN 0018-9499.
 \newblock \doi{10.1109/TNS.2007.894815}.
 
+\bibitem{LZ}
+D.~C. {Malling}, et~al.
+\newblock {After LUX: The LZ Program}.
+\newblock \emph{ArXiv e-prints}, October 2011.
+
+\bibitem{Xenon1T}
+E.~{Aprile} and {XENON1T collaboration}.
+\newblock {The XENON1T Dark Matter Search Experiment}.
+\newblock \emph{ArXiv e-prints}, June 2012.
+
 \bibitem{Tritium_halflife_all}
 L.~L. Lucas and M.~P. Unterweger.
 \newblock Comprehensive review and critical evaluation of the half-life of
@@ -516,6 +526,9 @@ L.~L. Lucas and M.~P. Unterweger.
 \newblock \emph{Journal of Research of NIST}, 105(4):541 -- 551, 2000.
 \newblock ISSN 0883-2889.
 \newblock \doi{http://dx.doi.org/10.6028/jres.105.043}.
+
+\bibitem{SAES}
+\emph{PS4-MT3/15-R/N SPECIFICATIONS}.
 
 \bibitem{miyake:1983}
 Hitoshi Miyake, Masao Matsuyama, Kan Ashida, and Kuniaki Watanabe.
@@ -525,6 +538,23 @@ Hitoshi Miyake, Masao Matsuyama, Kan Ashida, and Kuniaki Watanabe.
   Films}, 1(3):1447--1451, Jul 1983.
 \newblock ISSN 0734-2101.
 \newblock \doi{10.1116/1.572038}.
+
+\bibitem{bondar2006two}
+A~Bondar, et~al.
+\newblock Two-phase argon and xenon avalanche detectors based on gas electron
+  multipliers.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  556(1):273--280, 2006.
+
+\bibitem{Shibamura}
+Eido Shibamura, et~al.
+\newblock Drift velocities of electrons, saturation characteristics of
+  ionization and w-values for conversion electrons in liquid argon, liquid
+  argon-gas mixtures and liquid xenon.
+\newblock \emph{Nuclear Instruments and Methods}, 131(2):249 -- 258, 1975.
+\newblock ISSN 0029-554X.
+\newblock \doi{http://dx.doi.org/10.1016/0029-554X(75)90327-4}.
 
 \bibitem{Dobi_CH4}
 A.~Dobi, et~al.
@@ -544,10 +574,40 @@ D.S. Leonard, et~al.
 \newblock ISSN 0168-9002.
 \newblock \doi{DOI: 10.1016/j.nima.2010.04.152}.
 
+\bibitem{ATTA}
+E.~{Aprile}, T.~{Yoon}, A.~{Loose}, L.~W. {Goetzke}, and T.~{Zelevinsky}.
+\newblock {An atom trap trace analysis system for measuring krypton
+  contamination in xenon dark matter detectors}.
+\newblock \emph{Review of Scientific Instruments}, 84(9):093105, September
+  2013.
+\newblock \doi{10.1063/1.4821879}.
+
+\bibitem{Kr_ppq}
+Sebastian Lindemann and Hardy Simgen.
+\newblock {Krypton assay in xenon at the ppq level using a gas chromatographic
+  system and mass spectrometer}.
+\newblock \emph{Eur.Phys.J.}, C74:2746, 2014.
+\newblock \doi{10.1140/epjc/s10052-014-2746-1}.
+
 \bibitem{EXO_SAM}
 A.~Dobi, et~al.
 \newblock {Xenon purity analysis for EXO-200 via mass spectrometry}.
 \newblock \emph{Nucl.Instrum.Meth.}, A675:40--46, 2012.
 \newblock \doi{10.1016/j.nima.2012.01.066}.
+
+\bibitem{Xe_CH4_Theory}
+J.~{Escada}, et~al.
+\newblock {A Monte Carlo study of the fluctuations in Xe electroluminescence
+  yield: pure Xe vs Xe doped with CH$_{4}$ or CF$_{4}$ and planar vs
+  cylindrical geometries}.
+\newblock \emph{Journal of Instrumentation}, 6:8006, August 2011.
+\newblock \doi{10.1088/1748-0221/6/08/P08006}.
+
+\bibitem{Ar_CH4}
+B.J.P. Jones, et~al.
+\newblock {The Effects of Dissolved Methane upon Liquid Argon Scintillation
+  Light}.
+\newblock \emph{JINST}, 8:P12015, 2013.
+\newblock \doi{10.1088/1748-0221/8/12/P12015}.
 
 \end{thebibliography}

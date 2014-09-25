@@ -71,12 +71,14 @@
 \contentsline {subsection}{\numberline {6.5.1}The Standard Candle: Light Yield from $\rm ^{83m}Kr$}{177}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Comparing Tritium Scintillation Yield with Compton Scatters}{179}{subsection.6.5.2}
 \contentsline {section}{\numberline {6.6}Summery}{182}{section.6.6}
-\contentsline {chapter}{\numberline {7}Tritium Calibration Source and the ER Band}{184}{chapter.7}
-\contentsline {section}{\numberline {7.1}Tritium as a Calibration Source}{184}{section.7.1}
-\contentsline {section}{\numberline {7.2}Results from the Tritiated Methane Calibration}{186}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Tritiated Methane injection into the LUX detector}{186}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Mixing of Tritiated Methane in Liquid Xenon}{189}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Definition of Electronic Recoil Band and Comparison with NEST Model}{190}{subsection.7.2.3}
-\contentsline {subsection}{\numberline {7.2.4}Threshold Determination}{193}{subsection.7.2.4}
-\contentsline {section}{\numberline {7.3}Additional Calibrations with Tritium}{195}{section.7.3}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{197}{chapter*.106}
+\contentsline {chapter}{\numberline {7}Tritiated-Methane Calibration Source and the ER Band}{184}{chapter.7}
+\contentsline {section}{\numberline {7.1}The need for an Internal Calibration Source}{184}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tritiated-Methane as a Calibration Source}{186}{section.7.2}
+\contentsline {section}{\numberline {7.3}Removal of $\rm CH_4$ from LUX}{188}{section.7.3}
+\contentsline {section}{\numberline {7.4}Light Yield Quenching from $\rm CH_4$ in LUX}{190}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Tritiated Methane injection into the LUX detector}{192}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Mixing of Tritiated Methane in Liquid Xenon}{193}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Definition of Electronic Recoil Band. ER and NR Discrimination}{195}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}S1 Threshold For Golden Events, Using Tritium}{196}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusion}{198}{section.7.6}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{199}{chapter*.105}

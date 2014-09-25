@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mainthesis-AD.aux
+A level-1 auxiliary file: Abbreviations.aux
+A level-1 auxiliary file: Intro/Chapter1-subfigures.aux
+A level-1 auxiliary file: supertabular.aux
+A level-1 auxiliary file: Chapter_LUX_Det/Chapter2_LUX_Det.aux
+A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
+A level-1 auxiliary file: Chapter_E_Scale/Chapter4_E_Scale.aux
+A level-1 auxiliary file: Chapter_Flucs/Chapter5_Flucs.aux
+A level-1 auxiliary file: Chapter_LYQY/Chapter6_LYQY.aux
+A level-1 auxiliary file: Chapter_T/Chapter7_T.aux
+The style file: thesisbibstyle.bst
+Database file #1: AD_ThesisBib.bib
+You're missing a field name---line 1516 of file AD_ThesisBib.bib
+ :   
+ :   %address      = {The address of the publisher},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in BBN
+Warning--empty journal in OmegaB_BBN
+Warning--empty journal in Plank_Map
+Warning--empty journal in Bullet_Cluster_Xray
+Warning--empty journal in PandaX
+Warning--empty journal in Start_Kr
+You've used 92 entries,
+            2322 wiz_defined-function locations,
+            1201 strings with 34458 characters,
+and the built_in function-call counts, 32525 in all, are:
+= -- 2144
+> -- 906
+< -- 1
++ -- 412
+- -- 206
+* -- 1745
+:= -- 3670
+add.period$ -- 356
+call.type$ -- 92
+change.case$ -- 91
+chr.to.int$ -- 0
+cite$ -- 98
+duplicate$ -- 3437
+empty$ -- 3271
+format.name$ -- 286
+if$ -- 7038
+int.to.chr$ -- 0
+int.to.str$ -- 92
+missing$ -- 994
+newline$ -- 545
+num.names$ -- 94
+pop$ -- 1519
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 558
+stack$ -- 0
+substring$ -- 1401
+swap$ -- 2140
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 174
+width$ -- 94
+write$ -- 1153
+(There was 1 error message)
