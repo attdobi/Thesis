@@ -79,6 +79,7 @@
 \contentsline {subsection}{\numberline {7.4.1}Tritiated Methane injection into the LUX detector}{192}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Mixing of Tritiated Methane in Liquid Xenon}{193}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Definition of Electronic Recoil Band. ER and NR Discrimination}{195}{subsection.7.4.3}
-\contentsline {section}{\numberline {7.5}S1 Threshold For Golden Events, Using Tritium}{196}{section.7.5}
-\contentsline {section}{\numberline {7.6}Conclusion}{198}{section.7.6}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{199}{chapter*.105}
+\contentsline {section}{\numberline {7.5}ER Band Gaussianity}{199}{section.7.5}
+\contentsline {section}{\numberline {7.6}S1 Threshold For Golden Events, Using Tritium}{200}{section.7.6}
+\contentsline {section}{\numberline {7.7}Conclusion}{202}{section.7.7}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{204}{chapter*.107}

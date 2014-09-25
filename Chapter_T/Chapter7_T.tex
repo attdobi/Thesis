@@ -3,7 +3,7 @@
 \chapter{Tritiated-Methane Calibration Source and the ER Band}
 \label{Ch:T}
 
-In this final chapter we overview the development, implementation and the main results of the tritiated-methane calibration source. The source was developed to be a method of calibrating the electronic recoil (ER) band in current and future large scale xenon detectors (+100 kg). As opposed to external ER calibration sources, the tritiated-methane is internal and mixes with the bulk xenon. Internal sources have a great advantage over external sources as they trivially overcome the formidable stopping power of liquid xenon, illuminating the fiducial volume of the detector with low energy single scatter events. The tritiated-methane calibration source was ultimately used as a measure of ER and NR discrimination, used to gauge the LUX detector's background rejection for use with a profile likelihood analysis.
+In this final chapter we overview the development, implementation and the main results of the tritiated-methane calibration source. The source was developed to be a method of calibrating the electronic recoil (ER) band in current and future large scale xenon detectors (+100 kg). As opposed to external ER calibration sources, the tritiated-methane is internal and mixes with the bulk xenon. Internal sources have a great advantage over external sources as they trivially overcome the formidable stopping power of liquid xenon, illuminating the fiducial volume of the detector. The tritiated-methane calibration source was ultimately used to characterize background ER events from potential NR signals of WIMP. Once the ER band is defined the background rejection of WIMP candidates at a particular energy is treated with a profile likelihood analysis, described in \cite{LUX_PRL}.
 
 \section{The need for an Internal Calibration Source} %Tritiated-Methane as a Calibration Source
 
@@ -43,7 +43,7 @@ Figure \ref{fig:Removal_Methane} shows the results from the xenon gas analysis s
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-Having in situ sampling provided crucial diagnostics for methane removal and diffusion into plastic components in the LUX detector. We measured the one pass purification efficiency for methane to be 97\% by the SAES PS4-MT15-R-1 MonoTorr getter (\cite{SAES}) at a flow rate of 27 SLPM. The getter's health for hydrocarbon removal is important to check prior to an injection, as an aged zirconium getter will loose its ability to remove $\rm CH_4$ before failing for $\rm N_2$ and $\rm O_2$ \cite{Dobi_CH4}. Crucially, we confirmed that natural methane could be removed by more than five orders of magnitude without residual back diffusion. The plateau seen in the end of figure \ref{fig:Removal_Methane} is caused by the 5ppt limit for methane detection rather than diffusion from plastic components which absorb the impurity when it is initially injected. Taking the background as the limit for back diffusion we infer a diffusion constant of less than 1.6$\rm \times 10^{-3} \, cm/sec^{1/2} $. 
+Having in situ sampling provided crucial diagnostics for methane removal and diffusion into plastic components in the LUX detector. We measured the one pass purification efficiency for methane to be 97\% by the SAES PS4-MT15-R-1 MonoTorr getter (\cite{SAES}) at a flow rate of 27 SLPM. The getter's health for hydrocarbon removal is important to check prior to an injection, as an aged zirconium getter will loose its ability to remove $\rm CH_4$ before failing for $\rm N_2$ and $\rm O_2$ \cite{Dobi_CH4}. Crucially, we confirmed that natural methane could be removed by more than five orders of magnitude without residual back diffusion. The plateau seen in the end of figure \ref{fig:Removal_Methane} is caused by the 5 ppt limit for methane detection rather than diffusion from plastic components which absorb the impurity when it is initially injected. Taking the background as the limit for back diffusion we infer a diffusion constant of less than 1.6$\rm \times 10^{-3} \, cm/sec^{1/2} $. 
 
 The results from the natural methane injection gave us the confidence to proceed knowing that the goal of reducing the tritium rate to less than 5\% of background could be met in the LUX detector. The purification time constant for natural methane removal was measured to be $\rm 5.9 \pm 0.07$ hours as seen in figure \ref{fig:Removal_Methane}. The removal time constant is $\rm 1/6$ of that expected based on xenon circulation rates alone, and is exactly the ratio of methane concentration in the gas to the methane concentration in the liquid. The enhanced purification time constant is reasonable as the methane is purified from the gas phase where it is more abundant, with the equilibrium concentration in the gas above the liquid set by the solubility.
 
@@ -52,7 +52,7 @@ The results from the natural methane injection gave us the confidence to proceed
 
 \section{Light Yield Quenching from $\rm CH_4$ in LUX}
 
-It is well known that at high concentrations, several percent, methane will quench scintillation in liquid xenon \cite{bondar2006two}, \cite{Kirill_Methane}, \cite{Shibamura} \cite{Xe_CH4_Theory}. The quenching of scintillation in liquid argon has been observed with concentrations as low as 10 ppb (part-per-billion) \cite{Ar_CH4}. When performing a tritiated-methane calibration for the LUX detector, containing 350 kg of xenon, the amount of natural methane injected is $<$10 ppt (parts-per-trillion). This is far to low to cause any shift in the observed light yield and throw off the ER band measurement. To prove the case, a natural methane injection of 100 ppm was performed along with \KrCal calibrations was used to track the light yield of the line source normalized at the center of the detector. Figure \ref{fig:Methane_LY} shows the result of \KrCal calibration along with the methane concentration in the gas.
+It is well known that at high concentrations, of several percent, methane will quench scintillation in liquid xenon \cite{bondar2006two}, \cite{Kirill_Methane}, \cite{Shibamura} \cite{Xe_CH4_Theory}. The quenching of scintillation in liquid argon has been observed with methane concentrations as low as 10 ppb (part-per-billion) \cite{Ar_CH4}. When performing a tritiated-methane calibration for the LUX detector, containing 350 kg of xenon, the amount of natural methane injected is $<$10 ppt (parts-per-trillion). This is far to low to cause any shift in the observed light yield and impact the ER band measurement. To prove the case, a natural methane injection of 100 ppm was performed along with periodic \KrCal calibrations that were used to track the light yield of the line source normalized at the center of the detector. Figure \ref{fig:Methane_LY} shows the result of \KrCal calibration along with the methane concentration in the gas measured by the analysis system.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
@@ -64,7 +64,7 @@ It is well known that at high concentrations, several percent, methane will quen
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-There are two \KrCal data sets that had methane concentrations above background levels. The first measurement is made with greater than 25 ppb in the gas corresponding to greater than 4 ppb in the liquid. The second contained greater than 50 ppt in the gas corresponding to greater than 83 ppt in the liquid. The shifts in yield are purely systematic, as the two light yield measurements containing methane fall between the measured yields of the first (prior to and injection) and last (well below 5ppt) data points. We constrain light yield quenching induced by 4 ppb (g/g) of methane in the liquid xenon to $<1\%$. Note, that a tritiated-methane calibration contains roughly three orders of magnitude less methane than 4 ppb (g/g).
+In figure \ref{fig:Methane_LY}, there are two \KrCal data sets that had methane concentrations above background levels. The first measurement is made with greater than 25 ppb in the gas corresponding to greater than 4 ppb in the liquid. The second contained greater than 50 ppt in the gas corresponding to greater than 83 ppt in the liquid. The shifts in yield are purely systematic, as the two light yield measurements containing methane fall between the measured yields of the first (prior to and injection) and last (well below 5ppt) data points. We constrain light yield quenching induced by 4 ppb (g/g) of methane in liquid xenon to $<1\%$. Note, that a typical tritiated-methane calibration contains roughly three orders of magnitude less methane than 4 ppb (g/g).
 
 
 \subsection{Tritiated Methane injection into the LUX detector}
@@ -76,12 +76,11 @@ Following the natural methane test, the tritiated-methane injection was conducte
 \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_T/Figures/CH3T_Rate_fid_150_Run03_Tritium_Rate.eps}
 %\includegraphics[width=60mm]{Chapter_T/Figures/CH3T_Rate_Nofid_150_Run03_Tritium_Rate}
-\caption{Left: Rate of single scatter events with S1 below 150 PE in the fiducial volume. 150 PE in S1 is about 18.6 $\rm keV_{ee}$, the endpoint to the tritium beta spectrum. The magenta and red curves are fits to the first and second tritium injection's removal rate. Right: The rate of single scatter events with S1 below 150 for the whole detector volume. Note the removal of tritiated-methane is consistent with the natural methane removal rate measured independently.}
+\caption{ The rate of single scatter events with S1 below 100 PE in the fiducial volume. 100 PE in S1 is about 18.6 $\rm keV_{ee}$, the endpoint to the tritium beta spectrum. The magenta and red curves are fits to the first and second tritium injection's removal rate. Note, the removal of tritiated-methane is consistent with the natural methane removal rate measured independently.}
 \label{fig:Removal}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
-
 
 
 
@@ -108,36 +107,84 @@ Tritium events appear uniformly distributed in the liquid volume several minutes
 
 The electronic recoil band in the fiducial volume of the LUX detector was calibrated to unprecedented accuracy using the tritium source. The calibration data was acquired in a 40 hour time window in which less than four out of the 140,000 events in the fiducial are expected to be non tritium \cite{LUX_BG}.  Nearly every data point (99.997\%) that will be presented in the subsequent figures is the result of a tritium beta decay in the fiducial volume of the LUX detector. Figure \ref{fig:Band} shows the tritium calibration data with fits to the mean of the ER band along with the 10-90\% confidence bounds ($\pm 1.28\sigma$), at a drift field of 170 V/cm. Also shown in red is the nuclear recoil (NR) mean measured using a mono energetic DD neutron generator calibration, described in [future publication].
 
+
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
-\begin{figure}[h!]\centering
-\includegraphics[width=150mm]{Chapter_T/Figures/ER_Band/CH3T_fid_50_proj.png}
-\caption{Discrimination variable log$_{10}S2_b/S1$ plotted vs. S1 for a tritium calibration data set, all signals have been corrected for position dependance and spectral shape, discussed in chapters {Ch:3} and \ref{Ch:LYQY} respectively. The calibration consists of over 112,000 tritium beta decays between 1 and 50 PE in S1 (about $\rm1-10 keV_{ee}$), all within the fiducial volume of the LUX detector. The black circles represent the ER band mean and 10\% to 90\% bounds, $\rm \pm \,1.28\sigma$. The red solid line is the NR band mean determined using a DD neutron generator calibration. The dashed red lines indicate the 10\% to 90\% bounds of the NR band.}
+\begin{figure}[p!]\centering
+\includegraphics[width=120mm]{Chapter_T/Figures/ER_Band/CH3T_fid_50_rawSpec.png}
+\includegraphics[width=120mm]{Chapter_T/Figures/ER_Band/CH3T_fid_50_proj.png}
+\caption{Charge to light ratio log$\rm _{10}(S2_b/S1)$ plotted vs. S1, the energy contours are also shown. Top, the tritium data uncorrected for spectral shape. Bottom, with the spectral shape correction discussed in chapter \ref{Ch:LYQY}. The calibration consists of over 112,000 tritium beta decays between 1 and 50 PE in S1 ($\rm1-10 \, keV_{ee}$), in the fiducial volume of the detector. The black circles represent the ER band mean and 10\% to 90\% bounds, $\rm \pm \,1.28\sigma$. The red solid line is the NR band mean determined using a DD neutron generator calibration. The dashed red lines indicate the 10\% to 90\% bounds of the NR band.}
 \label{fig:Band}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-The ER band defined by the tritium data shown in figure \ref{fig:Band} has been corrected for spectral shape discussed in chapter \ref{Ch:LYQY}. The spectral shape correction recovers the true ER band for a flat energy spectrum, left uncorrected the ER band would peal away even faster from the NR band in the lowest S1 bins, below 5 PE. The discrimination between ER and NR events at 50\% NR acceptance can be determined by counting the number of tritium events that fall below the mean of the NR band. Note, below 15 PE in S1 the NR acceptance actually becomes greater than 50\% due to the asymmetric shape of the NR band at low energies, which works in our favor \cite{NEST} \cite{NEST_2013}. The values of the leakage fraction at 50\% NR acceptance per each 1 PE bin in S1 are shown in \ref{fig:Leak}. 
+\newpage
+
+The ER band defined by the tritium data shown in figure \ref{fig:Band} has been corrected for spectral shape discussed in chapter \ref{Ch:LYQY}. The spectral shape correction recovers the true ER band for a flat energy spectrum, left uncorrected the ER band would peal up slightly faster in the lowest S1 bins, below 5 PE. The discrimination between ER and NR events at 50\% NR acceptance can be determined by counting the number of tritium events that fall below the mean of the NR band. Note, below 15 PE in S1 the NR acceptance actually becomes greater than 50\% due to the asymmetric shape of the NR band at low energies, which works in our favor \cite{NEST} \cite{NEST_2013}. The values of the leakage fraction at 50\% NR acceptance per each 1 PE bin in S1 are shown in \ref{fig:Leak}. Discrimination and leakage fraction is listed listed at several acceptance fractions in table \ref{table:NR_LeakFrac}.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Chapter_T/Figures/ER_Band/CH3T_Leakage_fid_50_rawSpec.eps}
 \includegraphics[width=120mm]{Chapter_T/Figures/ER_Band/CH3T_Leakage_fid_50_.eps}
-\caption{Discrimination vs. S1 using over 112,000 tritium beta decays between 1 and 50 PE in S1 (about $\rm1-8 keV_{ee}$). On average from 1 to 50 PE the discrimination is 99.82$\pm$0.01\%, defined by the fraction of events of events below the mean of the nuclear recoil band.}
+\caption{Discrimination vs. S1 using over 112,000 tritium beta decays between 1 and 50 PE in S1 ($\rm1-10 \, keV_{ee}$), using tritium data at 170 V/cm. Top, the tritium data uncorrected for spectral shape. Bottom, with the spectral shape correction discussed in chapter \ref{Ch:LYQY}. The dashed horizontal lines indicate the mean leakage fraction from 1 to 50 PE.}
 \label{fig:Leak}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
 
+%Discrimination Table
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+ NR 	& Leakage Fraction 	& Discrimination 		&& Leakage Fraction$^{*}$ 	& Discrimination$^{*}$ \\
+ 	\%	&$\rm \times 10^{-3}$	&	\%					&&	$\rm \times 10^{-3}$		&	\%				       \\ \hline							
+   90  	&	 	52  $\pm$ 0.70  	&	 94.8 $\pm$ 0.07   	&&	49 $\pm$ 0.60   		&	95.1 $\pm$ 0.06 		 \\ \hline
+   80   	&		18.8 $\pm$ 0.40	&	 98.1 $\pm$ 0.04   	&&	17.4 $\pm$ 0.40  		&	 98.3 $\pm$ 0.04		\\ \hline
+   70  	&	  	8.6  $\pm$ 0.30 	&	 99.1 $\pm$ 0.03   	&&	 7.6 $\pm$ 0.30   		&	99.2 $\pm$ 0.03		\\ \hline
+   60  	&	  	4.2 $\pm$ 0.20  	&	 99.58 $\pm$ 0.02  	&&	 3.7 $\pm$ 0.20  		&	 99.63 $\pm$ 0.02		\\ \hline 
+   50  	&	  	2.1 $\pm$ 0.14  	&	 99.79 $\pm$ 0.014   	&&	 1.8 $\pm$  0.13  		&	 99.82 $\pm$ 0.013	\\ \hline 
+   40  	&	  	0.97  $\pm$ 0.09  	&	 99.90 $\pm$ 0.009  	&&	  0.87 $\pm$ 0.09  	&     99.91 $\pm$ 0.009	\\ \hline
+   30  	&	  	0.49 $\pm$ 0.07  	&	 99.95 $\pm$ 0.007  	&&	  0.44 $\pm$ 0.06  	&      99.96 $\pm$ 0.006	\\ \hline
+   20  	&	  	0.23 $\pm$ 0.05 	&	 99.977 $\pm$ 0.005  	&&   0.22 $\pm$ 0.04  		&	 99.978 $\pm$ 0.004	\\ \hline
+   10   	&		0.08  $\pm$ 0.03	&	 99.992 $\pm$ 0.003	&&	  0.08 $\pm$ 0.03 		&	 99.992 $\pm$ 0.003	\\ \hline
+\end{tabular}
+\caption{Leakage fraction at various NR acceptance \% over the range of 1-50 PE in S1, using tritium data at 170 V/cm. For the case without spectral shape correction, and with spectral shape correction to the left (columns marked with $^*$). Note, these are conservative estimates assuming Gaussian behavior about the NR mean. Below 15 PE in S1 the NR band actually becomes bottom heavy, which works in our favor \cite{NEST} \cite{NEST_2013}.}
+\label{table:NR_LeakFrac}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+\newpage
+
+\section{ER Band Gaussianity}
+With the high statistics tritium data set we could test the Gaussianity of the ER band in the WIMP search region. The charge to light ratio used to discriminate ER and NR events (plotted as log(S2/S1)) and has been assumed to have Gaussian behavior in past experiments. The largest tritium calibration yielded 112,000 tritium beta decays with only four expected to be non tritium events \cite{LUX_BG} in LUX detector's fiducial region. Figure \ref{fig:Gaussianity} shows the same ER band of figure \ref{fig:Band} but with the centroid subtracted off, and is plotted for cases of without and with the spectral shape correction. We find that below 3 sigma of the ER mean the data begins to deviate from Gaussian behavior, potentially due to instrumental fluctuations. For example, the probability of finding an ER event below the NR mean at 4 sigma below the ER mean is nearly 10 times higher than the probability that would be assigned by a Gaussian PDF. If not treated properly by data driven calibrations, this could be falsely interpreted as a WIMP event by a profile likelihood analysis.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Chapter_T/Figures/ER_Band/GaussER_rawSpec.eps}
+\includegraphics[width=100mm]{Chapter_T/Figures/ER_Band/GaussER.eps}
+\caption{ER band Gaussianity from 0-50 PE with the centroid of the ER band subtracted off, using tritium data at 170 V/cm. Top, the tritium data uncorrected for spectral shape. Bottom, with the spectral shape correction discussed in chapter \ref{Ch:LYQY}. The dashed vertical red line indicates the mean of the NR band from 1 to 50 PE.}
+\label{fig:Gaussianity}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{S1 Threshold For Golden Events, Using Tritium}
 
-The tritiated-methane calibration source provides beta decays with energies well below the $\rm 1.5 keV_{ee}$ energy threshold measured by comparing to the combined energy to the true tritium spectrum in chapter \ref{Ch:E_Scale_Cal}. The S1 threshold, the threshold for detecting golden events, can be determined by taking the ratio of the S1 spectrum observed in the data to expected S1 spectrum, shown in figure \ref{fig:S1S2_mapping_2} a). The efficiency for detecting S1 measured using tritium data at 170 and 100 V/cm along with an independent LED method is shown in figure \ref{fig:S1_Thresh}. 
+The tritiated-methane calibration source provides beta decays with energies well below the energy threshold of the detector $\rm 1.5 keV_{ee}$. The energy threshold was measured by comparing to the combined energy to the true tritium spectrum in chapter \ref{Ch:E_Scale_Cal}. The S1 detection efficiency, or the efficiency for detecting golden events, can be determined in the same manner by taking the ratio of the S1 spectrum observed to expected S1 spectrum. The observed S1 spectrum overlaid with the expected S1 spectrum is shown in figure \ref{fig:S1S2_mapping_2} a). The result for detection efficiency of S1 measured using tritium data at 170 and 100 V/cm is shown in figure \ref{fig:S1_Thresh}, along with the efficiency measured using LED calibrations. The efficiency for detecting S1 signals at 2 PE is found to be 75\%, rising to $>$95\% at 3 PE.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
@@ -156,12 +203,13 @@ The absolute efficiency for detecting tritium events can be determined by compar
 \end{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\section{ER Band Gaussianity} ... With higher statistics the discrimination can be measured in finer bins of energy or S1 PE (figure \ref{fig:Leak}) along with the Gaussianity of the ER band. The log(S2/S1) has been assumed to have Gaussian behavior in past experiments, never before has there been an ER calibration with such high data purity in the WIMP search region to observe potential non-Gaussian behavior. The largest tritium calibration in LUX detector's fiducial region produced 115,000 tritium beta decays with only three being non tritium events. 
+
 
 \section{Conclusion}
 
-In this chapter we have described the development and implementation of a tritiated-methane calibration source. The primary application of the tritiated-methane calibration source is to characterize the ER band and measure discrimination from electronic and nuclear recoils. However, much more fundamental xenon physics could be probed with the tritium calibration source, discussed in chapters \ref{Ch:E_Scale_Cal}, \ref{Ch:Flucs},\ref{Ch:LYQY} . 
-The tritium calibration can also used to test the energy scale calibration over the range from 1 to 18 $\rm KeV_{ee}$, and used to measure the light yield, charge yield and recombination fluctuation in that range. The tritium data taken with the LUX detector has allowed for improvement upon the NEST model down to 1 $\rm keV_{ee}$ for the first time. 
+In this chapter we have described the development and implementation of a tritiated-methane calibration source. The primary application of the tritiated-methane calibration is to characterize the ER band in the WIMP search regions of 1-50 PE (1-10 $\rm keV_{ee}$). This is of great importance, as it gauges the detectors ability to reject background (ER) events from potential WIMP signals (NR). Having both high statistics and high data purity from the tritium calibration, the future LUX profile likelihood analysis will not have to rely on the assumption that the ER band can be characterized by a Gaussian PDF.  All previous xenon dark-matter searches using liquid xenon have assumed ER band Gaussianity in the WIMP search region, all having been calibration statistics limited. We find that the use of a Guassian PDF, for the LUX detector, fails below 3 sigma of the ER mean which is just below the NR mean, shown in figure \ref{fig:Gaussianity}. The deviation maybe arising from instrumental fluctuations or is perhaps a fundamental property of electronic recoils. 
+
+Using the calibration data collected, a purely data driven PDF can be constructed to characterize the distribution of ER events in each S1 bin, greatly improving the accuracy of the next WIMP limit. Much more fundamental xenon physics could be probed with the tritium calibration source, discussed in chapters \ref{Ch:E_Scale_Cal}, \ref{Ch:Flucs},\ref{Ch:LYQY}.The tritium calibration was used to test the energy scale calibration over the range from 1 to 18 $\rm KeV_{ee}$, and to measure the light yield, charge yield and recombination fluctuation, and the detection thresholds down to 1 $\rm keV_{ee}$. The data taken with the LUX detector has allowed for improvements to the NEST model down to 1 $\rm keV_{ee}$ and at our fields of 100 and 170 V/cm. 
 
 
  %The new tritium calibration source provided an unprecedented low energy electronic recoil calibration for the LUX dark matter search \cite{LUX_PRL}.
