@@ -3,41 +3,67 @@
 \chapter{Event Level Fluctuations}
 \label{Ch:Flucs}
 
-In this chapter we discuss extracting recombination fluctuation down to 1 keV using the tritium calibration data. We begin by modeling the intrinsic resolution of the LUX detector, based on counting statistics. We then separate observed fluctuations in light and charge collection from recombination fluctuations using line source calibrations. Once the variances from light and charge collection are modeled the recombination fluctuations from continuous spectra can be extracted, specifically the tritium beta spectrum. We all discuss a method to correct for spectral shape of tritium and finite resolution of the LUX detector. We conclude with the results for recombination and recombination fluctuations as measured from tritium beta decay in the LUX detector along with a measure of the exciton to ion ratio $\rm alpha$ for ER events.
+In this chapter we discuss extracting recombination fluctuations from line sources and continuous spectrum such as tritium. The method outlined will be used to measure recombination fluctuations from the tritium calibration data down to 1 keV. We begin by modeling the intrinsic resolution of the LUX detector, based on counting statistics. We then separate the fluctuations in light and charge collection from recombination fluctuations using line source calibrations. Once the variances from light and charge collection are modeled the recombination fluctuations from continuous spectra can be extracted, specifically for the tritium beta spectrum. We conclude with the results for recombination and recombination fluctuations as measured from tritium beta decay in the LUX detector along with a measure of the exciton-to-ion ratio $\rm \alpha$ for ER events.
 
 
 \section{Modeling Intrinsic Detector Resolution}
 
-Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and the Fano factor we must first decouple the detector component of resolution. We use the model described in \cite{Dahl_Thesis} in which the measured scintillation and ionization signals S1, S2 (measured in PE) are related to the number of photons and electrons by gains g1 and g2, equation \ref{eq:Gain}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1 and S2 signals at a given drift field. The gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT convolved with the quantum efficiency of the PMTs. Gain g2 represents the average S2 signal of a single electron normalized by the average single electron size. Where S2 uses only the bottom PMT array and is corrected for lifetime.
+Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and the Fano factor, we must first decouple the detector component of resolution. We use the model described in \cite{Platzman} \cite{Dahl_Thesis} in which the measured scintillation and ionization signals (S1 and S2 measured in PE) are related to the number of photons and electrons by gains g1 and g2, equation \ref{eq:Gain1} and \ref{eq:Gain2}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1 and S2 signals.
 
+\begin{alignat}{2}
+\label{eq:Gain1} \rm  \left<n_\gamma\right> = \frac{\left<S1\right>}{g_1}\\
+\label{eq:Gain2} \rm \left<n_{e}\right> = \frac{\left<S2\right>}{g_2}
+\end{alignat}
 
+\noindent where the gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT and producing a photo electron signal (PE), depending on geometry and the quantum efficiency of the PMTs. Gain g2 represents the average S2 signal of a single electron multiplied by the electron extraction efficiency ($\rm \epsilon$) of the liquid gas interface, where S2 uses only the bottom PMT array and is corrected for electron-lifetime. The fluctuations in photons and electrons are related to the observables S1 and S2 by equations \ref{eq:Gain1} and \ref{eq:Gain2}
+
+\begin{alignat}{2}
+\label{eq:Sig1} \rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
+\label{eq:Sig2} \rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
+\end{alignat}
+
+\noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons, respectively. The variances in S1 and S2, $\sigma_{S1_{stat}}^2$ and $\sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered interns of the PE being counted by the detector. 
+
+The statistical variance of the S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First a binomial variance, the S1 signal fluctuates due to the light collection probability g1. For each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability g1 of collecting each. Here, $\rm n_\gamma$ should be thought of as the number of trials.  number of trials is,
 \begin{equation}
-\begin{split}
-\rm  \left<n_\gamma\right> = \frac{\left<S1\right>}{g_1}\\
-\rm \left<n_{e}\right> = \frac{\left<S2\right>}{g_2}
-\label{eq:Gain}
-\end{split}
+\rm Var_{S1_{Bino}} = (1-g1)\times g1\times n_\gamma
+\label{eq:S1_bino} 
 \end{equation}
+\noindent where $\rm Var_{S1_{Bino}}$ is the binomial variance of the S1 light collection process with probability g1 and $\rm n_\gamma$ number of trials.
 
-The statistical fluctuations for the measured number of quanta in equation \ref{eq:Gain} are from the statistical processes that comprise the measured S1 and S2 signal.
-
+After the light collection process, each PE that was collected undergoes a second fluctuation due to the single PE resolution of the PMTs. The variance from PMT resolution can be written as
 \begin{equation}
-\begin{split}
-\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
-\rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
-\label{eq:Sig}
-\end{split}
+ \rm Var_{S1_{PMT}} = g_1\times n_\gamma \times \sigma_{PE}^2}
+\label{eq:S1_pmt}
 \end{equation}
+\noindent where $\rm Var_{S1_{PMT}}$ is the average variance of all PE collected. The average variance in the single PE size of all PMTs is $\rm \sigma_{PE}^2$ and is multiplied by the number of PE collected, $\rm g_1\times n_\gamma$. 
 
-The variance in the number of photons in equation \ref{eq:Sig} can be broken into two parts. First, a binomial variance due to counting a fraction, g1, of the initial photons produced. $\rm Var_{n_\gamma} = \frac{(1-g1)\times g1\times n_\gamma}{g_1^2}$. Second, the variance in the response of the PMTs to a single photon. $\rm Var_{n_\gamma} = \frac{g_1\times n_\gamma \times \sigma_{PE}^2}{g_1^2}$. Combining the two leads to the the result in equation \ref{eq:Sig_S1}.
 
+Combining the two linearly independent processes of equation \ref{eq:S1_bino} and \ref{eq:S1_pmt} leads to the the result in equation \ref{eq:Sig_S1}.
 \begin{equation}
-\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{1-g_1+\sigma_{PE}^2}{g_1} n_\gamma\\
+\rm  \sigma_{S1_{stat}}^2 = (1-g_1+\sigma_{PE}^2) (g_1 n_\gamma) = (1-g_1+\sigma_{PE}^2) S1 \\ 
 \label{eq:Sig_S1}
 \end{equation}
 
+\noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. We test equation \ref{eq:Sig_S1} using the 9.4 $\rm keV$ S1 signal from \KrCal. At that energy the dominant fluctuation is due the statistical variance of light collection, we can ignore contributions from recombination fluctuations and instrumental fluctuations (will be discussed later in this section).
 
-The variance in the number of electrons in equation \ref{eq:Sig} is comprised of the following statistical uncertainties. First, a binomial variance due to the extraction efficiency of electrons from the liquid-gas interface. $\rm Var_{n_e} = \frac{(1-ext)\times Ext\times n_e \times(single_E)}{g_2^2}$, Ext is the electron extraction probability and $\rm single_E$ is the single electron size in PE. Second, the variance in the response of the PMTs to a single electron. $\rm Var_{n_e} = \frac{Ext\times n_e \times \sigma_{SE}^2}{g_2^2}$. Finally, the additional variance from electron attenuation is modeled as a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
+The variance in the measured number of photons is then just {eq:Sig_S1} over $\rm g_1^2$, using equation \ref{eq:Sig1}.
+\begin{equation}
+\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)n_\gamma}{g_1} \\ % change to sigma S1
+\label{eq:Sig_Ng}
+\end{equation}
+
+% Show 9.4 keV here. And that it's sigma is within error of g1
+
+%
+%
+
+
+The variance of the S2 signal, in equation \ref{eq:Sig2}, is also comprised of several independent processes. First, the S2 signal fluctuates due to the extraction efficiency of electrons from the liquid-gas interface. We define $\rm \epsilon$ as the extraction efficiency of the electrons, or the extraction probability of each electron from the liquid. The binomial variance of such a process, for extracting $\rm n_e \times SE_b$ each with probability $\rm epsilon$ multiplied by the amount of PE per extracted election, $\rm SE_b$.
+
+$\rm Var_{n_e} = \frac{(1-ext)\times Ext\times n_e \times(single_E)}{g_2^2}$, Ext is the electron extraction probability and $\rm single_E$ is the single electron size in PE. Second, the variance in the response of the PMTs to a single electron. $\rm Var_{n_e} = \frac{Ext\times n_e \times \sigma_{SE}^2}{g_2^2}$. 
+
+Finally, the additional variance from electron attenuation is modeled as a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
 
 \begin{equation}
 \rm  \sigma_{n_{e_{att}}}^2 = n_e \frac{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}} (1-e^{-T/\tau})\mathrm{d}T}{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}}\mathrm{d}T} = 0.155 \times n_e
@@ -54,12 +80,12 @@ Combining the variances leads to the the result for the statistical variance in 
 
 For this analysis we use the following detector gains: \ref{eq:g1g2}. 
 \begin{multline} \\
-\rm g_1 = 0.097 \pm 0.008 \,[Phe/n_\gamma]\\
-\rm g_2=SE_{b} \times Ext = 5.75 \pm 1.4 \,[Phe/n_e]\\
-\rm SE_{b} = 9.70 \pm 0.05  \,[Phe/n_e] \\\ 
-\rm \sigma SE_b = 3.64\, [Phe/n_e]\\
+\rm g_1 = 0.097 \pm 0.008 \,[PE/n_\gamma]\\
+\rm g_2=SE_{b} \times Ext = 5.75 \pm 1.4 \,[PE/n_e]\\
+\rm SE_{b} = 9.70 \pm 0.05  \,[PE/n_e] \\\ 
+\rm \sigma SE_b = 3.64\, [PE/n_e]\\
 \rm Ext = 0.593\pm 0.144 \\
-\rm \sigma_{PE} = 0.51\, [Phe/n_\gamma]\\\
+\rm \sigma_{PE} = 0.51\, [PE/n_\gamma]\\\
 \label{eq:g1g2}
 \end{multline}
 
@@ -859,7 +885,7 @@ The number of interaction per cluster $\rm N_\epsilon$, or cluster size, sets th
 
 \noindent Figure \ref{fig:Flucs_Simple} shows the measured recombination fluctuations vs. energy along with that expected for the clustering model given in equation \ref{eq:SimpVar_C_2}, for $\rm N_\epsilon =50 $, corresponding to an average encounter recombination probability of $\rm r_\epsilon = 0.01$. The deviation of the fit and the data is less than 30\%, including Dahl's data taken at electric fields ranging from 60 to 5000 V/cm. 
 
-With the clustered encounter model we can now account for the recombination fluctuations and understand why recombination tends to zero as energy tends to zero. Having explained these two phenomena, the clustered-encounter model is a significant improvement over the initial recombination model. The flaw of the initial recombination model was to assume that the recombination process only consists of ion-electron pair self recombination. This assumption is what lead to the observed variance being off by a factor of $\rm N_i$ and the inability to explain the dependance of recombination fraction as energy tends to zero. The picture of ER band mean and width is now complete, only requiring recombination fraction r as an input. The recombination fraction is dependent on the energy of the interaction and electric field, modeled by Thomas \& Imel \cite{Thomas_Imel} and NEST \cite{NEST}, \cite{NEST_2013}. 
+With the clustered encounter model we can now account for the recombination fluctuations and understand why recombination tends to zero as energy tends to zero. Having explained these two PEnomena, the clustered-encounter model is a significant improvement over the initial recombination model. The flaw of the initial recombination model was to assume that the recombination process only consists of ion-electron pair self recombination. This assumption is what lead to the observed variance being off by a factor of $\rm N_i$ and the inability to explain the dependance of recombination fraction as energy tends to zero. The picture of ER band mean and width is now complete, only requiring recombination fraction r as an input. The recombination fraction is dependent on the energy of the interaction and electric field, modeled by Thomas \& Imel \cite{Thomas_Imel} and NEST \cite{NEST}, \cite{NEST_2013}. 
 
 \newpage
 
