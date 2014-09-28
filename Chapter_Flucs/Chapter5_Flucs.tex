@@ -15,28 +15,26 @@ Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in
 \label{eq:Gain2} \rm \left<n_{e}\right> = \frac{\left<S2\right>}{g_2}
 \end{alignat}
 
-\noindent where the gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT and producing a photo electron signal (PE), depending on geometry and the quantum efficiency of the PMTs. Gain g2 represents the average S2 signal of a single electron multiplied by the electron extraction efficiency ($\rm \epsilon$) of the liquid gas interface, where S2 uses only the bottom PMT array and is corrected for electron-lifetime. The fluctuations in photons and electrons are related to the observables S1 and S2 by equations \ref{eq:Gain1} and \ref{eq:Gain2}
+\noindent where the gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT and producing a photo electron signal (PE). Gain g2 represents the average S2 signal of a single electron multiplied by the electron extraction efficiency $\rm \epsilon$. Here, we are only using the S2 of the bottom PMT array and is corrected for electron-lifetime. The fluctuations in photons and electrons are related to the observables S1 and S2 by equations \ref{eq:Gain1} and \ref{eq:Gain2}
 
 \begin{alignat}{2}
 \label{eq:Sig1} \rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
 \label{eq:Sig2} \rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
 \end{alignat}
 
-\noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons, respectively. The variances in S1 and S2, $\sigma_{S1_{stat}}^2$ and $\sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered interns of the PE being counted by the detector. 
+\noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons as measured through S1 and S2, respectively. The variances in S1 and S2, $\rm \sigma_{S1_{stat}}^2$ and $\rm \sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered interms of the PE being counted by the PMTs. Note, here we are working with the x,y,z corrected signals outlined in section \ref{Ch:3}. 
 
-The statistical variance of the S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First a binomial variance, the S1 signal fluctuates due to the light collection probability g1. For each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability g1 of collecting each. Here, $\rm n_\gamma$ should be thought of as the number of trials.  number of trials is,
+The statistical variance of the x,y,z corrected S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First a binomial variance, for each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability g1. Here, $\rm n_\gamma$ should be thought of as the number of trials.The binomial variance is,
 \begin{equation}
-\rm Var_{S1_{Bino}} = (1-g1)\times g1\times n_\gamma
+\rm \sigma_{S1_{Bino}}^2 = (1-g1) g1 n_\gamma
 \label{eq:S1_bino} 
 \end{equation}
-\noindent where $\rm Var_{S1_{Bino}}$ is the binomial variance of the S1 light collection process with probability g1 and $\rm n_\gamma$ number of trials.
-
-After the light collection process, each PE that was collected undergoes a second fluctuation due to the single PE resolution of the PMTs. The variance from PMT resolution can be written as
+\noindent where $\rm \sigma_{S1_{Bino}}^2$ is the binomial variance of the S1 light collection process with probability g1 and $\rm n_\gamma$ number of trials. Each PE that was collected by a PMT undergoes a second fluctuation due to the resolution of the PMTs. The variance from PMT resolution can be written as
 \begin{equation}
- \rm Var_{S1_{PMT}} = g_1\times n_\gamma \times \sigma_{PE}^2}
+\rm \sigma_{S1_{PMT}}^2 = g_1 n_\gamma \sigma_{PE}^2
 \label{eq:S1_pmt}
 \end{equation}
-\noindent where $\rm Var_{S1_{PMT}}$ is the average variance of all PE collected. The average variance in the single PE size of all PMTs is $\rm \sigma_{PE}^2$ and is multiplied by the number of PE collected, $\rm g_1\times n_\gamma$. 
+\noindent where $\rm \sigma_{S1_{PMT}}^2$ is the average variance due to PMT resolution. The average single PE resolution of the PMTs is $\rm \sigma_{PE}^2$ and is multiplied by the number of PE collected, $\rm g_1n_\gamma$. 
 
 
 Combining the two linearly independent processes of equation \ref{eq:S1_bino} and \ref{eq:S1_pmt} leads to the the result in equation \ref{eq:Sig_S1}.
@@ -47,9 +45,9 @@ Combining the two linearly independent processes of equation \ref{eq:S1_bino} an
 
 \noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. We test equation \ref{eq:Sig_S1} using the 9.4 $\rm keV$ S1 signal from \KrCal. At that energy the dominant fluctuation is due the statistical variance of light collection, we can ignore contributions from recombination fluctuations and instrumental fluctuations (will be discussed later in this section).
 
-The variance in the measured number of photons is then just {eq:Sig_S1} over $\rm g_1^2$, using equation \ref{eq:Sig1}.
+The variance in the measured number of photons is then equation \ref{eq:Sig_S1} divided by $\rm g_1^2$, using equation \ref{eq:Sig1}.
 \begin{equation}
-\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)n_\gamma}{g_1} \\ % change to sigma S1
+\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)}{g_1} n_\gamma \\ % change to sigma S1
 \label{eq:Sig_Ng}
 \end{equation}
 
@@ -59,37 +57,56 @@ The variance in the measured number of photons is then just {eq:Sig_S1} over $\r
 %
 
 
-The variance of the S2 signal, in equation \ref{eq:Sig2}, is also comprised of several independent processes. First, the S2 signal fluctuates due to the extraction efficiency of electrons from the liquid-gas interface. We define $\rm \epsilon$ as the extraction efficiency of the electrons, or the extraction probability of each electron from the liquid. The binomial variance of such a process, for extracting $\rm n_e \times SE_b$ each with probability $\rm epsilon$ multiplied by the amount of PE per extracted election, $\rm SE_b$.
+The variance of the x,y,z corrected S2 signal, given in \ref{eq:Sig2},  is also comprised of several independent processes. Each electron that reaches the liquid-gas interface without being attenuated will either be extracted into the gas producing $\rm SE_b$ number of PE or not. We define $\rm \epsilon$ as the extraction efficiency, or the extraction probability of each electron from the liquid. The binomial variance of such a process is,
 
-$\rm Var_{n_e} = \frac{(1-ext)\times Ext\times n_e \times(single_E)}{g_2^2}$, Ext is the electron extraction probability and $\rm single_E$ is the single electron size in PE. Second, the variance in the response of the PMTs to a single electron. $\rm Var_{n_e} = \frac{Ext\times n_e \times \sigma_{SE}^2}{g_2^2}$. 
+\begin{equation}
+\rm \sigma_{S2_{bino}}^2= (1-\epsilon) \epsilon n_{e_{z0}} SE_{b}^2 
+\label{eq:Sig_S2}
+\end{equation}
 
-Finally, the additional variance from electron attenuation is modeled as a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
+\noindent where $\rm \epsilon$ is the electron extraction probability, and $\rm n_{e_{z0}}$ is the average number of electrons that reach the liquid surface from the interaction site, also the number of trials. For the case of LUX with an electron lifetime of $\sim 1000 \, \mu s$ and an average drift time of 160 $\rm  \mu s$ the value of $\rm n_{e_{z0}}$ is $\rm \Gamma$ = 0.85. Each electron multiplies to produce $\rm SE_b$ PE in the bottom PMT array, this multiplicative factor must be squared in the variance. 
+
+After extraction, each electron produces $\rm SE_b$ PE with a spread of $\rm \sigma_{SE_{b}}$. The variance from the PMT resolution of a single electron is
+\begin{equation}
+\rm \sigma_{S2_{PMT}}^2 = \epsilon n_{e_{z0}}  \sigma_{SE}^2
+\label{eq:S2_PMT}
+\end{equation}
+
+\noindent where $\rm \epsilon n_{e_{z0}}$ is the number of extracted electrons each with PMT resolution $\rm \sigma_{SE}^2$.
+
+For the S2 signal we must also consider the additional variance from electron attenuation, modeled as a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
 
 \begin{equation}
 \rm  \sigma_{n_{e_{att}}}^2 = n_e \frac{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}} (1-e^{-T/\tau})\mathrm{d}T}{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}}\mathrm{d}T} = 0.155 \times n_e
 \label{eq:Sig_Att}
 \end{equation}
 
-Combining the variances leads to the the result for the statistical variance in the observed number of electrons equation \ref{eq:Sig_S2}.
+Combining the variances from equations \ref{eq:Sig_S2} \ref{eq:S2_PMT} and \ref{eq:Sig_Att} leads to the the result for the statistical variance in the observed S2 \ref{eq:Sig_S2}.
 
 \begin{equation}
-\rm  \sigma_{n_{e_{stat}}}^2 = \frac{Ext \times \sigma_{SE}^2+(1-Ext)\times g2}{g_2^2} n_e +  \sigma_{n_{e_{att}}}^2\\
+\rm  \sigma_{S2_{stat}}^2 = (1-\epsilon)\epsilon  n_{e_{z0}} SE_b^2 + \epsilon  n_{e_{z0}} \sigma_{SE}^2+  g_2^2 \sigma_{n_{e_{att}}}^2 = (1-\epsilon) SE_b^2 (\Gamma S2) + \sigma_{SE}^2 (\Gamma S2)+  0.155 g_2 S2 \\
 \label{eq:Sig_S2}
+\end{equation}
+
+\begin{equation}
+\rm  \sigma_{n_{e_{stat}}}^2 = \frac{(1-\epsilon)\epsilon SE_b^2 + \epsilon  \sigma_{SE}^2}{g_2^2} \Gamma n_e+  \sigma_{n_{e_{att}}}^2 \\
+\label{eq:Sig_Ne}
 \end{equation}
 
 
 For this analysis we use the following detector gains: \ref{eq:g1g2}. 
 \begin{multline} \\
 \rm g_1 = 0.097 \pm 0.008 \,[PE/n_\gamma]\\
-\rm g_2=SE_{b} \times Ext = 5.75 \pm 1.4 \,[PE/n_e]\\
+\rm g_2=SE_{b} \times \epsilon = 5.75 \pm 1.4 \,[PE/n_e]\\
 \rm SE_{b} = 9.70 \pm 0.05  \,[PE/n_e] \\\ 
-\rm \sigma SE_b = 3.64\, [PE/n_e]\\
-\rm Ext = 0.593\pm 0.144 \\
+\rm \sigma_{SE_b} = 3.64\, [PE/n_e]\\
+\rm \Gamma = \left<n_{e_z0}\right>/\left<n_e\right>=0.85 \\
+\rm \epsilon = 0.593\pm 0.144 \\
 \rm \sigma_{PE} = 0.51\, [PE/n_\gamma]\\\
 \label{eq:g1g2}
 \end{multline}
 
-Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector resolution for the average S1 and S2 signals in the LUX detector, equation \ref{eq:SigStat}. Note, the intrinsic resolution in S2 is subdominant to that of S1, since  on average one electron multiplies to about ten photons detected by the bottom PMT array [ref]. Also listed in \ref{eq:SigInst}, are the instrumental fluctuations with a linear dependance on quanta measured with a global fit to mono energetic sources [next section]. The total variance in the light and charge channels is the linear combination of the statistical and instrumental variance.  
+Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector resolution for the average S1 and S2 signals in the LUX detector, equation \ref{eq:SigStat}. Note, the intrinsic resolution in S2 is subdominant to that of S1, since  on average one electron multiplies to about ten photons detected by the bottom PMT array. Also listed in \ref{eq:SigInst}, are the instrumental fluctuations with a linear dependance on quanta measured with a global fit to mono energetic sources [next section]. The total variance in the light and charge channels is the linear combination of the statistical and instrumental variance.  
 
 \begin{equation}
 \begin{split}
