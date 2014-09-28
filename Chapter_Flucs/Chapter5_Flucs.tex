@@ -5,6 +5,47 @@
 
 In this chapter we discuss extracting recombination fluctuations from line sources and continuous spectrum such as tritium. The method outlined will be used to measure recombination fluctuations from the tritium calibration data down to 1 keV. We begin by modeling the intrinsic resolution of the LUX detector, based on counting statistics. We then separate the fluctuations in light and charge collection from recombination fluctuations using line source calibrations. Once the variances from light and charge collection are modeled the recombination fluctuations from continuous spectra can be extracted, specifically for the tritium beta spectrum. We conclude with the results for recombination and recombination fluctuations as measured from tritium beta decay in the LUX detector along with a measure of the exciton-to-ion ratio $\rm \alpha$ for ER events.
 
+\section{An Introduction to Fluctuations}
+
+When Xenon TPCs where first developed it was fully expected that the resolution in the ionization and scintillation channels would be negligible compared to detector resolution.
+
+Let us the 164 keV line from $\rm ^{131}Xe$ used to produce the Doke plots in section \ref{Ch:E_Scale_Cal}. Deconvoling all the components we find a picture illustrated in 
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+\includegraphics[width=150mm]{Chapter_Flucs//Figures/Ex_Plots/r_fig.png}
+\caption{.... }
+\label{fig:S1_9_Kr}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Parameter & Description & Definition \\ \hline
+$\rm n_\gamma$ & Number of photons & $\rm \left<S1\right>/g1$ \\ \hline
+$\rm n_e$ & Number of electrons & $\rm \left<S2\right>/g1$ \\ \hline
+$\rm n_i$ & Number of ions & $\rm (n_\gamma+n_e)/(1+\alpha)$ \\ \hline
+$\rm n_{ex}$ & Number of excitons & $\rm \alpha n_{i}$ \\ \hline
+$\rm \alpha$ & Exciton to ion ratio & $\rm n_{ex}/n_{i}$ \\ \hline
+$\rm \sigma_{n_{\gamma_{Det}}}$ &$\rm n_\gamma$ detector fluctuations & equation \ref{eq:SigDet} \\ \hline
+$\rm \sigma_{n_{e_{Det}}}$ &$\rm n_e$ detector fluctuations  & equation \ref{eq:SigDet} \\ \hline
+$\rm \left<r\right>$ & Recombination fraction &  $\rm \left(\left<\frac{n_\gamma}{n_e}\right> - \alpha \right)/\left(\left<\frac{n_\gamma}{n_e}
+\right> +1\right)$ \\ \hline
+R & Recombined ions &  $\rm \left<r\right>n_{i}$ \\ \hline
+$\rm \sigma_{R}$ & Recombination fluctuations &  $\rm \sigma_{\left<r\right>}n_{i}$ \\ \hline
+\end{tabular}
+\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of g1 and g2 where measured in section \ref{Ch:E_Scale_Cal}. }
+\label{table:Fluc_Param}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
 \section{Modeling Intrinsic Detector Resolution}
 
@@ -22,14 +63,37 @@ Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in
 \label{eq:Sig2} \rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
 \end{alignat}
 
-\noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons as measured through S1 and S2, respectively. The variances in S1 and S2, $\rm \sigma_{S1_{stat}}^2$ and $\rm \sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered interms of the PE being counted by the PMTs. Note, here we are working with the x,y,z corrected signals outlined in section \ref{Ch:3}. 
+\noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons as measured through S1 and S2, respectively. The variances in S1 and S2, $\rm \sigma_{S1_{stat}}^2$ and $\rm \sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered in terms of the PE being counted by the PMTs. Note, here we are working with the x,y,z corrected signals outlined in section \ref{Ch:3}. 
 
-The statistical variance of the x,y,z corrected S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First a binomial variance, for each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability g1. Here, $\rm n_\gamma$ should be thought of as the number of trials.The binomial variance is,
+
+Before proceeding to derive the statistical variance in light and charge, we overview a list of terms and their values in the LUX detector, given in table \ref{table:LUX_Det_Param}.
+
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Parameter & Definition & Value
+ \\ \hline
+$\rm g_1$	& photon detection probability	& 0.097 $\pm$ 0.008 $\rm[PE/n_\gamma]$ \\ \hline
+$\rm \sigma_{PE} $ & single PE resolution, all PMTs	& 0.50 $\rm[PE/n_\gamma]$	\\ \hline
+$\rm g_2$ = $\rm \epsilon SE_b$	& average electron signal	& 5.75 $\pm$ 1.4 $\rm[PE/n_e]$ \\ \hline
+$\rm SE_b$ & single electron size, bottom PMT array & 9.70 $\pm$ 0.1 $\rm [PE/n_e]$ \\ \hline
+$\rm \epsilon$ & electron extraction probability & 0.593 $\pm$ 0.144 \\ \hline
+$\rm \sigma_{SE_b}$ & single electron resolution, bottom PMT array & 3.6 $\rm [PE/n_e]$ \\ \hline
+$\rm \kappa$	& fraction of non-attenuated electrons & 0.85 \\ \hline
+\end{tabular}
+\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of g1 and g2 where measured in section \ref{Ch:E_Scale_Cal}. }
+\label{table:LUX_Det_Param}
+\end{center}
+\end{table}
+
+
+The statistical variance of the x,y,z corrected S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First we consider the binomial variance, for each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability $\rm g_1$. Here, $\rm n_\gamma$ should be thought of as the number of trials. The binomial variance is,
 \begin{equation}
-\rm \sigma_{S1_{Bino}}^2 = (1-g1) g1 n_\gamma
+\rm \sigma_{S1_{Bino}}^2 = (1-g_1) g_1 n_\gamma
 \label{eq:S1_bino} 
 \end{equation}
-\noindent where $\rm \sigma_{S1_{Bino}}^2$ is the binomial variance of the S1 light collection process with probability g1 and $\rm n_\gamma$ number of trials. Each PE that was collected by a PMT undergoes a second fluctuation due to the resolution of the PMTs. The variance from PMT resolution can be written as
+\noindent where $\rm \sigma_{S1_{Bino}}^2$ is the binomial variance of the S1 light collection process with probability $\rm g_1$ and $\rm n_\gamma$ number of trials. Each PE that was collected by a PMT then undergoes a second fluctuation due to the resolution of the PMTs. The variance from PMT resolution can be written as
 \begin{equation}
 \rm \sigma_{S1_{PMT}}^2 = g_1 n_\gamma \sigma_{PE}^2
 \label{eq:S1_pmt}
@@ -43,78 +107,88 @@ Combining the two linearly independent processes of equation \ref{eq:S1_bino} an
 \label{eq:Sig_S1}
 \end{equation}
 
-\noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. We test equation \ref{eq:Sig_S1} using the 9.4 $\rm keV$ S1 signal from \KrCal. At that energy the dominant fluctuation is due the statistical variance of light collection, we can ignore contributions from recombination fluctuations and instrumental fluctuations (will be discussed later in this section).
-
-The variance in the measured number of photons is then equation \ref{eq:Sig_S1} divided by $\rm g_1^2$, using equation \ref{eq:Sig1}.
+\noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. The variance in the measured number of photons is then equation \ref{eq:Sig_S1} divided by $\rm g_1^2$, using equation \ref{eq:Sig1}.
 \begin{equation}
-\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)}{g_1} n_\gamma \\ % change to sigma S1
+\rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)}{g_1} n_\gamma \\ 
 \label{eq:Sig_Ng}
 \end{equation}
 
-% Show 9.4 keV here. And that it's sigma is within error of g1
+We test equation \ref{eq:Sig_S1} and \ref{eq:Sig_Ng} by using the 9.4 $\rm keV$ S1 signal from \KrCal. At that energy the dominant fluctuation is due the statistical variance of light collection, we can ignore contributions from recombination fluctuations and instrumental fluctuations (will be discussed later in this section). The S1 signal is shown in figure \ref{fig:S1_9_Kr}.
 
-%
-%
+\begin{figure}[h!]\centering
+\includegraphics[width=100mm]{Chapter_Flucs//Figures/S1_9_Fluc/S1_9_corr_1000_lux10_20130510T1250_cp09323.eps}
+\caption{The fluctuations in the S1-x,y,z corrected signal for the 9.4 keV S1 signals from \KrCal. At 9.4 keV the statistical variance is dominate over recombination fluctuations. The resolution is as expected from statistical fluctuations given in equation \ref{eq:Sig_S1}. }
+\label{fig:S1_9_Kr}
+\end{figure}
+
+\newpage
+
+\noindent We find that the observed $\rm \sigma_{S1}$ = 8.15 PE is in good agreement with the expectation from equation \ref{eq:Sig_S1} of 8.3 $\pm$ 0.1 PE. Or in terms of photons, $\rm \sigma_{n_{\gamma_{stat}}}$ = 84.1 with the expectation from equation \ref{eq:Sig_Ng} of 85.7 $\pm$ 1. Having used the values listed in table \ref{table:LUX_Det_Param}.
 
 
-The variance of the x,y,z corrected S2 signal, given in \ref{eq:Sig2},  is also comprised of several independent processes. Each electron that reaches the liquid-gas interface without being attenuated will either be extracted into the gas producing $\rm SE_b$ number of PE or not. We define $\rm \epsilon$ as the extraction efficiency, or the extraction probability of each electron from the liquid. The binomial variance of such a process is,
+The variance of the x,y,z corrected S2 signal, given in \ref{eq:Sig2},  is also comprised of several independent processes. Each electron that reaches the liquid-gas interface without being attenuated will either be extracted into the gas producing $\rm SE_b$ number of PE or not. The binomial variance of such a process is,
 
 \begin{equation}
-\rm \sigma_{S2_{bino}}^2= (1-\epsilon) \epsilon n_{e_{z0}} SE_{b}^2 
+\rm \sigma_{S2_{bino}}^2= (1-\epsilon) \epsilon (\kappa n_e) SE_{b}^2 
 \label{eq:Sig_S2}
 \end{equation}
 
-\noindent where $\rm \epsilon$ is the electron extraction probability, and $\rm n_{e_{z0}}$ is the average number of electrons that reach the liquid surface from the interaction site, also the number of trials. For the case of LUX with an electron lifetime of $\sim 1000 \, \mu s$ and an average drift time of 160 $\rm  \mu s$ the value of $\rm n_{e_{z0}}$ is $\rm \Gamma$ = 0.85. Each electron multiplies to produce $\rm SE_b$ PE in the bottom PMT array, this multiplicative factor must be squared in the variance. 
+\noindent where $\rm \epsilon$ is the electron extraction probability, and $\rm \kappa n_e$ is the average number of electrons that reach the liquid surface from the interaction site, also the number of trials. Recalling that $\kappa$ is the average electron probability of an electron to not be attenuated. For the case of LUX with an electron lifetime of $\sim 1000 \, \mu s$ and an average drift time of 160 $\rm  \mu s$ the value of $\rm \kappa$ = 0.85 and is listed in table \ref{table:LUX_Det_Param}. Each electron that gets extracted then multiplies producing $\rm SE_b$ PE in the bottom PMT array, this multiplicative factor must be squared in the variance. 
 
-After extraction, each electron produces $\rm SE_b$ PE with a spread of $\rm \sigma_{SE_{b}}$. The variance from the PMT resolution of a single electron is
+Next, we consider the spread of the single electron size as measured by the bottom PMT array, $\rm \sigma_{SE_{b}}$. The variance from the PMT resolution for the $\rm \epsilon (\kappa n_e)$ number of electrons extracted is,
 \begin{equation}
-\rm \sigma_{S2_{PMT}}^2 = \epsilon n_{e_{z0}}  \sigma_{SE}^2
+\rm \sigma_{S2_{PMT}}^2 = \epsilon (\kappa n_e)  \sigma_{SE}^2
 \label{eq:S2_PMT}
 \end{equation}
 
-\noindent where $\rm \epsilon n_{e_{z0}}$ is the number of extracted electrons each with PMT resolution $\rm \sigma_{SE}^2$.
+\noindent where $\rm \epsilon \kappa n_e$ is the number of extracted electrons each with PMT resolution $\rm \sigma_{SE}^2$.
 
-For the S2 signal we must also consider the additional variance from electron attenuation, modeled as a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
+For the S2 signal we must also consider the additional variance from electron attenuation as the electrons drift, we model the process with a Poisson probability of electron capture in each Z slice of the detector. The variance from each Z slice depends of the average number of electrons that will be attenuated. The probability of attenuation at each slice in drift-time T is $\rm P(T)= 1-e^{-T/\tau}$, where $\rm \tau$ for the data sets to be considered is 1000 $\rm \mu s$. The drift region considered in the fiducial volume is from 38 to 304.5 $\rm \mu s$. The average variance from events in the fiducial can be given by equation \ref{eq:Sig_Att}.
 
 \begin{equation}
 \rm  \sigma_{n_{e_{att}}}^2 = n_e \frac{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}} (1-e^{-T/\tau})\mathrm{d}T}{\mathlarger{\int}\limits_{\mathsmaller{T_{min}}}^{\mathsmaller{T_{max}}}\mathrm{d}T} = 0.155 \times n_e
 \label{eq:Sig_Att}
 \end{equation}
 
-Combining the variances from equations \ref{eq:Sig_S2} \ref{eq:S2_PMT} and \ref{eq:Sig_Att} leads to the the result for the statistical variance in the observed S2 \ref{eq:Sig_S2}.
+Combining the variances from equations \ref{eq:Sig_S2} \ref{eq:S2_PMT} and \ref{eq:Sig_Att} leads to the the result for the statistical variance in the observed S2 signal,
 
 \begin{equation}
-\rm  \sigma_{S2_{stat}}^2 = (1-\epsilon)\epsilon  n_{e_{z0}} SE_b^2 + \epsilon  n_{e_{z0}} \sigma_{SE}^2+  g_2^2 \sigma_{n_{e_{att}}}^2 = (1-\epsilon) SE_b^2 (\Gamma S2) + \sigma_{SE}^2 (\Gamma S2)+  0.155 g_2 S2 \\
+\begin{split}
+\rm  \sigma_{S2_{stat}}^2 = (1-\epsilon)\epsilon  (\kappa n_e) SE_b^2 + \epsilon  (\kappa n_e) \sigma_{SE}^2+  g_2^2 \sigma_{n_{e_{att}}}^2 \\
+\rm  \sigma_{S2_{stat}}^2= \left((1-\epsilon) SE_b \kappa + \sigma_{SE}^2 \kappa/g_2+  0.155 g_2\right)S2\\
 \label{eq:Sig_S2}
+\end{split}
 \end{equation}
 
 \begin{equation}
-\rm  \sigma_{n_{e_{stat}}}^2 = \frac{(1-\epsilon)\epsilon SE_b^2 + \epsilon  \sigma_{SE}^2}{g_2^2} \Gamma n_e+  \sigma_{n_{e_{att}}}^2 \\
+\rm  \sigma_{n_{e_{stat}}}^2 = \frac{(1-\epsilon)\epsilon SE_b^2 + \epsilon  \sigma_{SE}^2}{g_2^2} \kappa n_e+  \sigma_{n_{e_{att}}}^2 \\
 \label{eq:Sig_Ne}
 \end{equation}
 
 
-For this analysis we use the following detector gains: \ref{eq:g1g2}. 
-\begin{multline} \\
-\rm g_1 = 0.097 \pm 0.008 \,[PE/n_\gamma]\\
-\rm g_2=SE_{b} \times \epsilon = 5.75 \pm 1.4 \,[PE/n_e]\\
-\rm SE_{b} = 9.70 \pm 0.05  \,[PE/n_e] \\\ 
-\rm \sigma_{SE_b} = 3.64\, [PE/n_e]\\
-\rm \Gamma = \left<n_{e_z0}\right>/\left<n_e\right>=0.85 \\
-\rm \epsilon = 0.593\pm 0.144 \\
-\rm \sigma_{PE} = 0.51\, [PE/n_\gamma]\\\
-\label{eq:g1g2}
-\end{multline}
+%For this analysis we use the following detector gains: \ref{eq:g1g2}. 
+%\begin{multline} \\
+%\rm g_1 = 0.097 \pm 0.008 \,[PE/n_\gamma]\\
+%\rm g_2=SE_{b} \times \epsilon = 5.75 \pm 1.4 \,[PE/n_e]\\
+%\rm SE_{b} = 9.70 \pm 0.05  \,[PE/n_e] \\\ 
+%\rm \sigma_{SE_b} = 3.64\, [PE/n_e]\\
+%\rm \Gamma = \left<n_{e_z0}\right>/\left<n_e\right>=0.85 \\
+%\rm \epsilon = 0.593\pm 0.144 \\
+%\rm \sigma_{PE} = 0.51\, [PE/n_\gamma]\\\
+%\label{eq:g1g2}
+%\end{multline}
 
-Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector resolution for the average S1 and S2 signals in the LUX detector, equation \ref{eq:SigStat}. Note, the intrinsic resolution in S2 is subdominant to that of S1, since  on average one electron multiplies to about ten photons detected by the bottom PMT array. Also listed in \ref{eq:SigInst}, are the instrumental fluctuations with a linear dependance on quanta measured with a global fit to mono energetic sources [next section]. The total variance in the light and charge channels is the linear combination of the statistical and instrumental variance.  
+Using equations \ref{eq:Sig_Ng}, \ref{eq:Sig_Ne} and table \ref{table:LUX_Det_Param} we calculate the intrinsic detector resolution for S1 and S2 signals in the LUX detector, given equation \ref{eq:SigStat}. Note, the intrinsic resolution in S2 is subdominant to that of S1, since  on average one electron multiplies to about ten photons detected by the bottom PMT array. Also listed in \ref{eq:SigInst}, are the instrumental fluctuations with a linear dependance on quanta measured using calibrations discussed in section \ref{sec:flucs_mono}. The total variance that the detector observes in the light and charge is the linear combination of the statistical and instrumental variance given in equation {eq:SigDet}.  
 
 \begin{equation}
 \begin{split}
-\rm  \sigma_{n_{\gamma_{stat}}} = 3.46 \sqrt{n_\gamma}\\
-\rm \sigma_{n_{e_{stat}}} = 0.68 \sqrt{n_e}
+\rm  \sigma_{n_{\gamma_{stat}}} = 3.45\pm_{0.15}^{0.17} \sqrt{n_\gamma}\\
+\rm \sigma_{n_{e_{stat}}} = 0.68\pm_{0.20}^{0.26} \sqrt{n_e}
 \label{eq:SigStat}
 \end{split}
 \end{equation}
+
+\noindent where  $\rm \sigma_{n_{\gamma_{stat}}}$ and $\rm \sigma_{n_{e_{stat}}}$ are the statistical fluctuations outlined in this section.
 
 \begin{equation}
 \begin{split}
@@ -124,6 +198,8 @@ Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector
 \end{split}
 \end{equation}
 
+\noindent where  $\rm \sigma_{n_{\gamma_{inst}}}$ and $\rm \sigma_{n_{e_{inst}}}$ are instrumental fluctuations extracted in section \ref{sec:flucs_mono} that grow like number of quanta n.
+
 \begin{equation}
 \begin{split}
 \rm  \sigma_{n_{\gamma_{Det}}}^2 = \sigma_{n_{\gamma_{stat}}}^2 + \sigma_{n_{\gamma_{inst}}}^2 \\
@@ -131,6 +207,8 @@ Combining equations \ref{eq:Sig_S1}-\ref{eq:g1g2} we find the intrinsic detector
 \label{eq:SigDet}
 \end{split}
 \end{equation}
+
+\noindent where  $\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{e_{Det}}}^2$ are the fluctuations in counting photons and electrons, respectively, due to detector resolution.
 
 
 \section{Measuring Recombination Fluctuations with Mono-Energetic Sources}
@@ -146,7 +224,7 @@ To model recombination we start with the assumption that for a given energy depo
 \end{split}
 \end{equation}
 
-Where E is energy in [keV], W is the work function in [keV/quanta], $\rm n_{q}$ is the number of quanta, $\rm n_{i}$ is the number of ions and $\rm n_{ex}$ is the number of excitons. The theoretical value of the number of excitons produced to ions is $\rm \frac{n_{ex}}{n_{i}}= \alpha = 0.20$ \cite{Doke_alpha} and is not expected to change vs. energy \cite{alpha_argon} \cite{alpha_xenon} \cite{Dahl_Thesis}. For the subsequent equations in this section we will simplify equations \ref{eq:Energy} to that in \ref{eq:Energy_2}.
+Where E is energy in keV, W is the work function in [keV/quanta], $\rm n_{q}$ is the number of quanta, $\rm n_{i}$ is the number of ions and $\rm n_{ex}$ is the number of excitons. The theoretical value of the number of excitons produced to ions is $\rm \frac{n_{ex}}{n_{i}}= \alpha = 0.20$ \cite{Doke_alpha} and is not expected to change vs. energy \cite{alpha_argon} \cite{alpha_xenon} \cite{Dahl_Thesis}. For the subsequent equations in this section we will simplify equations \ref{eq:Energy} to that in \ref{eq:Energy_2}.
 
 \begin{equation}
 \begin{split}
@@ -307,7 +385,7 @@ To complete the treatment of binned energy in this section we now add the final 
 
 
 
-Were $\chi^2$ is defined in \ref{eq:SigCE}, M is given in equation \ref{eq:Angle}, W is the work function in [quanta/keV], $\rm \Delta_E$ is a bin of energy [keV], the normalization of 12 arrises from the second moment of a rotated line about its center. The total observed variance, $\rm \chi^2$, in the number of photons and electrons considering a bin of combined energy can now be determined transforming equation \ref{eq:SigR} to \ref{eq:Sig_total_CE}.
+Were $\chi^2$ is defined in \ref{eq:SigCE}, M is given in equation \ref{eq:Angle}, W is the work function in [quanta/keV], $\rm \Delta_E$ is a bin of energy keV, the normalization of 12 arrises from the second moment of a rotated line about its center. The total observed variance, $\rm \chi^2$, in the number of photons and electrons considering a bin of combined energy can now be determined transforming equation \ref{eq:SigR} to \ref{eq:Sig_total_CE}.
 
 %%.... this equation holds for the standard deviation of a uniform distribution
  
@@ -383,7 +461,7 @@ The errors in the measurement were derived from simulated Kr data sets of 400,00
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-$\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
+$\rm \Delta_E$ keV & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
 0.025 	& 1528 		&77.8		& 77.9	  	& 1.3	&	0.0008 \\ \hline
 0.05 	& 3063 		&54.4		& 54.6	  	& 1.8	&	0.0012 \\ \hline
 0.1 		& 6128  	&36.4		& 36.6		& 2.6	&	0.0016  \\ \hline
@@ -401,7 +479,7 @@ $\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \si
 \tabcolsep=0.11cm
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-$\rm \Delta_E$ [keV] & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
+$\rm \Delta_E$ keV & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigma (\sigma_{R_{e}}^2 )$  & $\rm \sigma (\sigma_{R_{\gamma}}^2 - \sigma_{R_{e}}^2 ) $ & $\rm \sigma F$ \\ \hline
 0.025 	& 1523		&498		& 498	  	& 3.2	&	 0.0020\\ \hline
 0.05 	& 3056 		&347		& 347	  	& 4.1	&	 0.0026\\ \hline
 0.1 		& 6118  	&237		& 237		& 5.3	&	 0.0033\\ \hline
@@ -506,7 +584,7 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Chapter_Flucs/Figures/T_SIM/SIM_R_T_100.eps}}
 
 
-\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in [KeV]: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
+\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in keV: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
 \label{fig:T_Var}
 \end{figure}% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
 
