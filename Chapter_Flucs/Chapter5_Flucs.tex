@@ -16,7 +16,7 @@ When Xenon TPCs where first developed it was expected that the resolution in the
 \end{split}
 \end{equation}
 
-\noindent where F is the Fano factor, F= 0.05 in liquid xenon \cite{FanoTheoretical}, and $\rm r_p$ is the recombination probability. Note, equation \ref{eq:Fano_Intro} will be derived in detail later in this section and is given in equation \ref{eq:SigR}. The recombination probability $\rm r_p$ is equal to the average observed recombination $\rm \left<r\right>$ as the number of events gets large, given in table \ref{table:Fluc_Param}.
+\noindent where F is the Fano factor, F= 0.05 in liquid xenon \cite{FanoTheoretical}, and $\rm r_p$ is the recombination probability. Note, equation \ref{eq:Fano_Intro} will be derived later in this section, given in equations \ref{eq:SigR_g} and \ref{eq:SigR_e}. The recombination probability $\rm r_p$ is equal to the average observed recombination $\rm \left<r\right>$ as the number of events gets large, given in table \ref{table:Fluc_Param}.
 
 The variance in equation \ref{eq:Fano_Intro} is in fact orders of magnitude off, and has been an unsolved mystery since the first xenon TPCs was built. Fortunately, these large fluctuations in scintillation and ionization are 100\% anti-correlated and cancel when both light and charge is combined to measure energy. We refer to these fluctuations as recombination fluctuations $\rm \sigma_R$. The 100\% anti-correlation implies, that for each additional electron-ion recombination a single photon is produced at the cost of a single electron, and visa versa.
 
@@ -248,7 +248,7 @@ To model recombination we start with the assumption that for a given energy depo
 \begin{equation}
 \begin{split}
 \rm  \frac{E}{W} = n_q = n_i + n_{ex} = n_i(1+\alpha) \\
-\rm \frac{E}{W} = n_\gamma + n_e
+\rm \frac{E}{W} = n_\gamma + n_e = \frac{n_\gamma}{g_1} + \frac{n_e}{g_2} \\
 \label{eq:Energy}
 \end{split}
 \end{equation}
@@ -360,7 +360,7 @@ Source & Energy & $\rm \sigma_R$ &  $\rm \sigma_{n_{\gamma_{Det}}}$ &  $\rm \sig
 & [keV] & & & & \\ [0.5ex] % inserts table %heading
 \hline
 K-shell X-ray 				& $\sim$32 	 &  52.6 $\pm$ 23 		& 244 $\pm$ 5		& 116 $\pm$ 3 		 & 269 $\pm$ 5						\\ \hline
- $\rm ^{83m}Kr$ 				& 41.55		& 84.2	$\pm$ 0.6			& 171 $\pm$ 0.3		& 51.2 $\pm$	0.3		& 173 $\pm$ 0.2				\\ \hline
+ $\rm ^{83m}Kr$ 				& 41.55		& 82.4	$\pm$ 0.6			& 171 $\pm$ 0.3		& 51.2 $\pm$	0.3		& 173 $\pm$ 0.2				\\ \hline
  $\rm ^{131}Xe$ 				& 163.9		& 637 $\pm$ 20			& 388	$\pm$ 31		& 83 $\pm$ 77		& 375 $\pm$ 8				\\ \hline
 $\rm ^{127}Xe$ 				& 208.3 		& 916	$\pm$ 59			& 506	$\pm$ 96 		& 260 $\pm$ 133	 	& 568 $\pm$ 26			\\ \hline
 $\rm ^{127}Xe, ^{129m}Xe$	 & 236.8		& 1001 $\pm$ 23			& 441	$\pm$ 50		& 253 $\pm$ 71		& 491 $\pm$ 9				\\ \hline
@@ -406,19 +406,72 @@ A variance with a linear and root term is fit to the data with the results given
 \section{Measuring Recombination Fluctuations in Disecrate Energy Bins}
 \label{sec:flucs_mono_bins}
 
-The pervious subsection demonstrated the power of using a mono energetic source measure recombination fluctuations, equation  \ref{eq:Dahl}. In this section we present a method to decouple statistical variance from recombination fluctuations when confined to an energy bin of width $\rm \Delta_E$. The consideration of desecrate binning is crucial when dealing with a continual energy spectrum. Take the tritium beta spectrum as an example, we lose the ability to independently measure $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$, $\rm \sigma_{E}^2 $ and are only left with a smear of $\rm n_\gamma$, $\rm n_e$, $\rm E $. However, there are two key pieces of information still left at our disposal. First, the combined energy can be reconstructed from global fits to $\rm g_1$ and $\rm g_2$, and even corrected for spectral shape and detector resolution (discussed later in section [link]). Second, we can calculate values of statistical variance for the light and charge channels as a function of energy, described in \ref{eq:SigStat},  \ref{eq:SigInst}. It will be shown in this section that having a priori knowledge of $\rm g_1$ and $\rm g_2$ and the functional for of the statistical variance from detector resolution will be sufficient to measure recombination fluctuations for a continual energy spectrum binned in energy with width $\rm \Delta_E$.
+The pervious section demonstrated the power of using a mono energetic source measure recombination fluctuations, equation  \ref{eq:Dahl_2}. In this section we present a method to decouple statistical variance from recombination fluctuations when confined to an energy bin of width $\rm \Delta_E$. The consideration of desecrate binning is crucial when dealing with a continual energy spectrum. Take the tritium beta spectrum as an example, we lose the ability to independently measure $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$, $\rm \sigma_{E}^2 $ and are only left with a smear of $\rm n_\gamma$, $\rm n_e$, $\rm E $. However, there are two key pieces of information still left at our disposal. First, the combined energy can be reconstructed from constraints on $\rm g_1$ and $\rm g_2$, and even corrected for spectral shape and detector resolution (discussed later in section \ref{sec:Smear}). Second, we can have determined the detector resolution for the light and charge channels as a function of quanta, described in \ref{eq:SigStat},  \ref{eq:SigInst}. It will be shown in this section knowing $\rm g_1$, $\rm g_2$ and the intrinsic detector resolution will be sufficient to measure recombination fluctuations for a continual energy spectrum. 
+%binned in energy with width $\rm \Delta_E$.
 
+To simplify the picture we introduce new variables when dealing with events which have been cut from and energy bin of width $\rm \Delta_E$.  After making the cut in energy we call the remaining variance projected onto light and charge $\chi_{n_{\gamma}}^2$ and $\chi_{n_{e}}^2$, which is analogous to $\sigma_{n_{\gamma}}^2$ and $\sigma_{n_{e}}^2$ of equations \ref{eq:SigQ_g} \ref{eq:SigQ_e}, respectively. We denote the component of variance from detector resolution contained in the slice of energy as $\rm \chi_{Det}$. These concepts will be clarified in the subsequent examples and are summarized in table 
 
-We begin the treatment of binning with the the case of having a finite bin width around the central combined energy of a mono energetic source. First, we quantify the change in the statistical components of equation \ref{eq:SigR} when slicing out a bin in combined energy space. The slice in combined energy is illustrated for a toy model at quanta corresponding to that of the combined 41.6 keV $\rm^{83}Kr$ decay in Figure \ref{fig:Recomb}. All contribution from recombination fluctuations are included when slicing out a section of combined energy, illustrated in Figure \ref{fig:Recomb}. However, the slice contains only a reduced statistical component from both the light and charge signals, and in the limit that $\rm \Delta E$ goes to zero the statistical component of light and charge converge to a value defined as $\rm \chi_{stat}$ (where $\rm \chi$ is the measured $\rm \sigma$ in a bin of combined energy). To solve for the value of  $\rm \chi_{stat}$ we first calculate the slope induced by statistical variance in the number of photons vs. quanta and the complementary slope of electrons vs. quanta, defined as M and 1-M respectively.  The value of M depends on the magnitude of the statistical variances and is given in equation \ref{eq:Angle}. The sum of the two slopes must equal one as the sum of photons and electors make up combined energy.
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Parameter & Definition & Analogy Without Binning
+ \\ \hline
+$\rm \chi_{n_{\gamma}}^2$	& Total variance with E cut	& $\sigma_{n_{\gamma}}^2$ \\ 
+							& projected onto $\rm n_\gamma$ & 						\\ \hline					
+$\rm \chi_{n_{e}}^2$ & Total variance with E cut	& $\rm \sigma_{n_{e}}^2$	\\
+							& projected onto $\rm n_e$ & 						\\ \hline
+$\rm \chi_{Det}^2$			& Variance from detector resolution & $\rm \sigma_{n_{\gamma_{Det}}}^2 \, \sigma_{n_{e_{Det}}}^2 $ \\
+							& shared between $\rm n_\gamma$ and $\rm n_e$, with E cut   & 						\\ \hline
+\end{tabular}
+\caption{ Useful definitions when considering cutting events in a bin of energy and projecting onto the $\rm n_\gamma$ and $\rm n_e$ axis. }
+\label{table:E_Slice}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+ 
+ \newpage
 
+We begin the treatment of binning by considering several cases using a simulated \KrCal line-source. For each case, we reconstruct the energy using equation \ref {eq:Energy} and make a cut in energy of width $\rm \Delta_E=1$ about the center. First, we turn off detector resolution only leaving recombination fluctuations of $\rm \sigma_R = 83 $, similar to the value extracted from the \KrCal data in table \ref{table:Line_Data}. Figure \ref{fig:Kr_ex_R} shows the result of such a system, with infinite detector resolution and only recombination fluctuations.
 
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
  \begin{figure}[h!]\centering
-\includegraphics[width=130mm]{Chapter_Flucs/Figures/EX_Stat_Fano.png}
-\includegraphics[width=60mm]{Chapter_Flucs/Figures/EX_R_Fano.png}
-\includegraphics[width=60mm]{Chapter_Flucs/Figures/EX_Kr_Fano.png}
-\caption{Top: Illustration of statistical variance, recombination fluctuations are set to 0. The spread in number of photons moves vertically and the spread in number of electrons moves horizontally. In black, a line of constant energy along the mean of combined energy with a width $\rm \Delta E$. Bottom left: Dominated by recombination fluctuations which move 45$^{\circ}$ to statistical variances. Bottom Right: Typical values for recombination and  S1, S2 Stat for $\rm Kr^{83}$. }
-\label{fig:Recomb}
+\includegraphics[width=160mm]{Chapter_Flucs/Figures/Ex_Plots/EX_R_Kr_.png}
+\caption{A simulated \KrCal source with infinite detector resolution and recombination fluctuations set to 83 quanta. The recombination fluctuation move along the line of constant energy about the center shown in black with a bin width of $\rm \Delta_E$ =1 (back dashed lines). The events are cut between the black dashed lines and projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The observed variance in light and charge are $\rm \chi_{n_{\gamma}}^2 = \sigma_{n_{\gamma}}^2 = \sigma_{R}^2$ and $\rm \chi_{n_{e}}^2 = \sigma_{n_{e}}^2 = \sigma_{R}^2$.  }
+\label{fig:Kr_ex_R}
 \end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+\noindent In figure \ref{fig:Kr_ex_R} we see that recombination fluctuations move events along the diagonal of constant energy. The events are cut between the black dashed lines ,representing a bin of energy about the center having width $\rm \Delta_E$ = 1, and are projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The observed variance in light and charge are $\rm \chi_{n_{\gamma}}^2 = \sigma_{n_{\gamma}}^2 = \sigma_{R}^2$ and $\rm \chi_{n_{e}}^2 = \sigma_{n_{e}}^2 = \sigma_{R}^2$. The key point demonstrated in figure \ref{fig:Kr_ex_R} is that all contribution from recombination fluctuations are included when slicing out a section of energy about the center, no matter how thin we make the slice. Note, the population becomes a delta function in energy about the central value.
+
+Next, we visualize how the intrinsic detector resolution ($\rm \sigma_{n_{\gamma_{Det}}}^2 \,and\, \sigma_{n_{e_{Det}}}^2 $) appears in an energy bin of width $\rm \Delta_E$ for a \KrCal source. The recombination fluctuations are set to zero and the fluctuations from detector resolution are set to $\rm \sigma_{n_{\gamma_{Det}}}$ = 182 and $\rm \sigma_{n_{\gamma_{Det}}}$ = 51, close to the true values of the LUX detector \ref{table:Line_Data}. The slice in combined energy is illustrated in figure \ref{fig:Kr_ex_R}.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+ \begin{figure}[h!]\centering
+\includegraphics[width=160mm]{Chapter_Flucs/Figures/Ex_Plots/EX_Stat_Kr_.png}
+\caption{A simulated \KrCal source with detector resolution and no recombination fluctuations. The solid black line represents constant energy about the center. The region between the black dashed lines represents a bin width of $\rm \Delta_E$ =1 and is where we make a cut. The events that fall between the black dashed lines are projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The observed variance in light and charge are shows on the labels with and without the energy cut, as $\rm \chi$ and $\rm sigma$ respectively. The energy cut has swept out a component of variance $\chi_Det$ that is shared between the light and charge channels. Note, $\chi_Det$ is about equal to the resolution of the best channel, $\rm \sigma_{n_{\gamma_{Det}}}$. }
+\label{fig:Kr_ex_R}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+
+\noindent In the example pictured in figure \ref {fig:Kr_ex_R} we find that the energy cut leaves a reduced statistical component to be projected onto $\rm n_\gamma$ and $\rm n_e$. The reduction in variance projected onto $\rm n_\gamma$ is large however, this is expected as only a small portion of $\rm n_\gamma$ is included with the energy cut. From the examples in figure \ref{fig:Kr_ex_R} and \ref{fig:Kr_ex_Stat} we can now visualize the effect of an energy cut on the light ($\rm n_\gamma$) and charge signals ($\rm n_e$). The slice contains those events which fluctuated about the line of constant energy thus, automatically including all recombination fluctuations along with reduced component from detector resolution.
+
+To solve for the value of  $\rm \chi_{stat}$ we write the detector-resolution fluctuations $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$ as a function of combined energy in number quanta.
+
+\begin{equation}
+\rm n_q= E/W = n_\gamma + n_e
+\label{eq:n_Q}
+\end{equation}
+
+\noindent where $\rm n_q$ is the number of quanta (photons + electrons), E is energy in keV, and W=0.0137 $pm$ 0.001 quanta/keV. Next, consider the the slope induced by the statistical variance of $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$ as a function quanta $\rm n_q$. The slope between $\rm n_\gamma$ with respect to energy $\rm n_q$ is simply the variance in $\rm n_\gamma$ over the variance in $\rm n_q$, and the same for $\rm n_e$. The result for the slope M considering a detector with resolution $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$ is,
 
 \begin{equation}
 \begin{split}
@@ -428,16 +481,50 @@ We begin the treatment of binning with the the case of having a finite bin width
 \end{split}
 \end{equation}
 
-
-With the slope between combined energy and $\rm \sigma_{n_{\gamma_{Det}}}$ and between energy and $\rm \sigma_{n_{e_{Det}}}$ defined in equation \ref{eq:Angle} the value of the shared statistical uncertainty in combined energy space can be determined. We first treat the case of $\rm \Delta E$ = 0 in equation \ref{eq:SigCE} which is also valid when the centroid of light yield and change yield has been subtracted (discussed later).
+\noindent where M is the slope between $\rm n_\gamma$ as a function of $\rm n_q$ assuming a linear approximation, which is natural considering \ref{eq:n_Q}. The slope M can also be thought of as tan($\rm \theta$) where $\rm \theta$ is the angle between $\rm n_\gamma$ and $\rm n_q$, ranging from 0 to $\pi$/4. Once M is defined, the angle between $\rm n_e$ and $\rm n_q$ is the complementary slope (1-M). Recalling that $\rm n_\gamma$ + $\rm n_e$ sum to $\rm n_q$ by definition, in equation \ref{eq:n_Q}. The statistical distribution of $\rm n_gamma$ and $\rm n_e$ with respect to quanta (or E/W) can now be expressed interns of the slope M.
 
 \begin{equation}
-\rm \chi_{Det}^2= M^2\sigma_{n_{e_{Det}}}^2 + (1-M)^2\sigma_{n_{\gamma_{Det}}}^2
+\begin{split}
+\rm n_\gamma = M n_q \\
+\rm n_e = (1-M) n_q \\
+\label{eq:N_q_M}
+\end{split}
+\end{equation}
+
+\noindent with equation \ref{eq:N_q_M} we now solve for a small variation in $\rm n_q$ (along a line of constant energy) induced by small fluctuations in $\rm n_\gamma$ and $n_e$.
+
+\begin{multline}\\
+\delta n_q = \frac{\partial n_\gamma}{\partial n_q} \delta n_q \bigg|_{n_{\gamma}} + \frac{\partial n_e}{\partial n_q} \delta n_q \bigg|_{n_{e}} \\
+\delta n_q = \frac{\partial (n_q-n_e)}{\partial n_q} \delta n_e + \frac{\partial (n_q-n_\gamma)}{\partial n_q} \delta n_\gamma \\
+\delta n_q = \bigg[\cancelto{\tiny{1}}{\frac{\partial n_q}{\partial n_q}}-\cancelto{\tiny{(1-M)}}{\frac{\partial n_e}{\partial n_q}}\bigg] \delta n_e + \bigg[\cancelto{\tiny{1}}{\frac{\partial n_q}{\partial n_q}}-\cancelto{\tiny{M}}{\frac{\partial n_\gamma}{\partial n_q}}\bigg] \delta n_\gamma  \\
+\delta n_q = (M) \delta n_e + (1-M) \delta n_\gamma \\
+\label{eq:Chi_Det}
+\end{multline}
+
+\noindent using the result from equation \ref{eq:Chi_Det} the variance along an infinitely thin line of constant energy induced by statistical fluctuations is
+
+\begin{equation}
+\rm \chi_{Det}^2= Var(\delta n_q) = M^2\sigma_{n_{e_{Det}}}^2 + (1-M)^2\sigma_{n_{\gamma_{Det}}}^2
 \label{eq:SigCE}
 \end{equation}
 
+\noindent where the cross term $\rm \delta n_\gamma \delta n_e$ has been dropped as the statistical variance from detector resolution ($\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{n_{Det}}}^2$) are uncorrelated. Given equation \ref{eq:SigCE}, we have a method for determining the amount of statistical variance that will be included with the recombination fluctuations when we cut events along contours of constant energy. %(Note, an identical result to \ref{eq:SigCE} is reached when discarding the slope and dealing in centroid subtracted units (Patrick's thesis)).
+ 
+%Patrick's derivation%%%%%%
+\begin{comment}
+\begin{multline}\\
+\delta[\Delta n_e] = \delta[n_e] - \delta\left[\left<n_e\right>_{n_e+n_\gamma}\right]  \\
+= \cancelto{1}{\frac{dn_e}{dn_e}} \delta[n_e] + \cancelto{0}{\frac{dn_e}{dn_\gamma}} \delta[n_\gamma] - \delta \left[\left<n_e\right>_{n_e+n_\gamma}\right] \\
+= \delta[n_e] - \frac{d \left<n_e\right> }{d(n_e+n_\gamma)} \frac{d(n_e+n_\gamma)}{dn_e} \delta[n_e] - \frac{d\left<n_e\right>}{d(n_e+n_\gamma)} \frac{d(n_e+n_\gamma)}{dn_\gamma} \delta[n_\gamma] \\
+\delta[\Delta n_e] = \delta[n_e] - \left(\delta[n_\gamma] + \delta[n_e]\right) \frac{d\left<n_e+n_\gamma\right>}{d\left(n_e+n_\gamma\right)} \\
+\delta[\Delta n_e] = (M)\delta[n_e] - (1-M) \delta[n_\gamma] \\
+\chi_{Det}^2 = Var(\Delta n_e) = (M)^2\delta^2[n_e] + (1-M)^2\delta^2[n_\gamma]-2M(1-M) \cancelto{0}{\delta[n_e]\delta[n_\gamma]} \\
+\label{eq:Centroid}
+\end{multline}
+\end{comment}
+%%%%%%%%%%%%%%%%
 
-The variable $\rm \chi$ is used to represent the observed $\rm \sigma$ when dealing in bins of combined energy. Let's briefly consider the implication of equation \ref{eq:SigCE}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{\gamma_{Det}}}^2$, M=0.5, resulting in $\rm \sigma_{n_{e_{Det}}}^2=\sigma_{n_{\gamma_{Det}}}^2= \chi_{Det}^2$. This case can be thought of as sweeping out equal variance from the statistical population which would for a circle as illustrated in Figure \ref{fig:Recomb}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 \neq \sigma_{n_{\gamma_{Det}}}^2$ the observed statistical variance in a slice of combined energy will become less than the variance of the best channel. Specifically for the LUX detector the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will collapse to less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
+Let's briefly consider the implication of equation \ref{eq:SigCE}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{\gamma_{Det}}}^2$, M=0.5, resulting in $\rm \sigma_{n_{e_{Det}}}^2=\sigma_{n_{\gamma_{Det}}}^2= \chi_{Det}^2$. This case can be thought of as sweeping out equal variance from the statistical population which would for a circle as illustrated in Figure \ref{fig:Recomb}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 \neq \sigma_{n_{\gamma_{Det}}}^2$ the observed statistical variance in a slice of combined energy will become less than the variance of the best channel. Specifically for the LUX detector the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will collapse to less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
 
 
 To complete the treatment of binned energy in this section we now add the final piece to the observed statistical variance, the contribution from the bin width $\rm \Delta_E$. The residual variance arrises from rotating the population of 2D gaussian about the bin center, the rotation having a slope of M or (1-M) as given in equation \ref{eq:Angle}. Note, the residual term from the slope can also be removed by centroid subtraction of the photons and electrons vs. energy as discussed later in section \ref{sec:Centroid}, in that case we are only left with $\chi_{Det}^2$ shared between the two channels.
