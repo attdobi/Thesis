@@ -3,23 +3,48 @@
 \chapter{Event Level Fluctuations}
 \label{Ch:Flucs}
 
-In this chapter we discuss extracting recombination fluctuations from line sources and continuous spectrum such as tritium. The method outlined will be used to measure recombination fluctuations from the tritium calibration data down to 1 keV. We begin by modeling the intrinsic resolution of the LUX detector, based on counting statistics. We then separate the fluctuations in light and charge collection from recombination fluctuations using line source calibrations. Once the variances from light and charge collection are modeled the recombination fluctuations from continuous spectra can be extracted, specifically for the tritium beta spectrum. We conclude with the results for recombination and recombination fluctuations as measured from tritium beta decay in the LUX detector along with a measure of the exciton-to-ion ratio $\rm \alpha$ for ER events.
+In this chapter we discuss extracting recombination fluctuations from line sources and continuous spectrum such as tritium. The method outlined will be used to measure recombination fluctuations from the tritium calibration data down to 1 keV. We begin by modeling the intrinsic resolution of the LUX detector, based on counting statistics. We then separate the fluctuations in light and charge collection from recombination fluctuations using line source calibrations. Once the variances from light and charge collection are modeled the recombination fluctuations from continuous spectra can be extracted, specifically for the tritium beta spectrum. We conclude with the results for recombination and recombination fluctuations as measured from tritium beta decay in the LUX detector along with a measure of the exciton-to-ion ratio $\rm \alpha$ for ER events. Since we use photons and electrons (S1 and S2)to discriminate background events in LUX understanding recombination fluctuations are of great importance.
 
 \section{An Introduction to Fluctuations}
 
-When Xenon TPCs where first developed it was fully expected that the resolution in the ionization and scintillation channels would be negligible compared to detector resolution.
+When Xenon TPCs where first developed it was expected that the resolution in the ionization and scintillation channels would be dominated by detector resolution. The only fluctuations fundamental to liquid xenon is theorized to be from the Fano factor along with an additional binomial variance in electron ion pair recombination. Recombination models from \cite{Thomas_Imel} and \cite{Birks}, used in \cite{NEST_2013}, assume that the total observed recombination is the result each electron-ion pairs interacting with its-self, geminate recombination. The variance for such a process with recombination probability $\rm r_p$ acting on $\rm n_i$ number of ions is $\rm (1-r_p)r_pn_i$. Thus, a liquid xenon detector with infinite resolution should observe fluctuations governed by, 
+\begin{equation}
+\begin{split}
+\rm \sigma_{n_\gamma}^2=r_p^2Fn_i + (1-r_p)r_p n_i \\
+\rm \sigma_{n_e}^2=(1-r_p)^2Fn_i + (1-r_p)r_p n_i
+\label{eq:Fano_Intro}
+\end{split}
+\end{equation}
 
-Let us the 164 keV line from $\rm ^{131}Xe$ used to produce the Doke plots in section \ref{Ch:E_Scale_Cal}. Deconvoling all the components we find a picture illustrated in 
+\noindent where F is the Fano factor, F= 0.05 in liquid xenon \cite{FanoTheoretical}, and $\rm r_p$ is the recombination probability. Note, equation \ref{eq:Fano_Intro} will be derived in detail later in this section and is given in equation \ref{eq:SigR}. The recombination probability $\rm r_p$ is equal to the average observed recombination $\rm \left<r\right>$ as the number of events gets large, given in table \ref{table:Fluc_Param}.
+
+The variance in equation \ref{eq:Fano_Intro} is in fact orders of magnitude off, and has been an unsolved mystery since the first xenon TPCs was built. Fortunately, these large fluctuations in scintillation and ionization are 100\% anti-correlated and cancel when both light and charge is combined to measure energy. We refer to these fluctuations as recombination fluctuations $\rm \sigma_R$. The 100\% anti-correlation implies, that for each additional electron-ion recombination a single photon is produced at the cost of a single electron, and visa versa.
+
+Let us consider the 164 keV line from $\rm ^{131}Xe$ used to produce the Doke plots in section \ref{Ch:E_Scale_Cal}. An illustration with all the fluctuations in units of quanta is shown in figure \ref{fig:Flucs_Ex}, with the number of photons (S1/$\rm g_1$) plotted vs the number of electrons (S2/$\rm g_2$). The values of $\rm g_1$ and $\rm g_2$ were determined from calibrations in section \ref{Ch:E_Scale_Cal}.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
-\includegraphics[width=150mm]{Chapter_Flucs//Figures/Ex_Plots/r_fig.png}
-\caption{.... }
-\label{fig:S1_9_Kr}
+\includegraphics[width=150mm]{Chapter_Flucs/Figures/Ex_Plots/r_fig.png}
+\caption{Fluctuations of the 164 keV line from $\rm ^{131}Xe$ in the LUX detector, with the number of electrons plotted vs. the number of photons. The blue and magenta arrows labeled as $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$ are the size of fluctuations in the light and charge channels due to the resolution of the LUX detector. The black arrow represents the size of recombination fluctuations $\rm \sigma_R$. The value of $\rm \left<r\right>$ is the average observed recombination fraction or the average recombination probability $\rm r_p$. The red lines represent constant $\rm \left<r\right> \pm \sigma_r $ assuming the expected binomial variance of equation \ref{eq:Fano_Intro}. The black lines represent constant $\rm \left<r\right> \pm \sigma_r $ measured from the data. The black dashed line is represent constant energy or constant number of quanta.  }
+\label{fig:Flucs_Ex}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
+
+\noindent the blue and magenta arrows labeled as $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$ are the size of fluctuations in the light and charge measurement due to the resolution of the LUX detector. The value of $\rm \left<r\right>$ is the average observed recombination fraction and can be thought of as the average recombination probability $\rm r_p$. The red lines represent constant $\rm \left<r\right> \pm \sigma_r $ assuming the expected binomial variance of equation \ref{eq:Fano_Intro}. The expected recombination (in red) is small compared to fluctuations from detector resolutions and is more than a factor of ten less than that observed. The black lines represent constant $\rm \left<r\right> \pm \sigma_r $ measured from the data. The size of recombination fluctuations $\rm \sigma_R$ are dominant over detector resolution stretching the island size along lines of constant energy (black dashed line). The island is not stretched exactly along the black dashed line as the non negligible component from detector resolution also warp the population. The projection of the population onto the combined quanta axis $\rm (n_\gamma + n_e)$, or energy E/W, is shown in figure\ref{fig:Flucs_Ex_E}.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{figure}[h!]\centering
+\includegraphics[width=120mm]{Chapter_Flucs/Figures/Ex_Plots/E_fig.eps}
+\caption{The projection of the population in figure \ref{fig:Flucs_Ex} onto the combined quanta axis $\rm (n_\gamma + n_e) = E/W$. Along this projection the dominant recombination fluctuations cancel out, leaving on the components from detector resolution $\rm \sigma_{n_{\gamma_{Det}}}$ and $\rm \sigma_{n_{e_{Det}}}$. }
+\label{fig:Flucs_Ex_E}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+\noindent In the combined light and charge axis we find that the recombination fluctuations have vanished. Leaving only the statistical variance from detector resolution. Some useful definitions of parameters which will be discussed in this section are given in table \ref{table:Fluc_Param}.
 
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
@@ -28,39 +53,43 @@ Let us the 164 keV line from $\rm ^{131}Xe$ used to produce the Doke plots in se
 \begin{tabular}{|c|c|c|}
 \hline
 Parameter & Description & Definition \\ \hline
-$\rm n_\gamma$ & Number of photons & $\rm \left<S1\right>/g1$ \\ \hline
-$\rm n_e$ & Number of electrons & $\rm \left<S2\right>/g1$ \\ \hline
+$\rm n_\gamma$ & Number of photons & $\rm \left<S1\right>/g_1$ \\ \hline
+$\rm n_e$ & Number of electrons & $\rm \left<S2\right>/g_2$ \\ \hline
 $\rm n_i$ & Number of ions & $\rm (n_\gamma+n_e)/(1+\alpha)$ \\ \hline
 $\rm n_{ex}$ & Number of excitons & $\rm \alpha n_{i}$ \\ \hline
 $\rm \alpha$ & Exciton to ion ratio & $\rm n_{ex}/n_{i}$ \\ \hline
 $\rm \sigma_{n_{\gamma_{Det}}}$ &$\rm n_\gamma$ detector fluctuations & equation \ref{eq:SigDet} \\ \hline
 $\rm \sigma_{n_{e_{Det}}}$ &$\rm n_e$ detector fluctuations  & equation \ref{eq:SigDet} \\ \hline
-$\rm \left<r\right>$ & Recombination fraction &  $\rm \left(\left<\frac{n_\gamma}{n_e}\right> - \alpha \right)/\left(\left<\frac{n_\gamma}{n_e}
-\right> +1\right)$ \\ \hline
+$\rm r$ & Recombination fraction &  $\rm \left(\frac{n_\gamma}{n_e} - \alpha \right)/\left(\frac{n_\gamma}{n_e}+1\right)$ \\ \hline
+$\rm r_p$ & Recombination probability & $\rm \left<r\right>$ \\ \hline
 R & Recombined ions &  $\rm \left<r\right>n_{i}$ \\ \hline
 $\rm \sigma_{R}$ & Recombination fluctuations &  $\rm \sigma_{\left<r\right>}n_{i}$ \\ \hline
 \end{tabular}
-\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of g1 and g2 where measured in section \ref{Ch:E_Scale_Cal}. }
+\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of $\rm g_1$ and $\rm g_2$ where measured in section \ref{Ch:E_Scale_Cal}. }
 \label{table:Fluc_Param}
 \end{center}
 \end{table}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
+For the rest of this section we will build on the example from figure \ref{fig:Flucs_Ex} to better understand recombination fluctuations. We will explore recombination fluctuations with line-source calibrations then expand the picture to deal with continuous sources. 
+
+\newpage
+
 \section{Modeling Intrinsic Detector Resolution}
 
-Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and the Fano factor, we must first decouple the detector component of resolution. We use the model described in \cite{Platzman} \cite{Dahl_Thesis} in which the measured scintillation and ionization signals (S1 and S2 measured in PE) are related to the number of photons and electrons by gains g1 and g2, equation \ref{eq:Gain1} and \ref{eq:Gain2}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1 and S2 signals.
+Intrinsic statistical fluctuations in light and charge (S1 and S2) collection in the LUX detector lead to a spread in collected quanta. To measure effects from recombination fluctuations and the Fano factor, we must first decouple the detector component of resolution. We use the model described in \cite{Platzman} \cite{Dahl_Thesis} in which the measured scintillation and ionization signals (S1 and S2 measured in PE) are related to the number of photons and electrons by gains $\rm g_1$ and $\rm g_2$, equation \ref{eq:Gain1} and \ref{eq:Gain2}. Specifically, the average number of photons and electrons produced for a given energy deposit are proportional to the average S1 and S2 signals.
 
 \begin{alignat}{2}
 \label{eq:Gain1} \rm  \left<n_\gamma\right> = \frac{\left<S1\right>}{g_1}\\
 \label{eq:Gain2} \rm \left<n_{e}\right> = \frac{\left<S2\right>}{g_2}
 \end{alignat}
 
-\noindent where the gain g1 represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT and producing a photo electron signal (PE). Gain g2 represents the average S2 signal of a single electron multiplied by the electron extraction efficiency $\rm \epsilon$. Here, we are only using the S2 of the bottom PMT array and is corrected for electron-lifetime. The fluctuations in photons and electrons are related to the observables S1 and S2 by equations \ref{eq:Gain1} and \ref{eq:Gain2}
+\noindent where the gain $\rm g_1$ represents photon detection efficiency, the probability of a photon from an energy deposit striking a PMT and producing a photo electron signal (PE). Gain $\rm g_2$ represents the average S2 signal of a single electron multiplied by the electron extraction efficiency $\rm \epsilon$. Here, we are only using the S2 of the bottom PMT array and is corrected for electron-lifetime. The fluctuations in photons and electrons are related to the observables S1 and S2 by equations \ref{eq:Gain1} and \ref{eq:Gain2}
 
 \begin{alignat}{2}
-\label{eq:Sig1} \rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
-\label{eq:Sig2} \rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
+\label{eq:Sig_g1$} \rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{\sigma_{S1_{stat}}^2}{g_1^2}\\
+\label{eq:Sig_g2$} \rm \sigma_{n_{e_{stat}}}^2 = \frac{\sigma_{S2_{stat}}^2}{g_2^2}
 \end{alignat}
 
 \noindent where $\rm  \sigma_{n_{\gamma_{stat}}}^2$ and $\rm \sigma_{n_{e_{stat}}}^2$ represent the variance in the average number of measured photons and electrons as measured through S1 and S2, respectively. The variances in S1 and S2, $\rm \sigma_{S1_{stat}}^2$ and $\rm \sigma_{S2_{stat}}^2$, are the observable quantities with the detector. The variance in terms of quanta ($\rm n_\gamma$ and $\rm n_e$) must be considered in terms of the PE being counted by the PMTs. Note, here we are working with the x,y,z corrected signals outlined in section \ref{Ch:3}. 
@@ -82,13 +111,13 @@ $\rm \epsilon$ & electron extraction probability & 0.593 $\pm$ 0.144 \\ \hline
 $\rm \sigma_{SE_b}$ & single electron resolution, bottom PMT array & 3.6 $\rm [PE/n_e]$ \\ \hline
 $\rm \kappa$	& fraction of non-attenuated electrons & 0.85 \\ \hline
 \end{tabular}
-\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of g1 and g2 where measured in section \ref{Ch:E_Scale_Cal}. }
+\caption{LUX detector parameters, used to measure statistical fluctuations in the light (S1) and charge (S2) channels. Where the S1 and S2 signals have been corrected for position dependance outlined in section \ref{Ch:3}. The values of $\rm g_1$ and $\rm g_2$ where measured in section \ref{Ch:E_Scale_Cal}. }
 \label{table:LUX_Det_Param}
 \end{center}
 \end{table}
 
 
-The statistical variance of the x,y,z corrected S1 signal, in equation \ref{eq:Sig1}, can be broken into two linearly independent parts. First we consider the binomial variance, for each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability $\rm g_1$. Here, $\rm n_\gamma$ should be thought of as the number of trials. The binomial variance is,
+The statistical variance of the x,y,z corrected S1 signal, in equation \ref{eq:Sig_1}, can be broken into two linearly independent parts. First we consider the binomial variance, for each event there are $\rm n_\gamma$ number of PE to be collected by the PMTs with probability $\rm g_1$. Here, $\rm n_\gamma$ should be thought of as the number of trials. The binomial variance is,
 \begin{equation}
 \rm \sigma_{S1_{Bino}}^2 = (1-g_1) g_1 n_\gamma
 \label{eq:S1_bino} 
@@ -107,7 +136,7 @@ Combining the two linearly independent processes of equation \ref{eq:S1_bino} an
 \label{eq:Sig_S1}
 \end{equation}
 
-\noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. The variance in the measured number of photons is then equation \ref{eq:Sig_S1} divided by $\rm g_1^2$, using equation \ref{eq:Sig1}.
+\noindent where $\rm \sigma_{S1_{stat}}^2 $ is the statistical variance of the S1 signal. The variance in the measured number of photons is then equation \ref{eq:Sig_S1} divided by $\rm g_1^2$, using equation \ref{eq:Sig_g1$}.
 \begin{equation}
 \rm  \sigma_{n_{\gamma_{stat}}}^2 = \frac{(1-g_1+\sigma_{PE}^2)}{g_1} n_\gamma \\ 
 \label{eq:Sig_Ng}
@@ -117,7 +146,7 @@ We test equation \ref{eq:Sig_S1} and \ref{eq:Sig_Ng} by using the 9.4 $\rm keV$ 
 
 \begin{figure}[h!]\centering
 \includegraphics[width=100mm]{Chapter_Flucs//Figures/S1_9_Fluc/S1_9_corr_1000_lux10_20130510T1250_cp09323.eps}
-\caption{The fluctuations in the S1-x,y,z corrected signal for the 9.4 keV S1 signals from \KrCal. At 9.4 keV the statistical variance is dominate over recombination fluctuations. The resolution is as expected from statistical fluctuations given in equation \ref{eq:Sig_S1}. }
+\caption{The fluctuations in the S1-x,y,z corrected signal for the 9.4 keV from \KrCal. At 9.4 keV the statistical variance is dominate over recombination fluctuations, $\rm \sigma_{S1}=8.15$. The resolution is consistent with that expected from statistical fluctuations of 8.3 $\pm$ 0.1 PE, from equation \ref{eq:Sig_S1}. }
 \label{fig:S1_9_Kr}
 \end{figure}
 
@@ -126,7 +155,7 @@ We test equation \ref{eq:Sig_S1} and \ref{eq:Sig_Ng} by using the 9.4 $\rm keV$ 
 \noindent We find that the observed $\rm \sigma_{S1}$ = 8.15 PE is in good agreement with the expectation from equation \ref{eq:Sig_S1} of 8.3 $\pm$ 0.1 PE. Or in terms of photons, $\rm \sigma_{n_{\gamma_{stat}}}$ = 84.1 with the expectation from equation \ref{eq:Sig_Ng} of 85.7 $\pm$ 1. Having used the values listed in table \ref{table:LUX_Det_Param}.
 
 
-The variance of the x,y,z corrected S2 signal, given in \ref{eq:Sig2},  is also comprised of several independent processes. Each electron that reaches the liquid-gas interface without being attenuated will either be extracted into the gas producing $\rm SE_b$ number of PE or not. The binomial variance of such a process is,
+The variance of the x,y,z corrected S2 signal, given in \ref{eq:Sig_g2$},  is also comprised of several independent processes. Each electron that reaches the liquid-gas interface without being attenuated will either be extracted into the gas producing $\rm SE_b$ number of PE or not. The binomial variance of such a process is,
 
 \begin{equation}
 \rm \sigma_{S2_{bino}}^2= (1-\epsilon) \epsilon (\kappa n_e) SE_{b}^2 
@@ -166,7 +195,7 @@ Combining the variances from equations \ref{eq:Sig_S2} \ref{eq:S2_PMT} and \ref{
 \end{equation}
 
 
-%For this analysis we use the following detector gains: \ref{eq:g1g2}. 
+%For this analysis we use the following detector gains: \ref{eq:$\rm g_1$$\rm g_2$}. 
 %\begin{multline} \\
 %\rm g_1 = 0.097 \pm 0.008 \,[PE/n_\gamma]\\
 %\rm g_2=SE_{b} \times \epsilon = 5.75 \pm 1.4 \,[PE/n_e]\\
@@ -175,7 +204,7 @@ Combining the variances from equations \ref{eq:Sig_S2} \ref{eq:S2_PMT} and \ref{
 %\rm \Gamma = \left<n_{e_z0}\right>/\left<n_e\right>=0.85 \\
 %\rm \epsilon = 0.593\pm 0.144 \\
 %\rm \sigma_{PE} = 0.51\, [PE/n_\gamma]\\\
-%\label{eq:g1g2}
+%\label{eq:$\rm g_1$$\rm g_2$}
 %\end{multline}
 
 Using equations \ref{eq:Sig_Ng}, \ref{eq:Sig_Ne} and table \ref{table:LUX_Det_Param} we calculate the intrinsic detector resolution for S1 and S2 signals in the LUX detector, given equation \ref{eq:SigStat}. Note, the intrinsic resolution in S2 is subdominant to that of S1, since  on average one electron multiplies to about ten photons detected by the bottom PMT array. Also listed in \ref{eq:SigInst}, are the instrumental fluctuations with a linear dependance on quanta measured using calibrations discussed in section \ref{sec:flucs_mono}. The total variance that the detector observes in the light and charge is the linear combination of the statistical and instrumental variance given in equation {eq:SigDet}.  
@@ -198,7 +227,7 @@ Using equations \ref{eq:Sig_Ng}, \ref{eq:Sig_Ne} and table \ref{table:LUX_Det_Pa
 \end{split}
 \end{equation}
 
-\noindent where  $\rm \sigma_{n_{\gamma_{inst}}}$ and $\rm \sigma_{n_{e_{inst}}}$ are instrumental fluctuations extracted in section \ref{sec:flucs_mono} that grow like number of quanta n.
+\noindent where  $\rm \sigma_{n_{\gamma_{inst}}}$ and $\rm \sigma_{n_{e_{inst}}}$ are instrumental fluctuations extracted in section \ref{sec:flucs_mono} that grow like number of quanta n but only appear to turn on above 200 keV.
 
 \begin{equation}
 \begin{split}
@@ -214,103 +243,153 @@ Using equations \ref{eq:Sig_Ng}, \ref{eq:Sig_Ne} and table \ref{table:LUX_Det_Pa
 \section{Measuring Recombination Fluctuations with Mono-Energetic Sources}
 \label{sec:flucs_mono}
 
-To model recombination we start with the assumption that for a given energy deposit in liquid xenon the number of quanta produced is equal to the number of excitons and the number of ions. The number of ions cerated contains a spread given by a Fano factor F. The value of F for liquid xenon is small, has a theoretical value of 0.05 \cite{FanoTheoretical}.
+To model recombination we start with the assumption that for a given energy deposit in liquid xenon the number of quanta produced is equal to the number of excitons and the number of ions \cite{Platzman}. 
 
 \begin{equation}
 \begin{split}
-\rm  \frac{E}{W} = n_q = n_i + n_{ex}\\
+\rm  \frac{E}{W} = n_q = n_i + n_{ex} = n_i(1+\alpha) \\
 \rm \frac{E}{W} = n_\gamma + n_e
 \label{eq:Energy}
 \end{split}
 \end{equation}
 
-Where E is energy in keV, W is the work function in [keV/quanta], $\rm n_{q}$ is the number of quanta, $\rm n_{i}$ is the number of ions and $\rm n_{ex}$ is the number of excitons. The theoretical value of the number of excitons produced to ions is $\rm \frac{n_{ex}}{n_{i}}= \alpha = 0.20$ \cite{Doke_alpha} and is not expected to change vs. energy \cite{alpha_argon} \cite{alpha_xenon} \cite{Dahl_Thesis}. For the subsequent equations in this section we will simplify equations \ref{eq:Energy} to that in \ref{eq:Energy_2}.
+\noindent where E is energy in keV, W is the work function in keV/quanta, $\rm n_{q}$ is the number of quanta, $\rm n_{i}$ is the number of ions, $\rm n_{ex}$ is the number of excitons and and $\rm \alpha$ is the exciton-to-ion ratio. The theoretical value of the number of excitons produced to ions is $\rm \frac{n_{ex}}{n_{i}}= \alpha = 0.20$ \cite{Doke_alpha} and is not expected to change as a function of energy \cite{alpha_argon} \cite{alpha_xenon} \cite{Dahl_Thesis}. For the subsequent equations in this section we will simplify equations \ref{eq:Energy} to,
 
 \begin{equation}
 \begin{split}
 \rm \alpha = 0.20\\
 \rm  n_i = \frac{E}{W} \frac{1}{(1+\alpha)} =  \frac{n_\gamma + n_e}{(1+\alpha)}  \\ %  \frac{n_q}{(1+\alpha)}
-\rm \sigma_{n_i}^2  = F \times n_i
 \label{eq:Energy_2}
 \end{split}
 \end{equation}
 
-Equation \ref{eq:Energy_2} gives us a simple model for the number of ions and excitons produced for a given interaction, the only spread in quanta thus far is due to a Fano factor governing the spread in initial quanta produced. We now convert ions and excitons to scintillation and ionization signals that are measured in the LUX detector, S1  and S2 respectively. The number of photons observed for a given energy deposit arise from the excitons that de-excite and from ions which recombine with freed electrons. The number of electrons corresponding to a given energy deposit will be equal to the number of ions that did not recombine with a freed electron. 
-
+\noindent Equation \ref{eq:Energy_2} gives us a simple model for the number of ions produced for a given interaction. We work in number of ions for convince as the recombination fluctuations act only on ions. The only variation in quanta thus far is due to a Fano factor governing the variation in initial quanta produced. 
 \begin{equation}
-\begin{split}
+\rm \sigma_{n_i}^2  = F \times n_i
+\label{eq:Fano_1}
+\end{equation}
+
+\noindent where F is the Fano factor. The value of F for liquid xenon is small and has a theoretical value of 0.05 \cite{FanoTheoretical}.
+
+
+We now describe the observed scintillation and ionization signals that are measured in the LUX detector, S1  and S2 respectively, as a function of $\rm n_i$. The number of photons observed for a given energy deposit arise from the excitons that de-excite and from ions which recombine with freed electrons.
+\begin{equation}
 \rm  n_\gamma = n_{ex} + n_i\times r = n_i\times (r+\alpha) \\
-\rm  n_e = n_i\times (1-r)\\
-\rm r= \frac{\frac{n_\gamma}{n_e}-\alpha}{\frac{n_\gamma}{n_e} + 1}
-\label{eq:Quanta}
-\end{split}
+\label{eq:Photons}
 \end{equation}
 
-Where r represents the electron-ion recombination probability. A key measurable quantity is the size of recombination probability fluctuation $\rm \sigma_r$. Since we measure $\rm n_\gamma$ and $\rm n_e$ as S1 and S2 signals and not ions and excitons, an additional variance arrises from the ion-electron recombination fluctuations. These recombination fluctuations are dependent on the dE/dx of each individual electron produced making them much larger than the spread from the Fano factor. We now combine the uncertainties from the Fano factor, recombination and the statistical uncertainty from detector resolution ($\rm\sigma_{Det}$) and solve for the observed quantities given in \ref{eq:SigR}:
+\noindent The number of electrons corresponding to a given energy deposit is equal to the number of ions that did not recombine with a freed electron. 
 
 \begin{equation}
-\begin{split}
-\rm \sigma_{n_\gamma}^2  =\sigma_{n_{ex}}^2 + \sigma_{n_i}^2 r^2 +  \sigma_{r}^2 n_i^2 +\sigma_{n_{\gamma_{Det}}}^2 = \sigma_{n_{ex}}^2 + n_iF(r^2) + \sigma_{r}^2 n_i^2 + \sigma_{n_{\gamma_{Det}}}^2 \\
-\rm \sigma_{n_e}^2  = \sigma_{n_i}^2 (1-r)^2 +  \sigma_{r}^2 n_i^2 +\sigma_{n_{e_{Det}}}^2= n_iF(1-r)^2+ \sigma_{r}^2 n_i^2 +\sigma_{n_{e_{Det}}}^2
-\label{eq:SigR}
-\end{split}
+\rm  n_e = n_i\times (1-r)\\
+\label{eq:Electrons}
 \end{equation}
 
+\noindent The recombination fraction of each event can be solved for interns of number of photons and electrons produced,
 
-For convenience we will work with $\rm n_i = (\rm n_\gamma + n_e)/(1+\alpha)$, this convention is chosen because both the Fano factor and recombination fluctuations act on number of ions and also because the number of ions are linearly related to the initial energy deposit. Using a mono energetic source and combined energy(equation \ref{eq:Energy}) we can measure $\rm \sigma_{n_\gamma}^2$ and $\rm \sigma_{e}^2$ and $\rm \sigma_{E}^2$. Dropping the contribution form the Fano factor and the the number of excitons it can be shown that the value recombination fluctuations $\rm \sigma R$ can be determined by rearranging equation \ref{eq:SigR}, keeping in ming that $\rm \sigma E$ contains no recombination fluctuations. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
+\begin{equation}
+\rm r= \frac{\frac{n_\gamma}{n_e}-\alpha}{\frac{n_\gamma}{n_e} + 1}
+\label{eq:recomb_frac}
+\end{equation}
 
+\noindent where r represents the electron-ion recombination probability of each event. 
+
+Two key measurable quantities from the scintillation and ionization signals are the average recombination fraction $\rm \left<r\right>$ and the spread in recombination probability $\rm \sigma_{\left<r\right>}$. The average recombination fraction $\rm \left<r\right>$ can be interpreted as the electron-ion pair recombination probability $\rm r_p$. The recombination fluctuation in units of quanta is 
+\begin{equation}
+\rm \sigma_R = \rm \sigma_{\left<r\right>} \times n_i
+\label{eq:R_eq}
+\end{equation}
+\noindent where $\rm \sigma_R$ is the recombination fluctuation. As mentioned earlier, the recombination fluctuations are much larger than those expected from the binomial variance of a binomial process with probability $\rm r_p$ or the Fano factor, illustrated in figure \ref{fig:Flucs_Ex}.
+
+
+ We now combine the variance from the Fano factor, recombination and detector resolution (equation \ref{eq:SigDet}) and solve for the total observed variance in photons and electrons given in \ref{eq:SigR_g} and \ref{eq:SigR_e}
+
+\begin{alignat}{2}
+\label{eq:SigR_g} \rm \sigma_{n_\gamma}^2  =\sigma_{n_{ex}}^2 + \sigma_{n_i}^2 r_p^2 +  \sigma_{\left<r\right>}^2 n_i^2 +\sigma_{n_{\gamma_{Det}}}^2 =  [\sigma_{n_{ex}}^2 + n_iF r_p^2] + \sigma_{\left<r\right>}^2 n_i^2 + \sigma_{n_{\gamma_{Det}}}^2 \\
+\label{eq:SigR_e} \rm \sigma_{n_e}^2  = \sigma_{n_i}^2 (1-r_p)^2 +  \sigma_{\left<r\right>}^2 n_i^2 +\sigma_{n_{e_{Det}}}^2= [n_iF(1-r)^2]+ \sigma_{\left<r\right>}^2 n_i^2 +\sigma_{n_{e_{Det}}}^2
+\end{alignat}
+
+\noindent where $\rm \sigma_{n_{ex}}^2$ is the variance in exciton production, F is the Fano factor, the term $\rm \sigma_{\left<r\right>}^2 n_i^2$ is the recombination fluctuation $\rm \sigma_R$ and the rest of the variables are described in table \ref{table:Fluc_Param}. 
+
+Using a line source, we measure combined energy (equation \ref{eq:Energy}) and $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$ and $\rm \sigma_{E}^2$. Dropping the contribution form the Fano factor and the the number of excitons in equations \ref{eq:SigR_g} and \ref{eq:SigR_e} the variance of $\rm \sigma_{n_\gamma}^2$ and $\rm \sigma_{n_e}^2$ is a linear combination of detector resolution and recombination fluctuations.
+
+\begin{alignat}{2}
+\label{eq:SigQ_g} \rm  \sigma_{n_{\gamma}}^2 = \sigma_{n_{\gamma_{Det}}}^2 + \sigma{R^2}\\
+\label{eq:SigQ_e} \rm \sigma_{n_{e}}^2 = \sigma_{n_{e_{Det}}}^2 + \sigma{R^2}
+\end{alignat}
+
+\noindent this concept is illustrated in figure \ref{fig:Flucs_Ex}. The value of recombination fluctuation $\rm \sigma_R$ can be determined by rearranging equations \ref{eq:SigQ_g} and \ref{eq:SigQ_e}. As shown in figure \ref{fig:Flucs_Ex_E}, when the light and charge signals are combined the rustling variance $\rm \sigma_{E}^2$ contains no recombination fluctuations, as recombination fluctuations are 100\% anti-correlated in light and charge. 
 \begin{equation}
 \rm \sigma_{R}^2  = \frac{1}{2}\left(\sigma_{n_\gamma}^2 + \sigma_{n_e}^2 - \frac{\sigma_E^2}{W^2}\right)\\
 \label{eq:Dahl}
 \end{equation}
 
-Where the spread in observed quanta $\rm \sigma_{n_\gamma}^2$ and $\sigma_{n_e}^2$ result from a linear combination of the variance from detector resolution and recombination fluctuations.
-
-\begin{equation}
-\begin{split}
-\rm  \sigma_{n_{\gamma}}^2 = \sigma_{n_{\gamma_{Det}}}^2 + \sigma{R^2}\\
-\rm \sigma_{n_{e}}^2 = \sigma_{n_{e_{Det}}}^2 + \sigma{R^2}
-\label{eq:SigQ}
-\end{split}
-\end{equation}
-
-We do not directly observe the fluctuation in number of photons and electrons, instead we measure the fluctuations in the corresponding S1 and S2. The fluctuation in the S1 and S2 signal when divided by the gains g1 g2 represent on average the fluctuation in photons or electrons due to detector resolutions (statistical and instrumental variance) combined with recombination fluctuations. \ref{eq:SigQ}.
-
-%\begin{equation}
-%\begin{split}
-%\rm  \sigma_{n_{\gamma}}^2 = \frac{\sigma_{S1}^2}{g_1^2}\\
-%\rm \sigma_{n_{e}}^2 = \frac{\sigma_{S2}^2}{g_2^2}
-%\label{eq:Sig_Det}
-%\end{split}
-%\end{equation}
-
-\begin{equation}
-\begin{split}
-\rm  \sigma_{n_{\gamma_{Det}}}^2 = \frac{\sigma_{S1}^2}{g_1^2} - \sigma{R^2}\\
-\rm \sigma_{n_{e_{Det}}}^2 = \frac{\sigma_{S2}^2}{g_2^2} - \sigma{R^2}
-\label{eq:SigQ_S1S2}
-\end{split}
-\end{equation}
-
-Combining equations \ref{eq:Dahl} and \ref{eq:SigQ_S1S2} leads to the results in equation \ref{eq:Dahl_2}, which is a formula to directly measure recombination fluctuations using a mono energetic source.
+\noindent where the variance in photons $\rm \sigma_{n_\gamma}^2$, electrons $\rm  \sigma_{n_e}^2$  and quanta $\rm \frac{\sigma_E^2}{W^2}$ are all observable quantities with a line source. And can be rewrite in terms of the observable quantities S1 and S2.
 
 \begin{equation}
 \rm \sigma_{R}^2  = \frac{1}{2}\left( \frac{\sigma_{S1}^2}{g_1^2} + \frac{\sigma_{S2}^2}{g_2^2} - \frac{\sigma_E^2}{W^2}\right)\\
 \label{eq:Dahl_2}
 \end{equation}
 
-Equations \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} gives us a method to measure recombination fluctuations along with fluctuations in $\rm n_\gamma$ and $\rm n_e$ due to intrinsic detector resolution, (will be discussed in the next section). It is important to note that $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$ and $\rm \sigma_{E}^2 $ are observable quantities when using a mono energetic source. The variance in combined energy does not contain variance from recombination fluctuations as those fluctuation occur along lines of constant energy. Note, we have dropped the contribution from the Fano factor and the spread is excitons as they are much smaller than recombination fluctuations or the variances from measuring light and charge intrinsic to the detector. The observed variance in the light and charge channels (S1, S2) is the result of two compounded random processes. After the initial charge deposit the number of charge and light quanta undergo recombination fluctuations. Subsequently, as the light or charge is collected in the detector an additional variance from detector resolution occurs. The result is the sum of two random processes thus the variance are added.
+\noindent We now have a method to extract the recombination fluctuation $\rm \sigma_R$ using a line calibration source. To complete our treatment of line sources, the variance in the light and charge due to detector resolution can also be measured.
+
+\begin{alignat}{2}
+\label{eq:SigQ_S1} \rm  \sigma_{n_{\gamma_{Det}}}^2 = \frac{\sigma_{S1}^2}{g_1^2} - \sigma{R^2}\\
+\label{eq:SigQ_S2} \rm \sigma_{n_{e_{Det}}}^2 = \frac{\sigma_{S2}^2}{g_2^2} - \sigma{R^2}
+\end{alignat}
 
 
-%\begin{equation}
-%\rm \sigma_{R}^2  = \frac{1}{2}( \sigma_{R}^2 + \sigma_{n_{\gamma_{stat}}}^2 + \sigma_{R}^2 + \sigma_{n_{e_{stat}}}^2 - (\sigma_{n_{\gamma_{stat}}}^2+\sigma_{n_{e_{stat}}}^2))
-%\label{eq:Dahl_2}
-%\end{equation}
+Using equation \ref{eq:Dahl_2}, \ref{eq:SigQ_S1} and \ref{eq:SigQ_S2} along with the measurements of $\rm g_1$ $\rm g_2$, we construct a combined energy and deconvolve the recombination fluctuations from variances in the light and charge observed by the detector. The result is shown in figure \ref{fig:E_dis}, The black white and red lines represent $\rm \sigma_R, \, \sigma_{n_{\gamma_{Det}}}, \,\sigma_{n_{e_{Det}}}$, respectively. With the values and sources listed in table \ref{table:Line_Data}.
 
-%\subsection{Results with Mono Energetic Calibration Sources}
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+ \begin{figure}[h!]\centering
+\includegraphics[width=130mm]{Chapter_Flucs/Figures/All_disc.eps}
+\caption{Populations of calibration sources in discrimination space $\rm log\left(\frac{n_e}{n_\gamma}\right) $ vs. combined energy $\rm keV_{ee}$. The ovals represent the combination of $\rm \sigma_R, \, \sigma_{n_{\gamma_{Det}}}, \,\sigma_{n_{e_{Det}}} $ in black, white, red respectively.}
+\label{fig:E_dis}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
-Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} along with the measurements of g1 g2, we construct a combined energy and deconvolve the recombination fluctuations from variances in the light and charge channel of the detector. The result is shown in figure \ref{fig:E_dis}, the black white and red lines represent $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}}$, respectively for sources listed in Table \ref{table:Cal_lines}. A variance with a linear and root term is fit to the data and used to extract instrumental fluctuations and constrain the statistical fluctuations. The linear term corresponds to instrumental fluctuations and the root term corresponds to statistical fluctuations. Instrumental fluctuations go like the signal size and may potentially be due to ripples in the liquid surface caused by xenon bubbles or other systematics that are unaccounted for. The root term should result purely from counting photo electrons, described earlier. We find:
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+Source & Energy & $\rm \sigma_R$ &  $\rm \sigma_{n_{\gamma_{Det}}}$ &  $\rm \sigma_{n_{e_{Det}}}$ & $\rm \sigma_E/W$  \\
+& [keV] & & & & \\ [0.5ex] % inserts table %heading
+\hline
+K-shell X-ray 				& $\sim$32 	 &  52.6 $\pm$ 23 		& 244 $\pm$ 5		& 116 $\pm$ 3 		 & 269 $\pm$ 5						\\ \hline
+ $\rm ^{83m}Kr$ 				& 41.55		& 84.2	$\pm$ 0.6			& 171 $\pm$ 0.3		& 51.2 $\pm$	0.3		& 173 $\pm$ 0.2				\\ \hline
+ $\rm ^{131}Xe$ 				& 163.9		& 637 $\pm$ 20			& 388	$\pm$ 31		& 83 $\pm$ 77		& 375 $\pm$ 8				\\ \hline
+$\rm ^{127}Xe$ 				& 208.3 		& 916	$\pm$ 59			& 506	$\pm$ 96 		& 260 $\pm$ 133	 	& 568 $\pm$ 26			\\ \hline
+$\rm ^{127}Xe, ^{129m}Xe$	 & 236.8		& 1001 $\pm$ 23			& 441	$\pm$ 50		& 253 $\pm$ 71		& 491 $\pm$ 9				\\ \hline
+$\rm ^{127}Xe$			  	 & 408.8		& 1294 $\pm$ 44			& 1166	 $\pm$ 39		& 949 $\pm$ 40		& 1562 $\pm$ 22			\\ \hline
+$\rm ^{214}Bi	$				& 609 			& 2488 $\pm$ 109		& 2298 $\pm$ 99		& 1627 $\pm$ 107	& 3291 $\pm$ 60				 \\ \hline
+$\rm ^{137}Cs$				& 661.6		& 2686 $\pm$ 34			& 2059 $\pm$ 38		& 1368 $\pm$ 46		& 2564 $\pm$ 17				\\ [0.5ex] 
+\hline
+\end{tabular}
+\caption{ Extracted fluctuations from the line source calibration data in units of quanta. The method of extracting the quantities is given in \ref{eq:Dahl_2}, \ref{eq:SigQ_S1} and \ref{eq:SigQ_S2} and illustrated for the case of  $\rm ^{131}Xe$ in figures \ref{fig:Flucs_Ex} and \ref{fig:Flucs_Ex_E}. Note, the K-shell X-ray may include a fairly large systematic as no radial cut was made in order to observe the signal near the detector edge.}
+\label{table:Line_Data}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
 
+\noindent The values of $\rm \sigma_R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ from table \ref{table:Line_Data} are plotted in figure \ref{fig:Flucs}.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+ \begin{figure}[h!]\centering
+\includegraphics[width=70mm]{Chapter_Flucs/Figures/fluc_E.eps}
+\includegraphics[width=70mm]{Chapter_Flucs/Figures/fluc_Q.eps}
+\caption{Measured values of $\rm \sigma_R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ vs. Energy on the left and vs. quanta in photons, electrons and ions, respectively,  on the right. Measured using sources listed in Table \ref{table:Line_Data}. }
+\label{fig:Flucs}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+A variance with a linear and root term is fit to the data with the results given in \ref{eq:Inst_Fit}. The linear term corresponds to instrumental fluctuations and the root term corresponds to statistical fluctuations. Instrumental fluctuations are proportional to the signal size and cause the fluctuations in $\rm \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ at high energies to deviate from statistical fluctuations alone. 
 
 \begin{equation}
 \begin{split}
@@ -321,24 +400,13 @@ Using equation \ref{eq:Dahl_2} and \ref{eq:SigQ_S1S2} along with the measurement
 \end{split}
 \end{equation}
 
- \begin{figure}[h!]\centering
-\includegraphics[width=120mm]{Chapter_Flucs/Figures/All_disc.eps}
-\caption{Populations of calibration sources in discrimination space $\rm log\left(\frac{n_e}{n_\gamma}\right) $ vs. combined energy [$\rm keV_{ee}$]. The ovals represent the combination of $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ in black, white, red respectively.}
-\label{fig:E_dis}
-\end{figure}
-
- \begin{figure}[h!]\centering
-\includegraphics[width=70mm]{Chapter_Flucs/Figures/fluc_E.eps}
-\includegraphics[width=70mm]{Chapter_Flucs/Figures/fluc_Q.eps}
-\caption{Measured values of $\rm \sigma R, \, \sigma n_{\gamma_{Det}}, \,\sigma n_{e_{Det}} $ vs. Energy on the left and vs. Quanta on the right. Measured using sources listed in Table \ref{table:Cal_lines}. }
-\label{fig:Flucs}
-\end{figure}
+\noindent With the limited data we can not tightly constrain the root-n term. The statistical fluctuation expected from equation \ref{eq:SigStat} is consistent with the observed values without the instrumental component for calibration energies at and below 236.8 keV. The instrumental fluctuations appear to turn on above $\sim$200 keV and may be due to and may be due to ripples in the liquid surface caused by xenon bubbles or other systematics. 
 
 
-\section{Measuring Recombination Fluctuations in Desecrate Energy Bins}
+\section{Measuring Recombination Fluctuations in Disecrate Energy Bins}
 \label{sec:flucs_mono_bins}
 
-The pervious subsection demonstrated the power of using a mono energetic source measure recombination fluctuations, equation  \ref{eq:Dahl}. In this section we present a method to decouple statistical variance from recombination fluctuations when confined to an energy bin of width $\rm \Delta_E$. The consideration of desecrate binning is crucial when dealing with a continual energy spectrum. Take the tritium beta spectrum as an example, we lose the ability to independently measure $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$, $\rm \sigma_{E}^2 $ and are only left with a smear of $\rm n_\gamma$, $\rm n_e$, $\rm E $. However, there are two key pieces of information still left at our disposal. First, the combined energy can be reconstructed from global fits to g1 and g2, and even corrected for spectral shape and detector resolution (discussed later in section [link]). Second, we can calculate values of statistical variance for the light and charge channels as a function of energy, described in \ref{eq:SigStat},  \ref{eq:SigInst}. It will be shown in this section that having a priori knowledge of g1 and g2 and the functional for of the statistical variance from detector resolution will be sufficient to measure recombination fluctuations for a continual energy spectrum binned in energy with width $\rm \Delta_E$.
+The pervious subsection demonstrated the power of using a mono energetic source measure recombination fluctuations, equation  \ref{eq:Dahl}. In this section we present a method to decouple statistical variance from recombination fluctuations when confined to an energy bin of width $\rm \Delta_E$. The consideration of desecrate binning is crucial when dealing with a continual energy spectrum. Take the tritium beta spectrum as an example, we lose the ability to independently measure $\rm \sigma_{n_\gamma}^2$, $\rm \sigma_{n_e}^2$, $\rm \sigma_{E}^2 $ and are only left with a smear of $\rm n_\gamma$, $\rm n_e$, $\rm E $. However, there are two key pieces of information still left at our disposal. First, the combined energy can be reconstructed from global fits to $\rm g_1$ and $\rm g_2$, and even corrected for spectral shape and detector resolution (discussed later in section [link]). Second, we can calculate values of statistical variance for the light and charge channels as a function of energy, described in \ref{eq:SigStat},  \ref{eq:SigInst}. It will be shown in this section that having a priori knowledge of $\rm g_1$ and $\rm g_2$ and the functional for of the statistical variance from detector resolution will be sufficient to measure recombination fluctuations for a continual energy spectrum binned in energy with width $\rm \Delta_E$.
 
 
 We begin the treatment of binning with the the case of having a finite bin width around the central combined energy of a mono energetic source. First, we quantify the change in the statistical components of equation \ref{eq:SigR} when slicing out a bin in combined energy space. The slice in combined energy is illustrated for a toy model at quanta corresponding to that of the combined 41.6 keV $\rm^{83}Kr$ decay in Figure \ref{fig:Recomb}. All contribution from recombination fluctuations are included when slicing out a section of combined energy, illustrated in Figure \ref{fig:Recomb}. However, the slice contains only a reduced statistical component from both the light and charge signals, and in the limit that $\rm \Delta E$ goes to zero the statistical component of light and charge converge to a value defined as $\rm \chi_{stat}$ (where $\rm \chi$ is the measured $\rm \sigma$ in a bin of combined energy). To solve for the value of  $\rm \chi_{stat}$ we first calculate the slope induced by statistical variance in the number of photons vs. quanta and the complementary slope of electrons vs. quanta, defined as M and 1-M respectively.  The value of M depends on the magnitude of the statistical variances and is given in equation \ref{eq:Angle}. The sum of the two slopes must equal one as the sum of photons and electors make up combined energy.
@@ -398,7 +466,7 @@ Were $\chi^2$ is defined in \ref{eq:SigCE}, M is given in equation \ref{eq:Angle
 \end{equation}
 
 
-In equation \ref{eq:Sig_total_CE} we have defined the observed standard deviation in units of quanta $\rm \chi$ for $\rm n_\gamma, n_e$ when working with bins of combined energy. In the limit that F, $\rm \sigma_{n_{ex}}^2$ and $\rm \Delta_E$ go to zero the observed variance in number of photons and electrons ($\rm \chi_{n_\gamma}$ and $\rm \chi_{n_e}$) are related to the size of recombination fluctuations in a given combined energy bin, equation \ref{eq:SigR_CE_lim}. Where $\rm \sigma R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
+In equation \ref{eq:Sig_total_CE} we have defined the observed standard deviation in units of quanta $\rm \chi$ for $\rm n_\gamma, n_e$ when working with bins of combined energy. In the limit that F, $\rm \sigma_{n_{ex}}^2$ and $\rm \Delta_E$ go to zero the observed variance in number of photons and electrons ($\rm \chi_{n_\gamma}$ and $\rm \chi_{n_e}$) are related to the size of recombination fluctuations in a given combined energy bin, equation \ref{eq:SigR_CE_lim}. Where $\rm \sigma_R$ is in units of quanta, $\rm \sigma_R = n_i\sigma_r$.
 
 \begin{equation}
 \begin{split}
@@ -584,7 +652,7 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Chapter_Flucs/Figures/T_SIM/SIM_R_T_100.eps}}
 
 
-\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in keV: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
+\caption{Simulated tritium spectrum with the detector resolution of the LUX detector, $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$, and an arbitrary recombination fluctuation $\rm \sigma_R$ (magenta). After centroid subtraction we apply the methodology described in the previous section to extract $\rm \sigma_R$ (black and blue) through the light and charge channel using our knowledge of detector resolution per each energy bin $\rm \chi_{Det}$ (green), $\rm S1_{Det}$ (red) and $\rm S2_{Det} $(yellow). The plots show cases for various bin widths in keV: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
 \label{fig:T_Var}
 \end{figure}% Extracting Recombination variance vs. delta E for a simulated tritium spectrum. The smaller deltaE the smaller the effect of slope on the measurement, though it is found that subtracting off the centroid with a quadratic fit is sufficient.
 
@@ -595,14 +663,14 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \section{Extracting Recombination Fluctuations from Tritium Calibration Data}
 \label{sec:Recomb_Data}
 
-In this section we apply the methods outlined in this chapter and use them to extract the recombination fluctuations vs. energy from the tritium data. The first step in this process was calibrate the energy scale solving for g1 and g2 as outlined in \ref{Ch:E_Scale_Cal}. Second, the S1 and S2 signals of the tritium calibration data were corrected for spectral shape as outlined previously in section \ref{sec:Smear} and discussed in more detail in \ref{Ch:LYQY}. Finally, having modeled and measured the statistical and instrumented variances for light collection of the LUX detector \ref{eq:SigDet} \ref{eq:SigStat} \ref{eq:SigInst} the component of detector resolution in each energy bin can be calculated $\rm \chi_{Det}^2$ \ref{eq:SigCE}, ref{eq:Angle}, {eq:Centroid}. For the remained of the thesis we will work in centroid subtracted space as detailed in equation {eq:Centroid}, the results are identical to working in non centroid subtracted space using a bin width correction of equation \ref{eq:SigR_CE_lim}, which is the equivalent of making a linear approximation to the local slope.  
+In this section we apply the methods outlined in this chapter and use them to extract the recombination fluctuations vs. energy from the tritium data. The first step in this process was calibrate the energy scale solving for $\rm g_1$ and $\rm g_2$ as outlined in \ref{Ch:E_Scale_Cal}. Second, the S1 and S2 signals of the tritium calibration data were corrected for spectral shape as outlined previously in section \ref{sec:Smear} and discussed in more detail in \ref{Ch:LYQY}. Finally, having modeled and measured the statistical and instrumented variances for light collection of the LUX detector \ref{eq:SigDet} \ref{eq:SigStat} \ref{eq:SigInst} the component of detector resolution in each energy bin can be calculated $\rm \chi_{Det}^2$ \ref{eq:SigCE}, ref{eq:Angle}, {eq:Centroid}. For the remained of the thesis we will work in centroid subtracted space as detailed in equation {eq:Centroid}, the results are identical to working in non centroid subtracted space using a bin width correction of equation \ref{eq:SigR_CE_lim}, which is the equivalent of making a linear approximation to the local slope.  
 
 
-Since the tritium beta spectrum is continuous the calibration data is divided into energy bins. In each energy bin the mean of S1 and $\rm S2_b$ is measured and converted to the mean number of photons and electrons using g1 and g2. Once that is known the variance from detector resolution in each bin can be determined, defined as $\rm \chi_{Det}^2$ \ref{eq:Centroid}, \ref{eq:SigCE}. We then measure the variance of both the fluctuations in the photon and electron channels using Gaussian fits to the distributions in each energy bin, defined as $\rm \chi^2$. The recombination variance and variance from detector resolution are two independent processes making the observed variance in each bin $\rm \chi^2$ a sum of $\rm \chi_{Det}^2$ and $\rm \sigma_R^2$. We measure the variance of both the light and channel $\rm \chi_{\gamma}^2$ and $\rm \chi_e^2$ and solve for $\rm \sigma_{R_\gamma}^2$ and $\rm \sigma_{R_e}^2$ where the subscripts $\rm \gamma$ and e denote the photon and electron channel respectively. Using this we find
+Since the tritium beta spectrum is continuous the calibration data is divided into energy bins. In each energy bin the mean of S1 and $\rm S2_b$ is measured and converted to the mean number of photons and electrons using $\rm g_1$ and $\rm g_2$. Once that is known the variance from detector resolution in each bin can be determined, defined as $\rm \chi_{Det}^2$ \ref{eq:Centroid}, \ref{eq:SigCE}. We then measure the variance of both the fluctuations in the photon and electron channels using Gaussian fits to the distributions in each energy bin, defined as $\rm \chi^2$. The recombination variance and variance from detector resolution are two independent processes making the observed variance in each bin $\rm \chi^2$ a sum of $\rm \chi_{Det}^2$ and $\rm \sigma_R^2$. We measure the variance of both the light and channel $\rm \chi_{\gamma}^2$ and $\rm \chi_e^2$ and solve for $\rm \sigma_{R_\gamma}^2$ and $\rm \sigma_{R_e}^2$ where the subscripts $\rm \gamma$ and e denote the photon and electron channel respectively. Using this we find
 \begin{equation}
 \rm \sigma_R^2 = \sigma_{R_\gamma}^2 = \sigma_{R_e}^2 = \chi^2-\chi_{Det}^2
 \end{equation}
-\noindent the same result as outlined in \ref{eq:SigR_Cent}. The recombination fluctuation $\rm \sigma R$ can be extracted from the tritium calibration data. The result of the tritium calibration is shown in figure \ref{fig:R_Flucs_Quanta} for both the 170 V/cm and 100 V/cm data. The 170 V/cm data had 140,000 tritium beta decays in the fiducial volume and the 100 V/cm data contained 4,500 events. 
+\noindent the same result as outlined in \ref{eq:SigR_Cent}. The recombination fluctuation $\rm \sigma_R$ can be extracted from the tritium calibration data. The result of the tritium calibration is shown in figure \ref{fig:R_Flucs_Quanta} for both the 170 V/cm and 100 V/cm data. The 170 V/cm data had 140,000 tritium beta decays in the fiducial volume and the 100 V/cm data contained 4,500 events. 
 
 
 %
@@ -649,7 +717,7 @@ Since the tritium beta spectrum is continuous the calibration data is divided in
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm)  show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta). The detector resolution is actually slightly better than the resolution of the best channel, for the case of LUX is the charge collection. The remaining fluctuations in the light and charge channel after subtracting off the detector resolution in quadrature are shown in black and red, respectively. In regions where the measured recombinations are larger than the fluctuations caused by detector resolution any error in quanta counting from uncertainty on g1 and g2 is negligible as the signals add in quadrature. At the higher energy bins the uncertainty grows as the result becomes statistics limited. 
+The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm)  show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta). The detector resolution is actually slightly better than the resolution of the best channel, for the case of LUX is the charge collection. The remaining fluctuations in the light and charge channel after subtracting off the detector resolution in quadrature are shown in black and red, respectively. In regions where the measured recombinations are larger than the fluctuations caused by detector resolution any error in quanta counting from uncertainty on $\rm g_1$ and $\rm g_2$ is negligible as the signals add in quadrature. At the higher energy bins the uncertainty grows as the result becomes statistics limited. 
 
 The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm) show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown are the fluctuations in light collection $\rm \chi_{\gamma_{Det}}^2$ (blue), charge collection $\rm \chi_{e_{Det}}^2$ (cyan), and their manifestation as detector resolution in a combined energy bin as $\rm \chi_{Det}$ (magenta).  The figures on the right in \ref{fig:R_Flucs_Quanta} (b: 170 V/cm, d: 100 V/cm) show the total quanta (black) which is the sum of the photons (blue) and electrons (red) and the expected number of ions (magenta) and excitons (cyan), using $\rm \alpha$ = 0.20. Since the detector resolution $\rm \chi_{Det}$ is solved for in terms of photons and electrons the means of the of number of photons and electrons in each energy bin must be measured first.
 
@@ -671,7 +739,7 @@ The main purpose of this section, and the tritium calibrations, are to be able t
 
 The mean of the ER band in discrimination space can be written as
 \begin{equation}
-\rm log_{10}(S2_b/S1) = log_{10} \left(\frac{(1-r)N_i}{(r+\alpha)N_i}\right) + log_{10}\left(\frac{g2}{g1}\right)
+\rm log_{10}(S2_b/S1) = log_{10} \left(\frac{(1-r)N_i}{(r+\alpha)N_i}\right) + log_{10}\left(\frac{g_2}{g_1}\right)
 \label{eq:Band_Mean}
 \end{equation}
 
@@ -822,7 +890,7 @@ The amplification of the binomial variance from equation \ref{eq:Amp} is
 \label{eq:Amp_S2}
 \end{equation}
  
-\noindent  Using equation \ref{eq:Amp_S2} the value of encounter recombination probability $\rm r_\epsilon$ can be extracted from the tritium and $\rm^{137}Cs$ data using $\rm N_i$, r, and $\rm \mathcal{A}$.  Where the value of binomial amplification $\rm \mathcal{A}$ is the extracted from the data defined as the recombination fluctuation $\rm \sigma R$ over $\rm \sigma R$-binomial, shown in figure \ref{fig:R_Big}. The result of extracting encounter recombination probability $\rm r_\epsilon$ is shown in figure \ref{fig:Encounter_R_Const}. The overall average of  $\rm r_\epsilon$ from the calibration data is $\rm r_\epsilon$ = 0.0042 varying from 0.002 to 0.007, in good agreement with Mozumder \cite{Mozumder}.
+\noindent  Using equation \ref{eq:Amp_S2} the value of encounter recombination probability $\rm r_\epsilon$ can be extracted from the tritium and $\rm^{137}Cs$ data using $\rm N_i$, r, and $\rm \mathcal{A}$.  Where the value of binomial amplification $\rm \mathcal{A}$ is the extracted from the data defined as the recombination fluctuation $\rm \sigma_R$ over $\rm \sigma_R$-binomial, shown in figure \ref{fig:R_Big}. The result of extracting encounter recombination probability $\rm r_\epsilon$ is shown in figure \ref{fig:Encounter_R_Const}. The overall average of  $\rm r_\epsilon$ from the calibration data is $\rm r_\epsilon$ = 0.0042 varying from 0.002 to 0.007, in good agreement with Mozumder \cite{Mozumder}.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
