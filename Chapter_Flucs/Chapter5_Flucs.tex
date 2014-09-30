@@ -360,7 +360,7 @@ Source & Energy & $\rm \sigma_R$ &  $\rm \sigma_{n_{\gamma_{Det}}}$ &  $\rm \sig
 & [keV] & & & & \\ [0.5ex] % inserts table %heading
 \hline
 K-shell X-ray 				& $\sim$32 	 &  52.6 $\pm$ 23 		& 244 $\pm$ 5		& 116 $\pm$ 3 		 & 269 $\pm$ 5						\\ \hline
- $\rm ^{83m}Kr$ 				& 41.55		& 82.4	$\pm$ 0.6			& 171 $\pm$ 0.3		& 51.2 $\pm$	0.3		& 173 $\pm$ 0.2				\\ \hline
+ $\rm ^{83m}Kr$ 				& 41.55		& 89.1	$\pm$ 0.6			& 171 $\pm$ 0.3		& 51.2 $\pm$	0.3		& 173 $\pm$ 0.2				\\ \hline
  $\rm ^{131}Xe$ 				& 163.9		& 637 $\pm$ 20			& 388	$\pm$ 31		& 83 $\pm$ 77		& 375 $\pm$ 8				\\ \hline
 $\rm ^{127}Xe$ 				& 208.3 		& 916	$\pm$ 59			& 506	$\pm$ 96 		& 260 $\pm$ 133	 	& 568 $\pm$ 26			\\ \hline
 $\rm ^{127}Xe, ^{129m}Xe$	 & 236.8		& 1001 $\pm$ 23			& 441	$\pm$ 50		& 253 $\pm$ 71		& 491 $\pm$ 9				\\ \hline
@@ -435,7 +435,7 @@ $\rm \chi_{Det}^2$			& Variance from detector resolution & $\rm \sigma_{n_{\gamm
  
  \newpage
 
-We begin the treatment of binning by considering several cases using a simulated \KrCal line-source. For each case, we reconstruct the energy using equation \ref {eq:Energy} and make a cut in energy of width $\rm \Delta_E=1$ about the center. First, we turn off detector resolution only leaving recombination fluctuations of $\rm \sigma_R = 83 $, similar to the value extracted from the \KrCal data in table \ref{table:Line_Data}. Figure \ref{fig:Kr_ex_R} shows the result of such a system, with infinite detector resolution and only recombination fluctuations.
+We begin the treatment of binning by considering several cases using a simulated \KrCal line-source. For each case, we reconstruct the energy using equation \ref {eq:Energy} and make a cut in energy of width $\rm \Delta_E=1$ about the center. First, effects from detector resolution are turned off only leaving recombination fluctuations with $\rm \sigma_R = 90 $, similar to the value extracted from the \KrCal data in table \ref{table:Line_Data}. Figure \ref{fig:Kr_ex_R} shows the result of such a system, with infinite detector resolution and only recombination fluctuations.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
@@ -447,7 +447,9 @@ We begin the treatment of binning by considering several cases using a simulated
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-\noindent In figure \ref{fig:Kr_ex_R} we see that recombination fluctuations move events along the diagonal of constant energy. The events are cut between the black dashed lines ,representing a bin of energy about the center having width $\rm \Delta_E$ = 1, and are projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The observed variance in light and charge for the case of only recombination fluctuations are 
+\newpage
+
+\noindent In figure \ref{fig:Kr_ex_R} we see that recombination fluctuations move events along the diagonal of constant energy. The events are cut between the black dashed lines, having width $\rm \Delta_E$ = 1, and are projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The standard deviation in light and charge is found by the fit to be 90.3$\pm$0.3, consistent to what was put into the simulation. For the case of only recombination fluctuations and perfect detector resolution we find, 
 
 \begin{equation}
 \begin{split}
@@ -457,7 +459,7 @@ We begin the treatment of binning by considering several cases using a simulated
 \label{eq:Ex_R_only}
 \end{equation}
 
-\noindent The key point demonstrated in figure \ref{fig:Kr_ex_R} is that all contribution from recombination fluctuations are included when slicing out a section of energy about the center, no matter how thin we make the slice. Note, the population becomes a delta function in energy about the central value.
+\noindent The key point demonstrated in figure \ref{fig:Kr_ex_R} is that all contribution from recombination fluctuations are included when slicing out a section of energy about the center, no matter how thin we make the cut. Note, the population becomes a delta function in energy about the central value.
 
 Next, we visualize how the intrinsic detector resolution ($\rm \sigma_{n_{\gamma_{Det}}}^2 \,and\, \sigma_{n_{e_{Det}}}^2 $) appears in an energy bin of width $\rm \Delta_E$ for a \KrCal source. The recombination fluctuations are set to zero and the fluctuations from detector resolution are set to $\rm \sigma_{n_{\gamma_{Det}}}$ = 182 and $\rm \sigma_{n_{\gamma_{Det}}}$ = 51, close to the true values of the LUX detector \ref{table:Line_Data}. The slice in combined energy is illustrated in figure \ref{fig:Kr_ex_R}.
 
@@ -485,8 +487,8 @@ To solve for the value of  $\rm \chi_{stat}$ we write the detector-resolution fl
 
 \begin{equation}
 \begin{split}
-\rm M = tan(\theta_{n_{\gamma_{Det}}})=\frac{\sigma_{n_{\gamma_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{\gamma_{Det}}}^2} \\
-\rm 1-M = tan(\theta_{n_{e_{Det}}})=\frac{\sigma_{n_{e_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{\gamma_{Det}}}^2} 
+\rm M = tan(\theta_{n_{\gamma_{Det}}})=\frac{\sigma_{n_{\gamma_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{e_{Det}}}^2} \\
+\rm 1-M = tan(\theta_{n_{e_{Det}}})=\frac{\sigma_{n_{e_{Det}}}^2}{\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{e_{Det}}}^2} 
 \label{eq:Angle}
 \end{split}
 \end{equation}
@@ -518,10 +520,17 @@ To solve for the value of  $\rm \chi_{stat}$ we write the detector-resolution fl
 \label{eq:SigCE}
 \end{equation}
 
-\noindent where M is given in equation \ref{eq:Angle} and the cross term $\rm \delta n_\gamma \delta n_e$ has been dropped as the statistical variance from detector resolution ($\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{e_{Det}}}^2$) are uncorrelated. With equation \ref{eq:SigCE} we now have a method for determining the amount of statistical variance that will be included with the recombination fluctuations when we cut events along contours of constant energy. The only information needed for determine $\rm \chi_{Det}^2$ is $\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{n_{Det}}}^2$ which we have measured in equation \ref{eq:SigDet}. 
+\noindent where M is given in equation \ref{eq:Angle} and the cross term $\rm \delta n_\gamma \delta n_e$ has been dropped as the statistical variance from detector resolution ($\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{e_{Det}}}^2$) are uncorrelated. Combining equation \ref{eq:SigCE} and the equation for slope M in equation \ref{eq:Angle} simplifies the expression for $\rm \chi_{Det}^2$ to,
+
+\begin{equation}
+\rm \chi_{Det}^2 =\frac{\sigma_{n_{\gamma_{Det}}}^4\sigma_{n_{e_{Det}}}^2 + \sigma_{n_{e_{Det}}}^4\sigma_{n_{\gamma_{Det}}}^2}{\left(\sigma_{n_{\gamma_{Det}}}^2+ \sigma_{n_{e_{Det}}}^2\right)^2} \\
+\label{eq:SigCE_final}
+\end{equation}
+
+\noindent the expression for $\rm \chi_{Det}^2$ describes the amount of statistical variance that will be included with the recombination fluctuations when events are cut along contours of constant energy. The only information needed for determine $\rm \chi_{Det}^2$ is $\rm \sigma_{n_{\gamma_{Det}}}^2$ and $\rm \sigma_{n_{n_{Det}}}^2$, which we have modeled in equation \ref{eq:SigDet}. 
 
 \label{sec:Chi_ex_1}
-The demonstration in figure \ref{fig:Kr_ex_Stat} can now be understood in terms of $\rm \chi_{Det}^2$ we had input $\rm \sigma_{n_{\gamma_{Det}}}$ = 183 and $\rm \sigma_{n_{e_{Det}}}$ = 51.5 into the simulation. Solving for of M using equation \ref{eq:Angle} we find that M = 0.927, implying that the angle $\theta$ of the bulk population between the $\rm n_gamma$ axis and the line of constant quanta (E/W) is 42.9$\degree$. Plugging these values into equation \ref{eq:SigCE} the value of $\chi_{Det}$=49.5 quanta. This is close to the value of $\chi_{n_\gamma}$ and $\chi_{n_e}$ found in the simulation, not bad considering that we used an infinitely thin line approximation. Later we will expand upon equation \ref{eq:Chi_Det} to account for additional fluctuation due to the size of the bin width.
+The example shown in figure \ref{fig:Kr_ex_Stat} can now be understood in terms of $\rm \chi_{Det}^2$ we had input $\rm \sigma_{n_{\gamma_{Det}}}$ = 171 and $\rm \sigma_{n_{e_{Det}}}$ = 51 to the simulation. Solving for M using equation \ref{eq:Angle} we find, M = 0.92, implying that the angle $\theta$ of the bulk population between the $\rm n_gamma$ axis and the line of constant quanta (E/W) is 42.6$\degree$. Plugging M into equation \ref{eq:SigCE}  the value of $\chi_{Det}$=49 quanta. This is close to the value of $\chi_{n_\gamma}$ and $\chi_{n_e}$ found in the simulation, not bad considering that we used an infinitely thin line approximation. Later we will expand upon equation \ref{eq:Chi_Det} to account for finite bin width.
 
  
  %(Note, an identical result to \ref{eq:SigCE} is reached when discarding the slope and dealing in centroid subtracted units (Patrick's thesis)).
@@ -540,10 +549,10 @@ The demonstration in figure \ref{fig:Kr_ex_Stat} can now be understood in terms 
 \end{comment}
 %%%%%%%%%%%%%%%%
 
-Let's briefly consider the implication of equation \ref{eq:SigCE}. For the case of $\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{\gamma_{Det}}}^2$, M=0.5, resulting in $\rm \sigma_{n_{e_{Det}}}^2=\sigma_{n_{\gamma_{Det}}}^2= \chi_{Det}^2$. This case can be thought of as sweeping out equal variance from the statistical population which would be a circular distribution of events. For the case of $\rm \sigma_{n_{e_{Det}}}^2 \neq \sigma_{n_{\gamma_{Det}}}^2$ the observed statistical variance in a slice of combined energy is become less than the variance of the best channel. Specifically for the LUX detector the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will collapse to less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
+Let us briefly consider the implication of equation \ref{eq:SigCE} and \ref{eq:SigCE_final}. In the case of equal resolution in light and charge, $\rm \sigma_{n_{e_{Det}}}^2 = \sigma_{n_{\gamma_{Det}}}^2$ the value of M=0.5 leading to, $\rm \sigma_{n_{e_{Det}}}^2=\sigma_{n_{\gamma_{Det}}}^2= \chi_{Det}^2$. When the resolution in light and charge is not equal, $\rm \sigma_{n_{e_{Det}}}^2 \neq \sigma_{n_{\gamma_{Det}}}^2$ ,the observed statistical variance in a slice of combined energy is less than the variance of the best channel. Specifically for the LUX detector, the implication of equation \ref{eq:SigCE} is that the statistical variance measured in a slice of combined energy will be less than that of the S2 statistical uncertainty, as bin width $\rm \Delta_E$ goes to zero.
 
 
-To complete the treatment of binned energy in this section we now add the final piece to the observed statistical variance, the contribution from the bin width $\rm \Delta_E$. The residual variance arrises from projecting the rotated population onto $\rm n_\gamma$ or $\rm n_e$, the rotation having a slope of M or (1-M) as given in equation \ref{eq:Angle}. Note, the residual variance from the rotation can also be removed by working with the centroid subtracted projections of photons and electrons as a function of energy, as discussed later in section \ref{sec:Centroid}. Considering the bin width, the variance from detector resolution as projected in $\rm n_\gamma$ and $\rm n_e$ is 
+To complete the treatment of binned energy in this section we now add the contribution from the bin width $\rm \Delta_E$. The residual variance arrises from projecting the rotated population onto $\rm n_\gamma$ or $\rm n_e$, the rotation having a slope of M and (1-M) respectively, given in equation \ref{eq:Angle}. Note, the residual variance from the rotation can also be removed by working with the centroid subtracted projections of number of photons and electrons as a function of energy, as discussed later in section \ref{sec:Centroid}. Considering the bin width, the total variance from detector resolution projected in $\rm n_\gamma$ and $\rm n_e$ is 
 
 \begin{equation}
 \begin{split}
@@ -555,26 +564,102 @@ To complete the treatment of binned energy in this section we now add the final 
 
 \noindent where $\rm \chi_{Det}^2$ is defined in \ref{eq:SigCE}, M is given in equation \ref{eq:Angle}, W is the work function in quanta/keV, $\rm \Delta_E$ is the bin width in energy keV, the normalization of 1/12 arrises from rotating a uniform population about its center. The value of $\rm \chi_{n_{\gamma_{Det}}}^2$ is the variance from statistical fluctuations after cutting along a line of constant energy and projecting onto the $\rm n_\gamma$ axis, similarly $\rm \chi_{n_{e_{Det}}}^2$ is the variance from statistical fluctuations after cutting along a line of constant energy and projecting onto the $\rm n_e$ axis. 
 
-We apply the correction to the example in figure \ref{fig:Kr_ex_Stat} which had a bin width of 1 keV, or 73 quanta. We had previously calculated $\rm \chi_{Det}$ to be 49.5 quanta, in \ref{sec:Chi_ex_1}. The additional contribution from bin width raises variance projected on the $\rm n_\gamma$ axis to $\rm \chi_{Det}$ to $\rm \chi_{n_{\gamma_{Det}}}$ = 52.9 quanta. The variance projected onto the $\rm n_e$ axis remains unchanged $\rm \chi_{n_{e_{Det}}}$ = 49.5. These values are now consistent with those extracted from the simulation in figure \ref{fig:Kr_ex_Stat}, $\rm \chi_{n_\gamma}$ = 53.3 $\pm$0.6 quanta and $\rm \chi_e$= 49.5 $\pm$ 0.7 quanta. 
+We apply the correction given in equation \ref{eq:SigCE_2} to the example in figure \ref{fig:Kr_ex_Stat} which had a bin width of 1 keV, or 73 quanta. The value of $\rm \chi_{Det}$ was previously calculated to be 49 quanta. The additional contribution from bin width results in $\rm \chi_{n_{\gamma_{Det}}}$ = 52.5 quanta and $\rm \chi_{n_{e_{Det}}}$ = 49. These values are consistent with those observed in the simulation without recombination fluctuation, shown in figure with \ref{fig:Kr_ex_Stat}, $\rm \chi_{n_\gamma}$ = 52.6 $\pm$0.6 and $\rm \chi_e$= 50.0 $\pm$ 0.7. 
 
 
-We now have an understanding of how fluctuations appear along contours of constant energy from figures \ref{fig:Kr_ex_R} and \ref{fig:Kr_ex_Stat}. Combining the variances from the two linearly independent processes of recombination fluctuation and detector resolution the total variance observed in $\rm n_\gamma$ and $\rm n_e$ for a slice of energy is,
+Combining the two cases outlined in figures \ref{fig:Kr_ex_R} and \ref{fig:Kr_ex_Stat} , with recombination only and detector resolution only, the combined variance projected in $\rm n_\gamma$ and $\rm n_e$ can be determined, given a cut in energy. The contribution to fluctuations from the two can be added as they are independent processes.
 
 \begin{alignat}{2}
 \label{eq:Chi_total_g} \rm \chi_{n_{\gamma}}^2 = \sigma_{R}^2 + \chi_{n_{\gamma_{Det}}}^2 \\
 \label{eq:Chi_total_e} \rm \chi_{n_{e}}^2 = \sigma_{R}^2 + \chi_{n_{e_{Det}}}^2 \\
 \end{alignat}
 
-\noindent where $\rm \sigma_{R}^2$ are the recombination fluctuations, and the values $\rm \chi_{n_{\gamma_{Det}}}^2$ and $\rm \chi_{n_{e_{Det}}}^2$ are given in equation \ref{eq:SigCE_2}. Rearranging equation \ref{eq:Chi_total_g} and \ref{eq:Chi_total_e} we solve for the recombination fluctuations,
+\noindent where $\rm \sigma_{R}^2$ are the recombination fluctuations, and the values $\rm \chi_{n_{\gamma_{Det}}}^2$ and $\rm \chi_{n_{e_{Det}}}^2$ are given in equation \ref{eq:SigCE_2}. The amount of recombination fluctuation can be solved for by rearranging equation \ref{eq:Chi_total_g} and \ref{eq:Chi_total_e} 
 
 \begin{alignat}{2}
 \label{eq:SigR_CE_g} \rm \sigma_{R_\gamma}^2 = \chi_{n_\gamma}^2 - \chi_{n_{\gamma_{Det}}}^2  \\
 \label{eq:SigR_CE_e} \rm \sigma_{R_e}^2 = \chi_{n_e}^2 - \chi_{n_{e_{Det}}}^2
 \end{alignat}
 
-We have arrived at the conclusion of this section, using equations \ref{eq:SigR_CE_g} and \ref{eq:SigR_CE_e} we can extract recombination fluctuations directly from the $\rm n_\gamma$ (S1) and $\rm n_e$ (S2) signals. The quantities $\rm \chi_{n_\gamma}^2$ and  $\rm \chi_{n_e}^2$ are the observables and $\rm \chi_{Det}^2$ along with along with $\rm g_1$ and $\rm g_2$ can be measured from calibrations.
+Using equations \ref{eq:SigR_CE_g} and \ref{eq:SigR_CE_e} we can extract recombination fluctuations directly from the $\rm n_\gamma$ (S1) and $\rm n_e$ (S2) signals. The quantities $\rm \chi_{n_\gamma}^2$ and  $\rm \chi_{n_e}^2$ are the observables and $\rm \chi_{Det}^2$ can be measured from calibrations.
 
+
+
+\subsection{Application to $\rm^{83}Kr$}
+
+A \KrCal calibration data set is used to validate the method for extracting recombination fluctuations in equation \ref{eq:SigR_CE_g} and \ref{eq:SigR_CE_e}. The result is shown in figure \ref{fig:Kr_ex_Stat}.
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+ \begin{figure}[h!]\centering
+\includegraphics[width=160mm]{Chapter_Flucs/Figures/Ex_Plots/Real_Stat_R_Kr_.png}
+\caption{Data from a \KrCal data set, plotting the number of photons against the number of electrons. The red-dashed oval represents where the population would lie if recombination fluctuations were the dominant fluctuation. The solid black line represents constant energy about the center, and the region between the black dashed lines represents the cut in energy with bin width $\rm \Delta_E$ =1. The events that fall between the black dashed lines are projected onto the $\rm n_\gamma$ and $\rm n_e$ axes. The observed standard deviation in $\rm n_\gamma$ and $\rm n_e$ is shown on the plot labels as $\rm \chi$ and $\rm \sigma$. }
+\label{fig:Kr_ex_Stat}
+\end{figure}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+
+The \KrCal data set contained 400,000 events in the fiducial volume of the detector. Using equations \ref{eq:SigR_CE_g} and \ref{eq:SigR_CE_e} we calculate recombination fluctuations, finding good agreement between the method described in equation \ref{eq:Dahl}. The results of the high stats calibration data are shown in table \ref{table:R_Kr} for several bin widths around the central value of energy E.
+
+
+\begin{table}[h!]
+\begin{center}
+\footnotesize
+\tabcolsep=0.11cm
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+$\rm \sigma_R$ \ref{eq:Dahl_2} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{Det}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{Det}}}^2}$ \\ 
+(Quanta) & (keV) & & (Quanta) & (Quanta) \\ \hline
+89.1 $\pm$ 0.6		& 0.025		& 1518 		& 87.2 $\pm$ 2.9	 	&	87.1 $\pm$ 2.9	 \\ \hline
+					& 0.05 		& 3124 		& 85.0 $\pm$ 2.0	 	&	84.9 $\pm$ 2.0	 \\ \hline
+					& 0.1 		& 6269  	& 87.8 $\pm$ 1.3		& 	87.6 $\pm$ 1.3		 \\ \hline
+					& 0.2 		&12508  	& 90.0 $\pm$ 1.0  		& 	89.7 $\pm$ 1.0	 \\ \hline
+					& 0.25 		&15557 	& 88.5 $\pm$ 0.8		&	88.3 $\pm$ 0.8 	 \\ \hline
+					& 0.5		& 30826 	& 87.0  $\pm$ 0.6		&	86.7 $\pm$ 0.6		\\ \hline
+\end{tabular}
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\caption{The extraction of recombination fluctuations from a \KrCal data set using various bin widths $\rm \Delta E$ about the central value of energy. The standard deviation of recombination fluctuations $\rm \sigma_R$ are calculated from the fluctuations observed in $\rm n_\gamma$ and $\rm n_e$ using equations \ref{eq:SigR_CE_g} and \ref{eq:SigR_CE_e}. The value of \chi_{n_{\gamma_{Det}}}^2 is }% add note about excitons
+\label{table:R_Kr}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{2}
+\small\normalsize
+
+The accuracy helps us build confidence that the statistical components of the detector are modeled well enough to measure recombination fluctuation to within 3\%. Further, the ability to see the asymmetry in recombination fluctuations between the light and charge channel demonstrates the power of using binned combined energy (section \ref{sec:flucs_mono_bins}). Any observed difference between the two channels  can only be from either the Fano factor or spread in exiton production, but we assume the fluctuations in exiton production are much less than fluctuations in ion production. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, the recombination fraction was found to be r= 0.772 and the average number of ions produced per decay was $\rm n_i=2900$. 
+Having demonstrated the method for a mono energetic calibration source the next step will be to apply the method on the continuous beta spectrum of the tritium data.
+
+
+%%%%%%%%%%%% SKIP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
 \subsection{Measuring the Fano Factor in Bins of Energy}
+
+
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+\begin{table}[h!]
+\begin{center}
+\footnotesize
+\tabcolsep=0.11cm
+\begin{tabular}{|c||c|c|c|c|c|c|}
+\hline
+$\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{Det}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{Det}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
+(Quanta) & (keV) & & (Quanta) & (Quanta) & (Quanta) & (Quanta)\\ \hline
+82.4 $\pm$ 4.0		& 0.025		& 1518 		& 87.2 $\pm$ 2.9	 	&	87.1 $\pm$ 2.9	& 0.010 $\pm$ 0.002     & 5.8 $\pm$ 0.5 \\ \hline
+					& 0.05 		& 3124 		& 85.0 $\pm$ 2.0	 	&	84.9 $\pm$ 2.0	& 0.005 $\pm$ 0.003	& 3.8 $\pm$ 1.1 \\ \hline
+					& 0.1 		& 6269  	& 87.8 $\pm$ 1.3		& 	87.6 $\pm$ 1.3	& 0.023 $\pm$ 0.003	& 8.1 $\pm$ 0.5	 \\ \hline
+					& 0.2 		&12508  	& 90.0 $\pm$ 1.0  		& 	89.7 $\pm$ 1.0	& 0.021 $\pm$ 0.005	& 7.8 $\pm$ 0.9	 \\ \hline
+					& 0.25 		&15557 	& 88.5 $\pm$ 0.8		&	88.3 $\pm$ 0.8  & 0.013 $\pm$ 0.006	& 6.1 $\pm$ 1.3	 \\ \hline
+					& 0.5		& 30826 	& 87.0  $\pm$ 0.6		&	86.7 $\pm$ 0.6	& 0.027	$\pm$  0.009 	& 8.8 $\pm$ 2.2	\\ \hline
+\end{tabular}
+\caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a $\rm^{83m}Kr$ data set with 400k events in the fiducial volume. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, with a recombination fraction of 0.772 and $\rm n_i = 2900$. }% add note about excitons
+\label{table:R_Kr}
+\end{center}
+\end{table}
+\renewcommand{\baselinestretch}{1}
+\small\normalsize
+
 
 Either the observed variance in the light and charge channel can be used to measure the size of recombination fluctuation in a bin of energy. Any asymmetry between the two methods has implications which are discussed in the following subsection.
 
@@ -629,11 +714,11 @@ Equation \ref{eq:SigmaEx} is also valid in the case that $\rm \sigma_{n_{ex}}^2$
 
 
 
-
 \subsection{Application to $\rm^{83}Kr$}
 
 Using the high stats Kr83 calibration data we can validate the method for working in a bin of energy since the exact solution for recombination and detector fluctuations can be measured, as outlined in section \ref{sec:flucs_mono} and \ref{sec:flucs_mono_bins}. Once the fluctuations from detector resolution are measured in the light and charge channel (S1 and S2 signals), the asymmetry between the two channels can be used to calculate the Fano factor (equation \ref{eq:Sig_total_CE} ). The asymmetry in fluctuations in the light and charge channel arrises from the Fano factor acting on ion production which is later amplified through the recombination fraction, as long as the recombination fraction does not equal 0.5. For the case of the $\rm ^{83m}Kr$ calibration the recombination fraction was 0.772 resulting in recombination fluctuations of 3 to 4 more quanta in the light channel as compared to the charge channel, see table \ref{table:R_Kr}. Though the additional recombination fluctuation is small having ample statistics the Fano factor can be constrained. 
 The errors in the measurement were derived from simulated Kr data sets of 400,000 events with the Fano factor turned off, using 100 trials. First, recombination fluctuations were turned off and only fluctuations from detector resolution as calculated in section \ref{sec:flucs_mono} were used, see Table \ref{table:Simulated_Sigmas_R_0}. It was found that the error of the difference in recombination fluctuation from the light and charge channel ($\rm sigma_{R_{\gamma}}^2$ and $\sigma_{R_{e}}^2 $) along with the error in ion production and recombination fraction were enough to constrain the Fano factor to 0.001-0.003. Next, the value of recombination was set slightly higher than the actual value of 82 to 100 quanta and the trials were repeated, see table \ref{table:Simulated_Sigmas_R_100}. With the addition of recombination fluctuations to detector resolution fluctuations the error on measuring the Fano factor grew to 0.002-0.009, with smaller bin sizes ($\rm\Delta E$ around the center leading to the smallest error as seen from equation \ref{eq:SigCE_2}.
+
 
 
 \begin{table}[h!]
@@ -672,31 +757,10 @@ $\rm \Delta_E$ keV & Count & $\rm \sigma (\sigma_{R_{\gamma}}^2 ) $ & $\rm \sigm
 \end{table}
 
 
-The results of the high stats calibration data are shown in table \ref{table:R_Kr}, containing 400k events in the fiducial volume of the detector. Using equation \ref{eq:SigR_CE_lim} we find good agreement between the method described in equation \ref{eq:Dahl} and the recombination fluctuation calculated from the charge channel ($\rm \sigma_{R_\gamma}$ and $\rm \sigma_{R_e}$).  The accuracy helps us build confidence that the statistical components of the detector are modeled well enough to measure recombination fluctuation to within 3\%. Further, the ability to see the asymmetry in recombination fluctuations between the light and charge channel demonstrates the power of using binned combined energy (section \ref{sec:flucs_mono_bins}). Any observed difference between the two channels  can only be from either the Fano factor or spread in exiton production, but we assume the fluctuations in exiton production are much less than fluctuations in ion production. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, the recombination fraction was found to be r= 0.772 and the average number of ions produced per decay was $\rm n_i=2900$. 
-Having demonstrated the method for a mono energetic calibration source the next step will be to apply the method on the continuous beta spectrum of the tritium data.
+\end{comment}   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-\begin{table}[h!]
-\begin{center}
-\footnotesize
-\tabcolsep=0.11cm
-\begin{tabular}{|c||c|c|c|c|c|c|}
-\hline
-$\rm \sigma_R$ \ref{eq:Dahl} & $\rm \Delta_E$ & Count & $\rm \sigma_{R_\gamma}=\sqrt{\chi_{n_{\gamma}}^2-\chi_{n_{\gamma_{Det}}}^2}$ & $\rm \sigma_{R_e}= \sqrt{\chi_{n_{e}}^2-\chi_{n_{e_{Det}}}^2}$  & $\rm F=\frac{\sigma_{R_{\gamma}}^2-\sigma_{R_e}^2}{n_i(2r-1) }$ &$\rm \sqrt{Fn_i}$ \\ 
-(Quanta) & (keV) & & (Quanta) & (Quanta) & (Quanta) & (Quanta)\\ \hline
-82.4 $\pm$ 4.0		& 0.025		& 1518 		& 87.2 $\pm$ 2.9	 	&	87.1 $\pm$ 2.9	& 0.010 $\pm$ 0.002     & 5.8 $\pm$ 0.5 \\ \hline
-					& 0.05 		& 3124 		& 85.0 $\pm$ 2.0	 	&	84.9 $\pm$ 2.0	& 0.005 $\pm$ 0.003	& 3.8 $\pm$ 1.1 \\ \hline
-					& 0.1 		& 6269  	& 87.8 $\pm$ 1.3		& 	87.6 $\pm$ 1.3	& 0.023 $\pm$ 0.003	& 8.1 $\pm$ 0.5	 \\ \hline
-					& 0.2 		&12508  	& 90.0 $\pm$ 1.0  		& 	89.7 $\pm$ 1.0	& 0.021 $\pm$ 0.005	& 7.8 $\pm$ 0.9	 \\ \hline
-					& 0.25 		&15557 	& 88.5 $\pm$ 0.8		&	88.3 $\pm$ 0.8  & 0.013 $\pm$ 0.006	& 6.1 $\pm$ 1.3	 \\ \hline
-					& 0.5		& 30826 	& 87.0  $\pm$ 0.6		&	86.7 $\pm$ 0.6	& 0.027	$\pm$  0.009 	& 8.8 $\pm$ 2.2	\\ \hline
-\end{tabular}
-\caption{Values for the standard deviation of the observed value of $\rm \sigma_R^2$ from $\rm n_\gamma$ and $\rm n_e$ along with the standard deviation of the difference, for a $\rm^{83m}Kr$ data set with 400k events in the fiducial volume. The Fano factor is derived from equations \ref{eq:Fano} and the uncertainty was determined from simulations. The total fluctuation as number of quanta is listed in the rightmost column. The Fano factor manifests itself as an asymmetry between fluctuations in the light and charge channel as given in equation \ref{eq:Sig_total_CE}, with a recombination fraction of 0.772 and $\rm n_i = 2900$. }% add note about excitons
-\label{table:R_Kr}
-\end{center}
-\end{table}
-
+\newpage
 
 \subsection{Application to Simulated Tritium Data (any continuous spectrum)}
 
@@ -737,6 +801,7 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \end{split}
 \end{equation}
 
+\begin{comment}
 
 \begin{multline}\\
 \delta[\Delta n_e] = \delta[n_e] - \delta\left[\left<n_e\right>_{n_e+n_\gamma}\right]  \\
@@ -748,6 +813,7 @@ To demonstrate the effectiveness of the method we use the measured detector reso
 \label{eq:Centroid}
 \end{multline}
 
+\end{comment}
 
 \begin{figure}[h!]\centering
  
@@ -872,7 +938,7 @@ The variance of the band can be written as,
 
 \newpage
 
-\subsection{Measuring Alpha From the Tritium Data}
+\section{Measuring Alpha From the Tritium Data}
 
 Having measured r and $\rm \sigma_r$ from the tritium calibration data the constancy of the exciton to ion ratio $\rm \alpha$ can be checked by requiring that as the number of ions tends to one the recombination fluctuations tend to that of a binomial process. This is justified as a single ion-electron pair will either recombine or not with some recombination probability r having a binomial variance written as,
 \begin{equation}
