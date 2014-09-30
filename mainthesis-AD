@@ -34,6 +34,7 @@
 \usepackage{morefloats}
 \usepackage{rotating}
 \usepackage{tikz}
+\usepackage{gensymb}
 
 \newcommand{\tbsp}{\rule{0pt}{18pt}} %used to get a vertical distance after \hline
 \renewcommand{\baselinestretch}{2}
