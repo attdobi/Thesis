@@ -6,8 +6,7 @@
 \chapter{Introduction}
 \label{Ch:1}
 
-%We must proceed in life as kittens... into the box, out of the box, pause, into the box again, then out of the box just in time for more food...
-
+\begin{comment}
 A few centuries ago one of the greatest strides in astronomy was made by Kepler working off Tyco Brahe's data in understanding planetary orbits. Kepler discovered that planets move along elliptical orbits with the sun at one of the foci and thus developed the laws of planetary motion, along with the fact that it's useful to share data. In 1609 the concept was revolutionary yet it raised a more interesting question, why do planets move in elliptical orbits? Kepler explanation was that each planet was guided in its elliptical orbit by a resident angel, illustrated in figure \ref{fig:Kepler}.
 
 \begin{figure}[h!]\centering
@@ -29,55 +28,47 @@ Fast forward to the era of the standard model, and  precision cosmology . The st
 
 %We have achieved a great strides measuring precisely that we are surrounded by five times more mass than the ordinary matter which we can see or feel. Raising the standard four year old questions, why?, where?, when?, what is it? The first we disregard as an impossibility to answer. The leading theories indicate that dark matter is gravitationally bound and distributed in a halo like structure around galaxies but we can't definitively answer that until we can detect it. When is now. A leading candidate for dark matter is a particle which carries mass and only couples gravitationally and hopefully couples the elctroweak force so that we can have a chance of ever directly observing it.  
 
-%We proceed with exploring the box, after having feasted.... a century from now will seem like kittens trapped in a box, playing with xenon, leaving behind only a mass underground Unicorn art galleries in Lead SD?... we were here searching for dark matter, TS dump, bolt seized, ACRS forced xenon recovery, slow control computer crash, the DAQ is shooting lighting bolts (over a hundred unicorns drawing are posed in the underground control room ...and counting)
+%We proceed with exploring the box, after having feasted.... a century from now will seem like kittens trapped in a box, playing with xenon, leaving behind only a mass underground Unicorn art galleries in Lead SD?... we were here searching for dark matter, TS dump, bolt seized, ACRS forced xenon-recovery, slow control computer crash, the DAQ is shooting lighting bolts (over a hundred unicorns drawing are posed in the underground control room ...and counting)
 
-\section{Outline of Thesis}
+\end{comment}
 
-In this section we review current cosmological evidence for the existence of dark matter, and give an overview of dark matter candidates along with the WIMP model. We also review if WIMPs existes how they could be detected and the and how scattering off a nuclei would look.
+%%% start here
 
-In Chap.\ 2, We overview the LUX detector, a liquid xenon time projection chamber (TPC), and how it searchers for WIMPs. We conclude the chapter with the most recent LUX science results which holds the worlds leading limit for spin independent WIMP nucleon scattering cross section.
-
-In Chap.\ 3, the position dependent corrections of energy deposition in the LUX detector are discussed.
-
-In Chap.\ 4, the absolute energy scale calibration of the LUX detector is discussed.
-
-Chapter 5 ... (more to come) provides the conclusion to the thesis.
-
-\section{Evidence for Dark Matter}
-
-Astronomical observations hinting at the existence of dark matter were first observed in 1932 by Oort \cite{Oort} and more precisely in 1937 by Zwicky  \cite{Zwicky}. Both noted discrepancies in galactic mass measurements when comparing the luminous mass to the required to support galactic rotational velocities measured by red shifts. Oort had noted up to a factor of ten more mass than luminous mass in the Sombrero Galaxy and Zwicky found a factor of 500 for the Coma cluster. Both the observations were far to large to be accounted for by light absorption, indicating the existence of dark matter to account for the missing mass. Since then more evidence for the existence of dark matter has been compiled, including big bang nucleosynthesis (BBN), anisotropies in the cosmic microwave background (CMB), baryonic acoustic oscillations (BAO), formation of large structures, galactic ration curves, and gravitational lensing. All independent techniques leading to a unified conclusion for the existence of non baryonic and non luminous matter. Individually some pieces of evidence, such as galactic rotation curves, can be explained by modifications to general relativity (GR), but not all simultaneously. The existence of non relativistic, dark matter particles are required in order to unify the current observations. This dark matter does not couple to the electromagnetic force and is thus able to avoid our standard detection techniques, making its presence felt on large scales via gravity. In the last thirty years significant progress has been made in the direct detection of such a particle, the forefront of which will be presented in this thesis.
+Astronomical observations hinting at the existence of dark matter were first observed in 1932 by Oort \cite{Oort} and more precisely in 1937 by Zwicky  \cite{Zwicky}. Both noted discrepancies in galactic mass measurements when comparing the luminous mass to that required to support galactic rotational velocities measured by red shifts. Oort had noted up to a factor of ten more mass than luminous mass in the Sombrero Galaxy and Zwicky found a factor of 500 for the Coma cluster. Both observations were far to large to be accounted for by light absorption, indicating the existence of dark matter to account for the missing mass. Since then more evidence for the existence of dark matter has been compiled, including big bang nucleosynthesis (BBN), anisotropies in the cosmic microwave background (CMB), baryonic acoustic oscillations (BAO), formation of large structures, galactic ration curves, and gravitational lensing. All independent techniques leading to a unified conclusion for the existence of non-baryonic and non-luminous matter. Individually some pieces of evidence, such as galactic rotation curves, can be explained by modifications to general relativity (GR), but not all simultaneously. The existence of non-relativistic, dark matter particles are required in order to unify the current observations. This dark matter does not couple to the electromagnetic force and is thus able to avoid our standard optical detection techniques, making its presence felt on large scales via gravity. %In the last thirty years significant progress has been made in the direct detection of such a particle, the forefront of which will be presented in this thesis.
 
 \subsection{Galactic Rotation Curves}
 
-There are two common methods for measuring the mass of a galaxy or cluster of galaxies. First, one can use the total luminosity and the known distance to the galaxy to determine the luminous mass, that is the mass corresponding to the visible light. Second, the rotational velocities of stars orbiting the galactic center can be mapped and used to determine the mass distribution as a function of galactic radius. Rotational velocities of stars around galactic centers at large distances can be measured with Doppler shift, with more recent measurement relying on the 21 cm H1 line from hydrogen as the standard candle. The rotational velocities of objects orbiting galaxies are highly non relativistic moving at speeds on the order 100 km/s. At the outer edges of the luminous galactic centers, typically past 5 kpc the velocity distribution is expected to fall off as redacted by Newtonian mechanics $\sim$1/r. Yet observations from as early as 1932 indicate that velocity distributions tend to remain constant with radius suggesting that the objects are not rotating around the central luminous mass, rather they are rotating inside a solid body of dark matter \cite{Oort} \cite{Zwicky} \cite{Galactic_Velocities} \cite{DarkMatter_MW}. The velocity distributions measured for the Milky Way galaxy are show in \ref{fig:MW_Rotation}.
+There are two common methods for measuring the mass of a galaxy or cluster of galaxies. First, one can use the total luminosity and the known distance to the galaxy to determine the luminous mass, (the mass corresponding to the visible light). Second, the rotational velocities of stars orbiting the galactic center can be mapped and used to determine the mass distribution as a function of galactic radius. Rotational velocities of stars around galactic centers at large distances can be measured with Doppler shift, with more recent measurement relying on the 21 cm H1 line from hydrogen as the standard candle. The rotational velocities of objects orbiting galaxies are highly non-relativistic, moving at speeds on the order 100 km/s. At the outer edges of the luminous galactic centers, typically past 5 kpc, the velocity distribution is expected to fall off as predicted by Newtonian mechanics ($\rm \sim \frac{1}{r}$). Yet observations from as early as 1932 indicate that velocity distributions tend to remain constant with radius suggesting that the objects are rotating inside a solid body of dark matter \cite{Oort} \cite{Zwicky} \cite{Galactic_Velocities} \cite{DarkMatter_MW}. The velocity distributions measured for the Milky Way galaxy are show in \ref{fig:MW_Rotation}.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Intro/Ch1_Figures/MW_Rotation.png}
-\caption{Measured rotational velocities vs. radius in the Milky Way galaxy. The velocity distribution is consistent with a halo of mass surrounding the galaxy well beyond the observed luminous disk \cite{DarkMatter_MW}. }
+\caption{Measured rotational velocities vs. radius in the Milky Way galaxy. The velocity distribution is expected to fall off as $\rm \sim \frac{1}{r}$ beyond the radius of the luminous disk, shown as the dashed magenta line. The Navarro-Frank-White model in solid black, along with other models listed in the caption. The velocity distribution appears consistent with that expected due to a halo of mass surrounding the galaxy, well beyond the observed luminous disk \cite{DarkMatter_MW}. }
 \label{fig:MW_Rotation}
 \end{figure}
 
-\subsection{BBN}
+\subsection{Big Bang Nucleosynthesis }
 
-Big band nucleosynthesis (BBN) accounts for the relative abundances of light elements in the universe today, including H, D, $\rm He^3$, $\rm He^4$ and $\rm Li^7$ \cite{BBN}. BBN took place in a relatively short time window several seconds after the big bang when the universe cooled below $\rm10^{11}$K (10 MeV) and seized as the temperature cooled below $\rm10^9$K (100 keV). Under the temperature conditions of BBN it was energetically favorable for free protons and neutrons to undergo nuclear fusion and is the only mechanism to produce light elements we see today. The heavier elements were later fused together in stars and ejected upon the star's death into the cosmos. Nuclear cross sections of protons, neutrons and light elements have been measured to high person and can be combined with the expansion rate of the universe to precisely predict the relic abundances of baryonic matter. Observations constrain the abundances of the light elements to be H$\sim$ 75\%, D$\sim$ 25\%, $\rm He^4$ $\sim$ 0.01\%, $\rm Li^7$ $\sim 10^{-10}$ \%. The ratio of D/H has been used to constrain the relic density of baryonic matter to be $\Omega_b h^2$= 0.02202 $\pm$ 0.00046 \cite{OmegaB_BBN}.
+Big band nucleosynthesis (BBN) accounts for the relative abundances of light elements in the universe today, including H, D, $\rm He^3$, $\rm He^4$ and $\rm Li^7$ \cite{BBN}. BBN took place in a relatively short time window beginning several seconds after the big bang when the universe cooled below $\rm10^{11}$K (10 MeV) and ceased as the temperature cooled below $\rm10^9$K (100 keV). Under the temperature conditions of BBN it was energetically favorable for free protons and neutrons to undergo nuclear fusion. This is the only mechanism to produce the light elements we see today. The heavier elements were later fused together in stars and ejected upon the star's death into the cosmos. Nuclear cross sections of protons, neutrons and light elements have been measured to high precision and can be combined with the expansion rate of the universe to precisely predict the relic abundances of baryonic matter. Observations constrain the abundances of the light elements to be H$\sim$ 75\%, D$\sim$ 25\%, $\rm He^4$ $\sim$ 0.01\%, $\rm Li^7$ $\sim 10^{-10}$ \%. The ratio of D/H has been used to constrain the relic density of baryonic matter to be
 
 \begin{equation}
 \centering
-\Omega_b h^2= \frac{p_b}{p_c}
+\Omega_b h^2= \frac{p_b}{p_c} = 0.02202 \pm 0.00046 \,\, \cite{OmegaB_BBN}
 \end{equation}
 
-\noindent Where h is the Hubble constant H dividend by 100 ($\rm H_0/100$), $p_b$ is the baryonic density and $p_c$ is the critical density required for a flat universe (verified by the CMB). We can write the $\rm i^{th}$ density component as: 
+\noindent where h is the Hubble constant (H) dividend by 100 ($\rm H_0/100$), $p_b$ is the baryonic density and $p_c$ is the critical density required for a flat universe (verified by the CMB). We can write the $\rm i^{th}$ density component as: 
 
 \begin{equation}
 \centering
 \Omega_i \equiv \frac{p_b}{p_c} = \frac{8\pi G \rho_i}{3H^2}
 \end{equation}
 
-\noindent Where G is the gravitational constant, H is the Hubble constant (found in table \ref{table:Cosmo_Param}). The baryon density measured using BBN is constrained to within 1\% and in agreement with the latest constraints from Plank's CMB data, $\Omega_b h^2$= 0.02205 $\pm$ 0.00028 \cite{Planck_Param}.
+\noindent where G is the gravitational constant. The baryon density measured using BBN is constrained to within 1\% and is in agreement with the latest constraints from Plank's CMB data, $\Omega_b h^2$= 0.02205 $\pm$ 0.00028 \cite{Planck_Param}.
 
-\subsection{CMB}
+\subsection{Cosmic Microwave Background}
 \label{sec:CMB}
-The early universe consisted of a plasma making the universe opaque to photons as they scattered off free electrons. As the temperature fell below the binding energy of hydrogen 13.6 eV, electrons neutral atoms allowing photons to decouple from the plasma making the universe became transparent. The mean temperature of decoupling was actually at 0.25 eV ($\sim$4000 K) as photons still scatter frequently near the binding energy of hydrogen \cite{BBN}. The cosmic microwave background (CMB) emanated from this time after making a final scatter photons decoupled from electrons effectively attaining a mean free path on the scale of the universe. The photons from the CMB observed today at the red shift temperature of 2.72548$\pm$0.00057 K \cite{CMB_Temp} have not interacted from the time of last scatter 379,000 years after the bing bang. The CMB has encoded within it a wealth of information about the universe as it was at the time of decoupling. The concept of the information encoding is illustrated in figure using Maru the cat in various boxes. Consider that Maru is a photon and the box size represents local energy densities of the universe. The smaller boxes represent areas of higher energy density and temperature. At the time of last scatter all boxes containing Marus cease to exist, to the horror of of the cats. The cats now begging to propagate freely through the universe with their configuration unchanged (the cats are too lazy to move and are content napping while propagating though space). It should be noted, that as the universe expands so will the cats. When the Marus finally reach our telescopes, 13 billion years latter,  the shape and squeezing of each Maru informs us of the box size (temperature) from which each Maru has emanated. Using this information from multiple Marus the distribution of box sizes at the time of last scatter can be mapped, reveling areas of slightly larger boxes and areas of slightly smaller boxes. This is roughly the idea behind measuring anisotropies in the cosmic microwave background using microwave telescopes. 
+The early universe consisted of a plasma opaque to photons as they scattered off free electrons. As the temperature fell below the binding energy of hydrogen 13.6 eV, electrons could bind with free protons forming neutral atoms making the universe transparent to photons. The mean temperature of decoupling was actually at 0.25 eV ($\sim$4000 K) as photons still scatter frequently near the binding energy of hydrogen \cite{BBN}. After making a final scatter, photons decoupled from electrons effectively attaining a mean free path on the scale of the universe. The photons from the CMB can be observed today at the red shift temperature of 2.72548$\pm$0.00057 K \cite{CMB_Temp} from the time of last scatter, 379,000 years after the big bang. 
+
+The CMB has encoded within it a wealth of information about the universe as it was at the time of decoupling. The the information encoding is illustrated in figure \ref{fig:CMB_Maru} using Maru the cat. Consider that Maru is a photon and the box size represents local energy densities of the universe. The smaller boxes represent areas of higher energy density and temperature. At the time of last scatter all boxes containing Marus cease to exist. The cats now propagate freely through the universe with their configuration unchanged. As the universe expands, so will the cats. When the Marus finally reach our telescopes, 13 billion years later,  the shape and squeezing of each Maru informs us of the box size (temperature) from which each Maru has emanated. Using this information from multiple Marus the distribution of box sizes at the time of last scatter can be mapped, revealing areas of slightly larger boxes and areas of slightly smaller boxes. This is roughly the idea behind measuring anisotropies in the cosmic microwave background using microwave telescopes. 
 
 \begin{figure}[h!]\centering
  
@@ -92,13 +83,12 @@ The early universe consisted of a plasma making the universe opaque to photons a
 \hfill
 \subcaptionbox{\label{fig:1d}}{\includegraphics[width=72mm]{Intro/Maru/large_box.jpg}}
 
-\caption{Maru the cat explains the cosmic microwave background. Consider that Maru is a photon and the box size represents local energy densities of the universe. The scale of the the box size is inversely proportional to the local energy density and temperature. At the time of last scatter all boxes containing Marus cease to exist, to the horror of of the cats! The Marus are now left to propagate freely through the universe, with their configurations unchanged (the cats are too lazy to move and are content napping for 13.7 billion years). Figures a-d show Maru the cat contained within increasing box sizes corresponding to decreasing energy densities.}
+\caption{Maru the cat explains the cosmic microwave background. Consider that Maru is a photon and the box size represents local energy densities of the universe. The scale of the the box size is inversely proportional to the local energy density and temperature. At the time of last scatter all boxes containing Marus cease to exist. The Marus are now left to propagate freely through the universe, with their configurations unchanged. Figures a-d show Maru the cat contained within increasing box sizes corresponding to decreasing energy densities.}
 \label{fig:CMB_Maru}
 \end{figure}
 
 
-
- .Ever more increasing measurements from COBE, WMAP and Planck have been able to probe slight temperature variations to 1 part in 100,000 as seen in figure \ref{fig:CMB_Hist}. Table \ref{table:Cosmo_Param} shows the constraints on cosmological parameters set by Planck. The results are in good agreement with baryonic density derived from BBN and predict a dark matter component of 25.8\%.
+Ever more precise measurements from COBE, WMAP and Planck have been able to probe slight temperature variations to 1 part in 100,000 as seen in figure \ref{fig:CMB_Hist}. Table \ref{table:Cosmo_Param} shows the constraints on cosmological parameters set by Planck. The results are in good agreement with baryonic density derived from BBN and predict a dark matter component of 25.8\%.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=130mm]{Intro/Ch1_Figures/CMB_Hist.jpg}
@@ -131,13 +121,13 @@ $H_0$ 					& 67.77$\pm$0.77				& Hubble Constant [$\rm km s^{-1} Mpc^{-1}$]\\ \h
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-\subsection{BAO}
+\subsection{Baryonic Acoustic Oscillations}
 
-The universe 379,000 years after the big bang was uniformly distributed, with only small variations observed in the CMB temperature of 1/100,000 \cite{Plank_Map}. Before decoupling took place gravity pulled baryons and dark matter into high density regions resulting in an opposing outward force from photon pressure. The outward force from the photon pressure was only felt by the baryons whereas the dark matter component would not not couple to photons. The competing attractive and repulsive forces gave rise to baryonic acoustic oscillations (BAO) with density regions propagating as spherical sound waves do. The amplitudes of the waves are separated by a characteristic radius called the sound horizon r, which is sensitive to the initial dark matter and baryon densities \cite{BAO_Theory}. Anisotropies in the CMB power spectrum probe these oscillations as discussed previously in \ref{sec:CMB}. At the time of decoupling the photon pressure ceased providing the opposing force allowing the gravitational restoring force to dampen the oscillations. If the picture since the time of the CMB is propagated forward in time we expect that areas of the CMB that were denser would cluster, thus statistically the universe is expected to have large scale structures on the order of the sound horizon r. Measurements of BAO by the Sloan Digital Sky Survey \cite{Sloan} and BOSS \cite{BOSS}are consistent with the sound horizon expected from anisotropies in the CMB, with a preferred scale of $\rm 100hh^{-1}$ Mpc ($\sim$150 Mpc) between large scale structures. Figure {fig:BOSS} shows the result from BOSS using Lyman-$\alpha$ absorption in quasar emission spectrum due to the presence of neutral hydrogen in the intergalactic medium \cite{BOSS}.
+The universe 379,000 years after the big bang was uniformly distributed, with only small variations observed in the CMB temperature of 1/100,000 \cite{Plank_Map}. Before decoupling took place, gravity pulled baryons and dark matter into high density regions resulting in an opposing outward force from photon pressure. The outward force from the photon pressure was only felt by the baryons whereas the dark matter component does not couple to photons. The competing attractive and repulsive forces gave rise to baryonic acoustic oscillations (BAO), with density regions propagating as spherical sound waves. The peaks of the waves are separated by a characteristic radius called the sound horizon (r), which is sensitive to the initial dark matter and baryon densities \cite{BAO_Theory}. Anisotropies in the CMB power spectrum probe these oscillations as discussed previously in section \ref{sec:CMB}. At the time of decoupling the photon pressure ceased providing the opposing force allowing the gravitational restoring force to dampen the oscillations. If this picture is propagated forward in time, we expect that areas of the CMB that were denser would cluster, thus statistically the universe is expected to have large scale structures on the order of the sound horizon r. Measurements of galaxy clusters by the Sloan Digital Sky Survey \cite{Sloan} and BOSS \cite{BOSS}are consistent with the sound horizon expected from anisotropies in the CMB, with a preferred scale of $\rm 100h^{-1}$ Mpc ($\sim$150 Mpc) between large scale structures. Figure \ref{fig:BOSS} shows the result from BOSS using Lyman-$\alpha$ absorption in the quasar emission spectrum due to the presence of neutral hydrogen in the intergalactic medium \cite{BOSS}.
 
 \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Intro/Ch1_Figures/BOSS.png}
-\caption{BAO peak obtained from BOSS \cite{BOSS} }
+\caption{BAO peak obtained from BOSS \cite{BOSS}. The correlation function has a peak at of $\rm 100h^{-1}$ Mpc, expected with a dark matter density of $\rm \sim 0.2$.}
 \label{fig:BOSS}
 \end{figure}
 
@@ -157,7 +147,7 @@ Gravitational lensing can be to map the focal points of gravitational mass in a 
 \section{Dark Matter Candidates}
 
 The evidence for the existence of missing mass outlined in the previous section forces us to examine solutions to account for those cosmological phenomina. It is natural to at first try and solve the anomaly by using our understanding of standard model particles. The first candidate considered for dark matter is the existence of Massive Compact Halo Objects (MACHOs). However, the MACHO theory requires that the extra mass be baryonic which is refuted by the precision measurements (BBN, CMB) that limit Baryonic mass to only 2.2\% while the overall matter energy density required is 31.75\% \cite{BBN_Constraints} \cite{Planck_Param} (see table \ref{table:Cosmo_Param}).
-A non baryonic candidate drawn from the standard model are neutrinos, which are known to carry mass due to oscillations and only interact weakly \cite{SNO}. However, large scale structure formation require that the universe have a `cold' ( non relativistic)dark matter component in order to become gravitationally bound to galaxies. With current constraints on the neutrinos masses to less than 0.23 eV \cite{Planck_Param}, neutrinos are highly relativistic and would fail to reproduce structuring of the universe observed today \cite{Neutrino_DM}.
+A non-baryonic candidate drawn from the standard model are neutrinos, which are known to carry mass due to oscillations and only interact weakly \cite{SNO}. However, large scale structure formation require that the universe have a `cold' ( non-relativistic)dark matter component in order to become gravitationally bound to galaxies. With current constraints on the neutrinos masses to less than 0.23 eV \cite{Planck_Param}, neutrinos are highly relativistic and would fail to reproduce structuring of the universe observed today \cite{Neutrino_DM}.
 
 \subsection{AXIONS}
 \begin{footnotesize}``I named them after a laundry detergent, since they clean up a problem with an axial current" Ð Frank Wilczek
@@ -250,7 +240,7 @@ WIMP scattering off of target nuclei can be expressed as a classical inelastic c
 \rm r= \frac{4M_\chi M_T}{(M_\chi +M_T)^2}
 \end{equation}
 
-\noindent Assuming classic billiard ball scattering we calculate expected energy deposits for various WIMPs with weak scale masses of 1 to 1000 $\rm GeV/c^2$. Using xenon as the target mass ($\rm M_{Xe}=122 \, GeV/c^2$), and a WIMP velocity of 240 km/s ($\rm 8\times 10^{-4}$ c ).
+\noindent Assuming classic billiard ball scattering we calculate expected energy deposits for various WIMPs with weak scale masses of 1 to 1000 $\rm GeV/c^2$. Using xenon-as the target mass ($\rm M_{Xe}=122 \, GeV/c^2$), and a WIMP velocity of 240 km/s ($\rm 8\times 10^{-4}$ c ).
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
@@ -266,7 +256,7 @@ $\rm M_\chi$ [$\rm GeV/c^2$] 	&	r 		&	$\rm E_{max}$ [keV] \\ \hline
 10000								& 0.40		& 124 \\ \hline
 \end{tabular}
 \end{center}
-\caption{The kinematic factor r and most common energy deposit $\rm E_{max}$ for a WIMP of mass $\rm M_\chi$ scattering off a xenon nucleus.}
+\caption{The kinematic factor r and most common energy deposit $\rm E_{max}$ for a WIMP of mass $\rm M_\chi$ scattering off a xenon-nucleus.}
 \label{table:WIMP_Deposit}
 \end{table}
 
@@ -330,22 +320,22 @@ The spin-independent cross section for WIMPs is found to be proportional to the 
 
 \begin{figure}[h!]\centering
 \includegraphics[width=140mm]{Intro/Ch1_Figures/Target_Nuclei.png}
-\caption{Plot of WIMP event rate per kg/day/keV vs. Nuclear recoil energy (keV) for several target nuclei, using parameters from \cite{Lewin_Smith}. At low detection threshold xenon is the most attractive target nuclei. The drop off in the xenon spectral shape is due to decoherence described by the Helm factor \cite{Helm_Factor}. }
+\caption{Plot of WIMP event rate per kg/day/keV vs. Nuclear recoil energy (keV) for several target nuclei, using parameters from \cite{Lewin_Smith}. At low detection threshold xenon-is the most attractive target nuclei. The drop off in the xenon-spectral shape is due to decoherence described by the Helm factor \cite{Helm_Factor}. }
 \label{fig:WIMP_Target_Nuclei}
 \end{figure}
 
 
-Xenon being a relatively heavy element, A=131, makes it an ideal candidate for a WIMP dark-matter search at low energy thresholds. Xenon detectors today have achieved thresholds as low as 3 $\rm keV_{nr}$ \cite{LUX_PRL}. Other common detection mediums are germanium, which is rather expensive on the ton scale, and argon which is inexpensive but contains a troublesome radioactive isotope $\rm^{39}Ar$. To probe dark matter cross sections the next generation experiments must be bigger and contain less radioactive background contamination. With current limits on the WIMP cross section a ton scale xenon experiment may only detect a handful of events per year.
+Xenon-being a relatively heavy element, A=131, makes it an ideal candidate for a WIMP dark-matter search at low energy thresholds. Xenon-detectors today have achieved thresholds as low as 3 $\rm keV_{nr}$ \cite{LUX_PRL}. Other common detection mediums are germanium, which is rather expensive on the ton scale, and argon which is inexpensive but contains a troublesome radioactive isotope $\rm^{39}Ar$. To probe dark matter cross sections the next generation experiments must be bigger and contain less radioactive background contamination. With current limits on the WIMP cross section a ton scale xenon-experiment may only detect a handful of events per year.
 
 
 
 \subsection{WIMP Detection Experiments}
 
-Several experiments are currently conducting WIMP dark matter searches using several target nuclei. We have found that the interaction rate for WIMPs with target nuclei is expected to be rare. In the event that a WIMP does strike a target in the detector it will primarily interact with the nucleus, deposit energy, and traverse throughout the detector without a second interaction. Neutrons could also interact with atomic nuclei and fake a WIMP signal, however after the initial energy deposit they are likely to interact again. Thus, neutrons can be rejected by cutting multiple scatters in detectors on the scale of the neutron mean free path at an energy required to fake a WIMP signal (order 10 cm). The most common source of backgrounds are electromagnetic in nature, gammas and betas from the rock surrounding the experiment, detector components, and internal to the xenon. Just like for the case of neutrons the likelihood of a single scatter within the detector is highly unlikely. Naked beta decays are the most troublesome, appearing as a single energy deposit in the detector medium. Fortunately, electronic recoil events can be discriminated from WIMP like nuclear recoil events by more than 1/100 using the ratio of charge to light or charge to phonons produced in the interaction. Xenon based experiments currently having the best limits on WIMP nucleon cross sections \cite{LUX_PRL}.
+Several experiments are currently conducting WIMP dark matter searches using several target nuclei. We have found that the interaction rate for WIMPs with target nuclei is expected to be rare. In the event that a WIMP does strike a target in the detector it will primarily interact with the nucleus, deposit energy, and traverse throughout the detector without a second interaction. Neutrons could also interact with atomic nuclei and fake a WIMP signal, however after the initial energy deposit they are likely to interact again. Thus, neutrons can be rejected by cutting multiple scatters in detectors on the scale of the neutron mean free path at an energy required to fake a WIMP signal (order 10 cm). The most common source of backgrounds are electromagnetic in nature, gammas and betas from the rock surrounding the experiment, detector components, and internal to the xenon. Just like for the case of neutrons the likelihood of a single scatter within the detector is highly unlikely. Naked beta decays are the most troublesome, appearing as a single energy deposit in the detector medium. Fortunately, electronic recoil events can be discriminated from WIMP like nuclear recoil events by more than 1/100 using the ratio of charge to light or charge to phonons produced in the interaction. Xenon-based experiments currently having the best limits on WIMP nucleon cross sections \cite{LUX_PRL}.
 
 \begin{itemize}
 
-\item Xenon experiments: LUX \cite{LUX_PRL}, Xenon100 \cite{Xenon100} , PandaX \cite{PandaX}, XMass \cite{XMass}.
+\item Xenon-experiments: LUX \cite{LUX_PRL}, Xenon100 \cite{Xenon100} , PandaX \cite{PandaX}, XMass \cite{XMass}.
 
 \item Argon experiments: Dark Side \cite{DarkSide}, MiniClean \cite{MiniCLEAN}. 
 
@@ -356,6 +346,28 @@ Several experiments are currently conducting WIMP dark matter searches using sev
 \end{itemize}
 
 %show WIMP limit improvement over the last 30 years
+
+
+
+
+\section{Outline of Thesis}
+
+In this section we have review current cosmological evidence for the existence of dark matter, and have overviewed the WIMP model and methods of detecting them by scattering off target nuclei.
+
+In Chap.\ 2, we overview the LUX detector, a liquid xenon-time projection chamber (TPC). Concluding the chapter with the most recent LUX science results which holds the worlds leading limit for spin independent WIMP nucleon scattering cross section.
+
+In Chap.\ 3, the position dependent corrections of energy deposition in the LUX detector are discussed.
+
+In Chap.\ 4, the energy scale calibration of the LUX detector is discussed.
+
+In Chap.\ 5 recombination fluctuations in liquid xenon-are overviewed. A method is developed to extract recombination fluctuations from tritium calibration data.
+
+In Chap.\ 6 the results for ionization and scintillation are presented, measured from the tritium calibration source. 
+
+In Chap.\ 7 we overview the development and deployment of the tritiated-methane calibration source.
+
+In Chap.\ 8 future work is discussed in terms of detector calibrations, understanding event level fundamental fluctuations, and tighter constraints on the WIMP limit.
+
 
 
 \begin{comment}
