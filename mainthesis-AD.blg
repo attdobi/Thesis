@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99d (TeX Live 2011)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: mainthesis-AD.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Titlepage.aux
+A level-1 auxiliary file: Copyright.aux
+A level-1 auxiliary file: Acknowledgements.aux
 A level-1 auxiliary file: Abbreviations.aux
 A level-1 auxiliary file: Intro/Chapter1-subfigures.aux
 A level-1 auxiliary file: supertabular.aux
@@ -12,7 +16,7 @@ A level-1 auxiliary file: Chapter_LYQY/Chapter6_LYQY.aux
 A level-1 auxiliary file: Chapter_T/Chapter7_T.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-You're missing a field name---line 1539 of file AD_ThesisBib.bib
+You're missing a field name---line 1559 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -25,45 +29,45 @@ Warning--empty journal in PandaX
 Warning--empty journal in Start_Kr
 Warning--empty title in Birks
 Warning--empty title in Platzman
-You've used 94 entries,
+You've used 89 entries,
             2322 wiz_defined-function locations,
-            1214 strings with 34569 characters,
-and the built_in function-call counts, 33108 in all, are:
-= -- 2176
-> -- 914
+            1182 strings with 33698 characters,
+and the built_in function-call counts, 31257 in all, are:
+= -- 2045
+> -- 869
 < -- 2
-+ -- 416
-- -- 208
-* -- 1770
-:= -- 3729
-add.period$ -- 360
-call.type$ -- 94
-change.case$ -- 91
++ -- 396
+- -- 198
+* -- 1666
+:= -- 3520
+add.period$ -- 340
+call.type$ -- 89
+change.case$ -- 86
 chr.to.int$ -- 0
-cite$ -- 102
-duplicate$ -- 3512
-empty$ -- 3335
-format.name$ -- 288
-if$ -- 7167
+cite$ -- 97
+duplicate$ -- 3323
+empty$ -- 3149
+format.name$ -- 273
+if$ -- 6768
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 1013
-newline$ -- 553
-num.names$ -- 96
-pop$ -- 1554
+int.to.str$ -- 89
+missing$ -- 958
+newline$ -- 523
+num.names$ -- 91
+pop$ -- 1475
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 579
+skip$ -- 548
 stack$ -- 0
-substring$ -- 1416
-swap$ -- 2183
+substring$ -- 1312
+swap$ -- 2066
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 8
-while$ -- 178
-width$ -- 96
-write$ -- 1171
+while$ -- 166
+width$ -- 91
+write$ -- 1106
 (There was 1 error message)

@@ -188,44 +188,6 @@ George~R. Blumenthal, S.M. Faber, Joel~R. Primack, and Martin~J. Rees.
 \newblock \emph{Nature}, 311:517--525, 1984.
 \newblock \doi{10.1038/311517a0}.
 
-\bibitem{AXION_Theory}
-Masahiro Kawasaki and Kazunori Nakayama.
-\newblock {Axions: Theory and Cosmological Role}.
-\newblock \emph{Ann.Rev.Nucl.Part.Sci.}, 63:69--95, 2013.
-\newblock \doi{10.1146/annurev-nucl-102212-170536}.
-
-\bibitem{NEDM}
-C.A. Baker, et~al.
-\newblock {An Improved experimental limit on the electric dipole moment of the
-  neutron}.
-\newblock \emph{Phys.Rev.Lett.}, 97:131801, 2006.
-\newblock \doi{10.1103/PhysRevLett.97.131801}.
-
-\bibitem{PQ1}
-R.~D. Peccei and Helen~R. Quinn.
-\newblock $\mathrm{CP}$.
-\newblock \emph{Phys. Rev. Lett.}, 38:1440--1443, Jun 1977.
-\newblock \doi{10.1103/PhysRevLett.38.1440}.
-
-\bibitem{PQ2}
-R.~D. Peccei and Helen~R. Quinn.
-\newblock Constraints imposed by $\mathrm{CP}$ conservation in the presence of
-  pseudoparticles.
-\newblock \emph{Phys. Rev. D}, 16:1791--1797, Sep 1977.
-\newblock \doi{10.1103/PhysRevD.16.1791}.
-
-\bibitem{CAST}
-E.~Arik et~al.
-\newblock {Probing eV-scale axions with CAST}.
-\newblock \emph{JCAP}, 0902:008, 2009.
-\newblock \doi{10.1088/1475-7516/2009/02/008}.
-
-\bibitem{ADMX}
-S.~J. {Asztalos}, et~al.
-\newblock {SQUID-Based Microwave Cavity Search for Dark-Matter Axions}.
-\newblock \emph{Physical Review Letters}, 104(4):041301, January 2010.
-\newblock \doi{10.1103/PhysRevLett.104.041301}.
-
 \bibitem{WIMP_Freeze}
 Gerard Jungman, Marc Kamionkowski, and Kim Griest.
 \newblock {Supersymmetric dark matter}.
@@ -238,6 +200,12 @@ Andriy Kurylov and Marc Kamionkowski.
   searches}.
 \newblock \emph{Phys.Rev.}, D69:063503, 2004.
 \newblock \doi{10.1103/PhysRevD.69.063503}.
+
+\bibitem{WIMP_Rate_Plot}
+V.~{Chepel} and H.~{Ara{\'u}jo}.
+\newblock {Liquid noble gas detectors for low energy particle physics}.
+\newblock \emph{Journal of Instrumentation}, 8:R04001, April 2013.
+\newblock \doi{10.1088/1748-0221/8/04/R04001}.
 
 \bibitem{LUX_PRL}
 S.~Akerib, D.\, et~al.
