@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Target Xenon}{26}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Background Rejection}{27}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}The Drift Field inside the LUX TPC}{29}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Light and Charge Signals in Liquid Xenon}{32}{section.2.3}
+\contentsline {section}{\numberline {2.3}Light and Charge Signals in Liquid Xenon}{31}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Electronic Recoils (ER)}{33}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Nuclear Recoils (NR)}{35}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Energy and Position Reconstruction}{36}{subsection.2.3.3}

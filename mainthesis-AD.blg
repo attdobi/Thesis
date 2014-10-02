@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mainthesis-AD.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Titlepage.aux
+A level-1 auxiliary file: Copyright.aux
+A level-1 auxiliary file: Acknowledgements.aux
+A level-1 auxiliary file: Abbreviations.aux
+A level-1 auxiliary file: Intro/Chapter1-subfigures.aux
+A level-1 auxiliary file: supertabular.aux
+A level-1 auxiliary file: Chapter_LUX_Det/Chapter2_LUX_Det.aux
+A level-1 auxiliary file: Chapter_XYZ_Corr/Chapter3_XYZ_Corr.aux
+A level-1 auxiliary file: Chapter_E_Scale/Chapter4_E_Scale.aux
+A level-1 auxiliary file: Chapter_Flucs/Chapter5_Flucs.aux
+A level-1 auxiliary file: Chapter_LYQY/Chapter6_LYQY.aux
+A level-1 auxiliary file: Chapter_T/Chapter7_T.aux
+The style file: thesisbibstyle.bst
+Database file #1: AD_ThesisBib.bib
+You're missing a field name---line 1576 of file AD_ThesisBib.bib
+ :   
+ :   %address      = {Princeton University},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in BBN
+Warning--empty journal in OmegaB_BBN
+Warning--empty journal in Plank_Map
+Warning--empty journal in Bullet_Cluster_Xray
+Warning--empty journal in PandaX
+Warning--empty title in Platzman
+Warning--empty journal in Start_Kr
+Warning--empty title in Birks
+You've used 90 entries,
+            2322 wiz_defined-function locations,
+            1185 strings with 33697 characters,
+and the built_in function-call counts, 31433 in all, are:
+= -- 2054
+> -- 873
+< -- 2
++ -- 398
+- -- 199
+* -- 1668
+:= -- 3540
+add.period$ -- 342
+call.type$ -- 90
+change.case$ -- 86
+chr.to.int$ -- 0
+cite$ -- 98
+duplicate$ -- 3341
+empty$ -- 3173
+format.name$ -- 274
+if$ -- 6808
+int.to.chr$ -- 0
+int.to.str$ -- 90
+missing$ -- 963
+newline$ -- 527
+num.names$ -- 92
+pop$ -- 1489
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 554
+stack$ -- 0
+substring$ -- 1312
+swap$ -- 2076
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 167
+width$ -- 92
+write$ -- 1114
+(There was 1 error message)

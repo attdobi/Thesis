@@ -44,8 +44,19 @@ D.~S. {Akerib}, et~al.
 \newblock \emph{Astroparticle Physics}, 62:33--46, March 2015.
 \newblock \doi{10.1016/j.astropartphys.2014.07.009}.
 
+\bibitem{LUX_PRL}
+S.~Akerib, D.\, et~al.
+\newblock First results from the lux dark matter experiment at the sanford
+  underground research facility.
+\newblock \emph{Phys. Rev. Lett.}, 112:091303, Mar 2014.
+\newblock \doi{10.1103/PhysRevLett.112.091303}.
+
 \bibitem{Scott_E_Field}
 Scott Hertel.
+\newblock private communication, 2014.
+
+\bibitem{T_Shutt}
+Tom Shutt.
 \newblock private communication, 2014.
 
 \bibitem{Kr_Decay_Diagram}
@@ -207,13 +218,6 @@ Andriy Kurylov and Marc Kamionkowski.
 \newblock \emph{Phys.Rev.}, D69:063503, 2004.
 \newblock \doi{10.1103/PhysRevD.69.063503}.
 
-\bibitem{LUX_PRL}
-S.~Akerib, D.\, et~al.
-\newblock First results from the lux dark matter experiment at the sanford
-  underground research facility.
-\newblock \emph{Phys. Rev. Lett.}, 112:091303, Mar 2014.
-\newblock \doi{10.1103/PhysRevLett.112.091303}.
-
 \bibitem{Xenon100}
 E.~{Aprile}, et~al.
 \newblock {Dark Matter Results from 225 Live Days of XENON100 Data}.
@@ -307,17 +311,21 @@ John~R de~Laeter, et~al.
 \newblock Atomic weights of the elements. review 2000 (iupac technical report).
 \newblock \emph{Pure and Applied Chemistry}, 75(6):683--800, 2003.
 
+\bibitem{Doke_alpha}
+Tadayoshi Doke, et~al.
+\newblock Absolute scintillation yields in liquid argon and xenon for various
+  particles.
+\newblock \emph{Japanese Journal of Applied Physics}, 41(3R):1538, 2002.
+
 \bibitem{alpha_argon}
 M.~Miyajima, et~al.
 \newblock Average energy expended per ion pair in liquid argon.
 \newblock \emph{Phys. Rev. A}, 9:1438--1443, Mar 1974.
 \newblock \doi{10.1103/PhysRevA.9.1438}.
 
-\bibitem{alpha_xenon}
-T.~Takahashi, et~al.
-\newblock Average energy expended per ion pair in liquid xenon.
-\newblock \emph{Phys. Rev. A}, 12:1771--1775, Nov 1975.
-\newblock \doi{10.1103/PhysRevA.12.1771}.
+\bibitem{Platzman}
+R.~L. Platzman.
+\newblock \emph{Int.J.Appl.Radiat.Isotopes}, page 116, 1961.
 
 \bibitem{Doke_Scintillation}
 T.~Doke and K.~Masuda.
@@ -339,7 +347,7 @@ Akira Hitachi, et~al.
 \newblock \emph{Phys.Rev.}, B27:5279--5285, 1983.
 \newblock \doi{10.1103/PhysRevB.27.5279}.
 
-\bibitem{Recomb_Time_NEST}
+\bibitem{Mock}
 Jeremy Mock, et~al.
 \newblock {Modeling Pulse Characteristics in Xenon with NEST}.
 \newblock \emph{JINST}, 9:T04002, 2014.
@@ -364,6 +372,12 @@ T.~Doke, A.~Hitachi, S.~Kubota, A.~Nakamoto, and T.~Takahashi.
   xenon-doped liquid argon}.
 \newblock \emph{Nucl.Instrum.Meth.}, 134:353--357, 1976.
 \newblock \doi{10.1016/0029-554X(76)90292-5}.
+
+\bibitem{alpha_xenon}
+T.~Takahashi, et~al.
+\newblock Average energy expended per ion pair in liquid xenon.
+\newblock \emph{Phys. Rev. A}, 12:1771--1775, Nov 1975.
+\newblock \doi{10.1103/PhysRevA.12.1771}.
 
 \bibitem{Lindhard}
 Jens Lindhard, V~Nielsen, M~Scharff, and PV~Thomsen.
@@ -437,16 +451,6 @@ V.~Eckardt, et~al.
 \newblock {Calibration of the STAR forward time projection chamber with
   krypton-83m}.
 \newblock 2001.
-
-\bibitem{Platzman}
-R.~L. Platzman.
-\newblock \emph{Int.J.Appl.Radiat.Isotopes}, page 116, 1961.
-
-\bibitem{Doke_alpha}
-Tadayoshi Doke, et~al.
-\newblock Absolute scintillation yields in liquid argon and xenon for various
-  particles.
-\newblock \emph{Japanese Journal of Applied Physics}, 41(3R):1538, 2002.
 
 \bibitem{Tritium_Q}
 Sz. Nagy, T.~Fritioff, M.~Bjšrkhage, I.~Bergstršm, and R.~Schuch.

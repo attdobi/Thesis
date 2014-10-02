@@ -110,28 +110,36 @@ The LUX TPC contains five wire grids used to control the electric fields inside 
 
 \section{Light and Charge Signals in Liquid Xenon}
 \label{sec:LXe_Theory}
-When energy is deposited in the active region of the xenon TPC it is converted to ionization, excitation and heat.
+When energy is deposited in the active region of the xenon TPC it is converted to ionization, atomic excitation and heat.
 \begin{equation}
 \begin{split}
-%\rm E= W\times n_q + Heat \\
 \rm E= W (n_i + n_{ex}) + Heat \\
-\rm E= W (n_\gamma + n_e) + Heat \\
-\label{eq:E_Q}
+\rm E= W \times n_q + Heat
 \end{split}
+\label{eq:E_Q}
 \end{equation}
 
-\noindent where E is the energy of the deposition in keV, $\rm n_q$ is number of quanta (photons + electrons), $\rm n_i$, $\rm n_{ex}$, $\rm n_\gamma$ and $\rm n_e$ are the number of ions, excitons, photons and electrons respectively. The work function (W) for xenon has been measured to be 13.7 $\rm \pm$ 0.2  [eV/quanta]  \cite{Dahl_Thesis}. The number of photons observed for a given energy deposit arise from the excitons that de-excite and from ions which recombine with freed electrons. The number of electrons corresponding to a given energy deposit is equal to the number of ions that did not recombine with a freed electron. 
+\noindent where E is the energy of the deposition in keV,  $\rm n_i$, $\rm n_{ex}$ and $\rm n_q$ are the number of ions, excitons and quanta respectively. An exciton is a bound state of an electron the xenon ion. The work function (W) for xenon has been measured to be 13.7 $\rm \pm$ 0.2  eV/quanta  \cite{Dahl_Thesis}. 
+
+The number of photons produced in an event is equal to number of  initial excitons in addition to the excitons resulting from ions which recombine with freed electrons. Each de-excitation of an exciton produces one photon. The number of electrons produced in an event is equal to the number of electron-ion pairs which do not recombine.
 
 \begin{equation}
 \begin{split}
 \rm  n_\gamma = n_{ex} + n_i r = n_i (r+\alpha) \\
-\rm  n_e = n_i (1-r)\\
+\rm  n_e = n_i (1-r)
 %\rm r= \frac{\frac{n_\gamma}{n_e}-\alpha}{\frac{n_\gamma}{n_e} + 1} %recombination fraction... mention later in detail
 \label{eq:Quanta_Production}
 \end{split}
 \end{equation}
 
-\noindent Where r represents the electron-ion recombination probability and $\rm \alpha$ represents the ratio $\rm n_{ex}/n_{ion}$. The model given in equation \ref{eq:Quanta_Production} states that for each additional photon produced from recombination a corresponding electron is lost, and visa versa. The value of $\rm \alpha$ for an ER event is approximately 0.06 and is expected to be independent of energy \cite{alpha_argon} \cite{alpha_xenon} \cite{Dahl_Thesis}. For nuclear recoils $\rm \alpha$ is approximately 1 \cite{Dahl_Thesis}.  The light and charge production in liquid xenon will be discussed in further detail below. Some useful properties of xenon are listed in table listed in table \ref{table:Xe_Properties}. 
+\noindent where $\rm n_\gamma$ and $\rm n_e$ are the number of photons and electrons and quanta. The value of r is the electron-ion recombination probability and $\rm \alpha$ represents the ratio $\rm n_{ex}/n_{ion}$. Note, $\rm n_{ex}$ represents the number of primary excitons. The model given in equation \ref{eq:Quanta_Production} states that for each additional photon produced from recombination a corresponding electron is lost, and visa versa. The value of $\rm \alpha$ for an ER event is approximately 0.2 and is expected to be independent of energy \cite{Doke_alpha} \cite{alpha_argon}. For nuclear recoils $\rm \alpha$ is approximately 1 \cite{Dahl_Thesis}. Equation \ref{eq:Q} can be written in terms of the number of photons and electrons for each energy deposit \cite{Platzman}.
+
+\begin{equation}
+\rm E= W (n_\gamma + n_e) + Heat \\
+\label{eq:E_Q2}
+\end{equation}
+
+\noindent The light and charge production in liquid xenon will be discussed in further detail below. Some useful properties of xenon are listed in table listed in table \ref{table:Xe_Properties}. 
 
 %table with Xe properties 
 \renewcommand{\baselinestretch}{1}
@@ -144,12 +152,12 @@ When energy is deposited in the active region of the xenon TPC it is converted t
 Parameter & Value & Ref.\\ \hline
 Scintillation wavelength		& 174-178 nm 		&  \cite{Doke_Scintillation} \\ \hline
 W (work function)				& 13.7$\pm$0.2 [eV/quanta]	&  \cite{Dahl_Thesis} \\ \hline
-$\rm Xe^*_2$	singlet lifetime	& 3.1$\pm$0.7 ns			& \cite{Xe_singlet_tripplet_lifetime} \cite{Xe_Recombination_Time}  \cite{Recomb_Time_NEST}\\ \hline
-$\rm Xe^*_2 $ triplet lifetime 	& 24$\pm$1 ns			&  \cite{Xe_singlet_tripplet_lifetime} \cite{Xe_Recombination_Time}  \cite{Recomb_Time_NEST}\\ \hline
-Recombination time 			& 7.5 ns $^{**}$			 & \cite{Recomb_Time_Extraction} \cite{Recomb_Time_NEST}\\ \hline
+$\rm Xe^*_2$	singlet lifetime	& 3.1$\pm$0.7 ns			& \cite{Xe_singlet_tripplet_lifetime} \cite{Xe_Recombination_Time}  \cite{Mock}\\ \hline
+$\rm Xe^*_2 $ triplet lifetime 	& 24$\pm$1 ns			&  \cite{Xe_singlet_tripplet_lifetime} \cite{Xe_Recombination_Time}  \cite{Mock}\\ \hline
+Recombination time 			& 7.5 ns $^{**}$			 & \cite{Recomb_Time_Extraction} \cite{Mock}\\ \hline
 Liquid density at boiling point	& 2.95 g/l 					& \cite{Xe_Density} \\ \hline
 \end{tabular}
-\caption{Properties of xenon. $^{**}$ The expected recombination time in the LUX detector. Recombination time ranges from 0 to 46 ns depending on electric field, energy deposit, and interaction type \cite{Recomb_Time_NEST} \cite{Recomb_Time_Extraction}.}
+\caption{Properties of xenon. $^{**}$ The expected recombination for the LUX drift filed of 170 V/cm. Recombination time ranges from 0 to 46 ns depending on electric field, energy deposit, and interaction type \cite{Mock} \cite{Recomb_Time_Extraction}.}
 \label{table:Xe_Properties}
 \end{center}
 \end{table}
@@ -158,20 +166,22 @@ Liquid density at boiling point	& 2.95 g/l 					& \cite{Xe_Density} \\ \hline
 
 
 \subsection{Electronic Recoils (ER)}
-For an electronic recoil event the energy lost to heat is only about 5\% \cite{FanoTheoretical} thus, equation \ref{eq:E_Q} is valid for use with electronic recoils, we simply drop the small loss to heat. A schematic of an ER event is shown in figures \ref{fig:TomS_ER} which we will overview.
+For an electronic recoil event the energy lost to heat is only about 5\% \cite{FanoTheoretical} thus, equation \ref{eq:E_Q} is valid for use with electronic recoils, we simply drop the small loss to heat. A schematic of an ER event is shown in figure \ref{fig:TomS_ER} which we describe here.
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
 \begin{figure}[h!]\centering
 \includegraphics[width=130mm]{Chapter_LUX_Det/ER_T_Shutt.png}
-\caption{An electronic recoil (ER) event in xenon. The energy deposited is converted primarily to ionization and roughly one tenth for excitation. Only several percent is lost to heat. Xenon excitons and recombining electron ion pairs for xenon dimers which de-excite producing very ultra violet  (VUV) scintillation light at 175nm producing the primary scintillation signal (S1). Electrons that do not recombine are drifted by an electric field into the gas phase where they are accelerated producing the secondary scintillation (S2) signal. }
+\caption{An electronic recoil (ER) event in xenon. The energy deposited is converted primarily to ionization and roughly one tenth for excitation. Only several percent is lost to heat. Xenon excitons and recombining electron ion pairs from xenon dimers which de-excite producing vacuum ultra-violet  (VUV) scintillation light at 175 nm producing the primary scintillation signal (S1). Electrons that do not recombine are drifted by an electric field into the gas phase where they are accelerated producing the secondary scintillation (S2) signal. Figure from \cite{T_Shutt}.}
 \label{fig:TomS_ER}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
 
-\noindent When an incoming beta or gamma interacts with the electron of the xenon atom the energy deposited is converted primarily to ionization,  with roughly 6\% excitation and $\sim$ 5\% is lost to heat \cite{alpha_xenon} \cite{FanoTheoretical}. Excitons arise from ionized xenon atoms that bond together forming diatomic molecules ($\rm Xe^*_2$). Xenon excitons will de-excite with characteristic time constants of 2.2 and 27 ns for the singlet and triplet state, respectively, producing $\sim$175nm scintillation light. Ion-electron pairs produced via ionization can also recombine, with probability r, producing additional excitons resulting in the production of additional $\sim$175nm scintillation light. The characteristic recombination time constant is 45 ns \cite{Xe_Recombination_Time}. Each initial exciton or recombining ion produces one scintillation photon, as written in equation \ref{eq:Quanta_Production}. The two paths for photon production overlap in time and sum to produce the primary scintillation signal (S1). The S1 signal is collected by the PMT arrays within 500 ns. Electrons that escape recombination , with probability 1-r, begin to drift upwards under the influence of the electric field between the cathode and gate (shown in \ref{fig:LUX_Fields}). The electrons eventually reach the liquid-gas interface where they are extracted into the gas. As they accelerate, the extracted electrons produce a larger secondary scintillation signal (S2) that is proportional the the number of electrons extracted. The drift times for the electrons in the 49 cm long active region range from 1 to 324 $\rm \mu s$ with an average drift velocity of 1.51 mm/$\rm \mu s$. Thus, the S2 signal is well separated from the S1. 
+\noindent When an incoming beta or gamma interacts with the electron of the xenon atom, the energy deposited is converted primarily to ionization,  with roughly 6\% excitation and $\sim$ 5\% is lost to heat \cite{alpha_xenon} \cite{FanoTheoretical}. Excitons arise from ionized xenon atoms that bond together forming diatomic molecules ($\rm Xe^*_2$). Xenon excitons will de-excite with characteristic time constants of 2.2 and 27 ns for the singlet and triplet state, respectively, producing $\sim$175 nm scintillation light. Ion-electron pairs produced via ionization can also recombine, with probability r, producing additional excitons resulting in the production of additional $\sim$175nm scintillation light. The characteristic recombination time constant in LUX is 7.5 ns \cite{Xe_Recombination_Time}. Each initial exciton or recombining ion produces one scintillation photon, as written in equation \ref{eq:Quanta_Production}. The two paths for photon production overlap in time and sum to produce the primary scintillation signal (S1). %In LUX the S1 signal is collected by the PMT arrays within 50 ns. 
+
+Electrons that escape recombination, with probability 1-r, begin to drift upwards under the influence of the electric field between the cathode and gate (shown in \ref{fig:LUX_Fields}). The electrons eventually reach the liquid-gas interface where they are extracted into the gas. As they accelerate, the extracted electrons produce a larger secondary scintillation signal (S2) that is proportional the the number of electrons extracted. The drift times for the electrons in the 49 cm, vertical length, active region range from 1 to 324 $\rm \mu s$ with an average drift velocity of 1.51 mm/$\rm \mu s$. Thus, the S2 signal is well separated from the S1. 
 
 
 \subsection{Nuclear Recoils (NR)}
@@ -188,16 +198,18 @@ A schematic of a NR event is shown in figures figure \ref{fig:TomS_NR}. The sign
 \small\normalsize
  \begin{figure}[h!]\centering
 \includegraphics[width=130mm]{Chapter_LUX_Det/NR_T_Shutt.png}
-\caption{A nuclear recoil (NR) event in xenon. The energy deposited goes mainly towards heat (phonons), the remaining energy is split evenly between ionization and excitation. Xenon excitons and recombining electron ion pairs for xenon dimers which de-excite producing very ultra violet  (VUV) scintillation light at 175nm producing the primary scintillation signal (S1). Electrons that do not recombine are drifted by an electric field into the gas phase where they are accelerated producing the secondary scintillation (S2) signal. }
+\caption{A nuclear recoil (NR) event in xenon. The energy deposited goes mainly towards heat (phonons), the remaining energy is split evenly between ionization and excitation. Xenon excitons and recombining electron ion pairs for xenon dimers which de-excite producing vacuum ultra-violet  (VUV) scintillation light at 175 nm producing the primary scintillation signal (S1). Electrons that do not recombine are drifted in an electric field into the gas phase where they are accelerated producing the secondary scintillation (S2) signal. Figure from \cite{T_Shutt}. }
 \label{fig:TomS_NR}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
 \small\normalsize
 
-\noindent The additional energy lost to heat leaves less energy available for excitation and ionization for an NR event. Further, NR events produce roughly equal amounts of ionization and excitation whereas ER events produce mostly ionization \cite{FanoTheoretical}  \cite{Dahl_Thesis}. Relative to and ER event, a NR event will have less electron ion pairs leading to a reduction of the S2 signal and enhancement the S1. Thus, the ratio of S2 to S1 for a NR event is quenched compared to an ER event with an equivalent energy deposition. The quenching of the charge to light ratio is what leads to additional discrimination between nuclear and electronic recoil demonstrated in figure \ref{fig:LUX_ER_NR_Band}.
+\noindent The additional energy lost to heat leaves less energy available for excitation and ionization for an NR event. Further, NR events produce roughly equal amounts of ionization and excitation whereas ER events produce mostly ionization \cite{FanoTheoretical}  \cite{Dahl_Thesis}. Relative to an ER event, a NR event will have less electron ion pairs leading to a reduction of the S2 signal and enhancement the S1. Thus, the ratio of S2 to S1 for a NR event is ``quenched", or smaller, compared to an ER event with an equivalent energy deposition. The quenching of the charge to light ratio is what allows for discrimination between nuclear and electronic recoils as demonstrated in figure \ref{fig:LUX_ER_NR_Band}.
 
 \subsection{Energy and Position Reconstruction}
-In order to reconstruct the true energy of an event we will need to know its nature, ER or NR. For ER events we work in units of electronic equivalent energy, ($\rm keV_{ee})$, using equation \ref{eq:E_Q} neglecting the small heat loss. ER calibrations will be discussed in greater detail in section [ER calibration]. For NR events the energy is reconstructed in terms of nuclear recoil equivalent energy ($\rm keV_{nr}$), using equation \ref{eq:Lindhard} with the Lindhard factor measured from calibration data given in \cite{NEST} \cite{NEST_2013}.  An illustration of an energy deposition in the LUX detector is show in figure \ref{fig:LUX_Event}. The time difference between the S1 and S2 pulse defines the drift time, the drift time gives the measure of the z coordinate (depth). The hit pattern of the S2 signal on the top PMT array measures the x,y coordinates of the event. From the S1 and S2 signals the full x,y,z position and energy deposit of the event can be reconstructed.
+In order to reconstruct the true energy of an event we need to know its nature, ER or NR. For ER events we work in units of electronic equivalent energy, ($\rm keV_{ee})$, using equation \ref{eq:E_Q} and neglecting the small heat loss. ER calibrations will be discussed in greater detail in chapter \ref{Ch:E_Scale_Cal}. For NR events the energy is reconstructed in terms of nuclear recoil equivalent energy ($\rm keV_{nr}$), using equation \ref{eq:Lindhard} with the Lindhard factor measured from calibration data given in \cite{NEST} \cite{NEST_2013}.  
+
+An illustration of an energy deposition in the LUX detector is show in figure \ref{fig:LUX_Event}. The time difference between the S1 and S2 pulse defines the drift time, the drift time gives the measure of the z coordinate (depth). The hit pattern of the S2 signal on the top PMT array measures the x,y coordinates of the event. From the S1 and S2 signals the full x,y,z position and the energy of the event can be reconstructed.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=150mm]{Chapter_LUX_Det/LUX_Event_Diagram.png}
@@ -206,23 +218,23 @@ In order to reconstruct the true energy of an event we will need to know its nat
 \end{figure}
 
 \section{Identifying S1, S2}
-The primary and secondary scintillation signals can be identified by their unique properties. The S1 signal has a fast rise time and decays on the order of 10s of nano seconds as the dimers of xenon produced through excitation and recombination de-excite (time constants listed in table \ref{table:Xe_Properties}). The S2 signal arrives several $\rm \mu s$ later with the electron population spread out spatially about its centroid due to diffusion, transverse and radial \cite{Electron_Diffusion}. The characteristic S2 signal is thus one with a slow rise and corresponding slow fall. It resembles a bell curve, as the diffused electron population arrives, peaking at the centroid of the distribution. A 2 keV event as seen by all 122 PMT channels is showing in figure \ref{fig:LUX_Golden}. The S1 pulse is fast and the S2 pulse is much larger with a slower rise-time.  The S2 pulse is larger since a single electron creates hundred of photons as it is accelerated in the extraction region. 
+The primary and secondary scintillation signals can be identified by their unique properties. The S1 signal has a fast rise time and decays on the order of 10's of nano-seconds as the dimers of xenon produced through excitation and recombination de-excite (time constants listed in table \ref{table:Xe_Properties}). The S2 signal arrives several $\rm \mu s$ later with the electron population spread out spatially about its centroid due to diffusion, transverse and radial \cite{Electron_Diffusion}. The characteristic S2 signal is thus one with a slow rise and corresponding slow fall. It resembles a bell curve, as the diffused electron population arrives, peaking at the centroid of the distribution. A 2 keV event as seen by all 122 PMT channels is shown in figure \ref{fig:LUX_Golden}. The S1 pulse is fast and the S2 pulse is much larger with a slower rise-time.  The S2 pulse is larger since a single electron creates hundred of photons as it is accelerated in the extraction region. 
 
 %Show prompt fraction plot to describe event selection.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=130mm]{Chapter_LUX_Det/LUX_Golden_Event_2keV.png}
-\caption{ 2keV ER event as seen by each PMT channel of the LUX detector. The S1 signal summed across all channels is overlaid on the top left, and the S2 signal summed across all channels is overlaid on the top right.}
+\caption{ 2 keV ER event as seen by each PMT channel of the LUX detector. The S1 signal summed across all channels is overlaid on the top left, and the S2 signal summed across all channels is overlaid on the top right.}
 \label{fig:LUX_Golden}
 \end{figure}
 
-To identify S1 and S2 populations we define the variable Prompt Fraction as the area covered in the first 10\% of the pulse normalized to the total area. The calculation is performed on the summed waveform after a first pass which defines the pulse's start and end timestamp. 
+To identify S1 and S2 populations we define the variable ``Prompt Fraction" as the area covered in the first 10\% of the pulse waveform normalized to the total area. The calculation is performed on the summed waveform after a first pass which defines the pulse's start and end timestamp. 
 %For S1s this value will approach 1 and for S2s the value will be below 0.1, this provides for a figure of merit used to separation of the populations.
-The separation of population density when plotting the total Pulse Area (measured in detected photo electrons [PE]) vs. Prompt Fraction is shown in figure \ref{fig:Prompt_Fraction},  for the case of a $\rm ^{83m}Kr$ data set (41.5 keV) and a tritium calibration data set (1-18.5 keV). The population of single electrons, single photons and the S1 S2 pairs associated with $\rm \gamma$, $\rm \beta$ and $\rm \alpha$ interactions are well separated and are highlighted as rectangles. The upper left corner is the single photon population, their areas consist of approximately 1 PE, the definition of the PMTs response to a detected photon. The single electron population is labeled SE and peaks at roughly 20 PE with a prompt fraction of -1. For all S1 pulses the prompt fraction is found to be between 1 and 0.3 (log10 of 0 and -0.5) for the entire range of Pulse Area. The pulse are is a proxy for energy deposit, spanning from 1 keV tritium events to 7 MeV alphas. The populations of S2 from $\rm^{83m}Kr$, tritium, $\rm \gamma$, $\rm \beta$ and $\rm \alpha$ are found to have Prompt Fractions more than an order of magnitude smaller than their corresponding S1. 
+The separation of population density when plotting the total Pulse Area (measured in detected photo electrons [PE]) vs. Prompt Fraction is shown in figure \ref{fig:Prompt_Fraction},  for the case of a $\rm ^{83m}Kr$ data set (41.5 keV) and a tritium calibration data set (1-18.5 keV). The population of single electrons, single photons and the S1 S2 pairs associated with $\rm \gamma$, $\rm \beta$ and $\rm \alpha$ interactions are well separated and are highlighted as rectangles. The upper left corner is the single photon population. The area is approximately 1 PE, this defines the PMTs' response to a detected photon. The single electron population is labeled SE and peaks at roughly 20 PE with a prompt fraction of 0.1. For all S1 pulses the prompt fraction is found to be between 1 and 0.3 ($\rm log_{10}$ of 0 and -0.5) for the entire range of Pulse Area. The pulse area is a proxy for energy, spanning from 1 keV tritium events to 7 MeV alphas. The populations of S2 from $\rm^{83m}Kr$, tritium, $\rm \gamma$, $\rm \beta$ and $\rm \alpha$ are found to have Prompt Fractions more than an order of magnitude smaller than their corresponding S1. 
 %Note: The double population seen in the $\rm^{83m}Kr$ S1 population is the result of double decay separated by 154 ns which can skew the apparent prompt fraction to lower values, discussed further in [XYZ Corrections].
 
 
-The S1 and S2 signal corresponding to an event are identified using a prompt fraction selection that had been tuned to calibration data. Valid S1 and S2 signals that spill into the single electron and single photon region at low energies can be identified by requiring the pulsed be paired. For the WIMP search we define `golden' events consisting of single scatters with a single S1 paired with a subsequent S2 pulse with a timing separation not excepting the maximum drift time inside the TPC. With the golden requirement each event has a well defined x,y coordinate and z making it possible to correct the signals for geometry and electron attenuation. 
+The S1 and S2 signals corresponding to an event are identified using a prompt fraction selection that has been tuned to calibration data. Valid S1 and S2 signals that spill into the single electron and single photon region at low energies can be identified by requiring the pulses be paired. For the WIMP search we define `golden' events consisting of single scatters with a single S1 paired with a subsequent S2 pulse with a timing separation within the maximum drift time of the TPC. With the golden requirement each event has a well defined x,y coordinate and z making it possible to correct the signals for geometrical effects and electron attenuation. 
 
  \begin{figure}[h!]\centering
 \includegraphics[width=110mm]{Chapter_LUX_Det/Kr_83_Density_text.png}
@@ -234,7 +246,7 @@ The S1 and S2 signal corresponding to an event are identified using a prompt fra
 
 \section{LUX Science Result (WIMP limit)}
 
-The first science run of the LUX detector consisted of 85.3 live days from April 21, 2013 to Aug 8, 2013. A total of 83,673,413 triggers were recorded with 160 remaining as golden after applying quality cuts, listed in table \ref{table:WIMP_Quality_Cuts}.  
+The first science run of the LUX detector consisted of 85.3 live days between April 21, 2013 to Aug 8, 2013. A total of 83,673,413 triggers were recorded with 160 remaining as golden after applying quality cuts, listed in table \ref{table:WIMP_Quality_Cuts}.  
 
 \renewcommand{\baselinestretch}{1}
 \small\normalsize
@@ -268,8 +280,8 @@ The fiducial cut reduces residual radioactivity from the detector surface and PM
 \label{fig:LUX_Result_Event}
 \end{figure}
 
-Within the fiducial volume 160 events remain which meet our WIMP search energy requirement. The energy cut is placed in terms of S1 from 2-30 PE. As explained in chapter [Energy Calibrations] this corresponds to roughly 1.0 to 6 $\rm keV_{ee}$ or 3 to 25 $\rm keV_{nr}$. We choose to select events based on S1 because it is directly observed, whereas true energy depends on the nature of the event (ER or NR) and must be inferred. %These subtletie will be discussed in further detail in this thesis. 
-The ER and NR discrimination band was measured using calibration data and shown in figure \ref{fig:LUX_Result}. The blue and red bands represent the 10\% to 90\% confidence bounds of events being ER and NR type, respectively. The ER band was measured using a tritium calibration source ($\rm \beta^{-}$) and the NR band was measured with neutrons from AmBe and $\rm^{252}Cf$ along with NEST simulations \cite{NEST_2013}. The ER/NR discrimination at 50\% NR acceptance was measured to be $\rm 99.6\pm0.1$ \%. This value serves as a proxy for background events rejection, which is ultimately treated with a profile likelihood method on an event by event basis. Both the S1 and S2 signal have been corrected for spatial dependance which is discussed in further detail in Chapter \label{Ch:3}. Due to cross talk or shorts, two PMTs on the top array and one on the bottom were left unbiassed.  In order to avoid misreconstructing events extracted around the unbiased top PMTs only the bottom PMT array was used for the S2 signal ($\rm S2_b$).
+Within the fiducial volume 160 events remain which meet our WIMP search energy requirement. The energy cut is placed in terms of S1 from 2-30 PE. As explained in chapter \ref{Ch:E_Scale_Cal}, this corresponds to roughly 1.0 to 6 $\rm keV_{ee}$ or 3 to 25 $\rm keV_{nr}$. We choose to select events based on S1 because it is directly observed, whereas true energy depends on the nature of the event (ER or NR) and must be inferred. %These subtletie will be discussed in further detail in this thesis. 
+The ER and NR discrimination band was measured using calibration data as shown in figure \ref{fig:LUX_ER_NR_Band} is reproduced in \ref{fig:LUX_Result}. The blue and red bands represent the 10\% to 90\% confidence bounds of events being ER and NR type, respectively. The ER band was measured using a tritium calibration source ($\rm \beta^{-}$) and the NR band was measured with neutrons from AmBe and $\rm^{252}Cf$ along with NEST simulations \cite{NEST_2013}. The ER/NR discrimination at 50\% NR acceptance was measured to be $\rm 99.6\pm0.1$ \%. This value serves as a measure of background rejection, which is ultimately treated with a profile likelihood method on an event-by-event basis. Both the S1 and S2 signal have been corrected for spatial dependance, as discussed in further detail in Chapter \ref{Ch:3}. %Due to cross talk or shorts, two PMTs on the top array and one on the bottom were left unbiassed.  In order to avoid misreconstructing events extracted around the unbiased top PMTs only the bottom PMT array was used for the S2 signal ($\rm S2_b$).
 
  \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_LUX_Det/LUX_Result.png}
@@ -279,17 +291,17 @@ The ER and NR discrimination band was measured using calibration data and shown 
 
 \newpage
 
-All 160 remaining events in the fiducial volume are consistent with being ER type events. The main source of BG events include residual $\rm^{85}Kr$, activated $\rm^{127}Xe$ and $\rm^{214}Pb$ from $\rm^{222}Rn$, described in further detail in \cite{LUX_BG}. The residual ER background rate in the WIMP region of interest as found to be 3.6$\rm\pm$0.3 mDRU ($\rm 10^{?3}$ cnts/keVee/kg/day) with an expectation of 2.6$\rm\pm 0.2_{stat}$ $\rm\pm 0.4_{sys}$ mDRU.
+All 160 remaining events in the fiducial volume are consistent with being ER type events. The main source of background events include residual $\rm^{85}Kr$, activated $\rm^{127}Xe$ and $\rm^{214}Pb$ from $\rm^{222}Rn$, described in further detail in \cite{LUX_BG}. The residual ER background rate in the WIMP region of interest as found to be 3.6$\rm\pm$0.3 mDRU ($\rm 10^{-3}$ cnts/keVee/kg/day) with an expectation of 2.6$\rm\pm 0.2_{stat}$ $\rm\pm 0.4_{sys}$ mDRU.
 
 
-A profile likelihood test is conducted on all WIMP search candidates remaining after the cuts lister in table \ref{table:WIMP_Quality_Cuts}. Testing the charge to light ratio ($\rm S2_b$/S1) vs. energy (S1) for likelihood of being an expected ER background. The signal model for the test is derived from AmBe and $\rm^{252}Cf$ neutron calibrations. The background rates input into the profile likelihood were independently measured and modeled with LUXSIM using NEST, described in further detail in \cite{LUX_BG} \cite{LUX_PRL} \cite{NEST_2013}. The WIMP signal model was generated using an isothermal halo with a Maxwellian distribution, with a local WIMP density of 0.3 GeV/$\rm cm^3$ (as discussed in section \ref{sec:DM_Search}). The galactic escape velocity input into the model is 544 km/s (cutting off the high end of WIMP velocity distribution), with an average WIMP velocity of 220 km/s. The earth's seasonal velocity being 245 km/s with respect to the galactic center. The result from the 2013 science run with the LUX detector is consistent with a P value of 0.35 for the background only hypothesis. The 90\% upper C.L. cross section for various spin independent masses are shown in figure \ref{fig:LUX_Limit}. The minimum cross section reported occurs at 7.6$\rm\times10^{-46}$ $\rm cm^2$ for a WIMP mass of 33 GeV/$\rm c^2$ \cite{LUX_PRL}. The LUX result is a factor of two improvement in WIMP cross section sensitivity over the Xenon100 limit reported in 2012 \cite{Xenon100} and is in tension with reported WIMP signal claims from CoGent \cite{CoGeNT}, CDMSLite (Silicone) \cite{CDMSlite}, CRESST II \cite{CRESSTII} and DAMA/LIBRA \cite{DAMA}.
+A profile likelihood test is conducted on all WIMP search candidates remaining after the cuts listed in table \ref{table:WIMP_Quality_Cuts}. The signal model is derived from AmBe and $\rm^{252}Cf$ neutron calibrations. The background rates input into the profile likelihood were independently measured and modeled with LUXSIM using NEST, described in further detail in \cite{LUX_BG} \cite{LUX_PRL} \cite{NEST_2013}. The WIMP signal model was generated using an isothermal halo with a Maxwellian distribution, with a local WIMP density of 0.3 GeV/$\rm cm^3$ (as discussed in section \ref{sec:DM_Search}). The galactic escape velocity input into the model is 544 km/s (cutting off the high end of WIMP velocity distribution), with an average WIMP velocity of 220 km/s. The earth's seasonal velocity being 245 km/s with respect to the galactic center. The result from the 2013 science run with the LUX detector is consistent with a P value of 0.35 for the background-only hypothesis. The 90\% upper C.L. cross section for various spin independent masses are shown in figure \ref{fig:LUX_Limit}. The minimum cross section reported occurs at 7.6$\rm\times10^{-46}$ $\rm cm^2$ for a WIMP mass of 33 GeV/$\rm c^2$ \cite{LUX_PRL}. The LUX result is a factor of two improvement in WIMP cross section sensitivity over the Xenon100 limit reported in 2012 \cite{Xenon100} and is in tension with reported WIMP signal claims from CoGent \cite{CoGeNT}, CDMSLite (Silicon) \cite{CDMSlite}, CRESST II \cite{CRESSTII} and DAMA/LIBRA \cite{DAMA}.
 
  \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_LUX_Det/LUX_Limit.png}
-\caption{LUX detector is consistent with a P value of 0.35 of the background only hypothesis. The 90\% upper C.L. cross section for various spin independent masses are shown in figure \ref{fig:LUX_Limit} in blue. Also shows are limits from Xenon100 (red), CDMS II (green), ZEPLIN III (magenta), and one sigma signal claimed for DAMA/LIBRA (shaded grey), CDMS II Silicone (shaded green), CRESST II (shaded yellow).}
+\caption{LUX detector is consistent with a P value of 0.35 of the background only hypothesis. The 90\% upper C.L. cross section for various spin independent masses are shown in figure \ref{fig:LUX_Limit} in blue. Also shows are limits from Xenon100 (red), CDMS II (green), ZEPLIN III (magenta), and one sigma signal claimed for DAMA/LIBRA (shaded grey), CDMS II Silicon (shaded green), CRESST II (shaded yellow).}
 \label{fig:LUX_Limit}
 \end{figure}
 
 \newpage
 
-As mentioned above the ER band is measured with a novel tritium calibration source and will be discussed in further detail in Chapter [TritiumSource]. Since the initial science run we have gathered twenty times the tritium statistics to further study the ER band, with 150,000 events in the fiducial volume. We also spent several months deploying a DD neutron generated source to further study the NR band mean. The results from the improved ER and NR calibrations will be reported in this thesis along with the implications for an improved WIMP limit. An updated profile likelihood reanalysis of the LUX WIMP search result will be submitted for publication in late Fall of 2014. 
+As mentioned above the ER band is measured with a tritium calibration source and will be discussed in further detail in chapter \ref{Ch:T}. Since the initial science run we have gathered twenty times the tritium statistics to further study the ER band, with over 140,000 tritium events in the fiducial volume. We also spent several months calibrating the LUX detector with a DD neutron generator to further study the NR band mean. The results from the improved ER calibrations will be reported here and will be used for a reanalysis of the LUX WIMP search data. The result will be submitted for publication in late 2014. 
