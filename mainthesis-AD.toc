@@ -70,15 +70,15 @@
 \contentsline {subsection}{\numberline {6.5.1}The Standard Candle: Light Yield from $\rm ^{83m}Kr$}{184}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Comparing Tritium Scintillation Yield with Compton Scatters}{186}{subsection.6.5.2}
 \contentsline {section}{\numberline {6.6}Summery}{189}{section.6.6}
-\contentsline {chapter}{\numberline {7}Tritiated-Methane Calibration Source and the ER Band}{191}{chapter.7}
+\contentsline {chapter}{\numberline {7}The electron recoil band of LUX}{191}{chapter.7}
 \contentsline {section}{\numberline {7.1}The need for an Internal Calibration Source}{191}{section.7.1}
 \contentsline {section}{\numberline {7.2}Tritiated-Methane as a Calibration Source}{193}{section.7.2}
 \contentsline {section}{\numberline {7.3}Removal of $\rm CH_4$ from LUX}{195}{section.7.3}
 \contentsline {section}{\numberline {7.4}Light Yield Quenching from $\rm CH_4$ in LUX}{197}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Tritiated Methane injection into the LUX detector}{199}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Mixing of Tritiated Methane in Liquid Xenon}{200}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Definition of Electronic Recoil Band. ER and NR Discrimination}{202}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.3}Definition of the Electronic Recoil Band and the ER Discrimination Factor}{202}{subsection.7.4.3}
 \contentsline {section}{\numberline {7.5}ER Band Gaussianity}{206}{section.7.5}
-\contentsline {section}{\numberline {7.6}S1 Threshold For Golden Events, Using Tritium}{207}{section.7.6}
-\contentsline {section}{\numberline {7.7}Conclusion}{209}{section.7.7}
+\contentsline {section}{\numberline {7.6}S1 Threshold For Golden Events, Using Tritium}{208}{section.7.6}
+\contentsline {section}{\numberline {7.7}Conclusion}{208}{section.7.7}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{211}{chapter*.114}
