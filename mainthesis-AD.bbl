@@ -24,6 +24,12 @@ J.D. Lewin and P.F. Smith.
 \newblock \emph{Astropart.Phys.}, 6:87--112, 1996.
 \newblock \doi{10.1016/S0927-6505(96)00047-3}.
 
+\bibitem{WIMP_Rate_Plot}
+V.~{Chepel} and H.~{Ara{\'u}jo}.
+\newblock {Liquid noble gas detectors for low energy particle physics}.
+\newblock \emph{Journal of Instrumentation}, 8:R04001, April 2013.
+\newblock \doi{10.1088/1748-0221/8/04/R04001}.
+
 \bibitem{Helm_Factor}
 Richard~H. Helm.
 \newblock Inelastic and elastic scattering of 187-mev electrons from selected
@@ -200,12 +206,6 @@ Andriy Kurylov and Marc Kamionkowski.
   searches}.
 \newblock \emph{Phys.Rev.}, D69:063503, 2004.
 \newblock \doi{10.1103/PhysRevD.69.063503}.
-
-\bibitem{WIMP_Rate_Plot}
-V.~{Chepel} and H.~{Ara{\'u}jo}.
-\newblock {Liquid noble gas detectors for low energy particle physics}.
-\newblock \emph{Journal of Instrumentation}, 8:R04001, April 2013.
-\newblock \doi{10.1088/1748-0221/8/04/R04001}.
 
 \bibitem{LUX_PRL}
 S.~Akerib, D.\, et~al.
@@ -438,6 +438,10 @@ V.~Eckardt, et~al.
   krypton-83m}.
 \newblock 2001.
 
+\bibitem{Platzman}
+R.~L. Platzman.
+\newblock \emph{Int.J.Appl.Radiat.Isotopes}, page 116, 1961.
+
 \bibitem{Doke_alpha}
 Tadayoshi Doke, et~al.
 \newblock Absolute scintillation yields in liquid argon and xenon for various
@@ -464,10 +468,6 @@ J.~Thomas and D.~A. Imel.
 \bibitem{Birks}
 J.~B. Birks.
 \newblock \emph{Proc. Phys. Soc.}, A64:874, 1951.
-
-\bibitem{Platzman}
-R.~L. Platzman.
-\newblock \emph{Int.J.Appl.Radiat.Isotopes}, page 116, 1961.
 
 \bibitem{Mozumder}
 A.~Mozumder.

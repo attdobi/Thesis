@@ -30,53 +30,55 @@
 \BOOKMARK [1][-]{section.3.3}{S2 Electron Lifetime and x,y Correction}{chapter.3}% 30
 \BOOKMARK [1][-]{section.3.4}{S1 Spacial Dependant Correction}{chapter.3}% 31
 \BOOKMARK [1][-]{section.3.5}{Application to x,y,z Corrections in Data Processing}{chapter.3}% 32
-\BOOKMARK [0][-]{chapter.4}{Calibrating the Combined Energy Scale}{}% 33
-\BOOKMARK [1][-]{section.4.1}{Anti-Correlation Space}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.2}{Refitting in Combined Energy Space}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.3}{Finding Errors with MCMC}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.4}{Combined Energy Space}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.5}{Light Collection and Electron extraction}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.6}{Tritium Beta Spectrum}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{Event Level Fluctuations}{}% 40
-\BOOKMARK [1][-]{section.5.1}{An Introduction to Fluctuations}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{Modeling Intrinsic Detector Resolution}{chapter.5}% 42
-\BOOKMARK [1][-]{section.5.3}{Measuring Recombination Fluctuations with Mono-Energetic Sources}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.4}{Measuring Recombination Fluctuations in Disecrate Energy Bins}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.4.1}{Application to 83Kr}{section.5.4}% 45
-\BOOKMARK [2][-]{subsection.5.4.2}{Application to Simulated Tritium Data}{section.5.4}% 46
-\BOOKMARK [1][-]{section.5.5}{Extracting Recombination Fluctuations from Tritium Calibration Data}{chapter.5}% 47
-\BOOKMARK [2][-]{subsection.5.5.1}{Extracting Recombination fraction From Tritium Data}{section.5.5}% 48
-\BOOKMARK [2][-]{subsection.5.5.2}{Modeling the ER Band}{section.5.5}% 49
-\BOOKMARK [1][-]{section.5.6}{Measuring Alpha From the Tritium Data}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.7}{Extracting Recombination Fluctuations from 137Cs Calibration}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.8}{Recombination Fluctuations, The Bigger Picture}{chapter.5}% 52
-\BOOKMARK [2][-]{subsection.5.8.1}{Encounter Recombination Probability}{section.5.8}% 53
-\BOOKMARK [2][-]{subsection.5.8.2}{Clusters of Encounter Recombination}{section.5.8}% 54
-\BOOKMARK [1][-]{section.5.9}{Conclusion}{chapter.5}% 55
-\BOOKMARK [0][-]{chapter.6}{Ionization and Scintillation Yield from Tritium Calibration}{}% 56
-\BOOKMARK [1][-]{section.6.1}{Correcting for Spectral Shape for Finite Resolution}{chapter.6}% 57
-\BOOKMARK [2][-]{subsection.6.1.1}{Calculating the Observed Energy}{section.6.1}% 58
-\BOOKMARK [2][-]{subsection.6.1.2}{Smearing a Toy Spectrum}{section.6.1}% 59
-\BOOKMARK [1][-]{section.6.2}{Light Yield, Charge Yield and Comparison to NEST Modeling}{chapter.6}% 60
-\BOOKMARK [2][-]{subsection.6.2.1}{Tritium S1 and S2 vs. NEST}{section.6.2}% 61
-\BOOKMARK [2][-]{subsection.6.2.2}{Tritium Energy Spectrum}{section.6.2}% 62
-\BOOKMARK [2][-]{subsection.6.2.3}{Results for Light Yield, Charge Yield and Recombination}{section.6.2}% 63
-\BOOKMARK [1][-]{section.6.3}{Measuring Light Yield, Charge Yield and Recombination, Corrected for Spectral Shape}{chapter.6}% 64
-\BOOKMARK [2][-]{subsection.6.3.1}{Tritium S1 and S2 Correction}{section.6.3}% 65
-\BOOKMARK [1][-]{section.6.4}{Ionization and Scintillation Yield After Correction}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.5}{Comparison of Light Yield Measured With Tritium to Other Measurements With Compton Scatters}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.5.1}{The Standard Candle: Light Yield from 83mKr}{section.6.5}% 68
-\BOOKMARK [2][-]{subsection.6.5.2}{Comparing Tritium Scintillation Yield with Compton Scatters}{section.6.5}% 69
-\BOOKMARK [1][-]{section.6.6}{Summery}{chapter.6}% 70
-\BOOKMARK [0][-]{chapter.7}{Tritiated-Methane Calibration Source and the ER Band}{}% 71
-\BOOKMARK [1][-]{section.7.1}{The need for an Internal Calibration Source}{chapter.7}% 72
-\BOOKMARK [1][-]{section.7.2}{Tritiated-Methane as a Calibration Source}{chapter.7}% 73
-\BOOKMARK [1][-]{section.7.3}{Removal of CH4 from LUX}{chapter.7}% 74
-\BOOKMARK [1][-]{section.7.4}{Light Yield Quenching from CH4 in LUX}{chapter.7}% 75
-\BOOKMARK [2][-]{subsection.7.4.1}{Tritiated Methane injection into the LUX detector}{section.7.4}% 76
-\BOOKMARK [2][-]{subsection.7.4.2}{Mixing of Tritiated Methane in Liquid Xenon}{section.7.4}% 77
-\BOOKMARK [2][-]{subsection.7.4.3}{Definition of Electronic Recoil Band. ER and NR Discrimination}{section.7.4}% 78
-\BOOKMARK [1][-]{section.7.5}{ER Band Gaussianity}{chapter.7}% 79
-\BOOKMARK [1][-]{section.7.6}{S1 Threshold For Golden Events, Using Tritium}{chapter.7}% 80
-\BOOKMARK [1][-]{section.7.7}{Conclusion}{chapter.7}% 81
-\BOOKMARK [0][-]{chapter*.113}{Bibliography}{}% 82
+\BOOKMARK [0][-]{chapter.4}{The Combined Energy Scale}{}% 33
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Charge vs. Light}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{Refitting in Combined Energy Space}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.4}{Error Determination of g1 and g2 with a Markov Chain Monte Carlo}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.5}{Combined Energy Space}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.6}{Light Collection and Electron extraction}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.7}{Tritium Beta Spectrum}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.8}{Summery}{chapter.4}% 41
+\BOOKMARK [0][-]{chapter.5}{Event Level Fluctuations}{}% 42
+\BOOKMARK [1][-]{section.5.1}{An Introduction to Fluctuations}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.2}{Modeling Intrinsic Detector Resolution}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.3}{Measuring Recombination Fluctuations with Mono-Energetic Sources}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.4}{Measuring Recombination Fluctuations in Disecrate Energy Bins}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.4.1}{Application to 83Kr}{section.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.4.2}{Application to Simulated Tritium Data}{section.5.4}% 48
+\BOOKMARK [1][-]{section.5.5}{Extracting Recombination Fluctuations from Tritium Calibration Data}{chapter.5}% 49
+\BOOKMARK [2][-]{subsection.5.5.1}{Extracting Recombination fraction From Tritium Data}{section.5.5}% 50
+\BOOKMARK [2][-]{subsection.5.5.2}{Modeling the ER Band}{section.5.5}% 51
+\BOOKMARK [1][-]{section.5.6}{Measuring Alpha From the Tritium Data}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.7}{Extracting Recombination Fluctuations from 137Cs Calibration}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.8}{Recombination Fluctuations, The Bigger Picture}{chapter.5}% 54
+\BOOKMARK [2][-]{subsection.5.8.1}{Encounter Recombination Probability}{section.5.8}% 55
+\BOOKMARK [2][-]{subsection.5.8.2}{Clusters of Encounter Recombination}{section.5.8}% 56
+\BOOKMARK [1][-]{section.5.9}{Conclusion}{chapter.5}% 57
+\BOOKMARK [0][-]{chapter.6}{Ionization and Scintillation Yield from Tritium Calibration}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Correcting for Spectral Shape for Finite Resolution}{chapter.6}% 59
+\BOOKMARK [2][-]{subsection.6.1.1}{Calculating the Observed Energy}{section.6.1}% 60
+\BOOKMARK [2][-]{subsection.6.1.2}{Smearing a Toy Spectrum}{section.6.1}% 61
+\BOOKMARK [1][-]{section.6.2}{Light Yield, Charge Yield and Comparison to NEST Modeling}{chapter.6}% 62
+\BOOKMARK [2][-]{subsection.6.2.1}{Tritium S1 and S2 vs. NEST}{section.6.2}% 63
+\BOOKMARK [2][-]{subsection.6.2.2}{Tritium Energy Spectrum}{section.6.2}% 64
+\BOOKMARK [2][-]{subsection.6.2.3}{Results for Light Yield, Charge Yield and Recombination}{section.6.2}% 65
+\BOOKMARK [1][-]{section.6.3}{Measuring Light Yield, Charge Yield and Recombination, Corrected for Spectral Shape}{chapter.6}% 66
+\BOOKMARK [2][-]{subsection.6.3.1}{Tritium S1 and S2 Correction}{section.6.3}% 67
+\BOOKMARK [1][-]{section.6.4}{Ionization and Scintillation Yield After Correction}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.5}{Comparison of Light Yield Measured With Tritium to Other Measurements With Compton Scatters}{chapter.6}% 69
+\BOOKMARK [2][-]{subsection.6.5.1}{The Standard Candle: Light Yield from 83mKr}{section.6.5}% 70
+\BOOKMARK [2][-]{subsection.6.5.2}{Comparing Tritium Scintillation Yield with Compton Scatters}{section.6.5}% 71
+\BOOKMARK [1][-]{section.6.6}{Summery}{chapter.6}% 72
+\BOOKMARK [0][-]{chapter.7}{Tritiated-Methane Calibration Source and the ER Band}{}% 73
+\BOOKMARK [1][-]{section.7.1}{The need for an Internal Calibration Source}{chapter.7}% 74
+\BOOKMARK [1][-]{section.7.2}{Tritiated-Methane as a Calibration Source}{chapter.7}% 75
+\BOOKMARK [1][-]{section.7.3}{Removal of CH4 from LUX}{chapter.7}% 76
+\BOOKMARK [1][-]{section.7.4}{Light Yield Quenching from CH4 in LUX}{chapter.7}% 77
+\BOOKMARK [2][-]{subsection.7.4.1}{Tritiated Methane injection into the LUX detector}{section.7.4}% 78
+\BOOKMARK [2][-]{subsection.7.4.2}{Mixing of Tritiated Methane in Liquid Xenon}{section.7.4}% 79
+\BOOKMARK [2][-]{subsection.7.4.3}{Definition of Electronic Recoil Band. ER and NR Discrimination}{section.7.4}% 80
+\BOOKMARK [1][-]{section.7.5}{ER Band Gaussianity}{chapter.7}% 81
+\BOOKMARK [1][-]{section.7.6}{S1 Threshold For Golden Events, Using Tritium}{chapter.7}% 82
+\BOOKMARK [1][-]{section.7.7}{Conclusion}{chapter.7}% 83
+\BOOKMARK [0][-]{chapter*.114}{Bibliography}{}% 84

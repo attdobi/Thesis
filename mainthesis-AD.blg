@@ -16,7 +16,7 @@ A level-1 auxiliary file: Chapter_LYQY/Chapter6_LYQY.aux
 A level-1 auxiliary file: Chapter_T/Chapter7_T.aux
 The style file: thesisbibstyle.bst
 Database file #1: AD_ThesisBib.bib
-You're missing a field name---line 1559 of file AD_ThesisBib.bib
+You're missing a field name---line 1576 of file AD_ThesisBib.bib
  :   
  :   %address      = {The address of the publisher},
 (Error may have been on previous line)
@@ -27,8 +27,8 @@ Warning--empty journal in Plank_Map
 Warning--empty journal in Bullet_Cluster_Xray
 Warning--empty journal in PandaX
 Warning--empty journal in Start_Kr
-Warning--empty title in Birks
 Warning--empty title in Platzman
+Warning--empty title in Birks
 You've used 89 entries,
             2322 wiz_defined-function locations,
             1182 strings with 33698 characters,
