@@ -24,12 +24,12 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Energy and Position Reconstruction}{section.2.3}% 24
 \BOOKMARK [1][-]{section.2.4}{Identifying S1, S2}{chapter.2}% 25
 \BOOKMARK [1][-]{section.2.5}{LUX Science Result \(WIMP limit\)}{chapter.2}% 26
-\BOOKMARK [0][-]{chapter.3}{Spacial Dependent Correction of the S1 and S2 Signals}{}% 27
+\BOOKMARK [0][-]{chapter.3}{Corrections to the S1 and S2 signals}{}% 27
 \BOOKMARK [1][-]{section.3.1}{83mKr Calibration}{chapter.3}% 28
 \BOOKMARK [1][-]{section.3.2}{83mKr \040Mixing in Liquid Xenon}{chapter.3}% 29
 \BOOKMARK [1][-]{section.3.3}{S2 Electron Lifetime and x,y Correction}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.4}{S1 Spacial Dependant Correction}{chapter.3}% 31
-\BOOKMARK [1][-]{section.3.5}{Application to x,y,z Corrections in Data Processing}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{S1 x,y,z Correction}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.5}{Application of x,y,z Corrections to the Data}{chapter.3}% 32
 \BOOKMARK [0][-]{chapter.4}{The Combined Energy Scale}{}% 33
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 34
 \BOOKMARK [1][-]{section.4.2}{Charge vs. Light}{chapter.4}% 35
@@ -39,7 +39,7 @@
 \BOOKMARK [1][-]{section.4.6}{Light Collection and Electron extraction}{chapter.4}% 39
 \BOOKMARK [1][-]{section.4.7}{Tritium Beta Spectrum}{chapter.4}% 40
 \BOOKMARK [1][-]{section.4.8}{Summery}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Event Level Fluctuations}{}% 42
+\BOOKMARK [0][-]{chapter.5}{Fluctuations in the S1 and S2 Signals}{}% 42
 \BOOKMARK [1][-]{section.5.1}{An Introduction to Fluctuations}{chapter.5}% 43
 \BOOKMARK [1][-]{section.5.2}{Modeling Intrinsic Detector Resolution}{chapter.5}% 44
 \BOOKMARK [1][-]{section.5.3}{Measuring Recombination Fluctuations with Mono-Energetic Sources}{chapter.5}% 45
@@ -55,8 +55,8 @@
 \BOOKMARK [2][-]{subsection.5.8.1}{Encounter Recombination Probability}{section.5.8}% 55
 \BOOKMARK [2][-]{subsection.5.8.2}{Clusters of Encounter Recombination}{section.5.8}% 56
 \BOOKMARK [1][-]{section.5.9}{Conclusion}{chapter.5}% 57
-\BOOKMARK [0][-]{chapter.6}{Ionization and Scintillation Yield from Tritium Calibration}{}% 58
-\BOOKMARK [1][-]{section.6.1}{Correcting for Spectral Shape for Finite Resolution}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter.6}{Ionization and Scintillation Yields of Liquid Xenon at Low Energy}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Correcting for the Spectral Shape for Finite Resolution}{chapter.6}% 59
 \BOOKMARK [2][-]{subsection.6.1.1}{Calculating the Observed Energy}{section.6.1}% 60
 \BOOKMARK [2][-]{subsection.6.1.2}{Smearing a Toy Spectrum}{section.6.1}% 61
 \BOOKMARK [1][-]{section.6.2}{Light Yield, Charge Yield and Comparison to NEST Modeling}{chapter.6}% 62
@@ -70,7 +70,7 @@
 \BOOKMARK [2][-]{subsection.6.5.1}{The Standard Candle: Light Yield from 83mKr}{section.6.5}% 70
 \BOOKMARK [2][-]{subsection.6.5.2}{Comparing Tritium Scintillation Yield with Compton Scatters}{section.6.5}% 71
 \BOOKMARK [1][-]{section.6.6}{Summery}{chapter.6}% 72
-\BOOKMARK [0][-]{chapter.7}{The electron recoil band of LUX}{}% 73
+\BOOKMARK [0][-]{chapter.7}{The Electron Recoil Band of LUX}{}% 73
 \BOOKMARK [1][-]{section.7.1}{The need for an Internal Calibration Source}{chapter.7}% 74
 \BOOKMARK [1][-]{section.7.2}{Tritiated-Methane as a Calibration Source}{chapter.7}% 75
 \BOOKMARK [1][-]{section.7.3}{Removal of CH4 from LUX}{chapter.7}% 76

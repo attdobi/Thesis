@@ -1,13 +1,13 @@
 \renewcommand{\thechapter}{6}
 
-\chapter{Ionization and Scintillation Yield from Tritium Calibration}
+\chapter{Ionization and Scintillation Yields of Liquid Xenon at Low Energy}
 \label{Ch:LYQY}
 
 In this section we measure the scintillation yield and ionization yield from the tritium calibration data. Using the measurement of gains g1 and g2 in chapter \ref{Ch:E_Scale_Cal}, the average number of photons, electrons and the corresponding combined energy can be determined. With that information the light yield ($\rm n_\gamma/keV$) and charge yield ($\rm n_e/keV$) are extracted from tritium data down to 1 $\rm keV_{ee}$. Before the yields can be measured, the effect of finite detector resolution convolved with the tritium spectral shape must be accounted for. Detector resolution was characterized in chapter \ref{Ch:Flucs} and will be used to model the smeared tritium spectra as observed by the LUX detector. Once the spectral shape has been corrected we report the values of light yield and charge yield measured at 170 and 100 V/cm. The results are compared to two recent measurements for light yield in the keV range using Compton scatters. This provides a crucial cross check that the ER band calibration using the tritium beta source is valid for use with the more generic backgrounds found in WIMP search data consisting of Compton scatter from high energy gammas. At low energies the light yields and charge yields from betas and gammas are expected to be identical \cite{NEST} \cite{NEST_2013}.
 % and we will use those results along with a priori knowledge of the tritium photon and electron spectrum from NEST \cite{NEST_2013}.
 
 
-\section{Correcting for Spectral Shape for Finite Resolution}
+\section{Correcting for the Spectral Shape for Finite Resolution}
 \label{sec:Smear}
 
 The distribution of tritium events convolved with the detector's finite resolution for S1 (scintillation) and S2 (ionization) causes the observed mean of the spectra to shift from the actual mean. The shift is non-trivial and depends on the spectral shape and the functional form of the resolution over a range of energies. A large negative derivative of the spectral shape will tend to pull the observed mean to lower values, and a large positive slope will pull the observed mean to higher values. Figure \ref{fig:exp_int} and equations \ref{eq:2} and \ref{eq:4} demonstrate a simple model to solve for the relation between observed mean and actual mean. Consider, for example, a linearly declining distribution. Starting with infinite detector resolution we set up bins of width $\rm \Delta x$. To account for finite energy resolution we distribute the counts in each rectangular bin into Gaussians centered at $\rm \mu_i$, with a spread of $\sigma_i$, and normalized to the area of the bin $\rm N_i \times \Delta x $ with amplitude $\rm c_i$. Each rectangular bin(i) can be written as a Gaussian G(i): \\ 
