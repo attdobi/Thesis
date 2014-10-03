@@ -57,7 +57,7 @@ Equation \ref{eq:2} can be solved in terms of error function and complimentary e
 \end{multline}
 
 
-As $\rm \mu$ approaches zero the Gaussian distribution of equation \ref{eq:1} begins to spill over into negative values, which in some cases may be nonphysical. For instance, the Gaussian assumption leads to negative photons. We can chose to ignore this area or make the distribution more Poisson-like by bouncing the Gaussian back at $\rm \mu = 0$. The formula for accounting for the area of the reflected Gaussian is described in \ref{eq:6}. Ultimately this assumption has little impact on the S1 and S2 analysis because the threshold cut off well before the zero interface is reached, but it does make the distributions more Poisson like near the zeroth bins. Equation \ref{eq:6} is the same as \ref{eq:3} with the bin center $\rm \mu_i$ mapped to $\rm -\mu_i$.
+As $\rm \mu$ approaches zero the Gaussian distribution of equation \ref{eq:1} begins to spill over into negative values, which in some cases may be unphysical. For instance, the Gaussian assumption leads to negative photons. We can chose to ignore this area or make the distribution more Poisson-like by bouncing the Gaussian back at $\rm \mu = 0$. The formula for accounting for the area of the reflected Gaussian is described in \ref{eq:6}. Ultimately this assumption has little impact on the S1 and S2 analysis because the threshold cut off well before the zero interface is reached, but it does make the distributions more Poisson like near the zeroth bins. Equation \ref{eq:6} is the same as \ref{eq:3} with the bin center $\rm \mu_i$ mapped to $\rm -\mu_i$.
 
 \begin{equation}
 %\rm A_i = c_i \ erf\left(\frac{\Delta x}{\sigma_i\sqrt{2}}\right) + \sum\limits_{n\neq i}^{} \frac{c_n}{2} erfc\left(\frac{|\mu_n-\mu_i| - \frac{\Delta x}{2}}{\sigma _n\sqrt{2}} \right) - 
@@ -205,7 +205,7 @@ Unlike the S1 and S2 spectra which are dependent on light and charge yield, the 
 \label{eq:E_res}
 \end{gather}
 
-\noindent W is the work function $0.0137\pm0.002 \rm \frac{keV}{N_{quanta}}$, $\rm n_\gamma$ and $\rm n_e$ and number of photons and electrons respectively. The constants $\rm a_\gamma$ and $\rm a_e$ represent the coefficients of the $\rm \sqrt{n}$ term for the statistical uncertainty given in equation \ref{eq:SigStat}. There is also an instrumental component which is proportional to $\rm n_\gamma$ and $\rm n_e$. However, the instrumental term is sub-dominant at the low tritium energies with coefficients given in equation \ref{eq:SigInst}.
+\noindent W is the work function $0.0137\pm0.002 \rm \frac{keV}{N_{quanta}}$, $\rm n_\gamma$ and $\rm n_e$ and number of photons and electrons respectively. The constants $\rm a_\gamma$ and $\rm a_e$ represent the coefficients of the $\rm \sqrt{n}$ term for the statistical uncertainty given in equation \ref{eq:SigStat}. There is also an instrumental component which is proportional to $\rm n_\gamma$ and $\rm n_e$. However, the instrumental term is subdominant at the low tritium energies with coefficients given in equation \ref{eq:SigInst}.
 
 Starting with the tritium energy spectrum with infinite resolution we apply the empirically determined resolution in equation \ref{eq:E_res}. Figure \ref{fig:E_spec} shows the comparisons of the true tritium spectrum, the spectrum with smearing from equation \ref{eq:E_res}, the expectation from LUXSIM and the data. The smearing from the model described in equations \ref{eq:1}-\ref{eq:5} is found to be almost identical to the output of LUXSIM.
 
@@ -466,7 +466,7 @@ The \KrCal source was discussed in greater in chapter \ref{Ch:3}. The decay of \
 \label{fig:Yield_Kr9}
 \end{figure}
 
-Fortunately, the first 32.1 keV appears to have no time dependence as it decays under normal circumstances in the xenon, without the presence of additional free ions or electron \cite{Baudis}, \cite{Aprile_LY}. Using a $\rm^{83m}Kr$ data set at zero field the yield of the 32.1 keV decay was determined. Since the S2 (charge) signal is unavailable at zero drift field we rely on the the top-bottom asymmetry of the PMTs to define the Z coordinate of the event, $\frac{top-bottom}{top+bottom} $. We must know at least the Z coordinate in order to apply the position dependent corrections outlined in chapter \ref{Ch:3}. The XY correction is subdominant to the Z-dependent correction for the S1 signal and can be ignored. Each event, given a top-bottom asymmetry, is mapped to a detector depth Z allowing for the Z-dependent correction to be applied. The correction normalizes the pulse area PE to the detector center (241.6 mm below the gate grid). The result for the zero field data set is shown in figure \ref{fig:ZeroField_Kr} and is reported in table \ref{table:kr32}.
+Fortunately, the first 32.1 keV appears to have no time dependance as it decays under normal circumstances in the xenon, without the presence of additional free ions or electron \cite{Baudis}, \cite{Aprile_LY}. Using a $\rm^{83m}Kr$ data set at zero field the yield of the 32.1 keV decay was determined. Since the S2 (charge) signal is unavailable at zero drift field we rely on the the top-bottom asymmetry of the PMTs to define the Z coordinate of the event, $\frac{top-bottom}{top+bottom} $. We must know at least the Z coordinate in order to apply the position dependent corrections outlined in chapter \ref{Ch:3}. The XY correction is subdominant to the Z-dependent correction for the S1 signal and can be ignored. Each event, given a top-bottom asymmetry, is mapped to a detector depth Z allowing for the Z-dependent correction to be applied. The correction normalizes the pulse area PE to the detector center (241.6 mm below the gate grid). The result for the zero field data set is shown in figure \ref{fig:ZeroField_Kr} and is reported in table \ref{table:kr32}.
  
  \begin{figure}[h!]\centering
 \includegraphics[width=72mm]{Chapter_Flucs/Figures/S1_Z_no_field_lux10_20131009T1358_cp09670} %old cp 6914
@@ -490,7 +490,7 @@ V/cm	& PE					& $\left<n_{\gamma}\right>$		& $\left<n_{\gamma}\right>$/keV	& $\l
 100 	&	178.4 $\pm$ 0.7 	&1839.2 $\pm$ 	7.2	 &	57.3 $\pm$ 0.2 	&	55.8 $\pm$ 2.8 \\ \hline
 170 	&  171.4 $\pm$ 0.9		&1767.0 $\pm$ 	9.2  &	55.0 $\pm$ 0.3 	&	51.9 $\pm$ 2.6 \\ \hline
 \end{tabular}
-\caption{Field dependence of the light yield form the 32.1 keV decay of $\rm^{83m}Kr$ along with the NEST \cite{NEST_2013} predictions.}
+\caption{Field dependance of the light yield form the 32.1 keV decay of $\rm^{83m}Kr$ along with the NEST \cite{NEST_2013} predictions.}
 \label{table:kr32}
 \end{center}
 \end{table}
@@ -504,7 +504,7 @@ We report the measured light yield of tritium relative to the 32.1 keV decay of 
 
  \begin{figure}[h!]\centering
  \includegraphics[width=150mm]{Chapter_Flucs/Figures/LYQY_iter1/Re_fig.png}
-\caption{LY relative to the light yield of the 32.1 keV decay of \KrCal at zero field. The black and blue bands represent the results from tritium at 170 and 100 V/cm respectively. The shaded region represents the systematic error due to the one sigma constraints on g1 and g2.  Magenta points are Compton scattering measurements from \cite{Aprile_LY}. The gray and red represent zero field and 450 V/cm Compton Scattering measurements from \cite{Baudis}. }
+\caption{LY relative to the light yield of the 32.1 keV decay of \KrCal at zero field. The black and blue bands represent the results from tritium at 170 and 100 V/cm respectively. The shaded region represents the systematic error due to the one sigma constraints on g1 and g2.  Magenta points are Compton scattering measurements from \cite{Aprile_LY}. The grey and red represent zero field and 450 V/cm Compton Scattering measurements from \cite{Baudis}. }
 \label{fig:Re}
 \end{figure}
 

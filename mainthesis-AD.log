@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 OCT 2014 08:35
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  3 OCT 2014 10:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -4659,9 +4659,6 @@ pdf>]) [195]
 
  (./Conclusion/Conclusion.tex
 Chapter 8.
-
-LaTeX Warning: Reference `Ch:7' on page 196 undefined on input line 10.
-
 [196
 
 
@@ -4697,7 +4694,7 @@ cknowledgements.aux) (./Abbreviations.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `mainthesis-AD.out' has not changed.
-(rerunfilecheck)             Checksum: EDF809D31271CA984E59DACE97CCD7CA;7050.
+(rerunfilecheck)             Checksum: 08D1CCC3E61ED2A3DDBA9BD83FBB6DC4;7049.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4712,10 +4709,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
  ) 
 Here is how much of TeX's memory you used:
- 18092 strings out of 493633
- 344563 string characters out of 3143378
- 494765 words of memory out of 3000000
- 20167 multiletter control sequences out of 15000+200000
+ 18091 strings out of 493633
+ 344557 string characters out of 3143378
+ 494766 words of memory out of 3000000
+ 20166 multiletter control sequences out of 15000+200000
  16110 words of font info for 64 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,18n,55p,1811b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4739,7 +4736,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2011/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2011/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2011/texmf-dis
 t/fonts/type1/public/amsfonts/latxfont/line10.pfb>
-Output written on mainthesis-AD.pdf (227 pages, 15739267 bytes).
+Output written on mainthesis-AD.pdf (227 pages, 15738852 bytes).
 PDF statistics:
  4338 PDF objects out of 5155 (max. 8388607)
  3614 compressed objects within 37 object streams

@@ -44,7 +44,7 @@
 \contentsline {section}{\numberline {5.1}An Introduction to Fluctuations}{90}{section.5.1}
 \contentsline {section}{\numberline {5.2}Modeling Intrinsic Detector Resolution}{95}{section.5.2}
 \contentsline {section}{\numberline {5.3}Measuring Recombination Fluctuations with Mono-Energetic Sources}{101}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measuring Recombination Fluctuations in Disecrate Energy Bins}{108}{section.5.4}
+\contentsline {section}{\numberline {5.4}Measuring Recombination Fluctuations in Discrete Energy Bins}{108}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Application to $\rm ^{83}Kr$}{119}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Application to Simulated Tritium Data}{121}{subsection.5.4.2}
 \contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{126}{section.5.5}
@@ -83,5 +83,5 @@
 \contentsline {chapter}{\numberline {8}LUX and Beyond}{196}{chapter.8}
 \contentsline {section}{\numberline {8.1}LUX 2013 Science Run Reanalysis}{196}{section.8.1}
 \contentsline {section}{\numberline {8.2}Fundamental Properties of Liquid Xenon}{197}{section.8.2}
-\contentsline {section}{\numberline {8.3}Internal Calibration Sources}{198}{section.8.3}
+\contentsline {section}{\numberline {8.3}Internal Calibration Sources}{197}{section.8.3}
 \contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{199}{chapter*.106}

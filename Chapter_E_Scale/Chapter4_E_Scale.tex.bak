@@ -96,7 +96,7 @@ $\rm ^{127}Xe$ 	& 203 or 375	& $\rm \gamma$-emission	& Early physics run (2013)\
 $\rm ^{127}Xe$		& 33.8			& Kb shell X-ray 				& Early physics run (2013)		\\ \hline
 $\rm ^{127}Xe$	     & 5.3			& L shell X-ray 					& Early physics run (2013)\\ \hline
 $\rm ^{129m}Xe$	& 236.1		& Internal Conversion 		& Early physics run (2013)	\\ \hline
-$\rm ^{214}Bi	$	& 609 			& $\rm \gamma$-emission	& Background from Det. components			 \\ \hline
+$\rm ^{214}Bi	$	& 609 			& $\rm \gamma$-emission	& Background from Det. componentes			 \\ \hline
  $\rm ^{137}Cs$	& 661.6		&  $\rm \gamma$-emission 	& External calibration source			\\ [0.5ex] 
 \hline
 \end{tabular}
@@ -286,7 +286,7 @@ With the values of $\rm g_1$ and $\rm g_2$ known the combined energy of events c
 
 \section{Light Collection and Electron extraction}
 
-The value of $\rm g_1$ represents the mean efficiency for collecting photons at the center of the LUX detector times the average quantum efficiency of the PMTs. The measured value of $\rm g_1$= $\rm0.097\pm0.008$ implies a 9.7\% probability of a photon propagated from the center of the detector, striking a PMT, and being converting into a photo electron (PE). The value of $\rm g_2$ represents the average number of PE collected for each electron that initiated secondary scintillation in the anode region. The value of $\rm g_2$ can be thought of as the average single electron size in PE times the extraction probability.
+The value of $\rm g_1$ represents the mean efficiency for collecting photons at the center of the LUX detector times the average quantum efficiency of the PMTs. The measured value of $\rm g_1$= $\rm0.097\pm0.008$ implies a 9.7\% probability of a photon propagated from the center of the detector, striking a PMT, and being converting into a photo electron (PE). The value of $\rm g_2$ represents the average number of PE collected for each electron that initiated secondary scintillation in the anode reigon. The value of $\rm g_2$ can be thought of as the average single electron size in PE times the extraction probability.
 \begin{equation}
 \rm g_2=\epsilon \times SE
 \end{equation}
