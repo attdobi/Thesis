@@ -94,7 +94,7 @@
 \include{Chapter_LYQY/Chapter6_LYQY}
 \include{Chapter_T/Chapter7_T}
 %\include{Recombination_LY_QY/Chapter_E_scale_Flucs}
-%\include{Chapter3}
+\include{Conclusion/Conclusion}
 %\include{AppendixA}
 %\include{AppendixB}
 
