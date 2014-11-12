@@ -856,7 +856,7 @@ The quadratic fit to both $\rm n_\gamma$ and $\rm n_e$ as a function of energy i
 \subcaptionbox{\label{fig:1d}}{\includegraphics[width=70mm]{Chapter_Flucs/Figures/T_SIM/SIM_R_T_100.eps}}
 
 
-\caption{Simulated tritium spectrum with the detector resolution of the LUX detector and an initial guess of recombination fluctuations. The detector resolution, labeled as $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$ is shown in red and green, respectively. The value of recombination fluctuation $\rm \sigma_R$ input into the simulation is shown in magenta. The methodology described in this previous section is applied to extract $\rm \sigma_R$ from the electron and photon spectrum, black and blue respectively. The statistical component of the standard deviation in each bin is $\rm \chi_{Det}$ is shown in green, equation \ref{eq:Chi_Explicit}.The plots show cases for various bin widths in keV: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
+\caption{Simulated tritium spectrum with the detector resolution of the LUX detector and an initial guess of recombination fluctuations. The detector resolution, labeled as $\rm \sigma_{S1_{Det}}$ and $\rm \sigma_{S2_{Det}}$ is shown in red and green, respectively. The value of recombination fluctuation $\rm \sigma_R$ input into the simulation is shown in magenta. The methodology described in this previous section is applied to extract $\rm \sigma_R$ from the electron and photon spectrum, black and blue respectively. The statistical component of the standard deviation in each bin is $\rm \chi_{Det}$ is shown in yellow, equation \ref{eq:Chi_Explicit}.The plots show cases for various bin widths in keV: a) $\rm \Delta E$ = 0.1 b) $\rm \Delta E$ = 0.25 c) $\rm \Delta E$ = 0.5 d) $\rm \Delta E$ = 1.   }
 \label{fig:T_Var}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
@@ -886,17 +886,17 @@ The events from the tritium calibration data are binned in energy and the mean v
 \small\normalsize
 \begin{figure}[h!]\centering
  
-\subcaptionbox{$\rm n_\gamma$, 170 V/cm \label{fig:5a}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_iter1_180_.png}}
+\subcaptionbox{$\rm n_\gamma$, 170 V/cm \label{fig:5a}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_iter1_180_noLine.png}}
 \hfill
-\subcaptionbox{$\rm n_e$, 170 V/cm \label{fig:5b}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_iter1_180_.png}}
+\subcaptionbox{$\rm n_e$, 170 V/cm \label{fig:5b}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_iter1_180_noLine.png}}
 
 \bigskip
 
-\subcaptionbox{$\rm n_\gamma$ 100 V/cm \label{fig:5c}}{\includegraphics[width=75mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_100_iter1_180_Tritium_LY_QY_100_iter1.png}}
+\subcaptionbox{$\rm n_\gamma$ 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_photon_100_iter1_180_Tritium_LY_QY_100_iter1_noLine.png}}
 \hfill
-\subcaptionbox{$\rm n_e$, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_100_iter1_180_Tritium_LY_QY_100_iter1.png}}
+\subcaptionbox{$\rm n_e$, 100 V/cm \label{fig:5c}}{\includegraphics[width=73mm]{Chapter_Flucs/Figures/Quanta_Density/n_electron_100_iter1_180_Tritium_LY_QY_100_iter1_noLine.png}}
 
-\caption{a: Density plot of number of photons vs. energy in keV using the tritium calibration data at 170 V/cm. b: Number of electrons vs. energy in keV using the tritium calibration data at 170 V/cm. c: Number of photons vs. energy in keV using the tritium calibration data at 100 V/cm. d: Number of electrons vs. energy in keV using the tritium calibration data at 100 V/cm. The data has been corrected for spectral shape. The black line indicates the quadratic fit to the centroid of the population. }
+\caption{a: Density plot of number of photons vs. energy in keV using the tritium calibration data at 170 V/cm. b: Number of electrons vs. energy in keV using the tritium calibration data at 170 V/cm. c: Number of photons vs. energy in keV using the tritium calibration data at 100 V/cm. d: Number of electrons vs. energy in keV using the tritium calibration data at 100 V/cm. The data has been corrected for spectral shape. }
 \label{fig:Raw_Quanta}
 \end{figure}
 \renewcommand{\baselinestretch}{2}
@@ -927,6 +927,18 @@ The events from the tritium calibration data are binned in energy and the mean v
 
 The figures on the left in \ref{fig:R_Flucs_Quanta} (a: 170 V/cm, c: 100 V/cm) show the extracted recombination fluctuation $\rm \sigma_R$ from the light (black) and change (red) channel denoted with subscript $\gamma$ and e respectively, note they are identical. Also shown is the detector resolution of light collection $\rm \chi_{\sigma_{Det}}$ (blue), charge collection $\rm \sigma_{e_{Det}}$ (cyan), and their manifestation in an energy bin $\rm \chi_{Det}$ (magenta). In regions where the measured recombination fluctuations are larger than the fluctuations from $\rm \chi_{Det}$ any error from the constraint on $\rm g_1$ and $\rm g_2$ is negligible. At the higher energy bins the uncertainty grows as the measurements become statistics limited. The size of the bin to bin fluctuations represent the statistical errors. The figures on the right in \ref{fig:R_Flucs_Quanta} (b: 170 V/cm, d: 100 V/cm) show the total quanta (black) which is the sum of the photons (blue) and electrons (red) and the expected number of ions (magenta) and excitons (cyan), using the exciton-to-ion ratio $\rm \alpha$ = 0.20. Since $\rm \chi_{Det}$ is solved for in terms of photons and electrons the means of the of number of photons and electrons in each energy bin must be measured first.
 
+\subsection{Nuclear and Electronic Recoil Quanta Production}
+
+In figure \ref{fig:R_Flucs_Quanta} b) the quanta produced in terms of photons and electrons for ER events was determined. From those observables (light and charge) the initial number of ions and excitons produced was modeled assuming $\rm \alpha$ = 0.2. Here we will demonstrate the difference between an ER and NR event of equal energy in liquid xenon. As outlined in section \ref{sec:NR}, nuclear recoil events lose about half their energy to heat given by the energy dependent Lindhard factor. NR events also have shorter track lengths which causes the recombination fraction to be less sensitive to energy compared to ER events \cite{Dahl_Thesis}. Further, the exciton-to-ion ratio for an NR event is $\sim$ 1 compared to $\sim$ 0.2 for ER. Thus, there is more light than charge produced for a given NR event as compared to an ER event. These properties are what allow for background rejection in liquid xenon detectors. Figure \ref{fig:ER_NR_Comp} (left) shows the quanta production for electron recoils at 170 V/cm measured from the tritium data compared to the expected values for nuclear recoils (right). The comparison is made in the LUX WIMP search region of interest from 1 to 8 keV. The nuclear recoil equivalent was determined using data from \cite{Dahl_Thesis}.  
+\begin{figure}[h!]\centering
+\includegraphics[width=73mm]{Chapter_Flucs/Figures/ER_NR_Comp/quanta_ER_iter1_z_8keV.png}
+\includegraphics[width=73mm]{Chapter_Flucs/Figures/ER_NR_Comp/quanta_NR_iter1_z_8keV.png}
+
+\caption{Left: Quanta production of ER events measured from the tritium data at 170 V/cm assuming an exciton-to-ion ratio of $\rm \alpha =$ 0.2. Right: Quanta production for nuclear recoil (NR) equivalent events, assuming a Lindhard factor of 2 and an exciton-to-ion ratio of $\rm \alpha =$ 1. The NR data is interpolated from \cite{Dahl_Thesis}. The charge-to-light ratio of a given event is what is used to discriminate ER from NR. }
+\label{fig:ER_NR_Comp}
+\end{figure}
+
+
 \newpage
 
 \subsection{Extracting Recombination fraction From Tritium Data}
@@ -935,7 +947,7 @@ Having measured the mean number of photons and electrons in each bin, the recomb
 
 \begin{figure}[h!]\centering
 \includegraphics[width=120mm]{Chapter_Flucs/Figures/Iter1_100/R_comp.png}
-\caption{Recombination Fraction at 170 V/cm (black) and 100 V/cm (blue). The shaded regions represent the one sigma of the observed fluctuations in recombination fractions $\rm \sigma_r$. The dashed line at 1.0 $\rm keV_{ee}$ represents the 50\% detection threshold.}
+\caption{Recombination Fraction at 170 V/cm (black) and 100 V/cm (blue), the exciton-to-ion ratio is assumed to be $\rm \alpha =$ 0.20. The shaded regions represent the one sigma of the observed fluctuations in recombination fractions $\rm \sigma_r$. The dashed line at 1.0 $\rm keV_{ee}$ represents the 50\% detection threshold.}
 \label{fig:R_T}
 \end{figure}
 
@@ -961,7 +973,7 @@ The mean of the ER band in the commonly used discrimination variable $\rm  log_{
 
 \begin{figure}[h!]\centering
 \includegraphics[width=130mm]{Chapter_Flucs/Figures/Iter1_100/Band_comp.png}
-\caption{The result of the ER band's mean population and its corresponding 1 sigma fluctuation for the case of 100 V/cm (blue) and 170 V/cm (black). We find an overlap below 4 $\rm keV_{ee}$ where the additional strength of the drift field is higher improving threshold of discrimination. Above 4 $\rm keV_{ee}$ the band separate as the higher drift field increased the charge extraction leading to better discrimination.}
+\caption{The result of the ER band's mean population and its corresponding 1 sigma fluctuation in recombination only, for the case of 100 V/cm (blue) and 170 V/cm (black). The exciton-to-ion ratio is assumed to be $\rm \alpha =$ 0.20. We find an overlap below 4 $\rm keV_{ee}$ where the additional strength of the drift field is higher improving threshold of discrimination. Above 4 $\rm keV_{ee}$ the band separate as the higher drift field increased the charge extraction leading to better discrimination.}
 \label{fig:ER_Band_Calc}
 \end{figure}
 
@@ -998,7 +1010,7 @@ To expand the picture of recombination fluctuation to higher energies the same m
 
 \begin{figure}[h!]\centering
 \includegraphics[width=72mm]{Chapter_Flucs/Figures/Cs/quanta_cs_.png}
-\includegraphics[width=72mm]{Chapter_Flucs/Figures/Cs/R_cs_.png}
+\includegraphics[width=73mm]{Chapter_Flucs/Figures/Cs/R_cs_.png}
 \caption{ Left: The mean and one sigma standard deviation of the measured number of photons (blue) and electrons (red). Also shown is the total quanta (in black) which is the sum of photons and electrons and the expected number of ions (magenta) and excitons (cyan) using $\rm \alpha$ = 0.20. Right: The recombination probability r (solid black) and the one sigma fluctuation $\rm \sigma_{r}$ (shaded). }
 \label{fig:Cs_LYQYR}
 \end{figure}

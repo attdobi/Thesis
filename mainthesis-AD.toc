@@ -38,49 +38,50 @@
 \contentsline {section}{\numberline {4.5}Combined Energy Space}{81}{section.4.5}
 \contentsline {section}{\numberline {4.6}Light Collection and Electron extraction}{81}{section.4.6}
 \contentsline {section}{\numberline {4.7}Tritium Beta Spectrum}{84}{section.4.7}
-\contentsline {section}{\numberline {4.8}Summery}{89}{section.4.8}
-\contentsline {chapter}{\numberline {5}Fluctuations in the S1 and S2 Signals}{90}{chapter.5}
-\contentsline {section}{\numberline {5.1}An Introduction to Fluctuations}{90}{section.5.1}
-\contentsline {section}{\numberline {5.2}Modeling Intrinsic Detector Resolution}{96}{section.5.2}
-\contentsline {section}{\numberline {5.3}Measuring Recombination Fluctuations with Mono-Energetic Sources}{103}{section.5.3}
-\contentsline {section}{\numberline {5.4}Measuring Recombination Fluctuations in Discrete Energy Bins}{109}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Application to $\rm ^{83}Kr$}{119}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Application to Simulated Tritium Data}{122}{subsection.5.4.2}
-\contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{128}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Extracting Recombination fraction From Tritium Data}{132}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Modeling the ER Band}{133}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Measuring Alpha From the Tritium Data}{135}{section.5.6}
-\contentsline {section}{\numberline {5.7}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{137}{section.5.7}
-\contentsline {section}{\numberline {5.8}Recombination Fluctuations, The Bigger Picture}{139}{section.5.8}
-\contentsline {section}{\numberline {5.9}Conclusion}{143}{section.5.9}
-\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yields of Liquid Xenon at Low Energy}{145}{chapter.6}
-\contentsline {section}{\numberline {6.1}Correcting for the Spectral Shape for Finite Resolution}{146}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Calculating the Observed Energy}{147}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Smearing a Toy Spectrum}{149}{subsection.6.1.2}
-\contentsline {section}{\numberline {6.2}Light Yield, Charge Yield and Comparison to NEST Modeling}{151}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Tritium S1 and S2 vs. NEST}{152}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Tritium Energy Spectrum}{155}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Results for Light Yield, Charge Yield and Recombination}{159}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Measuring Light Yield, Charge Yield and Recombination, Corrected for Spectral Shape}{162}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Tritium S1 and S2 Correction}{162}{subsection.6.3.1}
-\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{166}{section.6.4}
-\contentsline {section}{\numberline {6.5}Comparison of Light Yield Measured With Tritium to Other Measurements With Compton Scatters}{171}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}The Standard Candle: Light Yield from $\rm ^{83m}Kr$}{171}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Comparing Tritium Scintillation Yield with Compton Scatters}{173}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Summery}{176}{section.6.6}
-\contentsline {chapter}{\numberline {7}The Electron Recoil Band of LUX}{178}{chapter.7}
-\contentsline {section}{\numberline {7.1}The need for an Internal Calibration Source}{178}{section.7.1}
-\contentsline {section}{\numberline {7.2}Tritiated-Methane as a Calibration Source}{180}{section.7.2}
-\contentsline {section}{\numberline {7.3}Removal of $\rm CH_4$ from LUX}{182}{section.7.3}
-\contentsline {section}{\numberline {7.4}Light Yield Quenching from $\rm CH_4$ in LUX}{184}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Tritiated Methane injection into the LUX detector}{186}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Mixing of Tritiated Methane in Liquid Xenon}{187}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Definition of the Electronic Recoil Band and the ER Discrimination Factor}{189}{subsection.7.4.3}
-\contentsline {section}{\numberline {7.5}ER Band Gaussianity}{193}{section.7.5}
-\contentsline {section}{\numberline {7.6}S1 Threshold For Golden Events, Using Tritium}{195}{section.7.6}
-\contentsline {section}{\numberline {7.7}Conclusion}{195}{section.7.7}
-\contentsline {chapter}{\numberline {8}LUX and Beyond}{198}{chapter.8}
-\contentsline {section}{\numberline {8.1}LUX 2013 Science Run Reanalysis}{198}{section.8.1}
-\contentsline {section}{\numberline {8.2}Fundamental Properties of Liquid Xenon}{199}{section.8.2}
-\contentsline {section}{\numberline {8.3}Internal Calibration Sources}{199}{section.8.3}
-\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{201}{chapter*.106}
+\contentsline {section}{\numberline {4.8}Summery}{90}{section.4.8}
+\contentsline {chapter}{\numberline {5}Fluctuations in the S1 and S2 Signals}{92}{chapter.5}
+\contentsline {section}{\numberline {5.1}An Introduction to Fluctuations}{92}{section.5.1}
+\contentsline {section}{\numberline {5.2}Modeling Intrinsic Detector Resolution}{98}{section.5.2}
+\contentsline {section}{\numberline {5.3}Measuring Recombination Fluctuations with Mono-Energetic Sources}{105}{section.5.3}
+\contentsline {section}{\numberline {5.4}Measuring Recombination Fluctuations in Discrete Energy Bins}{111}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Application to $\rm ^{83}Kr$}{121}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Application to Simulated Tritium Data}{124}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Extracting Recombination Fluctuations from Tritium Calibration Data}{130}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Nuclear and Electronic Recoil Quanta Production}{133}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Extracting Recombination fraction From Tritium Data}{135}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Modeling the ER Band}{136}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Measuring Alpha From the Tritium Data}{138}{section.5.6}
+\contentsline {section}{\numberline {5.7}Extracting Recombination Fluctuations from $\rm ^{137}Cs$ Calibration}{140}{section.5.7}
+\contentsline {section}{\numberline {5.8}Recombination Fluctuations, The Bigger Picture}{142}{section.5.8}
+\contentsline {section}{\numberline {5.9}Conclusion}{146}{section.5.9}
+\contentsline {chapter}{\numberline {6}Ionization and Scintillation Yields of Liquid Xenon at Low Energy}{148}{chapter.6}
+\contentsline {section}{\numberline {6.1}Correcting for the Spectral Shape for Finite Resolution}{149}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Calculating the Observed Energy}{150}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Smearing a Toy Spectrum}{152}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}Light Yield, Charge Yield and Comparison to NEST Modeling}{154}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Tritium S1 and S2 vs. NEST}{155}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Tritium Energy Spectrum}{158}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Results for Light Yield, Charge Yield and Recombination}{162}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Measuring Light Yield, Charge Yield and Recombination, Corrected for Spectral Shape}{165}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Tritium S1 and S2 Correction}{165}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}Ionization and Scintillation Yield After Correction}{169}{section.6.4}
+\contentsline {section}{\numberline {6.5}Comparison of Light Yield Measured With Tritium to Other Measurements With Compton Scatters}{174}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}The Standard Candle: Light Yield from $\rm ^{83m}Kr$}{174}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Comparing Tritium Scintillation Yield with Compton Scatters}{176}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}Summery}{179}{section.6.6}
+\contentsline {chapter}{\numberline {7}The Electron Recoil Band of LUX}{181}{chapter.7}
+\contentsline {section}{\numberline {7.1}The need for an Internal Calibration Source}{181}{section.7.1}
+\contentsline {section}{\numberline {7.2}Tritiated-Methane as a Calibration Source}{183}{section.7.2}
+\contentsline {section}{\numberline {7.3}Removal of $\rm CH_4$ from LUX}{185}{section.7.3}
+\contentsline {section}{\numberline {7.4}Light Yield Quenching from $\rm CH_4$ in LUX}{187}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Tritiated Methane injection into the LUX detector}{189}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Mixing of Tritiated Methane in Liquid Xenon}{190}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Definition of the Electronic Recoil Band and the ER Discrimination Factor}{192}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}ER Band Gaussianity}{196}{section.7.5}
+\contentsline {section}{\numberline {7.6}S1 Threshold For Golden Events, Using Tritium}{198}{section.7.6}
+\contentsline {section}{\numberline {7.7}Conclusion}{198}{section.7.7}
+\contentsline {chapter}{\numberline {8}LUX and Beyond}{201}{chapter.8}
+\contentsline {section}{\numberline {8.1}LUX 2013 Science Run Reanalysis}{201}{section.8.1}
+\contentsline {section}{\numberline {8.2}Fundamental Properties of Liquid Xenon}{202}{section.8.2}
+\contentsline {section}{\numberline {8.3}Internal Calibration Sources}{202}{section.8.3}
+\contentsline {chapter}{\relax \fontsize {12}{14.5}\selectfont \abovedisplayskip 12\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6.5\p@ plus3.5\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ \leftmargin \leftmargini \parsep 5\p@ plus2.5\p@ minus\p@ \topsep 10\p@ plus4\p@ minus6\p@ \itemsep 5\p@ plus2.5\p@ minus\p@ Bibliography}{204}{chapter*.108}
